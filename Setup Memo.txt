@@ -1,0 +1,18 @@
+#Githubを使ってウェブページを公開するチュートリアル
+https://prog-8.com/docs/github-pages
+
+#VscodeとGithubの連携について
+https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git
+
+#ウェブアプリ関連はここが読みやすそう！
+https://zenn.dev/umi_mori?tab=books
+
+
+#ローカルリポジトリ作成して、commitしたけどMake sure you configure your ‘user.name’ and ‘user.email’ in git.が出てcommitが出来ない場合
+以下のように、改めて、ユーザー名とメールを入力する。ターミナルは、bashにした方がよいかもしれない
+git config --global user.name "ユーザー名" 
+git config --global user.email "メールアドレス"
+
+#git configの確認方法
+git config --list で確認する。
+確認が終わったら、:q　と入力して終了。コマンドラインが元に戻る。
