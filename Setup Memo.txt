@@ -12,6 +12,8 @@ https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-wr
 
 #readmeのアイコン？
 https://qiita.com/shun198/items/c983c713452c041ef787
+#readmeのアイコンのバッジについて
+https://shields.io/badges
 
 
 #ローカルリポジトリ作成して、commitしたけどMake sure you configure your ‘user.name’ and ‘user.email’ in git.が出てcommitが出来ない場合

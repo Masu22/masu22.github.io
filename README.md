@@ -3,12 +3,13 @@
 
 ## やること
 - github環境、入塾ガイド、やることを明確化  
-- リポジトリの変え方を  
+- リポジトリの変え方を
 - megaをpythonで
 - Lus、Atsueigo、英語lup先生
 - passlaboのテキスト＆動画   https://www.youtube.com/@passlabo
 
 ## 設備
 - 食のDB
-- 家のポイント整理
+- 家のこだわりポイント整理
 
+https://img.shields.io/badge/やること-you_like-blue
