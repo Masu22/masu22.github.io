@@ -7,6 +7,12 @@ https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git
 #ウェブアプリ関連はここが読みやすそう！
 https://zenn.dev/umi_mori?tab=books
 
+#readme.mdの書き方
+https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+
+#readmeのアイコン？
+https://qiita.com/shun198/items/c983c713452c041ef787
+
 
 #ローカルリポジトリ作成して、commitしたけどMake sure you configure your ‘user.name’ and ‘user.email’ in git.が出てcommitが出来ない場合
 以下のように、改めて、ユーザー名とメールを入力する。ターミナルは、bashにした方がよいかもしれない
