@@ -12,4 +12,6 @@
 - 食のDB
 - 家のこだわりポイント整理
 
-https://img.shields.io/badge/やること-you_like-blue
+<!-- バッジの作り方：https://shields.io/badges -->
+<!-- https://qiita.com/shun198/items/c983c713452c041ef787 -->
+<img src="https://img.shields.io/badge/やること-you_like-blue">
