@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個別指導塾</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            background-color: #003399;
+            padding: 15px 0;
+            text-align: center;
+            margin-top: 60px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x600/?education,learning') no-repeat center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+        }
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .courses {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .course-card {
+            background: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+        footer {
+            background-color: #0044cc;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>個別指導塾</h1>
+    </header>
+    <nav>
+        <a href="#about">塾の紹介</a>
+        <a href="#courses">コース</a>
+        <a href="#contact">お問い合わせ</a>
+    </nav>
+    <div class="hero">
+        <h2>一人ひとりに寄り添う個別指導</h2>
+    </div>
+    <main>
+        <section id="about">
+            <h2>塾の紹介</h2>
+            <p>生徒一人ひとりに寄り添い、個別指導を行います。</p>
+        </section>
+        <section id="courses">
+            <h2>コース紹介</h2>
+            <div class="courses">
+                <div class="course-card">
+                    <h3>中学受験対策</h3>
+                    <p>基礎から応用まで徹底指導</p>
+                </div>
+                <div class="course-card">
+                    <h3>高校受験対策</h3>
+                    <p>内申対策から入試問題まで</p>
+                </div>
+                <div class="course-card">
+                    <h3>大学受験対策</h3>
+                    <p>難関大突破のための特別講座</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <p>お気軽にご相談ください。</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 個別指導塾. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

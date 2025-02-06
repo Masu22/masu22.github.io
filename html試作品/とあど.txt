@@ -1,0 +1,54 @@
+○github環境、入塾ガイド、やることを明確化
+○リポジトリの変え方を
+○megaをpythonで
+○Lus、Atsueigo、英語lup先生、フレンズ英会話カフェ(https://www.youtube.com/@friends_eikaiwa_cafe)
+○passlaboのテキスト＆動画を
+○Richard E Borger, Algebraic Geometry  Bezout, Pascal]
+○究さんの動画
+#####
+○食のDB
+○家のポイント整理
+#####
+
+python 3D生成
+deviant 自動DL ⇒vlthar
+model resource のDLのps1
+
+tikz虹色
+３ｄ生成　虹色の★
+tex化文章　単元表、比例
+
+塾HP
+ロゴ
+
+
+ＤＢ
+数学　微積の順序交換、多変数
+いんしＤＢ
+じんくん
+
+fiveable.me のAI検索⇒文面を探る？？
+
+http://web.archive.org/web/*/https://library.fiveable.me/key-terms*
+
+http://web.archive.org/web/*/https://fiveable.me/key-terms*
+http://web.archive.org/web/20241124231121/https://fiveable.me/key-terms/algebraic-geometry
+
+
+#Gallery-dlの使い方
+#リストを作ってＤＬできた！
+
+$G=get-content list.txt
+
+foreach($k in $G){
+gallery-dl $k
+Write-Host "ok!"
+}
+
+
+
+
+site:https://fiveable.me/key-terms/arithmetic-geometry title:"ab"
+
+
+https://tktube.com/ja/videos/220485/fc2-ppv-3114646/
