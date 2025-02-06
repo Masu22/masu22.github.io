@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>コードのハイライト</title>
+
+    <!-- highlight.js のCSS（テーマ: GitHubダーク） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    
+    <!-- highlight.js の本体 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+    <!-- 初期化スクリプト -->
+    <script>hljs.highlightAll();</script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        pre {
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Highlight.js を使ったコード表示</h1>
+
+    <p>Pythonのサンプルコード:</p>
+
+    <pre><code class="language-python">
+def hello():
+    print("Hello, world!")
+    </code></pre>
+
+    <p>JavaScriptのサンプルコード:</p>
+
+    <pre><code class="language-javascript">
+function hello() {
+    console.log("Hello, world!");
+}
+    </code></pre>
+
+</body>
+</html>

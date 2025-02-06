@@ -1,8 +1,12 @@
-#Githubを使ってウェブページを公開するチュートリアル
+﻿#Githubを使ってウェブページを公開するチュートリアル
 https://prog-8.com/docs/github-pages
 
 #VscodeとGithubの連携について
 https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git
+
+#リポジトリの変更方法は、chatgptのトークを参考に
+リモートは、アドレスを削除して再登録
+ローカルは、VScodeで作業フォルダを変更するのみ
 
 #ウェブアプリ関連はここが読みやすそう！
 https://zenn.dev/umi_mori?tab=books

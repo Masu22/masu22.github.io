@@ -3,7 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>毎朝チェックリスト</title>
+    <title>とあどチェックリスト</title>
+
+    <!--以下はコード表示用の設定-->
+    <!-- highlight.js のCSS（テーマ: GitHubダーク） -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
+    <!-- highlight.js の本体 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <!-- 初期化スクリプト -->
+    <script>hljs.highlightAll();</script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,11 +22,13 @@
         }
         .container {
             background: white;
+            min-width: 650px;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 400px;
             margin: auto;
+            margin-bottom: 20px; /* 下に20pxの余白 */
         }
         h1 {
             color: #ff5733;
@@ -33,21 +44,74 @@
             margin-top: 10px;
             color: #2a9d8f;
         }
+        pre {
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+            padding: 15px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>今日のタスクリスト</h1>
-        <p class="motivation">頑張ろう！あなたならできる！</p>
+        <h1>塾タスク！</h1>
+        <p class="motivation">こちらを優先しつつ塾完成へ！</p>
         <div class="task-list">
-            <label><input type="checkbox"> 朝のストレッチ</label><br>
-            <label><input type="checkbox"> 課題を確認する</label><br>
-            <label><input type="checkbox"> 計画を立てる</label><br>
-            <label><input type="checkbox"> ポジティブな気持ちを持つ！</label><br>
+            <label><input type="checkbox">家の間取りを相談</label><br>
+            <label><input type="checkbox">入塾ガイドの作成</label><br>
+            <label><input type="checkbox">単元表の作成　⇒進捗管理</label><br>
+            <label><input type="checkbox">中学プリントをlatex作成　⇒比例</label><br>
+            <label><input type="checkbox">塾HP、ロゴを検討</label><br>
+            <label><input type="checkbox">passlaboの動画まとめ　⇒整数の全パターン解説</label><br>
+            <label><input type="checkbox">LUS動画</label><br>
+            <label><input type="checkbox">Atsueigo動画</label><br>
+            <label><input type="checkbox">英語lup先生、フレンズ英会話カフェ(https://www.youtube.com/@friends_eikaiwa_cafe)</label><br>
         </div>
-        <button onclick="editTasks()">タスクリスト編集</button>
+        <!-- <button onclick="editTasks()">タスクリスト編集</button> -->
     </div>
-    
+
+    <div class="container">
+        <h1>数学タスク！</h1>
+        <p class="motivation">余裕あればこちらも少しづつ</p>
+        <div class="task-list">
+            <label><input type="checkbox">いんしの問題(K＆T)をデータベース化</label><br>
+            <label><input type="checkbox">5ableの中身を保存していく＆少しtex化</label><br>
+            <label><input type="checkbox">Minazumi noteをまとめていく(Takatani note)も？/label><br>
+            <label><input type="checkbox">Richard E Borger, Algebraic Geometry  Bezout, Pascal</label><br>
+            <label><input type="checkbox">渡辺究さん動画</label><br>
+            <label><input type="checkbox">gpt整理、　⇒宇宙際の手順を整理、理論の作り方の見直しなど</label><br>
+            <label><input type="checkbox">MathData.xlsxにデータ追加　⇒微積の順序交換、多変数など</label><br>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>データやその他！</h1>
+        <p class="motivation">主に、集めるもの系？</p>
+        <div class="task-list">
+            <label><input type="checkbox">megaをpythonでDL!gptの意見を参考に！　⇒Deviant art回収(vlthar、elina002)</label><br>
+            <label><input type="checkbox">食事のDatabaseを作る　⇒家案.xlsxにまとめる</label><br>
+            <label><input type="checkbox">model resourceのDL(modelとsprite)　⇒powershellとirvine</label><br>
+            <label><input type="checkbox">pythonで3Dイラストの生成</label><br>
+            <label><input type="checkbox">じんくんメンズメイク</label><br>
+        </div>
+    </div>
+
+    <div class="container">
+    <h2>メモなど</h2>
+    <pre><code>
+    #Gallery-DLの使い方
+    $G=get-content list.txt
+        
+    foreach($k in $G){
+    gallery-dl $k
+    Write-Host "ok!"
+    }
+    </code>
+    </pre>
+    </div>
+
+    <!--
     <script>
         function editTasks() {
             let newTasks = prompt("新しいタスクリストをカンマ区切りで入力してください:");
@@ -67,5 +131,6 @@
             }
         }
     </script>
+    -->
 </body>
 </html>
