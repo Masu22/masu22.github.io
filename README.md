@@ -9,6 +9,7 @@
 - passlaboのテキスト＆動画   https://www.youtube.com/@passlabo
 
 ## 設備
+- 3Dモデル製作(blender＆Unreal Engine)
 - 食のDB
 - 家のこだわりポイント整理
 
