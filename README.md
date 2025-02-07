@@ -7,6 +7,7 @@
 - megaをpythonで
 - Lus、Atsueigo、英語lup先生
 - passlaboのテキスト＆動画   https://www.youtube.com/@passlabo
+- 県立入試過去問研究　https://sakusemi.jp/entrance-exam-questions/
 
 ## 設備
 - 3Dモデル製作(blender＆Unreal Engine)
