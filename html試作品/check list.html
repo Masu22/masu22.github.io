@@ -88,7 +88,6 @@
             <label><input type="checkbox">Atsueigo動画</label><br>
             <label><input type="checkbox">英語lup先生、フレンズ英会話カフェ(https://www.youtube.com/@friends_eikaiwa_cafe)</label><br>
         </div>
-        <!-- <button onclick="editTasks()">タスクリスト編集</button> -->
     </div>
 
     <div class="container">
@@ -136,38 +135,15 @@
 
         <div class="container2">
             <h2>ほしいものリスト</h2>
-            <!-- <p>BTO PC(blender＆Unreal Engineを動かせるもの)</p>
-            <p>髪きらないと</p>
-            <p>手鏡</p>
-            <p>口腔洗浄</p>
-            <p>眉そり？眉サロン</p> -->
             <ul>
-                <li>丸アイコンの項目1</li>
-                <li>丸アイコンの項目2</li>
+                <li>BTO PC(blender＆Unreal Engineを動かせるもの)</li>
+                <li>髪きらないと</li>
+                <li>手鏡</li>
+                <li>口腔洗浄</li>
+                <li>眉そり？眉サロン？</li>
             </ul>
         </div>
     </div>
 
-    <!--
-    <script>
-        function editTasks() {
-            let newTasks = prompt("新しいタスクリストをカンマ区切りで入力してください:");
-            if (newTasks) {
-                let taskArray = newTasks.split(",");
-                let taskListDiv = document.querySelector(".task-list");
-                taskListDiv.innerHTML = "";
-                taskArray.forEach(task => {
-                    let label = document.createElement("label");
-                    let checkbox = document.createElement("input");
-                    checkbox.type = "checkbox";
-                    label.appendChild(checkbox);
-                    label.appendChild(document.createTextNode(" " + task.trim()));
-                    taskListDiv.appendChild(label);
-                    taskListDiv.appendChild(document.createElement("br"));
-                });
-            }
-        }
-    </script>
-    -->
 </body>
 </html>
