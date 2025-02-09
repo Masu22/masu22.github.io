@@ -46,10 +46,30 @@
         }
         pre {
             text-align: left;
-            max-width: 800px;
+            /*max-width: 800px;*/
             margin: auto;
             padding: 15px;
             border-radius: 5px;
+        }
+
+        /*横に配列するためのflexボックス　参考：https://withcode.tech/media/flex_box_layout/　*/
+        .content {
+            display: flex;
+            align-items: flex-start; /* 上側をそろえる */
+            gap: 20px; /* 要素間の間隔を開ける */
+        }
+
+        /*左寄せ用の個条書き*/
+        .container2 {
+            text-align: left; /* 左寄せ */
+            background: white;
+            min-width: 650px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: auto;
+            margin-bottom: 20px; /* 下に20pxの余白 */
         }
     </style>
 </head>
@@ -99,18 +119,33 @@
         </div>
     </div>
 
-    <div class="container">
-    <h2>メモなど</h2>
-    <pre><code>
-    #Gallery-DLの使い方
-    $G=get-content list.txt
+    <div class="content">
+        <div class="container">
+            <h2>メモなど</h2>
+            <pre><code>
+            #Gallery-DLの使い方
+            $G=get-content list.txt
         
-    foreach($k in $G){
-    gallery-dl $k
-    Write-Host "ok!"
-    }
-    </code>
-    </pre>
+            foreach($k in $G){
+            gallery-dl $k
+            Write-Host "ok!"
+            }
+            </code>
+            </pre>
+        </div>
+
+        <div class="container2">
+            <h2>ほしいものリスト</h2>
+            <!-- <p>BTO PC(blender＆Unreal Engineを動かせるもの)</p>
+            <p>髪きらないと</p>
+            <p>手鏡</p>
+            <p>口腔洗浄</p>
+            <p>眉そり？眉サロン</p> -->
+            <ul>
+                <li>丸アイコンの項目1</li>
+                <li>丸アイコンの項目2</li>
+            </ul>
+        </div>
     </div>
 
     <!--
