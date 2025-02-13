@@ -1,22 +1,22 @@
 # VscodeとGitHubの連携について
 ## 参考になるサイト:  
-https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git  
-このアカウントのchat gpt  
+- https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git  
+- このアカウントのchat gpt  
 
 # ローカルリポジトリを作成  
-## **1. ローカルリポジトリにしたいフォルダを作成する**
-## **2. Gitリポジトリを初期化**  
+### **1. ローカルリポジトリにしたいフォルダを作成する**
+### **2. Gitリポジトリを初期化**  
    ```bash
    git init
    ```
    → `.git/` という隠しフォルダが作成され、Gitリポジトリになります。  
 
-## **3. 既存のリポジトリをコピーしたい場合はcloneする**  
+### **3. 既存のリポジトリをコピーしたい場合はcloneする**  
 ```bash
 git clone https://github.com/your-username/your-repo.git
 ```
 
-## **4. 次の手順で、アカウントやリモートリポジトリを設定する。**  
+### **4. 次の手順で、アカウントやリモートリポジトリを設定する。**  
 
 ---
 ---
