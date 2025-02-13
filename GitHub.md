@@ -76,7 +76,8 @@ git config --local user.email
 1. **「資格情報マネージャー」を開く**
 2. **「Windows資格情報」タブを選択**
 3. **「github.com」のエントリを削除**
-4. **VSCodeを再起動し、`git push` を実行（新しいGitHubアカウントでログイン）**
+4. **VSCodeを再起動し、`git push` を実行（新しいGitHubアカウントでログイン）**  
+認証の仕方については、一番上に書いた、参考urlが手助けになる!!  
 
 ---
 
