@@ -1,5 +1,7 @@
 # VscodeとGitHubの連携について
-## 参考になるサイト: https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git  
+## 参考になるサイト:  
+https://zenn.dev/ojk/books/github-vscode/viewer/vscode-git  
+このアカウントのchat gpt  
 
 # ローカルリポジトリを作成  
 ## **1. ローカルリポジトリにしたいフォルダを作成する**
@@ -102,12 +104,6 @@ git remote set-url origin https://github.com/new-user/repository.git
 ユーザー情報と認証を修正したら、もう一度 `push` を試してみます。
 
 ```bash
-git push origin main
-```
-
-もし `Permission denied` がまだ出る場合：
-```bash
-git credential reject https://github.com
 git push origin main
 ```
 ---
