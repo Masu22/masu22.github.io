@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#intro {
+    background: #0066cc;
+    color: white;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+#intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#intro button a {
+    color: white;
+    background: #e74c3c;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+#steps {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*見出し用の下線、使い方に注意*/
+#content h4 {
+    margin: 2rem 0 1rem 0.2rem;
+    padding: 0.5rem 0.8rem;
+    background-image: linear-gradient(90deg, #413df5 0 50px, transparent 50px 60px, #555555 0 60px);
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: bottom;
+    font-size: 128%;
+}
+
+/*数IAのタグ用、カーソルを当てないとき*/
+a.btn-to-lecture {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 60%;
+    margin: 1.2rem auto;
+    padding: 2rem 3rem;
+    font-size: 180%;
+    font-weight: 800;
+    border: 2px solid #212a81;
+    background-color: #5773f1;
+    color: #ffffff;
+    transition: 0.5s;
+    box-shadow: 0 0 2px #1d1d1d;
+}
+
+/*数IAのタグ用、カーソルを当てないとき*/
+a.btn-to-lecture:hover {
+    color: #fff;
+    background: rgb(12, 23, 83);
+}
+
+/*黒ボックスの見出し*/
+#content h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem 1.6rem;
+    font-size: 135%;
+    color: #ffffff;
+    border-top: 2px solid #a5a5a5;
+    border-bottom: 2px solid #a5a5a5;
+    background: #363636;
+}
+
+/*青ボックスの見出し*/
+#content h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    font-size: 150%;
+    border-top: 6px double #ffffff;
+    border-bottom: 6px double #ffffff;
+    background: #0246d8;
+}
+
+/*セクションの見出し、左線のみ*/
+.proposition {
+    border-left: 5px solid #4CAF50; /* 緑色の縦線 */
+    /*background: #e8f5e9;*/ /* 薄い緑の背景 */
+    padding: 1rem;
+    margin: 1.5rem 0;
+    /*border-radius: 5px;*/
+}
+.proposition::before {
+    content: "【命題】";
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+
+/*Mathlog風のボックス*/
+.definition-title {
+    background: #007bff; /* タイトルの背景（青） */
+    font-size: 2rem;
+    color: white; /* 文字色 */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-top-left-radius: 6px; /* タイトル部分の角丸 */
+    border-top-right-radius: 6px;
+    font-size: 1.1rem;
+}
+.definition-content {
+    border: 2px solid #007bff; /* 青枠 */
+    padding: 0.8rem 1rem;
+    background: white; /* 本文部分を白に */
+    border-bottom-left-radius: 6px; /* 下部の角丸 */
+    border-bottom-right-radius: 6px;
+}
+
+
+/*注意のボックス*/
+.remark {
+    background: #ffcfea; /* 薄いピンクの背景 */
+    padding: 1rem;
+    margin: 1.5rem 0;
+    /*border-radius: 5px;*/
+}
+.remark::before {
+    content: "注意";
+    font-weight: bold;
+    font-size: 120%;
+    color: #e20808;
+    display: block; /* ブロック要素にすることで自動改行 */
+    margin-bottom: 5px; /* 本文との間に余白をつける */
+}
+
+/*証明のボックス*/
+/*左線について*/
+.dotted-box {
+    position: relative;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-left: 4px dotted black; /* 左側の縦の点線 */
+}
+.dotted-box::before,
+.dotted-box::after {
+    content: "";
+    position: absolute;
+    left: 0; /* 左端に配置 */
+    width: 20px; /* 点線の長さ（短めにする） */
+    height: 3px; /* 点線の太さ */
+    background: repeating-linear-gradient(90deg, black 0px, black 3px, transparent 3px, transparent 6px); /* 横の点線 */
+}
+
+.dotted-box::before {
+    top: -8px; /* 上の点線の位置 */
+}
+
+.dotted-box::after {
+    bottom: -8px; /* 下の点線の位置 */
+}
