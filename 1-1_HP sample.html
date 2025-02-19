@@ -16,23 +16,54 @@
         header {
             background: #0056b3;
             color: white;
-            padding: 20px;
+            padding: 5px 10px;
             text-align: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav {
+            margin-top: 0;
         }
         nav ul {
             list-style: none;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
         }
         nav ul li {
             display: inline;
-            margin: 0 15px;
+            position: relative;
         }
         nav ul li a {
             color: white;
             text-decoration: none;
+            padding: 5px;
+            display: block;
+            font-size: 16px;
+        }
+        nav ul li:hover .submenu {
+            display: block;
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            padding: 5px;
+        }
+        .submenu a {
+            color: #0056b3;
+            text-decoration: none;
+            display: block;
+            padding: 5px;
         }
         main {
-            padding: 20px;
+            padding: 20px 20px 20px;
             max-width: 800px;
             margin: auto;
             background: white;
@@ -68,30 +99,52 @@
             padding: 10px;
             background: #0056b3;
             color: white;
+            margin-top: 20px;
+        }
+
+        /*縦方向の余白用*/
+        .vsp {
+            margin-top: 200px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>個別指導塾</h1>
+        <h1>個別指導塾　メインページ</h1>
         <nav>
             <ul>
-                <li><a href="#about">塾について</a></li>
-                <li><a href="#courses">指導内容</a></li>
+                <li><a href="#about">塾について</a>
+                    <div class="submenu">
+                        <a href="#history">歴史</a>
+                        <a href="#philosophy">理念</a>
+                    </div>
+                </li>
+                <li><a href="#courses">指導内容</a>
+                    <div class="submenu">
+                        <a href="#math">数学</a>
+                        <a href="#science">理科</a>
+                    </div>
+                </li>
                 <li><a href="#price">料金案内</a></li>
                 <li><a href="#contact">お問い合わせ</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="vsp"></div>
     
     <main>
         <section id="about">
-            <h2>塾について</h2>
+            <h2>塾についての説明、方針</h2>
+            <p>こんな塾が必要、これを目指している。</p>
             <p>一人ひとりに寄り添い、効率的な学習をサポートする個別指導塾です。</p>
+            <p>数理の必要性(なやみ多し、理系がねづかない)</p>
+            <p>塾の展開について、youtubeやプチ講義、DBのことも含めて</p>
+            <!--箇条書きに整理したほうがいいかも？-->
         </section>
 
         <section id="courses">
-            <h2>指導内容</h2>
+            <h2>指導方法と内容</h2>
             <p>数学を中心に、大学受験・中学受験対策、特別授業も実施しています。</p>
         </section>
 
