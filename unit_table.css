@@ -1,3 +1,9 @@
+/*下線マーカー*/
+.under{
+    background: linear-gradient(transparent 70%, yellow 30%);
+    display: inline-block;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -35,11 +41,11 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
+    padding: 40px;
     /*text-align: center;*/
 }
 
-/*箇条書きの書式*/
+/*main内の箇条書きの書式*/
 main ul {
     list-style-type: square; /* アイコンを四角に */
     padding-left: 0; /* アイコンの左マージンをゼロに */
@@ -52,33 +58,11 @@ main ul {
     text-align: left; /* テキストを左寄せ */
 }
 
-#intro {
-    background: #0066cc;
-    color: white;
-    padding: 40px;
-    margin-bottom: 30px;
-}
-
-#intro h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-/* <section id="intro">内でのボタンの書式
-#intro button a {
-    color: white;
-    background: #e74c3c;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2em;
-    border-radius: 5px;
-}
-*/
-
 #steps {
     background: #ffffff;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 30px;
+    margin: 30px;
+    font-size: 20px;
 }
 
 #footer {
