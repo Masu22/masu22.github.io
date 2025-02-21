@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>でぶねこ塾</title>
+
+<style>
+/*bodyの書式*/
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0ebeb;
+    color: #333;
+}
+
+/*本文の部分の書式*/
+main {
+    padding: 20px 20px 20px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*縦方向の余白用*/
+.vsp {
+    margin-top: 150px;
+}
+
+
+/* ヘッダー全体 */
+header {
+    display: flex;
+    justify-content: space-between; /* 左右に分ける */
+    align-items: center;
+    background: #333;
+    padding: 15px 20px;
+    position: fixed; /*ヘッダーを固定して、スクロールしても常に画面の上部に表示されます。*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /*重なったとき、数字が大きいほど上に表示される*/
+}
+
+/* 左側（塾の名前） */
+.header-logo {
+    font-size: 40px;  /* 大きめのフォント */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: auto;  /* 左寄せ⇒中央に配置*/
+    margin-right: auto; /* 右寄せ⇒中央に配置*/
+}
+
+/* 右側（ナビゲーションメニュー） */
+.nav-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 15px; /*各メニュー項目の間に20pxの隙間を作る*/
+    margin-left: auto;  /* 右寄せ */
+    margin-right: auto; /* 右寄せ */
+}
+
+/* 各メニュー項目 */
+.nav-menu li {
+    position: relative;
+    list-style-type: none;  /* 箇条書きの先頭記号を消す */
+}
+
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 16px;
+    transition: background 0.3s; /*背景色が変化する際にスムーズなトランジションを設定。*/
+}
+
+.nav-menu li a:hover {
+    background: rgba(255, 255, 255, 0.2); /*メニューにカーソルを合わせたとき、その項目の色が変化*/
+}
+
+
+/* サブメニュー */
+.submenu {
+    display: none;
+    position: absolute;/*メニュー項目の下にサブメニューを配置。*/
+    top: 100%;/*親メニュー項目の下にサブメニューを表示*/
+    left: 0;
+    background: #fff;  /* サブメニューの背景色を白から明確に設定 */
+    box-shadow: 2px 2px 4px gray; /* 影をつけて立体感を */
+    padding: 10px; /* 余白を少し追加 */
+    min-width: 150px;
+    border: 1px solid #ccc;  /* 枠線を追加 */
+}
+
+/* サブメニューのリンク */
+.submenu li a {
+    color: blue;  /* 文字色を黒に変更 */
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+    font-size: 16px;
+}
+
+/* サブメニューのホバー時の背景色変更 */
+.submenu li a:hover {
+    background: yellow;  /* ホバー時に色を変更 */
+}
+
+/* ホバーでサブメニュー表示 */
+.nav-menu li:hover .submenu {
+    display: block; /*親メニュー項目にホバーしたときにサブメニューが表示されるように設定*/
+}
+
+/*フッターの書式*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: gray;
+    margin-top: 20px;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <!-- 左側の塾の名前 -->
+        <a href="#" class="header-logo">でぶねこ塾 <img src="htmlサンプル/rainbow-svgrepo-com.svg" width="35" height="35"></a>
+    
+        <!-- 右側のメニュー -->
+        <ul class="nav-menu">
+            <li>
+                <a href="#">塾について ▼</a>
+                <ul class="submenu">
+                    <li><a href="#">指導方針</a></li>
+                    <li><a href="#">自己紹介</a></li>
+                    <li><a href="#">入塾ガイド</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">ご料金の案内</a></li>
+            <li>
+                <a href="#">中学数学 ▼</a>
+                <ul class="submenu">
+                    <li><a href="#">数学の単元表</a></li>
+                    <li><a href="#">県立過去問解説</a></li>
+                    <li><a href="#">下野模試解説<br>速報</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">高校・大学数学 ▼</a>
+                <ul class="submenu">
+                    <li><a href="#">IMO解説</a></li>
+                    <li><a href="#">難関大解説</a></li>
+                    <li><a href="#">プチ授業</a></li>
+                    <li><a href="#">専門数学のDB</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">お問い合わせ</a></li>
+        </ul>
+    </header>
+
+    <div class="vsp"></div>
+
+    <main>
+        <h1>h1の文章はこんな</h1>
+        <h2>h2の文章はこんな</h2>
+        <h3>h3の文章はこんな</h3>
+        <p>pの文章はこんな</p>
+    </main>
+
+    <footer>
+        <p>利用規約</p>
+        <p>&copy; 2025 でぶねこ塾</p>
+    </footer>
+</body>
+</html>

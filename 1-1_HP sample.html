@@ -24,43 +24,62 @@
             z-index: 1000;
         }
         nav {
-            margin-top: 0;
+        margin-top: 0;
+        background: #333;
+        padding: 10px 0;
         }
+
         nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            gap: 10px;
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
         }
+
         nav ul li {
-            display: inline;
-            position: relative;
+        position: relative;
         }
+
         nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 5px;
-            display: block;
-            font-size: 16px;
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-size: 16px;
+        transition: background 0.3s;
         }
+
+        nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.2);
+        }
+
         nav ul li:hover .submenu {
-            display: block;
+        display: block;
         }
+
         .submenu {
-            display: none;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            background: white;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            padding: 5px;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+        width: max-content;
+        white-space: nowrap;
         }
+
         .submenu a {
-            color: #0056b3;
-            text-decoration: none;
-            display: block;
-            padding: 5px;
+        color: #0056b3;
+        text-decoration: none;
+        display: block;
+        padding: 8px 12px;
+        font-size: 14px;
+        }
+
+        .submenu a:hover {
+        background: #f0f0f0;
         }
         main {
             padding: 20px 20px 20px;
