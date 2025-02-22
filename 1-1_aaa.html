@@ -17,8 +17,8 @@ body {
 
 /*本文の部分の書式*/
 main {
-    padding: 20px 20px 20px 20px;
-    max-width: 1000px;
+    padding: 30px 30px 30px 60px;
+    max-width: 1100px;
     margin: auto;
     background: white;
     border-radius: 10px;
@@ -27,7 +27,7 @@ main {
 
 /*縦方向の余白用*/
 .vsp {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 
@@ -125,6 +125,106 @@ footer {
     color: gray;
     margin-top: 20px;
 }
+
+/*以下で、目次ボックスの設定をする！！*/
+/* 目次の枠 */
+.index-container {
+    max-width: 400px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    position: relative;
+    margin: auto;
+}
+
+/* ボックスの上のライン */
+.index-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: blue;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* タイトル部分 */
+.index-header {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 0px;
+}
+
+/*タイトル横のアイコン（リストのマーク）*/
+.index-header .icon {
+    width: 25px;
+    height: 25px;
+    background: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 23px;
+    font-family: Arial, sans-serif;
+}
+
+/* リストのスタイル */
+.index-list {
+/*list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border: solid 2px skyblue;
+            border-radius: 5px;*/
+    font-size: 20px;
+    font-weight: bold; /* 太字（bold） */
+    padding: 0.5em 1em 0.5em 2.3em;
+    position: relative;
+}
+
+/* 各リストの項目 */
+.index-list li {
+            /*padding: 8px 12px;
+            background: #fff;
+            margin-bottom: 6px;*/
+    font-family: "Font Awesome 5 Free";
+    transition: 0.3s;
+    line-height: 1.5;
+    padding: 0.5em 0;
+    list-style-type: none!important;
+}
+/*各リストの項目の横のアイコン*/
+.index-list li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f0da";/*アイコンの種類を指定するけど、うまく機能しない*/
+    position: absolute;
+    left : 0.5em;/*左端からのアイコンまでの距離*/
+    color: blue;/*アイコン色*/
+}
+
+/* ホバー時のエフェクト */
+.index-list li:hover {
+    background: #e8f5e9;
+    cursor: pointer;
+}
+
+/* リンクのスタイル */
+.index-list a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+/*リンクをホバーしたときの色の変化*/
+.index-list a:hover {
+    color: #2c7c31;
+}
 </style>
 </head>
 
@@ -138,7 +238,7 @@ footer {
             <li>
                 <a href="#">塾について ▼</a>
                 <ul class="submenu">
-                    <li><a href="#">指導方針</a></li>
+                    <li><a href="#">塾の紹介</a></li>
                     <li><a href="#">自己紹介</a></li>
                     <li><a href="#">入塾ガイド</a></li>
                 </ul>
@@ -181,10 +281,108 @@ footer {
     <div class="vsp"></div>
 
     <main>
-        <h1>h1の文章はこんな</h1>
-        <h2>h2の文章はこんな</h2>
-        <h3>h3の文章はこんな</h3>
-        <p>pの文章はこんな</p>
+        <h1>でぶねこ塾へ　ようこそ！！</h1>
+        <h2>このページで、塾の紹介をします！！</h2>
+
+        <div class="index-container">
+            <div class="index-header">
+                <div class="icon">≡</div> <!-- アイコン -->
+                目次
+            </div>
+            <ul class="index-list">
+                <li><a href="#">塾の紹介</a></li>
+                <li><a href="#">自己紹介</a></li>
+                <li><a href="#">入塾ガイド</a></li>
+            </ul>
+        </div>
+
+        <h2>塾の紹介</h2>
+        <p>こんな塾が必要、これを目指している。</p>
+        <p>一人ひとりに寄り添い、効率的な学習をサポートする個別指導塾です。</p>
+        <p>数理の必要性(なやみ多し、理系がねづかない)</p>
+        <p>塾の展開について、youtubeやプチ講義、DBのことも含めて</p>
+        <p>高校生について、オンライン＋プチ授業＋宿題対応の展開へ、最難関を押さえる、</p>
+
+        <h2>塾の目的</h2>
+        <!--1. はじめに（塾の理念・目的）
+        塾の理念や目標
+        どのような生徒に向いているか
+        塾が提供する価値（例：成績向上・自主学習力の強化・受験対策など）
+    
+        対話を重視し、信頼関係を築く塾
+        個別指導でじっくり向き合い、生徒の成長を支える
+        保護者とも連携し、生徒の学習を包括的にサポート
+        効率的に学べる学習環境の提供（必要事項を圧縮した指導）-->
+        <p>信頼関係を大切にし、対話や相談ができる個別指導塾を目指しています。保護者と生徒の間を取り持ち、しっかりと支えながら、学習をサポートします。</p>
+        
+        
+        <h2>指導内容</h2>
+        <!--2. 授業・指導内容
+        指導対象（例：小学生・中学生・高校生）
+        教科・コース（例：数学・英語・国語、受験対策コースなど）
+        指導方法（例：集団指導・個別指導・オンライン対応）
+        授業の流れや特徴（例：少人数制、定期的な確認テストあり、補習制度）
+
+        個別指導中心で、生徒一人ひとりに合わせたカリキュラム
+        「教わる時間」と「自分で取り組む時間」をバランスよく設計
+        各科目の学習内容を短時間で効率よく理解できる工夫
+        受験対策・定期試験対策も柔軟に対応
+        特別授業：大学数学
+        県内に理系大学がない事情を考慮し、高度な数学学習の場を提供
+        月数回開校し、大学レベルの数学に触れられる貴重な機会-->
+
+        <ul>
+            <li>必要事項を圧縮し、効率的に学習できる指導</li>
+            <li>教わる部分と自分で取り組む部分のバランスを重視</li>
+            <li>大学数学の特別授業（月数回）</li>
+        </ul>
+
+<!--過去のメモより
+1 なぜ？塾を？、意義は？
+科目を絞ること(数理が需要高し)、自分の経験を生かせること
+時間の使い方、強みを生かすこと
+勉強と本質、誰にでもできるが、時間のかかり方が違う、あとは本人の資質との兼ね合いか？
+相談できる場所を！一緒に頑張れる場所を継続的に！
+必要性を掘り下げる！ともにテストの傾向
+下野傾向、学校との差がある
+
+
+
+2 自分の目的、進んでいること
+Hp で自分も学んでいること、終わりがないこと
+理想像
+英語はいったん保留してる、高校数学も
+いずれ準備でき次第スタートで！
+
+
+3 仕組み、方針
+
+授業＋演習
+ポイントを絞る効率アップ
+目標とそれに向けての時間！
+テストとは？受験や模試との差を埋める
+どの時期に何を聞くべきか？
+面談と保護者への報告！！
+結果だけでなく、どんなことが貢献できるのか？
+月謝とその引き落とし　⇒簿記の必要性
+
+
+4 大学受験、その先の勉強へ
+中学をメインに
+受験のその先へ！
+自分で学んでくスタイル
+最高の環境、仲間を求めていく？？
+時間無限ならいけるが、限りあり
+経済的維持ができれば、諦めは不要か？
+高専、大学生をメインに微積授業！
+-->
+<!-- 学歴の克服について
+動画作成！弱点から対策取り組みへ誘導
+-->
+
+
+        <h2>指導方法と内容</h2>
+        <p>数学を中心に、大学受験・中学受験対策、特別授業も実施しています。</p>
     </main>
 
     <footer>

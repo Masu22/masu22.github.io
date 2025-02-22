@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>目次デザイン</title>
+    <style>
+        /* 目次の枠 */
+        .toc-container {
+            max-width: 400px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            padding: 16px;
+            position: relative;
+        }
+
+        /* ボックスの上のライン */
+        .toc-container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: blue;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        /* タイトル部分 */
+        .toc-header {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            font-weight: bold;
+            color: blue;
+            margin-bottom: 5px;
+        }
+
+        /* アイコン（リストのマーク） */
+        .toc-header .icon {
+            width: 27px;
+            height: 27px;
+            background: blue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin-right: 8px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* リストのスタイル */
+        .toc-list {
+            /*list-style-type: none;
+            padding: 0;
+            margin: 0;
+            border: solid 2px skyblue;
+            border-radius: 5px;*/
+            font-size: 18px;
+            font-weight: bold; /* 太字（bold） */
+            padding: 0.5em 1em 0.5em 2.3em;
+            position: relative;
+        }
+
+        /* 各リストの項目 */
+        .toc-list li {
+            /*padding: 8px 12px;
+            background: #fff;
+            margin-bottom: 6px;*/
+            font-family: "Font Awesome 5 Free";
+            transition: 0.3s;
+            line-height: 1.5;
+            padding: 0.5em 0;
+            list-style-type: none!important;
+        }
+
+        .toc-list li:before {
+            font-family: "Font Awesome 5 Free";
+            content: "\f0da";/*アイコンの種類を指定するけど、うまく機能しない*/
+            position: absolute;
+            left : 0.5em;/*左端からのアイコンまでの距離*/
+            color: blue;/*アイコン色*/
+        }
+
+        /* ホバー時のエフェクト */
+        .toc-list li:hover {
+            background: #e8f5e9;
+            cursor: pointer;
+        }
+
+        /* リンクのスタイル */
+        .toc-list a {
+            text-decoration: none;
+            color: #333;
+            display: block;
+        }
+
+        .toc-list a:hover {
+            color: #2c7c31;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="toc-container">
+        <div class="toc-header">
+            <div class="icon">≡</div> <!-- アイコン -->
+            目次
+        </div>
+        <ul class="toc-list">
+            <li>かたち・積む・並べる</li>
+            <li>時期</li>
+            <li>誘いかけ</li>
+            <li>解説</li>
+            <li>積むおもちゃ・積み木を集めました。</li>
+            <li>この記事の参考書籍</li>
+        </ul>
+    </div>
+
+</body>
+</html>
