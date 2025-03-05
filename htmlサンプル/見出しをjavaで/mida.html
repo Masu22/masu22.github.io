@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>疑似要素の動的スタイル変更</title>
+    <style>
+        .dynamic-title {
+            position: relative;
+            padding-left: 40px; /* 見出しの前に余白を確保 */
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* ::before のスタイル */
+        .dynamic-title::before {
+            content: "★"; /* ここに任意の内容を入れられる */
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+
+            /* CSS変数（カスタムプロパティ）を適用 */
+            color: var(--before-color, black);
+            background-color: var(--before-bg, gray);
+        }
+    </style>
+</head>
+<body>
+    <!-- 動的に変更したい見出し -->
+    <h1 class="dynamic-title" data-title="見出しA" data-before-color="red" data-before-bg="yellow"></h1>
+    <h1 class="dynamic-title" data-title="見出しB" data-before-color="blue" data-before-bg="lightgray"></h1>
+    <h1 class="dynamic-title" data-title="見出しC" data-before-color="green" data-before-bg="pink"></h1>
+
+    <!-- 外部 JavaScript を読み込む -->
+    <script src="script.js"></script>
+</body>
+</html>

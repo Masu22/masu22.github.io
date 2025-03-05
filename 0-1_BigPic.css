@@ -2,73 +2,132 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Orbitron', sans-serif;
+    box-sizing: border-box; /*width や height を指定した際に、padding や border を含めたサイズになるようにする。*/
+    font-family: 'Orbitron', sans-serif; /*フォントを SF（サイバーパンク）風の「Orbitron」に設定*/
 }
 
 body {
     background-color: #121212;
     color: white;
-    height: 100vh;
+    /*height: 100vh;*/ /*画面の高さ全体を使う*/
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; /*縦並びに配置*/
     text-align: center;
-    overflow: hidden;
+    /*overflow: hidden;*/ /*スクロールを無効化*/
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* ヘッダー */
 header {
-    margin-bottom: 50px;
+    margin-bottom: 50px; /*ヘッダーの下に余白を作る*/
 }
 
-h1 {
+/*グローバルな変数を定義するための擬似クラス。HTML 文書の最上位要素 (<html>) に適用される*/
+:root {
+    --neon-01: rgb(0, 204, 255);
+    --neon-card: #00ff99;
+    --neon-hover: #ff00ff;
+}
+
+.G0 {
     font-size: 3rem;
-    color: #00ff99;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    animation: neonGlow 1.5s ease-in-out infinite alternate;
+    color: var(--neon-card);
+    text-transform: uppercase; /*すべて大文字に変換*/
+    letter-spacing: 5px; /*文字間隔を広げる*/
+    animation: neonGlowCard 1.5s ease-in-out infinite alternate; /*@keyframes neonGlowCard で定義されたアニメーションを適用。*/
+}
+
+.G1 {
+    font-size: 3rem;
+    color: var(--neon-01);
+    letter-spacing: 5px; /*文字間隔を広げる*/
+    animation: neonGlowH1 1.5s ease-in-out infinite alternate; /*@keyframes neonGlowH1 で定義されたアニメーションを適用。*/
 }
 
 /* カードのスタイル */
 .card-container {
-    display: flex;
-    gap: 20px;
+    display: flex; /*カードを横並びに配置*/
+    gap: 20px; /*カード同士の間隔を設定*/
+    margin-bottom: 100px;
 }
 
+/*カードの書式*/
 .card {
+    border: 2px solid var(--neon-card);
+    box-shadow: 0 0 10px var(--neon-card), 0 0 20px var(--neon-card);
     background-color: #1a1a1a;
-    border: 2px solid #00ff99;
     border-radius: 15px;
-    padding: 30px 60px;
+    padding: 30px 60px; /*内側の余白を設定*/
     font-size: 1.5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+    cursor: pointer; /*カーソルをポインターにしてクリック可能に*/
+    transition: all 0.3s ease; /*なめらかな変化をつける*/
+    animation: neonGlowCard 1.5s ease-in-out infinite alternate; /*ネオンのような光の影をつける*/
 }
-
 .card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 30px #ff00ff, 0 0 50px #ff00ff;
+    transform: scale(1.1); /*カードを 1.1 倍に拡大*/
+    box-shadow: 0 0 30px var(--neon-hover), 0 0 50px var(--neon-hover);
 }
 
 /* ネオン光のアニメーション */
-@keyframes neonGlow {
+/*text-shadow を時間経過で変化させ、ネオンの光がぼんやりと明るくなったり暗くなったりするアニメーションを作成*/
+@keyframes neonGlowH1 {
     0% {
-        text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99;
+        text-shadow: 0 0 5px var(--neon-01), 0 0 10px var(--neon-01), 0 0 15px var(--neon-01);
     }
     100% {
-        text-shadow: 0 0 20px #00ff99, 0 0 30px #00ff99, 0 0 40px #00ff99;
+        text-shadow: 0 0 20px var(--neon-01), 0 0 30px var(--neon-01), 0 0 40px var(--neon-01);
+    }
+}
+
+@keyframes neonGlowCard {
+    0% {
+        text-shadow: 0 0 5px var(--neon-card), 0 0 10px var(--neon-card), 0 0 15px var(--neon-card);
+    }
+    100% {
+        text-shadow: 0 0 20px var(--neon-card), 0 0 30px var(--neon-card), 0 0 40px var(--neon-card);
     }
 }
 
 /* 背景の動き */
-@keyframes backgroundMovement {
+/*@keyframes backgroundMovement {
     0% {
         background-position: 0 0;
     }
     100% {
         background-position: 100% 100%;
     }
+}*/
+/*以下が解説
+background-position の値は (横, 縦) の順で設定される。
+0 0 → 左上
+100% 100% → 右下
+このアニメーションを適用すると、背景画像が 時間とともに左上から右下へスライドする ように見える。*/
+/*実際の使い方
+body {
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    animation: backgroundMovement 5s linear infinite;
+}
+*/
+/*5s → 5秒かけて背景が移動
+linear → 一定の速度で移動
+infinite → 無限に繰り返す*/
+
+/*画像の調整*/
+.img-custom {
+    width: 60%;  /* 親要素の50% */
+    height: auto; /* 縦横比を維持 */
+    border-radius: 10px; /* 角を丸くする */
+}
+
+/*リンクの文字の色*/
+a {
+    color: white;  /* 好きな色を指定 */
+    text-decoration: none; /* 下線を消す（オプション） */
+}
+a:visited {
+    color: white;  /* 訪問済みリンクの色も統一 */
 }
