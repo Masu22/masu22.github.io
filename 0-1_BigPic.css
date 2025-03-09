@@ -30,8 +30,10 @@ header {
     --neon-01: rgb(0, 204, 255);
     --neon-card: #00ff99;
     --neon-hover: #ff00ff;
+    --neon-plan: yellow;
 }
 
+/*ネオン文字のclass*/
 .G0 {
     font-size: 3rem;
     color: var(--neon-card);
@@ -45,6 +47,13 @@ header {
     color: var(--neon-01);
     letter-spacing: 5px; /*文字間隔を広げる*/
     animation: neonGlowH1 1.5s ease-in-out infinite alternate; /*@keyframes neonGlowH1 で定義されたアニメーションを適用。*/
+}
+
+.G2 {
+    font-size: 3rem;
+    color: var(--neon-plan);
+    letter-spacing: 5px; /*文字間隔を広げる*/
+    animation: neonGlowPlan 1.5s ease-in-out infinite alternate; /*@keyframes neonGlowH1 で定義されたアニメーションを適用。*/
 }
 
 /* カードのスタイル */
@@ -71,6 +80,21 @@ header {
     box-shadow: 0 0 30px var(--neon-hover), 0 0 50px var(--neon-hover);
 }
 
+/*箇条書きボックス*/
+.container{
+    margin-top: 15px;
+    text-align: left; /* リストを左寄せにする */
+    padding: 10px 35px;
+    border-radius: 10px; /* 角を丸く */
+    /*width: 300px;  幅を指定 */
+    border: 2px solid var(--neon-plan);
+    box-shadow: 0 0 10px var(--neon-plan), 0 0 20px var(--neon-plan);
+    font-size: 20px;
+}
+li {
+    margin-bottom: 7px; /* 各リスト項目の間隔 */
+}
+
 /* ネオン光のアニメーション */
 /*text-shadow を時間経過で変化させ、ネオンの光がぼんやりと明るくなったり暗くなったりするアニメーションを作成*/
 @keyframes neonGlowH1 {
@@ -88,6 +112,15 @@ header {
     }
     100% {
         text-shadow: 0 0 20px var(--neon-card), 0 0 30px var(--neon-card), 0 0 40px var(--neon-card);
+    }
+}
+
+@keyframes neonGlowPlan {
+    0% {
+        text-shadow: 0 0 5px var(--neon-plan), 0 0 10px var(--neon-plan), 0 0 15px var(--neon-plan);
+    }
+    100% {
+        text-shadow: 0 0 20px var(--neon-plan), 0 0 30px var(--neon-plan), 0 0 40px var(--neon-plan);
     }
 }
 
@@ -121,6 +154,7 @@ infinite → 無限に繰り返す*/
     width: 60%;  /* 親要素の50% */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を丸くする */
+    margin-bottom: 50px;
 }
 
 /*リンクの文字の色*/

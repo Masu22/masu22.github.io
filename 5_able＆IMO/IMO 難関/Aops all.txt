@@ -1,0 +1,368 @@
+2013 AMC 10A Problems/Problem 23
+2013 AMC 12A Problems/Problem 19
+Abscissa
+Abstract algebra
+Acute angle
+Acute triangle
+Aczel&#039;s Inequality
+Algebra
+Algebra/Intermediate
+Algebra/Introduction
+Algebra/Olympiad
+Algebraic geometry
+Algebraic manipulation
+Alternating permutation
+Altitude
+AM-GM Inequality
+Analytic number theory
+Angle
+Angle bisector
+Angle Bisector Theorem
+Annular Steiner chains
+Apothem
+Arc
+Area
+Arithmetic functions
+Arithmetic sequence
+Ball-and-urn
+Base Angle Theorem
+Bézout&#039;s Identity
+Binomial Theorem
+Birch and Swinnerton-Dyer Conjecture
+Bisect
+Brahmagupta&#039;s Formula
+Bretschneider&#039;s formula
+British Flag Theorem
+Brocard point
+Brocard&#039;s problem
+Burnside&#039;s Lemma
+Butterfly Theorem
+Carleman&#039;s Inequality
+Carmichael function
+Carmichael number
+Carnot&#039;s Theorem
+Casework
+Catalan sequence
+Cauchy-Schwarz Inequality
+Center (geometry)
+Central angle
+Centroid
+Ceva&#039;s theorem
+Cevian
+Chebyshev theta function
+Chebyshev&#039;s Inequality
+Chicken McNugget Theorem
+Chinese Remainder Theorem
+Chord
+Circle
+Circumcenter
+Circumradius
+Cohn&#039;s criterion
+Collatz Problem
+Combination
+Combinatorial identity
+Combinatorics/Intermediate
+Combinatorics/Introduction
+Combinatorics/Olympiad
+Committee forming
+Common factorizations
+Complementary angles
+Complementary counting
+Completing the square
+Complex Conjugate Root Theorem
+Composite number
+Concave polygon
+Concave polyhedron
+Concurrence
+Conditional probability
+Cone
+Congruent (geometry)
+Conic section
+Constructible number
+Constructible polygon
+Construction
+Constructive counting
+Convex polygon
+Convex polyhedron
+Convex set
+Coordinate geometry
+Correspondence
+Coterminal angles
+Cramer&#039;s Rule
+Cube (geometry)
+Cubic Equation
+Cubic formula
+Cubic polynomial
+Cyclic
+Cyclic quadrilateral
+Cyclic sum
+De Longchamps point
+Decagon
+Degree (geometry)
+Derangement
+Descartes&#039; Circle Formula
+Descent
+Diagonal
+Diameter
+Difference of squares
+Digon
+Dihedral angle
+Dimension
+Diophantine equation
+Dirichlet character
+Discrete mathematics
+Discrete quantity
+Discriminant
+Distinguishability
+Divisibility
+Dodecagon
+Dodecahedron
+Edge
+Elementary symmetric sum
+Ellipse
+Elliptical geometry
+Equality condition
+Equate
+Equidistant
+Equilateral triangle
+Euclid&#039;s Elements
+Euclid&#039;s Lemma
+Euclid&#039;s proof of the infinitude of primes
+Euclidean algorithm
+Euclidean geometry
+Euclidean space
+Euler&#039;s Polyhedral Formula
+Euler&#039;s totient function
+Euler&#039;s Totient Theorem
+Excircle
+Expected value
+Face
+Factor Theorem
+Factorial
+Factoring
+Factoring Quadratics
+Fermat point
+Fermat&#039;s Last Theorem
+Fermat&#039;s Little Theorem
+Fermat&#039;s Two Squares Theorem
+Fibonacci sequence
+FOIL
+Function
+Functional equation
+Fundamental Theorem of Algebra
+Fundamental Theorem of Arithmetic
+Gauss&#039;s Lemma (polynomial)
+Generating function
+Geometric inequality
+Geometric probability
+Geometric sequence
+Geometry
+Geometry/Intermediate
+Geometry/Introduction
+Geometry/Olympiad
+Goldbach&#039;s Conjecture
+Gradian
+Greatest common divisor
+Harmonic sequence
+Height
+Hendecagon
+Heptadecagon
+Heptagon
+Heron&#039;s Formula
+Hexadecagon
+Hexagon
+Hölder&#039;s Inequality
+Homogeneous
+Homogenization
+Homothety
+Hyperbola
+Hyperbolic geometry
+Hypercube
+Hypotenuse
+Icosagon
+Icosahedron
+Icosidigon
+Icosihenagon
+Identity
+Imaginary part
+Incenter
+Incenter/excenter lemma
+Incircle
+Inequality
+Inscribed angle
+Integer
+Internally tangent
+Irrational number
+Isogonal conjugate
+Isoperimetric Inequalities
+Isosceles trapezoid
+Isosceles triangle
+Jensen&#039;s Inequality
+Karamata&#039;s Inequality
+Kite
+Lattice point
+Least common multiple
+Legendre&#039;s Formula
+Length
+Line segment
+Linear
+Linear algebra
+Linear congruence
+Linear equation
+Linear recurrence
+Locus
+Lucas&#039; Theorem
+Maclaurin&#039;s Inequality
+Mass points
+Maximal element
+Menelaus&#039; theorem
+Midpoint
+Minkowski Inequality
+Monge&#039;s theorem
+Monogon
+Muirhead&#039;s Inequality
+Multinomial Theorem
+Multiple
+Multiplicative function
+Natural number
+Nesbitt&#039;s Inequality
+Newton&#039;s Inequality
+Newton&#039;s Sums
+Nonadecagon
+Nonagon
+Number field
+Number theory
+Number theory/Advanced
+Number theory/Intermediate
+Number theory/Introduction
+Number theory/Olympiad
+Obtuse angle
+Obtuse triangle
+Octadecagon
+Octagon
+Octahedron
+Optimization
+Order (group theory)
+Ordinate
+Origin
+Orthic triangle
+Orthocenter
+Overcounting
+P-adic number
+PaperMath’s sum
+Parallel
+Parallel Postulate
+Parallelogram
+Partition (combinatorics)
+Pascal&#039;s Identity
+Pascal&#039;s triangle
+Pell equation
+Pentacontakaidigon
+Pentadecagon
+Pentagon
+Perimeter
+Permutation
+Perpendicular
+Pick&#039;s Theorem
+Pigeonhole Principle
+Planar figure
+Plane
+Platonic solid
+Point
+Polygon
+Polyhedron
+Polynomial
+Polynomial Remainder Theorem
+Power Mean Inequality
+Power of a Point Theorem
+Prime counting function
+Prime factorization
+Prime number
+Prime Number Theorem
+Prime triplet
+Principle of Inclusion-Exclusion
+Prism
+Probability
+Proofs of AM-GM
+Proportion
+Ptolemy&#039;s Inequality
+Ptolemy&#039;s theorem
+Pythagorean inequality
+Pythagorean Theorem
+Pythagorean triple
+Quadratic equation
+Quadratic formula
+Quadratic reciprocity
+Quadratic Reciprocity Theorem
+Quadratic residues
+Quadrilateral
+Radian
+Radical axis
+Radius
+Rational approximation of famous numbers
+Rational number
+Rational root theorem
+Ray
+Real part
+Rearrangement Inequality
+Recursion
+Reducible fraction
+Reflex angle
+Relatively prime
+Rhombus
+Riemann Hypothesis
+Riemann zeta function
+Right angle
+Right triangle
+Root (operation)
+Root (polynomial)
+Root-Mean Square-Arithmetic Mean-Geometric Mean-Harmonic mean Inequality
+Routh&#039;s Theorem
+SAS Similarity
+Schur&#039;s Inequality
+Sector
+Segment Addition Postulate
+Semicircle
+Semiprime
+Shoelace Theorem
+Similarity (geometry)
+Simon&#039;s Favorite Factoring Trick
+Slant height
+Sophie Germain Identity
+Sphere
+Square (geometry)
+Statistical mechanics
+Steiner&#039;s Theorem
+Stereographic projection
+Stewart&#039;s theorem
+Straight angle
+Substitution
+Sum and difference of powers
+Symmetric sum
+System of equations
+Tangent (geometry)
+Telescoping series
+Tetradecagon
+Tetrahedron
+The Nested Sum Theorem
+Three Greek problems of antiquity
+Transcendental number
+Trapezoid
+Triangle
+Triangle Inequality
+Tridecagon
+Trivial Inequality
+Twin prime
+Twin Prime Conjecture
+Two Tangent Theorem
+Unit circle
+User:J-y2009/sandbox
+Variable
+Vector
+Vector space
+Venn diagram
+Vertical line test
+Vieta&#039;s formulas
+Volume
+Vornicu-Schur Inequality
+Wilson&#039;s Theorem

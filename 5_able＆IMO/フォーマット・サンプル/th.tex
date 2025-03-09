@@ -1,0 +1,95 @@
+\documentclass[a4paper, 12pt]{article}
+
+%article クラス: 通常の学術文書に使われる標準的な文書クラスです。
+%a4paper: 用紙サイズをA4に設定。
+%12pt: フォントサイズを12ポイントに設定。
+%xcolor パッケージ: 色を使うためのパッケージです。svgnames オプションにより、SVGの色名を利用できます。
+%amsmath, amsthm, amssymb パッケージ: 数式や定理環境を使うためのパッケージです。
+%thmtools パッケージ: 定理環境のカスタマイズをより簡単にするためのパッケージです。
+%lipsum パッケージ: ダミーテキスト（Lorem Ipsum）を生成するパッケージ。実際の内容に入れる前に仮のテキストを挿入するのに使用。
+%framed パッケージ: 囲み枠を使うためのパッケージです。
+\usepackage[svgnames]{xcolor}
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage{thmtools}
+\usepackage{lipsum}
+\usepackage{framed}
+
+\colorlet{headcolour}{DarkOrange}
+\colorlet{rulecolour}{DarkOrange}
+\renewenvironment{leftbar}{%
+  \def\FrameCommand{{\color{rulecolour}\vrule width 3pt} \hspace{10pt}}%
+  \MakeFramed {\advance\hsize-\width \FrameRestore}}%
+ {\endMakeFramed}
+%colorlet コマンド: headcolour と rulecolour に色を設定します。ここでは、DarkOrange という色を指定しています。
+%leftbar 環境のカスタマイズ:
+%\def\FrameCommand で、囲み枠の左側に縦線（幅3pt）を描画し、その後に10ptのスペースを空けるように設定。
+%\MakeFramed と \endMakeFramed で囲み枠を作成し、枠の中身が正しく表示されるようにします。
+
+
+ \declaretheoremstyle[headfont=\sffamily\bfseries,%
+ notefont=\sffamily\bfseries,%
+ notebraces={}{},%
+ headpunct=,%
+ bodyfont=\sffamily\itshape,%
+ headformat=\color{headcolour}\NAME~\NUMBER\NOTE\hfill\smallskip\linebreak,%
+ preheadhook=\begin{leftbar},%
+ postfoothook=\end{leftbar},%
+ ]{customDefinition}
+ \declaretheorem[style=customDefinition, numberwithin=section]{definition}
+%declaretheoremstyle コマンド: 新しい定理環境のスタイルを定義しています。スタイルに関する各設定は以下の通りです。
+%headfont=\sffamily\bfseries: ヘッダーのフォントをサンセリフ体（sffamily）の太字（bfseries）に設定。
+%notefont=\sffamily\bfseries: 定理の番号（NOTE）のフォントもサンセリフ体の太字に設定。
+%notebraces={}{}: 定理番号の周りに括弧を表示しない設定。
+%headpunct=: ヘッダーの後に句読点をつけない設定。
+%bodyfont=\sffamily\itshape: 本文のフォントをサンセリフ体のイタリック（itshape）に設定。
+%%%
+%headformat=\color{headcolour}\NAME~\NUMBER\hfill\NOTE\smallskip\linebreak: ヘッダーにタイトル（NAME）と番号（NUMBER）を表示し、その後に定理番号（NOTE）を配置します。色は headcolour に設定されたオレンジ色です。
+%%%詳しい解説は↓
+%1. \color{headcolour}
+%説明: headcolour は前に定義した色で、DarkOrange と設定されています。これにより、この部分のテキストの色がオレンジ色になります。
+%動作: このコマンドは、ヘッダー部分のテキストを指定した色（オレンジ）で表示するようにします。
+%2. \NAME~
+%説明: \NAME は定義スタイルで定義された定理環境の「名前」のプレースホルダです。例えば、「定理」や「定義」など、定義された環境の名前を表します。ここでは「定義」という文字列が表示されます。
+%動作: この部分は、定理の種類（定義）を表示します。
+%~:
+%~ はノーブレークスペース（~）です。この記号は、空白を挿入しつつも、改行を防ぎます。つまり、NAME と NUMBER が同じ行に並ぶことが保証されます。
+%3. \NUMBER
+%説明: \NUMBER は定理の番号を指します。定理番号は、文書中で自動的に設定され、例えば 1 や 2 という番号が表示されます。
+%動作: これにより、定義や定理の番号が表示されます。例えば「1」、「2」などです。
+%4. \hfill
+%説明: \hfill は、水平空白を自動的に広げるコマンドです。これにより、定理のタイトルと番号の間にスペースが追加され、ヘッダー内の要素が両端に配置されます。
+%動作: \hfill は、左側に \NAME ~ \NUMBER を配置し、右側に \NOTE を移動させる役割を果たします。これにより、タイトル（定義）と番号（例：1）が左に寄り、定理番号（NOTE）が右端に配置されます。
+%5. \NOTE
+%説明: \NOTE は、定理環境のメモや補足情報を表示するためのプレースホルダです。通常、定理や定義のタイトル部分に関連情報や注釈を追加するために使います。ここでは、定理の番号が表示される部分です。
+%動作: \NOTE は通常、定理番号が挿入されますが、カスタマイズにより別の情報を挿入することもできます。
+%6. \smallskip
+%説明: \smallskip は小さな空白を挿入するコマンドです。定義のヘッダーの後に、少しだけ余白を挿入するために使用されます。
+%動作: これにより、定理タイトルの後に少し余白が入ります。
+%7. \linebreak
+%説明: \linebreak は強制的に改行を行うコマンドです。
+%動作: 定理のタイトルが長すぎて、改行が必要な場合に、ここで改行を強制します。これにより、タイトルが長くなる場合でも、次の行に改行して表示されることを保証します。
+%結果としてのフォーマット
+%全体として、headformat の設定は次のように表示されます：
+%定理のタイトル（例えば「定義」）はオレンジ色で表示され、その後に定理番号（例：1）が続きます。
+%\hfill によって、タイトルと番号の間に広い空間が作られ、右端に注釈（定理番号など）が配置されます。
+%タイトルの後に小さなスペースが挿入され、もしタイトルが長い場合は強制的に改行が行われます。
+%%%%
+%preheadhook=\begin{leftbar}: 定理のタイトルの前に囲み枠（leftbar）を挿入。
+%postfoothook=\end{leftbar}: 定理のタイトルの後に囲み枠の終了を挿入。
+
+\begin{document}
+%カウンターは0からスタートなので、１つ増やした！
+\setcounter{section}{1}
+
+\begin{definition}[(Matrix)]
+\lipsum[2]\\
+↑はダミーテキスト
+\end{definition}
+
+\noindent こんな感じで、左線付きの環境ができた！！
+
+\begin{definition}
+本文はここ。こちらはタイトルの補足がないバージョン
+\end{definition}
+
+\end{document} 

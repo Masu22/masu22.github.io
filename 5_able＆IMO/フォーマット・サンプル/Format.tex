@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{hyperref}
+
+\title{数学の分野ごとのまとめ}
+\author{あなたの名前}
+\date{\today}
+
+% 定義環境と定理環境の設定
+\newtheorem{definition}{定義}[section]  % セクションごとに番号が振られる
+\newtheorem{theorem}{定理}[section]     % セクションごとに番号が振られる
+\newtheorem{lemma}{補題}[section]       % セクションごとに番号が振られる
+\newtheorem{corollary}{系}[section]     % セクションごとに番号が振られる
+\newtheorem{problem}{問題}[section]
+\newtheorem{solution}{解法}[section]
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents  % 目次の自動生成
+
+\section{前提知識 (Preliminary Knowledge)}
+\subsection{定義 (Definitions)}
+% ここに定義を追加します
+\begin{definition}
+    数列 $a_n$ が収束するとは、$\lim_{n \to \infty} a_n = L$ となることです。
+\end{definition}
+
+\subsection{定理 (Theorems)}
+% ここに定理を追加します
+\begin{theorem}
+    $\lim_{n \to \infty} a_n = L$ が成り立つならば、数列 $a_n$ は収束すると言います。
+\end{theorem}
+
+\section{定理と証明 (Theorems and Proofs)}
+\begin{theorem}[例: 関数の極限]
+    $f(x)$ が $x_0$ で連続ならば、$\lim_{x \to x_0} f(x) = f(x_0)$。
+\end{theorem}
+
+\begin{proof}
+    証明の詳細。
+\end{proof}
+
+\section{例 (Examples)}
+\subsection{例1: 数列の収束}
+数列 $a_n = \frac{1}{n}$ は $0$ に収束する。
+
+\subsection{例2: 関数の極限}
+関数 $f(x) = x^2$ は $x_0 = 2$ で連続であり、$\lim_{x \to 2} f(x) = 4$。
+
+\section{補題 (Lemmas)}
+\begin{lemma}
+    任意の実数列 $a_n$ が上に有界ならば、部分列の中で収束するものが存在する。
+\end{lemma}
+
+\begin{proof}
+    補題の証明。
+\end{proof}
+
+\section{問題 (Problems)}
+\begin{problem}
+    数列 $a_n = \frac{2n+1}{n^2 + 1}$ の極限を求めよ。
+\end{problem}
+
+\begin{solution}
+    解答の詳細。
+\end{solution}
+
+\section{文献 (References)}
+\begin{thebibliography}{99}
+    \bibitem{example1} 書籍名, 著者, 出版年.
+    \bibitem{example2} 論文名, 著者, 雑誌名, 年.
+\end{thebibliography}
+
+\appendix
+\section{付録 (Appendix)}
+ここには計算の詳細や補足説明を追加します。
+
+\end{document}
+
