@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メイク姫メモ</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f7f7f7; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        .nav { display: flex; gap: 10px; margin-bottom: 20px; }
+        .nav button { padding: 10px; cursor: pointer; border: none; border-radius: 5px; font-weight: bold; }
+        .nav button:nth-child(1) { background: #ffadad; }
+        .nav button:nth-child(2) { background: #ffd6a5; }
+        .nav button:nth-child(3) { background: #caffbf; }
+        .nav button:nth-child(4) { background: #a0c4ff; }
+        .nav button:nth-child(5) { background: #f7f7f7; }
+        .category { display: none; padding: 20px; border-radius: 10px; }
+        .active { display: block; }
+        #base-makeup { background: #ffadad; }
+        #eye-makeup { background: #ffd6a5; }
+        #wig { background: #caffbf; }
+        #fashion { background: #a0c4ff; }
+        #other { background: #f7f7f7; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>メイク・女装メモ</h1>
+        <div class="nav">
+            <button onclick="showCategory('base-makeup')">ベースメイク</button>
+            <button onclick="showCategory('eye-makeup')">アイメイク</button>
+            <button onclick="showCategory('wig')">ウィッグ</button>
+            <button onclick="showCategory('fashion')">服装</button>
+            <button onclick="showCategory('other')">その他</button>
+        </div>
+        
+        <div id="base-makeup" class="category active">
+            <h2>ベースメイク</h2>
+            <p>ここにベースメイクのメモを書く</p>
+            <p>じんくん　メンズメイク</p>
+        </div>
+        <div id="eye-makeup" class="category">
+            <h2>アイメイク</h2>
+            <p>ここにアイメイクのメモを書く</p>
+        </div>
+        <div id="wig" class="category">
+            <h2>ウィッグ</h2>
+            <p>ここにウィッグのメモを書く</p>
+        </div>
+        <div id="fashion" class="category">
+            <h2>服装</h2>
+            <p>ここに服装のメモを書く</p>
+        </div>
+        <div id="other" class="category">
+            <h2>その他</h2>
+            <p>ここに服装のメモを書く</p>
+        </div>
+    </div>
+    
+    <script>
+        function showCategory(category) {
+            document.querySelectorAll('.category').forEach(el => el.classList.remove('active'));
+            document.getElementById(category).classList.add('active');
+        }
+    </script>
+</body>
+</html>
