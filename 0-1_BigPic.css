@@ -165,3 +165,8 @@ a {
 a:visited {
     color: white;  /* 訪問済みリンクの色も統一 */
 }
+
+/*縦の空白をあける用*/
+.vsp{
+    margin-top: 40px;
+}
