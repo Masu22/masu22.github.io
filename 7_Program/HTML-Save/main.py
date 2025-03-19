@@ -1,4 +1,4 @@
-# 外部urlリストから、各urlのhtmlテキストデータを保存していく！
+# 外部urlリスト urls.txt から、各urlのhtmlテキストデータを保存していく！
 # エラーが出たら、そのアドレスを別ファイルに書きだす！
 
 import requests
