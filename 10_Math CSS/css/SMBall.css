@@ -1,0 +1,22 @@
+body {
+    background: radial-gradient(circle, #ffd700, #ff6600); /* 黄色～オレンジの元気なグラデーション */
+    color: #ffffff;
+    font-family: 'Fredoka One', cursive; /* かわいくて丸いフォント */
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 3px 3px 8px rgba(255, 100, 0, 0.6);
+}
+.icon img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #ffcc00; /* 黄色のポップな枠 */
+    box-shadow: 6px 6px 0px rgba(255, 80, 0, 0.8);
+    transition: transform 0.3s ease-in-out;
+}
+.icon img:hover {
+    transform: translateY(-10px) rotate(10deg); /* ちょっとジャンプする感じ */
+}

@@ -1,0 +1,24 @@
+body {
+    background: linear-gradient(to right, #000000, #330033); /* 黒から紫のグラデーション */
+    color: #ff00ff; /* サイバーパンクっぽいピンク */
+    font-family: 'Press Start 2P', sans-serif; /* レトロフューチャーなフォント */
+    text-align: center;
+}
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff0099;
+    text-shadow: 3px 3px 5px rgba(255, 0, 255, 0.5);
+}
+.icon img {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    border: 2px solid #ff0099;
+    box-shadow: 0px 0px 10px #ff0099;
+    transition: filter 0.3s;
+}
+.icon img:hover {
+    filter: hue-rotate(180deg); /* サイバーパンク的なカラーチェンジ */
+}

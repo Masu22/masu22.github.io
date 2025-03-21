@@ -1,0 +1,23 @@
+body {
+    background-color: #0a0f1c; /* 深いネイビー */
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif; /* 未来的なフォント */
+    text-align: center;
+}
+h1 {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #00f0ff; /* ネオンブルー */
+}
+.icon img {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00f0ff; /* ネオンの発光 */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.icon img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 20px #00f0ff;
+}
