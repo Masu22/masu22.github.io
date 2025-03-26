@@ -23,3 +23,38 @@ ffmpeg -i video.mp4 -i audio.mp4 -c:v copy -c:a aac -strict experimental output.
 ---
 <br>
 
+# powershellで、フォルダの中の動画(mp4)と音声(mp4形式)が１組だけのとき、探して一体化させる！
+``` powershell
+# 動画ファイルと音声ファイルを探す
+$video_file = $null
+$audio_file = $null
+
+# カレントディレクトリ内の mp4 ファイルを取得
+$files = Get-ChildItem -Filter "*.mp4"
+
+foreach ($file in $files) {
+    if ($file.Name -match "-") {
+        $audio_file = $file.Name
+    } else {
+        $video_file = $file.Name
+    }
+}
+
+# 両方のファイルが見つかった場合、ffmpeg を実行
+if ($video_file -and $audio_file) {
+    $output_file = "output.mp4"
+    Write-Host "動画: $video_file"
+    Write-Host "音声: $audio_file"
+    
+    ffmpeg -i "$video_file" -i "$audio_file" -c:v copy -c:a aac -strict experimental "$output_file"
+
+    Write-Host "Output file created: $output_file"
+} else {
+    Write-Host "動画ファイルまたは音声ファイルが見つかりません。"
+}
+```
+<br>
+
+---
+<br>
+
