@@ -1,0 +1,25 @@
+Aczel&#039;s Inequality
+AM-GM Inequality
+Carleman&#039;s Inequality
+Cauchy-Schwarz Inequality
+Chebyshev&#039;s Inequality
+Geometric inequality
+Hölder&#039;s Inequality
+Inequality
+Isoperimetric Inequalities
+Jensen&#039;s Inequality
+Karamata&#039;s Inequality
+Maclaurin&#039;s Inequality
+Minkowski Inequality
+Muirhead&#039;s Inequality
+Nesbitt&#039;s Inequality
+Newton&#039;s Inequality
+Power Mean Inequality
+Ptolemy&#039;s Inequality
+Pythagorean inequality
+Rearrangement Inequality
+Root-Mean Square-Arithmetic Mean-Geometric Mean-Harmonic mean Inequality
+Schur&#039;s Inequality
+Triangle Inequality
+Trivial Inequality
+Vornicu-Schur Inequality
