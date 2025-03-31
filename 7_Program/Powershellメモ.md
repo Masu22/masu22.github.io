@@ -145,3 +145,28 @@ Write-Output "処理が完了しました。出力ファイル: $outputFile"
 <br>
 <br>
 
+# 末尾がハイフンで終わる行を取得
+
+PowerShell で `-`（ハイフン）で終わる行を検索するには、正規表現を使うと便利です。以下のコマンドを試してみてください。
+
+### 例: `Select-String` を使う
+```powershell
+Get-Content "ファイル名.txt" | Select-String -Pattern '-$'
+```
+このコマンドの意味:
+- `Get-Content "ファイル名.txt"`: 指定したファイルの内容を取得
+- `Select-String -Pattern '-$'`: `-` で終わる (`-$`) 行を検索
+
+### 例: `Where-Object` を使う
+```powershell
+Get-Content "ファイル名.txt" | Where-Object { $_ -match '-$' }
+```
+この方法でも同じように `-` で終わる行を取得できます。
+
+どちらでもOKですが、`Select-String` の方が検索専用なのでシンプルに書けます。
+
+---
+---
+<br>
+<br>
+
