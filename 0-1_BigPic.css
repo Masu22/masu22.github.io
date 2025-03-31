@@ -168,5 +168,10 @@ a:visited {
 
 /*縦の空白をあける用*/
 .vsp{
-    margin-top: 40px;
+    margin-top: 70px;
+}
+
+/*縦の空白をあける用(ボックス内)*/
+.vsp2{
+    margin-top: 20px;
 }
