@@ -1,23 +1,34 @@
 /* 全体のスタイル */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
+/* ヘッドメニューのスタイル */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    background-color: #333;
+    color: white;
+}
+
+/*本文の部分の書式*/
 main {
-    margin-top: 30px; /*ボタンと重ならないように、marginとpaddingを調整*/
-    padding: 30px;
+    padding: 20px 20px 20px 20px;
+    /*max-width: 1100px;*/
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /*サイドメニュー関連！*/
 /* メニューボタン */
 #menu-button {
-    font-size: 20px;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0px; /*上から0に配置*/
-    left: 0px; /*左から0に配置*/
+    font-size: 25px;
+    /*top: 0px;*/ /*上から0に配置*/
+    /*left: 0px;*/ /*左から0に配置*/
     cursor: pointer;
     border: none;
     background-color: #333;
@@ -75,6 +86,7 @@ main {
 #side-menu ul li a:hover {
     background-color: #444;
 }
+
 
 /*フッターメニュー*/
 /* フッターメニューの基本スタイル */
