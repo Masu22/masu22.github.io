@@ -11,9 +11,9 @@ body {
 
 /*本文の部分の書式*/
 main {
-    padding: 30px 30px 30px 60px;
-    max-width: 1100px;
-    margin: auto;
+    padding: 10px 30px 30px 30px;
+    /*max-width: 1100px;*/
+    margin: 10px 20px 10px 20px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -21,7 +21,7 @@ main {
 
 /*縦方向の余白用*/
 .vsp {
-    margin-top: 130px;
+    margin-top: 88px;
 }
 
 
