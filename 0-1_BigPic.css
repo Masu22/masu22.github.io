@@ -86,7 +86,7 @@ header {
     text-align: left; /* リストを左寄せにする */
     padding: 10px 35px;
     border-radius: 10px; /* 角を丸く */
-    /*width: 300px;  幅を指定 */
+    width: 100%;  /*幅を指定*/
     border: 2px solid var(--neon-plan);
     box-shadow: 0 0 10px var(--neon-plan), 0 0 20px var(--neon-plan);
     font-size: 20px;
@@ -151,7 +151,7 @@ infinite → 無限に繰り返す*/
 
 /*画像の調整*/
 .img-custom {
-    width: 60%;  /* 親要素の50% */
+    width: 80%;  /* 親要素の50% */
     height: auto; /* 縦横比を維持 */
     border-radius: 10px; /* 角を丸くする */
     margin-bottom: 50px;

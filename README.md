@@ -1,10 +1,8 @@
 # 塾用HP
-制作中！！
 
 ## やること
-- github環境、入塾ガイド、やることを明確化  
-- リポジトリの変え方を
-- megaをpythonで
+- 入塾ガイド
+- jdownloaderでモデルDL
 - Lus、Atsueigo、英語lup先生
 - passlaboのテキスト＆動画   https://www.youtube.com/@passlabo
 - 県立入試過去問研究　https://sakusemi.jp/entrance-exam-questions/
