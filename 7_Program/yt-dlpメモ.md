@@ -17,7 +17,7 @@ pip install -U yt-dlp
 ### ② このコマンドを実行！
 
 ```bash
-yt-dlp --skip-download --write-thumbnail --convert-thumbnails jpg "https://www.youtube.com/@ryo_nuko/videos"
+yt-dlp --skip-download --write-thumbnail --convert-thumbnails jpg "https://www.youtube.com/@Usename/videos"
 ```
 
 ---
