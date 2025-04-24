@@ -1,0 +1,104 @@
+\documentclass[a4,11pt]{article}
+\usepackage{luatexja}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{geometry}
+\geometry{margin=25mm}
+
+\title{第2回：発散（div）とガウスの定理}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{1. 発散（divergence）とは？}
+
+\subsection*{1.1 ベクトル場の「広がり具合」}
+ベクトル場 $\vec{F}(x, y) = (P(x, y), Q(x, y))$ の発散とは：
+
+\[
+\mathrm{div} \, \vec{F} = \frac{\partial P}{\partial x} + \frac{\partial Q}{\partial y}
+\]
+
+\begin{itemize}
+  \item ベクトル場が「その点から湧き出しているか」を示す。
+  \item 水源・風・電荷の分布などのモデルに使える。
+\end{itemize}
+
+\subsection*{1.2 例：}
+\[
+\vec{F}(x, y) = (x, y) \Rightarrow \mathrm{div} \, \vec{F} = \frac{\partial x}{\partial x} + \frac{\partial y}{\partial y} = 1 + 1 = 2
+\]
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+  \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+  \draw[->] (0,-3) -- (0,3) node[above] {$y$};
+  \foreach \x in {-2,-1,0,1,2} {
+    \foreach \y in {-2,-1,0,1,2} {
+      \draw[->, blue] (\x,\y) -- ++(0.2*\x,0.2*\y);
+    }
+  }
+  \node at (0,-3.5) {図：$\vec{F}(x, y) = (x, y)$ の発散};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{1.3 物理的イメージ}
+\begin{itemize}
+  \item 発散が正：その点から流れが湧き出している（源）。
+  \item 発散が負：その点に流れが吸い込まれている（吸収）。
+  \item 発散が0：流れは保存されている（例： incompressible な流体）。
+\end{itemize}
+
+\section*{2. ガウスの定理（発散定理）}
+
+\subsection*{2.1 内容}
+閉曲線に囲まれた領域 $D$ の内部の発散の総和は、境界を通過する流れの総量に等しい：
+
+\[
+\iint_D \mathrm{div} \, \vec{F} \, dA = \oint_{\partial D} \vec{F} \cdot \vec{n} \, ds
+\]
+
+\begin{itemize}
+  \item 左辺：内部の「湧き出し量」の総和
+  \item 右辺：外に出ていく流れ（境界線積分）
+\end{itemize}
+
+\subsection*{2.2 図での理解}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.2]
+  \draw[thick] (0,0) circle(2);
+  \node at (0,0) {$D$};
+  \draw[->, thick, red] (2,0) -- (2.5,0); 
+  \node at (2.7,0) {$\vec{n}$};
+  \node at (0,-2.5) {図：ガウスの定理のイメージ};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{2.3 応用例}
+\begin{itemize}
+  \item 電場のガウスの法則：電荷があると電場が湧き出す。
+  \item 流体力学：密度保存されていれば発散は0。
+\end{itemize}
+
+\subsection*{2.4 例題}
+\[
+\vec{F}(x, y) = (x, y) \quad \text{を} \quad D = \{(x, y) \mid x^2 + y^2 \leq 1\} \text{で考える}
+\]
+
+発散：$\mathrm{div} \, \vec{F} = 2$
+
+面積：$|D| = \pi$
+
+左辺：
+\[
+\iint_D \mathrm{div} \, \vec{F} \, dA = \iint_D 2 \, dA = 2 \pi
+\]
+
+右辺（境界積分）も計算可能だが、ここでは省略。  
+→ \textbf{内部の発散の総和 = 境界から出ていく流れの総和}
+
+\end{document}
