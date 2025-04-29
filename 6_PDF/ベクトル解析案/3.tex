@@ -1,0 +1,106 @@
+\documentclass[a4j,11pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{geometry}
+\geometry{margin=25mm}
+
+\title{第3回：カール（curl）とストークスの定理}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{1. カール（curl）とは？}
+
+\subsection*{1.1 ベクトル場の「回転の強さ」}
+ベクトル場 $\vec{F}(x, y) = (P(x, y), Q(x, y))$ に対して、
+
+\[
+\mathrm{curl} \, \vec{F} = \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y}
+\]
+
+\begin{itemize}
+  \item 2次元の場合、スカラー量（回転の強さ）になる。
+  \item 3次元では $\nabla \times \vec{F}$ のようにベクトルになる。
+\end{itemize}
+
+\subsection*{1.2 例}
+\[
+\vec{F}(x, y) = (-y, x) \Rightarrow \mathrm{curl} \, \vec{F} = \frac{\partial x}{\partial x} - \frac{\partial (-y)}{\partial y} = 1 + 1 = 2
+\]
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+  \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+  \draw[->] (0,-3) -- (0,3) node[above] {$y$};
+  \foreach \x in {-2,-1,0,1,2} {
+    \foreach \y in {-2,-1,0,1,2} {
+      \draw[->, blue] (\x,\y) -- ++(-0.2*\y, 0.2*\x);
+    }
+  }
+  \node at (0,-3.5) {図：$\vec{F}(x, y) = (-y, x)$ のカール};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{1.3 物理的イメージ}
+\begin{itemize}
+  \item カールが正：その点のまわりに反時計回りの回転。
+  \item カールが負：時計回りの回転。
+  \item カールが0：その点のまわりに回転がない。
+\end{itemize}
+
+\section*{2. ストークスの定理}
+
+\subsection*{2.1 内容}
+曲面 $S$ の上の回転の総和は、境界を一周したときの流れに等しい：
+
+\[
+\iint_S (\nabla \times \vec{F}) \cdot \vec{n} \, dS = \oint_{\partial S} \vec{F} \cdot d\vec{r}
+\]
+
+\begin{itemize}
+  \item 左辺：面積分（回転ベクトルと法線ベクトルの内積）
+  \item 右辺：線積分（境界を一周した流れ）
+\end{itemize}
+
+\subsection*{2.2 図での理解}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.2]
+  \draw[thick] (0,0) circle(2);
+  \node at (0,0) {$S$};
+  \draw[->, thick, red] (0,0) -- (0,2.5); 
+  \node at (0.3,2.7) {$\vec{n}$};
+  \draw[->, thick] (2,0) arc (0:90:2);
+  \node at (1.3,1.3) {$\partial S$};
+  \node at (0,-3) {図：ストークスの定理のイメージ};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{2.3 応用例}
+\begin{itemize}
+  \item 電磁気学：ファラデーの法則
+  \item 流体：渦の強さの計算
+\end{itemize}
+
+\subsection*{2.4 例題}
+\[
+\vec{F}(x, y) = (-y, x), \quad S = \{(x, y) \mid x^2 + y^2 \leq 1\}
+\]
+
+カール：$\mathrm{curl} \, \vec{F} = 2$
+
+面積：$|S| = \pi$
+
+左辺：
+\[
+\iint_S 2 \, dA = 2\pi
+\]
+
+右辺（線積分）も計算可能：円周を一周する線積分でも $2\pi$。
+
+\textbf{結論：ストークスの定理成立！}
+
+\end{document}

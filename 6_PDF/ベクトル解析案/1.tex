@@ -1,0 +1,184 @@
+\documentclass[a4j,11pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{geometry}
+\geometry{margin=25mm}
+
+\title{第1回：ベクトル解析入門}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{1. ベクトルとは何か？（復習）}
+
+\subsection*{1.1 ベクトルの基本}
+ベクトルとは、\textbf{大きさと向きをもつ量}のこと。
+
+\begin{itemize}
+  \item 記号：$\vec{a}, \vec{b}$ など
+  \item 成分表示：$\vec{a} = (a_1, a_2)$ や $\vec{a} = a_1\vec{i} + a_2\vec{j}$
+\end{itemize}
+
+\subsection*{1.2 ベクトルの演算}
+\begin{itemize}
+  \item 加法：$\vec{a} + \vec{b}$（並べて結ぶ）
+  \item スカラー倍：$k\vec{a}$
+  \item 内積：$\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta$
+\end{itemize}
+
+\subsection*{1.3 空間内のベクトル}
+3次元ベクトル：$\vec{a} = (a_1, a_2, a_3)$  
+基底ベクトル $\vec{i}, \vec{j}, \vec{k}$ を使って表す。
+
+\[
+\vec{a} = a_1\vec{i} + a_2\vec{j} + a_3\vec{k}
+\]
+
+\section*{2. ベクトル場のイメージ}
+
+\subsection*{2.1 ベクトル場とは？}
+\textbf{空間の各点にベクトルが割り当てられているもの}。  
+例：風の流れ場、電場、磁場、流体の速度場など。
+
+\begin{center}
+\begin{tikzpicture}[scale=1]
+  \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+  \draw[->] (0,-2) -- (0,2) node[above] {$y$};
+  \foreach \x in {-2,-1,0,1,2} {
+    \foreach \y in {-1,0,1} {
+      \draw[->, blue] (\x,\y) -- ++(0.2*\x,0.2*\y);
+    }
+  }
+  \node at (0,-2.5) {図：原点から外向きに広がるベクトル場};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{2.2 数式での定義}
+2次元ベクトル場：$\vec{F}(x, y) = (P(x, y), Q(x, y))$  
+3次元：$\vec{F}(x, y, z) = (P, Q, R)$
+
+\vspace{3mm}
+例：
+\[
+\vec{F}(x, y) = (x, y) \quad \text{→ 原点から外向きに広がる}
+\]
+
+\section*{3. スカラー場と勾配（grad）}
+
+\subsection*{3.1 スカラー場とは？}
+スカラー場とは、\textbf{空間の各点に「数値（スカラー）」が対応しているもの}。
+
+\begin{itemize}
+  \item 温度分布：$T(x, y)$（場所ごとに温度が決まる）
+  \item 標高：$h(x, y)$（地図上の各点の高さ）
+\end{itemize}
+
+\textbf{例：}  
+\[
+f(x, y) = x^2 + y^2 \quad \Rightarrow \text{原点から離れるほど数値が大きい}
+\]
+
+\subsection*{3.2 等高線と勾配ベクトル}
+
+\textbf{等高線：} $f(x, y) = c$ の形で表される「同じ値の点の集合」
+
+\textbf{勾配ベクトル：} スカラー場 $f(x, y)$ に対して
+\[
+\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right)
+\]
+というベクトル場を定義する。
+
+\begin{itemize}
+  \item 勾配ベクトルは「関数の値が最も速く増加する方向」
+  \item かつ、「等高線に垂直」
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}[scale=1.2]
+  \draw[->] (-3,0) -- (3,0) node[right] {$x$};
+  \draw[->] (0,-2) -- (0,2) node[above] {$y$};
+
+  \foreach \r in {0.5,1.0,1.5} {
+    \draw[gray, thick] (0,0) circle[radius=\r];
+  }
+  \draw[->, red, thick] (1.0,0) -- (1.4,0);
+  \node[right] at (1.4,0) {$\nabla f$};
+  \node at (2.2,1.8) {等高線：$f(x,y) = x^2 + y^2 = c$};
+\end{tikzpicture}
+\end{center}
+
+\subsection*{3.3 勾配の物理的イメージ}
+
+\textbf{坂道を登るとき、どの方向が一番きつい？}  
+→ それが「勾配ベクトルの方向」！
+
+\begin{itemize}
+  \item 数学的には $\nabla f$ の方向
+  \item 物理的には「力が自然に働く方向」
+\end{itemize}
+
+\subsection*{3.4 例題：}
+関数 $f(x, y) = x^2 + y^2$ の勾配を求めよ。
+
+\[
+\nabla f = \left( \frac{\partial f}{\partial x}, \frac{\partial f}{\partial y} \right) = (2x, 2y)
+\]
+
+原点では $\nabla f = (0, 0)$  
+→ 平らな場所（傾きがない）
+
+点 $(1, 0)$ では $\nabla f = (2, 0)$  
+→ x方向に登りがきつい！
+
+\section*{4. 線形変換とヤコビ行列への導入}
+
+\subsection*{4.1 関数の線形近似とは？}
+
+2変数関数 $f(x, y)$ の微分は、「接平面での近似」を意味する。
+
+点 $(a, b)$ における近似：
+\[
+f(x, y) \approx f(a, b) + \frac{\partial f}{\partial x}(a, b)(x - a) + \frac{\partial f}{\partial y}(a, b)(y - b)
+\]
+
+\subsection*{4.2 ヤコビ行列の定義}
+
+$f: \mathbb{R}^n \to \mathbb{R}^m$ のとき、ヤコビ行列（Jacobian matrix）は：
+
+\[
+J_f(x) = 
+\begin{bmatrix}
+\displaystyle \frac{\partial f_1}{\partial x_1} & \cdots & \displaystyle \frac{\partial f_1}{\partial x_n} \\
+\vdots & \ddots & \vdots \\
+\displaystyle \frac{\partial f_m}{\partial x_1} & \cdots & \displaystyle \frac{\partial f_m}{\partial x_n}
+\end{bmatrix}
+\]
+
+2変数ベクトル関数 $\vec{F}(x, y) = (P(x, y), Q(x, y))$ の場合：
+
+\[
+J_{\vec{F}}(x, y) = 
+\begin{bmatrix}
+\displaystyle \frac{\partial P}{\partial x} & \displaystyle \frac{\partial P}{\partial y} \\
+\displaystyle \frac{\partial Q}{\partial x} & \displaystyle \frac{\partial Q}{\partial y}
+\end{bmatrix}
+\]
+
+\subsection*{4.3 例題：}
+\[
+\vec{F}(x, y) = (x^2 - y, x + y^2)
+\]
+
+ヤコビ行列：
+\[
+J_{\vec{F}}(x, y) =
+\begin{bmatrix}
+2x & -1 \\
+1 & 2y
+\end{bmatrix}
+\]
+
+\end{document}
