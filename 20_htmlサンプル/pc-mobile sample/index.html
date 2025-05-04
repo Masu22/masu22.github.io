@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スマホ・PC切替ページ</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* JSが効く前の初期状態は両方非表示（チラ見え対策） */
+    #layout-pc, #layout-sp {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- PCレイアウト -->
+  <div id="layout-pc">
+    <header>
+      <h1>PCサイト</h1>
+      <nav>
+        <ul>
+          <li>ホーム</li>
+          <li>サービス</li>
+          <li>お問い合わせ</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <p>こちらはPC用のレイアウトです。</p>
+    </main>
+    <footer>
+      <p>PCフッター</p>
+    </footer>
+  </div>
+
+  <!-- スマホレイアウト -->
+  <div id="layout-sp">
+    <header>
+      <h1>スマホサイト</h1>
+      <button>≡ メニュー</button>
+    </header>
+    <main>
+      <p>こちらはスマホ用のレイアウトです。</p>
+    </main>
+    <footer>
+      <p>スマホフッター</p>
+    </footer>
+  </div>
+
+  <!-- JavaScriptで表示切替 -->
+  <script>
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      document.getElementById("layout-sp").style.display = "block";
+    } else {
+      document.getElementById("layout-pc").style.display = "block";
+    }
+  </script>
+</body>
+</html>
