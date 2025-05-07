@@ -1,5 +1,4 @@
 // サイドメニューの表示
-document.addEventListener("DOMContentLoaded", function() {
     const menuButton = document.getElementById("menu-button");
     const sideMenu = document.getElementById("side-menu");
     const closeButton = document.getElementById("close-button");
@@ -20,11 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
             sideMenu.classList.remove("open");
         }
     });
-});
+
 
 
 // フッターメニューの表示
-document.addEventListener("DOMContentLoaded", function() {
     const footerMenu = document.getElementById("footer-menu");
     let lastScrollTop = 0;
 
@@ -39,4 +37,3 @@ document.addEventListener("DOMContentLoaded", function() {
 
         lastScrollTop = scrollTop;
     });
-});
