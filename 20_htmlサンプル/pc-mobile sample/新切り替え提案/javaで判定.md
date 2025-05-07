@@ -365,3 +365,159 @@ console.log("PC専用の処理を実行中");
 ---
 ---
 
+# 完成版テンプレ
+もちろんです！
+以下は、**スマホとPCでHTMLブロック、CSS、JavaScriptを完全に切り替えるHTMLテンプレートファイル**です。すべて1つのHTMLで完結しています。
+
+---
+
+## ✅ 構成の概要
+
+* `mobile.css` と `pc.css` を画面幅に応じて動的に読み込み
+* `mobile.js` と `pc.js` も同様に動的に読み込み
+* `<div id="mobile-html">` / `<div id="pc-html">` でHTMLを切り替え表示
+
+---
+
+## ✅ 完全テンプレート（HTMLファイル）
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>スマホとPCで切り替えテンプレート</title>
+</head>
+<body>
+
+  <!-- モバイル用HTML -->
+  <div id="mobile-html" style="display: none;">
+    <h1>モバイル表示</h1>
+    <button id="menu-toggle">メニュー</button>
+    <ul id="menu" style="display: none;">
+      <li>ホーム</li>
+      <li>お知らせ</li>
+      <li>お問い合わせ</li>
+    </ul>
+  </div>
+
+  <!-- PC用HTML -->
+  <div id="pc-html" style="display: none;">
+    <h1>PC表示</h1>
+    <nav>
+      <ul style="display: flex; gap: 1em;">
+        <li>ホーム</li>
+        <li>会社概要</li>
+        <li>採用情報</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- JavaScriptで表示・CSS・JSを切り替え -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const isMobile = window.innerWidth <= 768;
+
+      const mobileHtml = document.getElementById("mobile-html");
+      const pcHtml = document.getElementById("pc-html");
+
+      if (isMobile) {
+        if (mobileHtml) mobileHtml.style.display = "block";
+        if (pcHtml) pcHtml.style.display = "none";
+
+        // モバイルCSS
+        const mobileCss = document.createElement("link");
+        mobileCss.rel = "stylesheet";
+        mobileCss.href = "mobile.css";
+        document.head.appendChild(mobileCss);
+
+        // モバイルJS
+        const mobileJs = document.createElement("script");
+        mobileJs.src = "mobile.js";
+        document.body.appendChild(mobileJs);
+
+      } else {
+        if (pcHtml) pcHtml.style.display = "block";
+        if (mobileHtml) mobileHtml.style.display = "none";
+
+        // PC CSS
+        const pcCss = document.createElement("link");
+        pcCss.rel = "stylesheet";
+        pcCss.href = "pc.css";
+        document.head.appendChild(pcCss);
+
+        // PC JS
+        const pcJs = document.createElement("script");
+        pcJs.src = "pc.js";
+        document.body.appendChild(pcJs);
+      }
+    });
+  </script>
+</body>
+</html>
+```
+
+---
+
+## ✅ あと必要なファイル（自分で作ってね）
+
+### `mobile.css`
+
+```css
+body {
+  background-color: #f0f8ff;
+}
+
+#menu {
+  background: #eee;
+  padding: 10px;
+}
+```
+
+### `pc.css`
+
+```css
+body {
+  background-color: #e0ffe0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+```
+
+### `mobile.js`
+
+```js
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+      menu.style.display = menu.style.display === "block" ? "none" : "block";
+    });
+  }
+});
+```
+
+### `pc.js`
+
+```js
+console.log("PC用JavaScriptが読み込まれました");
+// 必要に応じてPC専用処理を書く
+```
+
+---
+
+これで、「画面幅に応じてHTML/CSS/JSをすべて切り替える」レスポンシブ構成が完成します！
+
+この構成をベースに、自分のサイトに合わせてカスタマイズしていくと良いですよ。
+
+他にも「このテンプレートに〇〇機能を足したい」などあれば遠慮なく聞いてください！
+
+---
+---
