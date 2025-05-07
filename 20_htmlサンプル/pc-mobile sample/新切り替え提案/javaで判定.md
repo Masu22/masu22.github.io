@@ -254,3 +254,114 @@ window.addEventListener("resize", () => {
 
 ---
 ---
+
+# さらにjavaを読み込むように変更
+いいですね！
+では、先ほどの\*\*「画面サイズでHTMLとCSSを切り替えるコード」\*\*に加えて、**JavaScriptファイルもスマホ用・PC用で分けて読み込む方法**をご紹介します。
+
+---
+
+## ✅ 完全版：画面サイズで HTML表示・CSS・JS を切り替える
+
+```html
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const isMobile = window.innerWidth <= 768;
+
+    const mobileHtml = document.getElementById("mobile-html");
+    const pcHtml = document.getElementById("pc-html");
+
+    if (isMobile) {
+      if (mobileHtml) mobileHtml.style.display = "block";
+      if (pcHtml) pcHtml.style.display = "none";
+
+      // モバイル用CSS
+      const mobileCss = document.createElement("link");
+      mobileCss.rel = "stylesheet";
+      mobileCss.href = "mobile.css";
+      document.head.appendChild(mobileCss);
+
+      // モバイル用JS
+      const mobileJs = document.createElement("script");
+      mobileJs.src = "mobile.js";
+      document.body.appendChild(mobileJs);
+
+    } else {
+      if (pcHtml) pcHtml.style.display = "block";
+      if (mobileHtml) mobileHtml.style.display = "none";
+
+      // PC用CSS
+      const pcCss = document.createElement("link");
+      pcCss.rel = "stylesheet";
+      pcCss.href = "pc.css";
+      document.head.appendChild(pcCss);
+
+      // PC用JS
+      const pcJs = document.createElement("script");
+      pcJs.src = "pc.js";
+      document.body.appendChild(pcJs);
+    }
+  });
+</script>
+```
+
+---
+
+## ✅ 説明
+
+| 部分                                  | 説明                       |
+| ----------------------------------- | ------------------------ |
+| `window.innerWidth <= 768`          | スマホと判断する幅の基準             |
+| `mobile.js` / `pc.js`               | JavaScriptも条件に応じて動的に読み込む |
+| `document.body.appendChild(script)` | `<body>`の末尾にスクリプトを追加（安全） |
+| `DOMContentLoaded`                  | DOMの準備ができたタイミングで確実に処理を実行 |
+
+---
+
+## ✅ ヒント：読み込むJSの中では、画面サイズチェックは不要
+
+モバイル用・PC用でJSを分けたら、それぞれのファイル内では**画面幅のチェックは不要**です。
+たとえば：
+
+### `mobile.js`
+
+```js
+document.getElementById("menu-toggle").addEventListener("click", () => {
+  document.getElementById("menu").classList.toggle("open");
+});
+```
+
+### `pc.js`
+
+```js
+console.log("PC専用の処理を実行中");
+// メニューは常に表示されているなど
+```
+
+---
+
+## ✅ 注意点
+
+* 動的にスクリプトを読み込む場合、**読み込み完了前に実行しようとするとエラー**になります。
+
+  * 解決策：必要なら `script.onload = function () { ... }` で読み込み後に処理を書く。
+
+---
+
+## ✅ まとめ
+
+この方法なら：
+
+* HTMLのブロック表示切り替え
+* CSSの読み分け
+* JavaScriptの分岐実行
+
+をすべて1つのHTMLで実現できます。
+
+---
+
+必要であれば、このコード構成を使った**完全なHTMLテンプレートファイル**を作ってお渡しできます。作成しましょうか？
+
+---
+---
+
