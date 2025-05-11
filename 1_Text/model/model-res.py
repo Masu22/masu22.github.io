@@ -1,3 +1,7 @@
+# model resourceの各ゲームページから、モデルをダウンロードリンクを抽出
+# 例としてsmiteのページを入力してる
+# ダウンロードはirvineなどで実行した方がいいかな？
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
