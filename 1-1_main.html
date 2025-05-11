@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>pc-mobileの切り替えを１つのファイルで</title>
+  <!--pcとmobileを一つのhtmlで切り替えする-->
+  <title>でぶねこ塾-メイン</title>
 </head>
 
 <body>
+    <!--pc用のページのhtml-->
     <div id="pc-html" style="display: none;">
         <header>
             <!-- 左側の塾の名前 -->
@@ -216,9 +218,10 @@ Hp で自分も学んでいること、終わりがないこと
         <p>&copy; 2025 でぶねこ塾</p>
     </footer>
     </div>
-    
 
 
+
+    <!--mobile用のhtml-->
     <div id="mobile-html" style="display: none;">
             <!--ヘッドメニュー-->
     <div class="header">
@@ -261,6 +264,8 @@ Hp で自分も学んでいること、終わりがないこと
     </div>
 
 
+    <!--画面サイズに応じて、pcとmobileのhtmlを切り替え-->
+    <!--それに応じたcssやjavaを適用する-->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
           const isMobile = window.innerWidth <= 768;
