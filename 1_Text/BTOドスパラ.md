@@ -1,6 +1,12 @@
 # ドスパラBTOサイト(注文方法あり)
 ## https://www.dospara.co.jp/5info/cts_bto.html
 
+<br>
+
+## 追加発注(ポイントが付いたら購入)
+### ViewSonic VA2436-MH-7 (23.8インチワイド 液晶モニター) ドスパラ限定モデル (送料無料)
+### https://www.dospara.co.jp/SBR119/IC502147.html
+
 ---
 
 <br>
