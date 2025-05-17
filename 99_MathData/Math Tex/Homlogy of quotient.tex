@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{ホモロジー群の求め方}
+\author{}
+\date{}
+\maketitle
+
+\section{はじめに}
+ホモロジー群の計算について、一般的な方法について議論する。\footnote{参考: \url{https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10111923580}}
+
+\section{ホモロジー群を求める方法}
+整係数ホモロジー群を求める際に使用できる手法として、以下のものが挙げられる。
+
+\begin{enumerate}
+    \item 一般的な定義から、$\ker$と$\operatorname{Im}$を求めてホモロジー群を計算する方法。
+    \item 錐複体であることから一点とホモトピー同値であることを利用する方法。
+    \item 二つの単体に分けてMayer-Vietoris完全列（MV完全列）を用いる方法。
+    \item 簡単なホモトピー同値な空間を見つけて、ホモロジー群を計算する方法。
+\end{enumerate}
+
+しかし、これらの方法では座標空間において二つの座標を同一視して得られる商空間のホモロジー群を求めるのが困難な場合がある。
+
+\section{その他の方法}
+さらに専門的な知識を仮定すると、以下のような方法が追加で使用できる。
+
+\begin{enumerate}
+    \item[(5)] 既知の空間の直積の場合には、K\"unneth の公式　(こちらを参照：\url{http://en.wikipedia.org/wiki/K%C3%BCnneth_theorem})
+    \item[(6)] スペクトル系列を用いる方法。特にSerreスペクトル系列を用いることで群作用による商空間のホモロジーを求めることができる。
+    \item[(7)] de Rham コホモロジーを用いてPoincar\'e 双対を取る方法。
+    \item[(8)] Morseホモロジーを利用する方法。
+\end{enumerate}
+
+(6) のスペクトル系列はトポロジーに限らず、ホモロジーを道具として用いる数学の多くの分野で不可欠な強力な手法である。特にループ空間のホモロジー計算などで重要な例が見られる。
+
+(7) や (8) は閉多様体に対して有効であるが、一般の空間に対して適用することは少ない。
+
+\section{胞体ホモロジー}
+また、ホモロジーの種類として、胞体ホモロジー（CW ホモロジー）が存在する。これは単体ホモロジーの直感的延長上にあり、ランクの少ない鎖複体を用いることで計算が容易になる。
+
+例えば、球面のホモロジーは胞体鎖複体のホモロジーと一致する。
+商空間のホモロジーも、胞体ホモロジーを用いることで簡単に求められる場合が多い。
+
+%\footnote{参考: \url{https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10111923580}}
+
+\end{document}

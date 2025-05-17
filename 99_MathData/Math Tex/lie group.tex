@@ -1,0 +1,112 @@
+%Wiki　https://ja.wikipedia.org/wiki/%E3%83%AA%E3%83%BC%E7%BE%A4
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\newtheorem{definition}{定義} % ← 定義環境
+\newtheorem{theorem}{定理} % ← 定理環境
+\newtheorem{example}{例} % ← 例環境
+
+\title{Lie群の概説}
+\author{あなたの名前}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{はじめに}
+Lie群は、微分幾何学と群論が結びついた重要な概念であり、特に物理学や解析学において広く応用される。本稿では、Lie群の定義、基本的な性質、具体例、コンパクトLie群の分類、および表現論との関係について概説する。
+
+\section{Lie群の定義}
+\begin{definition}[Lie群]
+$n$次元の\textbf{Lie群} $G$とは、次の条件を満たす集合である：
+\begin{itemize}
+    \item $G$は群の構造を持つ。
+    \item $G$は$n$次元の滑らかな多様体の構造を持つ。
+    \item 群演算（積$\mu: G \times G \to G$と逆元$\iota: G \to G, g \mapsto g^{-1}$）は$C^\infty$級である。
+\end{itemize}
+\end{definition}
+
+\section{基本的な性質}
+\subsection{Lie代数}
+Lie群$G$の単位元$e$における接空間$\mathfrak{g} = T_e G$は、\textbf{Lie代数}と呼ばれる。Lie代数には次の性質がある：
+\begin{itemize}
+    \item $\mathfrak{g}$は$G$の局所的な構造を決定する。
+    \item $\mathfrak{g}$には自然な\textbf{Lie括弧}（交換子ブラケット）$[\cdot, \cdot]: \mathfrak{g} \times \mathfrak{g} \to \mathfrak{g}$が定義される。
+\end{itemize}
+
+\subsection{指数写像}
+Lie代数$\mathfrak{g}$からLie群$G$への写像
+\[
+\exp: \mathfrak{g} \to G
+\]
+は、Lie群の局所的な構造を解析するのに有用である。
+
+\section{具体例}
+\subsection{一般線形群 $GL(n, \mathbb{R})$}
+$n$次正則行列全体の集合
+\[
+GL(n, \mathbb{R}) = \{ A \in M_n(\mathbb{R}) \mid \det A \neq 0 \}
+\]
+はLie群であり、Lie代数は$n$次正方行列全体の集合$\mathfrak{gl}(n, \mathbb{R}) = M_n(\mathbb{R})$である。
+
+\subsection{特殊直交群 $SO(n)$}
+\[
+SO(n) = \{ A \in GL(n, \mathbb{R}) \mid A^T A = I, \det A = 1 \}
+\]
+は、回転群として知られ、Lie代数は
+\[
+\mathfrak{so}(n) = \{ X \in M_n(\mathbb{R}) \mid X^T = -X \}
+\]
+である。
+
+\section{コンパクトLie群の分類}
+コンパクトLie群は、次の3つのタイプに分類される：
+\begin{itemize}
+    \item \textbf{トーラス群} $T^n = (S^1)^n$：$n$次元の円周群
+    \item \textbf{単純Lie群}：中心を除いて簡約できない群（例：$SU(n)$, $SO(n)$, $Sp(n)$）
+    \item \textbf{有限被覆群}：単純Lie群の被覆群（例：$Spin(n)$）
+\end{itemize}
+コンパクトLie群の分類は、\textbf{Dynkin図}を用いて記述される。特に、単純Lie群は$A_n, B_n, C_n, D_n, E_6, E_7, E_8, F_4, G_2$の9種類の系列に分類される。
+
+\section{Lie群の表現論}
+Lie群の表現論は、群の作用を線形変換として解析する理論であり、次の基本概念を含む。
+
+\subsection{既約表現}
+\begin{definition}[既約表現]
+Lie群$G$の\textbf{表現}とは、$G$からあるベクトル空間$V$への群準同型$\rho: G \to GL(V)$である。特に、$V$の非自明な部分空間がすべて$G$の作用で不変であるならば、$\rho$は\textbf{既約表現}と呼ばれる。
+\end{definition}
+
+\subsection{指標}
+指標$\chi(g) = \operatorname{tr}(\rho(g))$は、表現の情報を圧縮した関数であり、表現の分類や分解に用いられる。
+
+\subsection{重みとルート系}
+Lie群$G$の表現は、対応するLie代数$\mathfrak{g}$の\textbf{重み}と\textbf{ルート系}によって特徴づけられる。例えば：
+\begin{itemize}
+    \item $SU(2)$の表現は、整数スピン$j$によって分類される。
+    \item $SU(3)$の表現は、Young図形や重みラティスを用いて分類できる。
+\end{itemize}
+
+\section{重要な定理}
+\begin{theorem}[Lieの第三定理]
+任意の有限次元Lie代数$\mathfrak{g}$に対して、局所Lie群$G$が存在し、$\mathfrak{g}$が$G$のLie代数として実現される。
+\end{theorem}
+
+\begin{theorem}[Weylの指標公式]
+コンパクトLie群$G$の既約表現の指標$\chi_\lambda$は、次のように与えられる：
+\[
+\chi_\lambda = \frac{\sum_{w \in W} \varepsilon(w) e^{w(\lambda + \rho) - \rho}}{\prod_{\alpha \in \Delta^+} (e^{\alpha/2} - e^{-\alpha/2})}
+\]
+ここで、$W$はワイル群、$\rho$は半整数和、$\Delta^+$は正のルートの集合である。
+\end{theorem}
+
+\section{まとめ}
+本稿では、Lie群の定義から基本的な例、コンパクトLie群の分類、表現論との関係を概観した。特に、表現論において重みや指標が重要な役割を果たすことがわかった。
+
+\end{document}

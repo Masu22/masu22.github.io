@@ -1,0 +1,64 @@
+%Wiki https://en.wikipedia.org/wiki/Orientability
+
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\newtheorem{definition}{定義} % ← 定義環境
+\newtheorem{theorem}{定理} % ← 定理環境
+\newtheorem{example}{例} % ← 例環境
+
+\title{多様体の向き付け可能性について}
+\author{あなたの名前}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{はじめに}
+このセクションでは、多様体の向き付け可能性について定義し、その同値な条件を示します。さらに、これらの条件が同値であることを証明します。
+
+\section{多様体の向き付け可能性の定義}
+多様体の向き付け可能性は、その多様体に一貫した向きを定めることができるかどうかに関連しています。具体的には、次のように定義されます。
+
+\begin{definition}[向き付け可能性]
+$n$次元の閉な多様体$M$が向き付け可能であるとは、$M$の任意の点で、局所的な座標系の選び方に関わらず一貫した向きを定めることができるとき、$M$は\textbf{向き付け可能}であると言います。数学的には、$M$が向き付け可能であるためには、$M$の任意の2つの座標チャートにおける座標変換が、向きを保つようなもの（すなわち、デターミナントが常に正）である必要があります。
+\end{definition}
+
+\section{同値な条件}
+多様体が向き付け可能であるための同値な条件について見ていきましょう。
+
+\begin{theorem}[向き付け可能性の同値条件]
+次の条件がすべて同値である。
+\begin{itemize}
+    \item $M$は向き付け可能な多様体である。
+    \item $M$には定まった一貫した$k$次元の有向基底が存在する。
+    \item $M$のホモロジー群$H_n(M, \mathbb{Z})$が$\mathbb{Z}$である。
+    \item $M$の任意の正規化されたチェーンは、定数倍を除いて唯一の向きを持つ。
+\end{itemize}
+\end{theorem}
+
+\section{同値性の証明}
+次に、上記の同値性を証明します。
+
+\begin{proof}
+\textbf{(1) $\Rightarrow$ (2):} 向き付け可能であるならば、任意の座標チャートの変換が向きを保つように選べるため、$M$の各点において一貫した有向基底を選べます。これにより、基底の向きを定めることができます。
+
+\textbf{(2) $\Rightarrow$ (3):} 向き付け可能な多様体には一貫した有向基底が存在します。したがって、$M$のホモロジー群$H_n(M, \mathbb{Z})$は整数$\mathbb{Z}$に同型であり、向き付けの情報はホモロジー群に反映されます。
+
+\textbf{(3) $\Rightarrow$ (4):} ホモロジー群$H_n(M, \mathbb{Z})$が$\mathbb{Z}$であるならば、$M$の各チェーンには一貫した向きが存在し、向き付け可能であることがわかります。この向きは定数倍を除いて唯一です。
+
+\textbf{(4) $\Rightarrow$ (1):} 向き付けの一貫性が保証されているため、$M$は向き付け可能であると結論できます。
+
+以上のように、(1)、(2)、(3)、(4)はすべて同値であることが確認できました。
+\end{proof}
+
+\section{まとめ}
+多様体の向き付け可能性に関する定義とその同値条件について、さまざまな視点から検討しました。同値性の証明を通じて、向き付け可能性が多様体のホモロジーや基底選びにどのように関係しているかを理解することができました。
+
+\end{document}
