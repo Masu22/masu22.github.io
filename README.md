@@ -1,5 +1,13 @@
-# 塾用HP
+# とあど整理
+- かみきり
+- SketchfabのDL
+- いんし$A$の分類、
+- Minazumi note
+- 位相体で微積分はできるのか？？
+- 有限群論の話題一覧、Speciesの分野名を書いていく！
+- 超越基底(雪江pdf)
 
+# 塾用HP
 ## やること
 - 入塾ガイド
 - jdownloaderでモデルDL
