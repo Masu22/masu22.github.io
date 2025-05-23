@@ -1,5 +1,7 @@
 # とあど整理
 - かみきり
+- Atsueigoの動画、LUSの動画、河野さん動画
+- いんしlatexの開拓
 - SketchfabのDL
 - いんし$A$の分類、
 - Minazumi note
