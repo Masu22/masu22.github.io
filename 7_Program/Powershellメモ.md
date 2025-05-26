@@ -170,3 +170,64 @@ Get-Content "ファイル名.txt" | Where-Object { $_ -match '-$' }
 <br>
 <br>
 
+# ファイル名の取得
+PowerShellで**カレントディレクトリ内のファイル名に特定のキーワードが含まれるファイルだけを抽出**するには、以下のようなコマンドが使えます：
+
+---
+
+### 🔍 例：`"report"` というキーワードを含むファイルを抽出
+
+```powershell
+Get-ChildItem -File | Where-Object { $_.Name -like "*report*" }
+```
+
+---
+
+### 💡 説明：
+
+* `Get-ChildItem -File`：カレントディレクトリ内の**ファイルのみ**を取得。
+* `Where-Object { $_.Name -like "*report*" }`：ファイル名に `"report"` が含まれるものだけを抽出。
+
+  * `*` はワイルドカードで、「何文字でもよい」という意味です。
+
+---
+
+### 🔁 応用：拡張子 `.pdf` だけに絞る場合
+
+```powershell
+Get-ChildItem -File -Filter *.pdf | Where-Object { $_.Name -like "*report*" }
+```
+
+---
+
+### 📂 サブディレクトリも含める場合（再帰的検索）
+
+```powershell
+Get-ChildItem -File -Recurse | Where-Object { $_.Name -like "*report*" }
+```
+
+---
+
+必要なら、ファイルを **リストにして保存**したり、**リネーム・移動**なども可能です。希望があれば続けてサポートします。
+
+---
+---
+
+<br>
+
+# 長すぎるファイル名をpowershellで変更する
+
+```powershell
+# pdfファイルに限定した上で、キーワード"report"を含むファイルの情報を探す
+$a=Get-ChildItem -File -Filter *.pdf | Where-Object { $_.Name -like "*report*" }
+
+#ファイル名だけの情報を取り出す
+$b=$a.name
+
+# ファイル名を"Newname"に変更する
+Rename-Item $b "Newname"
+```
+---
+---
+<br>
+<br>
