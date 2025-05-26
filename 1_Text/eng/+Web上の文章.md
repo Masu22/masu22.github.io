@@ -323,3 +323,387 @@ Farewell.
 
 <br>
 
+# HatcherのHPの文面
+>Algebraic Topology 
+>
+>What's in the Book? To get an idea you can look at the Table of Contents and the Preface.
+>
+>Printed Version: The book was published by Cambridge University Press in 2002 in both paperback and hardback editions, but only the paperback version is still available (ISBN 0-521-79540-0). I have tried to keep the price of the paperback version as low as possible, but it is gradually creeping upward after starting at $30 in 2002. Less expensive printings have been made for sale in China and South Asia. A Russian translation was published in 2011.
+>
+>Electronic Version: By special arrangement with the publisher, an online version will continue to be available for free download here, subject to the terms in the copyright notice. The electronic version has narrower margins than the print version for a better reading experience on portable electronic devices. To restore the wider margins for printing a paper copy you can print at 85-90% of full size.
+>
+>The whole book as a single pdf file of about 550 pages. This now has a clickable Table of Contents created by Mat Marcus. This version does not include the small number of corrections made since early 2021.
+The whole book as a single pdf file without a clickable Table of Contents. This version is kept up to date with the most recent corrections.
+Individual chapters as separate pdf files. In particular there is an expanded version of the Appendix.
+Note: Section 3.2 has been revised from the original version, with a renumbering of items 3.11-3.21. Similarly, pages 352-355 in section 4.1 have been revised, with renumbering of items 4.13-4.17. These revisions have been incorporated into reprintings of the book since 2015.
+>
+>Corrections: I am trying to keep an up-to-date list of corrections for all the errors, typographical and otherwise, that I am aware of. There are two lists:
+>
+>Cumulative list of corrections. This covers all printings to date. Also available in pdf form.
+Corrections to reprintings since 2015.
+The electronic version of the book is kept up to date to include the corrections as they come to light. I extend my sincere thanks to all the people who have sent me corrections.
+>
+>Revisions and Additions: I have made a number of small changes in the text itself in the years since the book was first published. These are included in the online version, and they eventually make their way into later printings of the book. For details see the Revisions and Additions page. Also available are some additional exercises.
+>
+>The Exercises: I have not written up solutions to the exercises. The main reason for this is that the book is used as a textbook at a number of universities where the problem sets count for part of a student's grade.
+>
+>Typography: Some comments on how the book was made to look the way it does can be found here.
+
+この英文の文法解説を段落ごとに行います。それぞれの文章の文構造や時制、語法に注目して解説します。
+
+---
+
+### 段落 1: What's in the Book? To get an idea you can look at the Table of Contents and the Preface.
+
+* **What's in the Book?**
+
+  * 「What is in the book?」の省略形。
+  * **疑問詞 + be動詞 + 主語**の構文（=書籍の中身は何か？）
+
+* **To get an idea, you can look at the Table of Contents and the Preface.**
+
+  * **不定詞の副詞的用法（目的）**：to get an idea（見当をつけるために）
+  * **you can look at ～** は現在形の助動詞 "can" による可能の表現。
+
+---
+
+### 段落 2: Printed Version
+
+* **The book was published by Cambridge University Press in 2002...**
+
+  * **受動態**（was published）＋ by（出版元）
+  * **in 2002** は時を表す副詞句。
+
+* **...in both paperback and hardback editions, but only the paperback version is still available.**
+
+  * **in both A and B**：「AとBの両方の形式で」
+  * **is still available**：現在完了的な継続（まだ利用可能）
+
+* **ISBN 0-521-79540-0**：ISBNの記載は挿入句的。
+
+* **I have tried to keep the price...**
+
+  * **現在完了（have tried）**：過去から現在にかけて努力しているニュアンス。
+  * **不定詞（to keep）**：目的を表す。
+
+* **...but it is gradually creeping upward after starting at \$30 in 2002.**
+
+  * **it is creeping**：現在進行形。緩やかな変化を強調。
+  * **after starting**：分詞構文（=after it started）
+
+* **Less expensive printings have been made...**
+
+  * **現在完了の受動態（have been made）**：過去から現在までに複数回行われたことを示す。
+
+* **A Russian translation was published in 2011.**
+
+  * \*\*受動態（was published）\*\*で時制は過去。
+
+---
+
+### 段落 3: Electronic Version
+
+* **By special arrangement with the publisher...**
+
+  * \*\*前置詞句（by ～）\*\*が文頭で「特別な取り決めにより」
+
+* **...an online version will continue to be available for free download here...**
+
+  * **未来形（will continue）＋to不定詞（to be available）**：今後も利用可能である予定。
+  * **for free download**：目的の表現。
+
+* **...subject to the terms in the copyright notice.**
+
+  * 「～に従う」意味の熟語 **subject to ～**。
+
+* **The electronic version has narrower margins than the print version...**
+
+  * 比較級構文：**narrower than ～**
+
+* **To restore the wider margins for printing a paper copy...**
+
+  * **to不定詞の副詞的用法（目的）**
+
+* **...you can print at 85-90% of full size.**
+
+  * **can print**：可能。
+  * **of full size**：サイズを基準にした表現。
+
+---
+
+### 段落 4: 内容のバリエーションについて
+
+* **The whole book as a single pdf file...**
+
+  * これは完全な文ではなく、見出しのような形で名詞句として提示。
+
+* **This now has a clickable Table of Contents created by Mat Marcus.**
+
+  * **has**：所有。
+  * **created by ～**：過去分詞による形容詞句（後置修飾）。
+
+* **This version does not include the small number of corrections made since early 2021.**
+
+  * **否定形（does not include）**
+  * **made since ～**：過去分詞が corrections を修飾。
+    「2021年初頭以降に行われた修正」
+
+---
+
+### 段落 5: Corrections
+
+* **I am trying to keep an up-to-date list of corrections...**
+
+  * **am trying to ～**：現在進行形＋to不定詞で努力を表す。
+
+* **There are two lists:**
+
+  * **There is/are 構文**
+
+* **Cumulative list of corrections. This covers all printings to date.**
+
+  * **現在形（covers）**：今も有効な事実。
+  * **to date**：今まで。
+
+* **Corrections to reprintings since 2015.**
+
+  * **since 2015**：時の表現。現在完了と一緒に使うことが多い。
+
+* **The electronic version of the book is kept up to date...**
+
+  * **is kept**：受動態。
+  * **as they come to light**：イディオムで「明らかになるたびに」
+
+---
+
+### 段落 6: Revisions and Additions
+
+* **I have made a number of small changes...**
+
+  * **現在完了（have made）**：これまでに何度か行ってきた変化。
+
+* **These are included in the online version...**
+
+  * **受動態（are included）**
+
+* **they eventually make their way into later printings...**
+
+  * **make one’s way into ～**：「～に入り込む、含まれるようになる」
+
+---
+
+### 段落 7: Exercises
+
+* **I have not written up solutions...**
+
+  * **否定の現在完了**。
+  * **written up**：句動詞（書き上げる）
+
+* **The main reason for this is that ～**
+
+  * **名詞節を導く that**。
+  * **the book is used as a textbook**：受動態。
+
+* **where the problem sets count for part of a student's grade.**
+
+  * **where**：先行詞「universities」を修飾する関係副詞。
+  * **count for ～**：「～に相当する」
+
+---
+
+### 段落 8: Typography
+
+* **Some comments on how the book was made to look the way it does can be found here.**
+
+  * **関係副詞 how** を使った複雑な構文。
+  * **was made to look**：使役の受動態。
+  * **the way it does**：do の代用表現（=the way it looks）
+
+---
+
+ご希望があれば、各文の和訳や、特定の構文の詳しい解説もできます！
+
+---
+---
+
+## 段落 8「Typography」にある文の文法解説を詳しく行います：
+
+---
+
+### 文：
+
+**Some comments on how the book was made to look the way it does can be found here.**
+
+---
+
+## 🔍 文構造の全体把握
+
+これは一文の中に複数の従属節を含む、やや複雑な構造の英文です。
+文の核は以下のようになります：
+
+> **Some comments ... can be found here.**
+> →「いくつかのコメントがここで見つけられます」
+
+その主語部分 **Some comments** に対して、**on how the book was made to look the way it does** が説明を加えています。
+
+---
+
+## 🧩 各要素の文法解説
+
+### 1. **Some comments**
+
+* 主語。
+* 「いくつかのコメント」という意味の可算名詞の複数形。
+
+### 2. **on how the book was made to look the way it does**
+
+* **on** は前置詞で、「～について」。
+* **how the book was made to look** は「本がどのように見えるように作られたか」という内容を表す**間接疑問文（疑問詞 how を含む名詞節）**。
+
+#### 🔸 **the book was made to look**
+
+* **was made to look** は使役構文の受動態。
+* 「本が（ある状態に）されるように作られた」という意味。
+* 通常の使役構文は：
+
+  * 主語 + make + 人 + 動詞の原形 → 例: *She made him cry.*
+  * 受動態になると：*He was made to cry.*（to が入る点に注意）
+
+> → **the book was made to look**
+> →「その本が（ある見た目に）なるように作られた」
+
+#### 🔸 **how** の働き
+
+* **how the book was made to look** で、「どのようにその本が作られて、見えるようになったか」という意味。
+* 「how + S + V」構造で **疑問詞 how** に導かれる名詞節。
+
+#### 🔸 **the way it does**
+
+* **the way** は「～の方法・様子・状態」
+* **it does** は **the book looks** の省略形（「助動詞 do による代用表現」）
+
+> → 「それが見えるように（=見た目として）」
+
+全体で：
+
+> **on how the book was made to look the way it does**
+> →「その本が、今のような見た目になるように作られた方法について」
+
+---
+
+### 3. **can be found here**
+
+* **can be found**：助動詞 **can** + 受動態 **be found**
+
+  * 「見つけることができる」
+* **here**：場所を表す副詞
+
+---
+
+## ✅ 全体の訳
+
+> **Some comments on how the book was made to look the way it does can be found here.**
+
+→「本が現在のような見た目になるようにどのように作られたかについてのコメントが、ここで見つけられます。」
+
+---
+
+## 💡ポイントまとめ
+
+| 要素                                | 解説                                |
+| --------------------------------- | --------------------------------- |
+| **how the book was made to look** | 疑問詞 how による名詞節。「見た目がどうなるように作られたか」 |
+| **was made to look**              | 使役動詞 make の受動態。「～するように作られた」       |
+| **the way it does**               | 間接的に「現在の見た目」を表す。「does」は look の代用  |
+| **can be found**                  | 受動態＋可能。「見つけられる」                   |
+
+---
+
+この文は、**英語の文法知識（間接疑問、受動態、使役、doの代用など）をフルに使って構成されている非常に上級な文章**です。
+
+必要であれば、「the way it does」だけにフォーカスした説明や、類似表現との比較も可能です！
+
+---
+---
+
+## the way it doesという表現について
+いい質問です！
+**「the way it does」** はネイティブが**かなりよく使う表現**ですが、使い方には少しクセがあります。これは、
+
+---
+
+### ✅ 「the way ＋ 主語 ＋ 動詞」
+
+という形の中で使われていて、日本語に訳すと：
+
+* 「～のように」
+* 「～する方法で」
+* 「～するそのやり方で」
+
+といった意味になります。
+
+---
+
+## 🔍 「the way it does」の文法構造
+
+* **the way**：名詞で「方法、様子、やり方」
+* **it does**：**助動詞 "do" の代用表現**。直前に出てきた動詞（例えば *looks* や *works* など）を受けて「それがそうするように」「それがそう見えるように」という意味になります。
+
+> ✴️「do = 動詞の繰り返しを避けるための代用」
+
+---
+
+## ✅ 例文で理解しよう
+
+### ① 見た目について
+
+> I like the way it looks.
+> →「その見た目が好きだ」
+
+> I wonder why it looks the way it does.
+> →「どうしてそれが今のように見えるのか不思議だ」
+
+### ② 働き方・仕組み
+
+> The machine works the way it does because of its design.
+> →「この機械が今のように動作するのは、その設計のせいだ」
+
+> You can’t change the system the way it is.
+> →「今の仕組みのままでは、システムを変えることはできない」
+
+（これは「the way it is」＝「そのままの状態で」）
+
+---
+
+## 🔁 よく似た表現
+
+| 表現                      | 意味                             | 例文                                               |
+| ----------------------- | ------------------------------ | ------------------------------------------------ |
+| **the way it is**       | そのままの状態で                       | I like you just the way you are.（そのままの君が好き）      |
+| **the way things work** | 物事の仕組み・世の中の仕組み                 | That's just the way things work.（世の中そういうもんだ）     |
+| **how it works**        | どうやって動くか（what's the mechanism） | I don’t understand how it works.（それがどう動くのか分からない） |
+
+---
+
+## 🎯 結論：よく使う？
+
+はい、**the way it does** はややフォーマルな文章でも口語でもよく出てくる「自然な英語表現」です。
+
+* **技術説明**
+* **デザインや外観**
+* **感情の説明（なぜそう思うのか）**
+
+などで頻出です。
+
+---
+
+もっと例文を練習したい場合や、自分の言いたいことに応じた例文が欲しければ、それもすぐ作れますよ！
+
+
+
+<br>
+
+---
+---
+
+<br>
