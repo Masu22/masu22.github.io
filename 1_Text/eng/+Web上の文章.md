@@ -238,3 +238,88 @@ Farewell.
 
 ---
 ---
+
+<br>
+
+# Xの凍結文
+もちろんです！この英文全体を文法的に解説していきます。3つのパラグラフに分かれているので、それぞれ丁寧に見ていきましょう。
+
+---
+
+## ① You may not use our services to engage in inauthentic activity that undermines the integrity of X.
+
+### 文構造：
+
+* **You may not use \[A] to \[B]**
+
+  * A：our services（私たちのサービス）
+  * B：engage in inauthentic activity（不正な活動に関与すること）
+
+### ポイント解説：
+
+* **may not**：禁止の意味の「〜してはいけない」。「〜かもしれない」の意味とは文脈で区別。
+* **use A to do B**：Aを使ってBする。ここでは「サービスを使って〜する」という表現。
+* **engage in \~**：〜に関与する、従事する（フォーマルな表現）。
+* **inauthentic activity**：不正な、信頼できない活動。形容詞「inauthentic（本物でない）」＋名詞「activity」。
+* **that undermines the integrity of X**：関係代名詞節で「inauthentic activity」を修飾。
+
+  * **undermines**：徐々に損なう、弱体化させる。
+  * **integrity**：誠実さ、一貫性、または「完全性」。ここでは「Xの信頼性」などの意味。
+
+✅ **訳**：
+「あなたは、Xの信頼性を損なうような不正行為に関与するために、当社のサービスを使用してはいけません。」
+
+---
+
+## ② Note that if you attempt to evade a suspension by creating new accounts, we will suspend your new accounts.
+
+### 文構造：
+
+* **Note that \[if 〜, then 〜]**（〜ということに注意してください）
+* 条件文：「If you attempt to A, we will B」
+
+### ポイント解説：
+
+* **Note that \~**：〜ということに注意せよ。注意喚起や警告の表現。
+* **attempt to evade**：「逃れようとする」。“attempt to do” は「〜しようと試みる」。
+* **evade a suspension**：「停止を回避する」。“evade” は「逃れる」「回避する」。
+* **by creating new accounts**：「新しいアカウントを作ることによって」
+* **we will suspend your new accounts**：「私たちはあなたの新しいアカウントを停止します」
+
+✅ **訳**：
+「アカウント停止を回避するために新しいアカウントを作成した場合、それらの新しいアカウントも停止されることにご注意ください。」
+
+---
+
+## ③ If you have an active X Premium subscription, it will not be automatically canceled by X. To cancel your X Premium subscription, follow these instructions.
+
+### 文構造：
+
+* **If you have A, B will happen**：条件文の定番パターン。
+* **To do A, do B**：目的を表す「〜するためには、〜してください」。
+
+### ポイント解説：
+
+* **an active X Premium subscription**：「有効なXプレミアムのサブスクリプション」
+* **it will not be automatically canceled by X**：受動態の文。
+
+  * **be canceled**：「キャンセルされる」
+  * **automatically**：自動的に
+* **To cancel ..., follow ...**：「〜をキャンセルするには、〜に従ってください」
+
+  * **follow these instructions**：指示に従う
+
+✅ **訳**：
+「X Premiumの有効なサブスクリプションがある場合でも、それはXによって自動的にキャンセルされることはありません。X Premiumのサブスクリプションをキャンセルするには、以下の指示に従ってください。」
+
+---
+
+ご希望であれば、これらの英文を使って英作文練習や小テスト形式で確認することも可能です！
+
+<br>
+
+---
+---
+
+<br>
+
