@@ -1,3 +1,6 @@
+# tcolorboxのマニュアル
+## https://texdoc.org/serve/tcolorbox.pdf/0
+
 # texのインストール場所
 
 TeX Live 2024 がインストールされているか探す方法は、使っているOSごとに以下の通りです。
