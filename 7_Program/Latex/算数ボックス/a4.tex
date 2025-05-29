@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+
+\begin{document}
+
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,           % 背景色
+  colframe=black,          % 枠の色
+  boxrule=1pt,             % 枠線の太さ
+  drop shadow,             % 影をつける（デフォルトのシンプル影）
+  width=\linewidth,
+  sharp corners,
+  left=6pt, right=6pt, top=6pt, bottom=6pt
+]
+  A simple box wiith shadow
+\end{tcolorbox}
+
+\bigskip
+
+\tcbox[enhanced,size=fbox,arc=0pt,outer arc=0pt,colback=blue!5!white,
+  before=\centering,colframe=blue!15!white,drop small lifted shadow]
+  {A small box with a small shadow}
+
+\bigskip
+
+% 直角＋控えめ影
+\begin{tcolorbox}[
+  enhanced,                     % tcolorboxの強化機能を有効にする
+  colback=white,                % ボックスの背景色を白に設定
+  colframe=black!50!white,      % 枠線の色を黒と白の中間（50%混合）に設定
+  boxrule=1pt,                  % 枠線の太さを1ptに設定
+  arc=0pt,                      % 角の丸みを0pt（角ばった四角形）に設定
+  outer arc=0pt,                % 外側の角の丸みも0ptに設定
+  drop lifted shadow            % ボックスに「持ち上げられた」影をつける
+]
+Type:A                         % ボックス内のテキスト
+\end{tcolorbox}
+
+
+\bigskip
+
+% 丸角＋控えめ影
+\begin{tcolorbox}[enhanced,colback=yellow!5!white,colframe=black!50!yellow,boxrule=1pt,
+  drop lifted shadow]
+Type:B
+\end{tcolorbox}
+
+\bigskip
+
+% 直角＋大きめ影
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop large lifted shadow]
+Type:C
+\end{tcolorbox}
+
+% tcolorboxの影のオプション一覧
+%| オプション名                     | 説明                                |
+%| -------------------------- | --------------------------------- |
+%| `drop shadow`              | 標準的な影。ボックスの右下に小さめの影がつく            |
+%| `drop lifted shadow`       | 少し浮き上がった感じの影。やや大きめで柔らかい           |
+%| `drop large lifted shadow` | `drop lifted shadow`よりさらに大きくて目立つ影 |
+%| `drop fuzzy shadow`        | ぼんやりしたぼかしのある影                     |
+%| `drop shadow east`         | ボックスの右側に影だけをつける（東方向）              |
+%| `drop shadow west`         | ボックスの左側に影だけをつける（西方向）              |
+%| `drop shadow north`        | ボックスの上側に影をつける（北方向）                |
+%| `drop shadow south`        | ボックスの下側に影をつける（南方向）                |
+
+\end{document}
