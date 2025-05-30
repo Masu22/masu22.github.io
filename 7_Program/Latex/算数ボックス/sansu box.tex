@@ -1,0 +1,167 @@
+%Lualatexで実行できる！
+
+\documentclass{article}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{luatexja}    % 日本語処理用
+%\usepackage{fontspec}    % フォント指定用
+%\setmainfont{MS Mincho}  % Windowsの「MS 明朝」を指定
+
+% 以下はデザインボックス用のために読み込み
+\usepackage{lmodern}
+\usepackage{tikz}
+\usetikzlibrary{shadows, backgrounds}
+
+\begin{document}
+
+% 外側のボックス：黄色背景＋青枠、下側に影つき
+\begin{tcolorbox}[colback=yellow, colframe=blue, boxrule=0.5mm, sharp corners, enhanced, width=\linewidth, , drop lifted shadow]
+
+  % 内側のボックス：緑背景＋白枠
+  \begin{tcolorbox}[enhanced,colback=green!70!black, colframe=white, boxrule=1mm, sharp corners, width=\linewidth]
+  \centering %文章を中央にそろえる！
+  \color{white} \textbf{Title : Math Box}\\
+  \vspace{5mm}
+  {\Large \bfseries 算数用のボックス案}
+  \end{tcolorbox}
+\end{tcolorbox}
+
+\bigskip
+
+%%%%%%%%%%
+
+%影付きのボックス
+\begin{tcolorbox}[
+  enhanced,
+  colback=white,           % 背景色
+  colframe=black,          % 枠の色
+  boxrule=1pt,             % 枠線の太さ
+  drop shadow,             % 影をつける（デフォルトのシンプル影）
+  width=\linewidth,
+  sharp corners,
+  left=6pt, right=6pt, top=6pt, bottom=6pt
+]
+  A simple box wiith shadow
+\end{tcolorbox}
+
+\bigskip
+
+\tcbox[enhanced,size=fbox,arc=0pt,outer arc=0pt,colback=blue!5!white,
+  before=\centering,colframe=blue!15!white,drop small lifted shadow]
+  {A small box with a small shadow}
+
+\bigskip
+
+% 直角＋控えめ影
+\begin{tcolorbox}[
+  enhanced,                     % tcolorboxの強化機能を有効にする
+  colback=white,                % ボックスの背景色を白に設定
+  colframe=black!50!white,      % 枠線の色を黒と白の中間（50%混合）に設定
+  boxrule=1pt,                  % 枠線の太さを1ptに設定
+  arc=0pt,                      % 角の丸みを0pt（角ばった四角形）に設定
+  outer arc=0pt,                % 外側の角の丸みも0ptに設定
+  drop lifted shadow            % ボックスに「持ち上げられた」影をつける
+]
+Type:A                         % ボックス内のテキスト
+\end{tcolorbox}
+
+
+\bigskip
+
+% 丸角＋控えめ影
+\begin{tcolorbox}[enhanced,colback=yellow!5!white,colframe=black!50!yellow,boxrule=1pt,
+  drop lifted shadow]
+Type:B
+\end{tcolorbox}
+
+\bigskip
+
+% 直角＋大きめ影
+\begin{tcolorbox}[enhanced,colback=red!5!white,colframe=black!50!red,boxrule=1pt,
+  arc=0pt,outer arc=0pt,drop large lifted shadow]
+Type:C
+\end{tcolorbox}
+
+% tcolorboxの影のオプション一覧
+%| オプション名                     | 説明                                |
+%| -------------------------- | --------------------------------- |
+%| `drop shadow`              | 標準的な影。ボックスの右下に小さめの影がつく            |
+%| `drop lifted shadow`       | 少し浮き上がった感じの影。やや大きめで柔らかい           |
+%| `drop large lifted shadow` | `drop lifted shadow`よりさらに大きくて目立つ影 |
+%| `drop fuzzy shadow`        | ぼんやりしたぼかしのある影                     |
+%| `drop shadow east`         | ボックスの右側に影だけをつける（東方向）              |
+%| `drop shadow west`         | ボックスの左側に影だけをつける（西方向）              |
+%| `drop shadow north`        | ボックスの上側に影をつける（北方向）                |
+%| `drop shadow south`        | ボックスの下側に影をつける（南方向）                |
+
+%%%%%%%%%%%%%%%%
+\bigskip
+
+%以下はデザインボックス！
+
+%その１
+\newtcolorbox{neonGlossyBox}[1][]{
+  enhanced, % tcolorboxの拡張機能を有効にする（影やオーバーレイなどが使える）
+  colback=black!90, % 背景色をほぼ黒（黒の90%の濃さ）に設定
+  colframe=cyan!80!white, % 枠線の色をシアン80%と白を混ぜた明るめのシアンに設定
+  boxrule=1.5pt, % 枠線の太さを1.5ポイントに設定
+  width=\linewidth, % ボックスの幅をページの行幅いっぱいにする
+  sharp corners, % 角を丸めずに鋭角に設定
+  drop shadow={shadow xshift=1pt, shadow yshift=-1pt, color=cyan!60!black}, % 影を右下にずらしてシアンと黒の混ざった色でつける
+  left=6pt, right=6pt, top=6pt, bottom=6pt, % ボックス内の余白（パディング）を6ptずつに設定
+  fontupper=\color{cyan}\bfseries\large, % 中のテキストをシアン色、太字、大きめフォントに設定
+  overlay={ % ボックスの上に重ねる追加描画を定義
+    \begin{scope}
+      \shade[inner color=white!70!cyan, outer color=cyan!10!black, opacity=0.4]
+        ([xshift=2pt,yshift=6pt]frame.north west) rectangle
+        ([xshift=-2pt,yshift=-6pt]frame.north east);
+      % ボックス上部の横長の光沢グラデーションを描画
+      % 左上から右上までの長方形で、内側は明るい白とシアン混合、外側は暗めのシアン混合
+      % 透明度0.4で控えめな光沢効果を表現
+    \end{scope}
+  },
+  #1 % 引数で追加オプションを受け付ける
+}
+
+\begin{neonGlossyBox}
+  Glossy neon style box with light reflection.
+\end{neonGlossyBox}
+
+\bigskip
+
+%その２
+\begin{tcolorbox}[
+  enhanced, % tcolorboxの拡張機能を有効化（影やオーバーレイなどが使える）
+  colback=black!90, % 背景色を黒の90%（かなり暗め）に設定
+  colframe=cyan,    % 枠線の色をネオン風のシアンに設定
+  boxrule=1.5pt,    % 枠線の太さを1.5ptに設定
+  width=\linewidth, % ボックスの幅を行幅いっぱいにする
+  sharp corners,    % 角を丸めずに鋭角に設定
+  drop shadow={shadow xshift=0pt, shadow yshift=0pt, color=cyan!80!black}, 
+  % 影をずらさずにボックスの周囲にシアンと黒の混ざった影をつける（光っている感じ）
+  left=6pt, right=6pt, top=6pt, bottom=6pt, 
+  % ボックス内の上下左右の余白（パディング）を6ptずつ設定
+  fontupper=\color{cyan}\bfseries\large, 
+  % ボックス内テキストをシアン色、太字、大きめのフォントで表示
+  overlay={% 
+    % ボックスの上に重ねる装飾（光のグラデーションライン）を描く
+    \begin{scope}
+      % ボックスの左下から左上までの縦長グラデーション塗り
+      \shade[inner color=cyan!80!white,outer color=cyan!5!black] 
+        (frame.south west) rectangle ([xshift=\linewidth]frame.north west);
+      % ボックス上辺の横長グラデーション（左から右へ明るい→暗い）
+      \shade[left color=cyan!80!white, right color=cyan!5!black] 
+        (frame.north west) rectangle ([yshift=4pt]frame.north east);
+      % ボックス下辺の横長グラデーション（左から右へ暗い→明るい）
+      \shade[left color=cyan!5!black, right color=cyan!80!white] 
+        (frame.south west) rectangle ([yshift=-4pt]frame.south east);
+    \end{scope}
+  }
+]
+
+Neon gradient style box
+
+\end{tcolorbox}
+
+\end{document}
+
