@@ -4,10 +4,78 @@
 ---
 ---
 
-# インストールの確認
-``` powershell
+# インストールと確認
+ImageMagick のインストールとバージョン確認方法は、使用している OS によって異なります。以下に各プラットフォームごとの手順をまとめます。
+
+---
+
+## 🐧 Linux (Ubuntu/Debian など)
+
+### 🔧 インストール
+
+```bash
+sudo apt update
+sudo apt install imagemagick
+```
+
+### 🔍 バージョン確認
+
+```bash
+convert -version
+# または
+magick -version
+```
+
+---
+
+## 🍏 macOS
+
+### 🔧 インストール（Homebrew 使用）
+
+```bash
+brew install imagemagick
+```
+
+### 🔍 バージョン確認
+
+```bash
+magick -version
+# または
 convert -version
 ```
+
+※ `convert` コマンドは macOS に元々ある別のツールと衝突する場合があるため、`magick` の使用がおすすめです。
+
+---
+
+## 🪟 Windows
+
+### 🔧 インストール手順
+
+1. 公式サイトからインストーラーをダウンロード：[https://imagemagick.org/script/download.php](https://imagemagick.org/script/download.php)
+2. Windows 用バイナリを選び、インストール中に「Add to PATH」オプションを有効にする
+
+### 🔍 バージョン確認（コマンドプロンプトまたは PowerShell）
+
+```powershell
+magick -version
+```
+
+---
+
+## ✅ 出力例（ImageMagick 7 の場合）
+
+```text
+Version: ImageMagick 7.1.1-32 Q16-HDRI x86_64  https://imagemagick.org
+Copyright: © 1999-2025 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+Features: Cipher DPC HDRI Modules OpenMP(4.5)
+Delegates (built-in): bzlib cairo fontconfig freetype heic jng jp2 jpeg lcms lqr lzma openexr pangocairo png ps raw tiff webp xml zlib
+```
+
+---
+
+問題があれば、実行結果を見せてくれたらサポートします！
 <br>
 
 ---
