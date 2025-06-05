@@ -231,3 +231,18 @@ Rename-Item $b "Newname"
 ---
 <br>
 <br>
+
+# ファイル名を一括で変更！拡張子を含めて！
+
+```powershell
+$i = 1
+Get-ChildItem -File | ForEach-Object {
+    Rename-Item $_ -NewName ("a{0}.webp" -f $i)
+    $i++
+}
+```
+
+---
+---
+<br>
+<br>
