@@ -1,0 +1,143 @@
+%Lualatexで実行すること！contentsのために、２回コンパイルする必要あり
+
+\documentclass[a4paper, 12pt]{article}
+
+\title{数学の分野ごとのまとめ}
+\author{あなたの名前}
+\date{\today}
+
+\usepackage[svgnames]{xcolor} %色を使うためのパッケージです。svgnames オプションにより、SVGの色名を利用できます。
+\usepackage{amsmath, amsthm, amssymb} %数式や定理環境を使うためのパッケージです。
+\usepackage{thmtools} %定理環境のカスタマイズをより簡単にするためのパッケージです。
+\usepackage{lipsum} %ダミーテキスト（Lorem Ipsum）を生成するパッケージ。実際の内容に入れる前に仮のテキストを挿入するのに使用。
+\usepackage{framed} %囲み枠を使うためのパッケージです。
+\usepackage{luatexja}
+
+\usepackage{hyperref}
+
+
+%headcolour と rulecolour に色を設定
+\colorlet{headcolour}{DarkOrange}
+\colorlet{rulecolour}{DarkOrange}
+
+%--------------------------------
+%leftbar 環境のカスタマイズ:
+%\def\FrameCommand で、囲み枠の左側に縦線（幅3pt）を描画し、その後に10ptのスペースを空けるように設定。
+%\MakeFramed と \endMakeFramed で囲み枠を作成し、枠の中身が正しく表示されるようにします。
+\renewenvironment{leftbar}{
+  \def\FrameCommand{{\color{rulecolour}\vrule width 3pt} \hspace{10pt}}
+  \MakeFramed {\advance\hsize-\width \FrameRestore}}
+ {\endMakeFramed}
+
+%-------------------------------
+%新しい定理環境のスタイルを定義
+ \declaretheoremstyle[headfont=\sffamily\bfseries, %ヘッダのフォントを設定
+ notefont=\sffamily\bfseries, %定理の番号（NOTE）のフォント設定
+ notebraces={}{}, %定理番号の周りに括弧を表示しない設定。
+ headpunct=, %ヘッダーの後に句読点をつけない設定
+ bodyfont=\sffamily\itshape, %本文のフォントをサンセリフ体のイタリック（itshape）に設定
+ headformat=\color{headcolour}\NAME~\NUMBER\NOTE\hfill\smallskip\linebreak, % ヘッダーにタイトル（NAME）と番号（NUMBER）を表示し、その後に定理番号（NOTE）を配置します。色は headcolour に設定されたオレンジ色です。
+ preheadhook=\begin{leftbar}, %定理のタイトルの前に囲み枠（leftbar）を挿入
+ postfoothook=\end{leftbar},  %定理のタイトルの後に囲み枠の終了を挿入
+ ]{customDefinition}
+ \declaretheorem[style=customDefinition, numberwithin=section]{definition} %環境名definitionで\NAMEはDefinitionになる。
+%他にも、環境名を変えると\NAMEが対応して変わる！！
+%| 環境名          | 表示される名前（`\NAME`） |
+%| ------------ | ---------------- |
+%| `theorem`    | Theorem          |
+%| `definition` | Definition       |
+%| `lemma`      | Lemma            |
+%| `corollary`  | Corollary        |
+%| `example`    | Example          |
+%自分で名前を付けたいときは、nameオプションを使う。例えば
+%\declaretheorem[style=customDefinition, numberwithin=section, name=定義]{definition}
+%-------------------------------
+
+% 定義環境と定理環境の設定  ( 上記の色付きleftbar環境とは別に定義 )
+\newtheorem{defi}{定義}[section]  % セクションごとに番号が振られる
+\newtheorem{theorem}{定理}[section]     % セクションごとに番号が振られる
+\newtheorem{lemma}{補題}[section]       % セクションごとに番号が振られる
+\newtheorem{corollary}{系}[section]     % セクションごとに番号が振られる
+\newtheorem{problem}{問題}[section]
+\newtheorem{solution}{解法}[section]
+
+\begin{document}
+
+\maketitle
+\tableofcontents  % 目次の自動生成
+
+\newpage
+
+\section{色付きのleftbar環境の例}
+
+%leftbar環境の出力のため、カウンターを1にセットした
+\setcounter{section}{1}
+
+\begin{definition}[(Matrix)]
+\lipsum[2]\\
+↑はダミーテキスト
+\end{definition}
+
+\noindent こんな感じで、左線付きの環境ができた！！
+
+\begin{definition}
+本文はここ。こちらはタイトルの補足がないバージョン
+\end{definition}
+
+\section{前提知識 (Preliminary Knowledge)}
+\subsection{定義 (Definitions)}
+% ここに定義を追加します
+\begin{defi}
+    数列 $a_n$ が収束するとは、$\lim_{n \to \infty} a_n = L$ となることです。
+\end{defi}
+
+\subsection{定理 (Theorems)}
+% ここに定理を追加します
+\begin{theorem}
+    $\lim_{n \to \infty} a_n = L$ が成り立つならば、数列 $a_n$ は収束すると言います。
+\end{theorem}
+
+\section{定理と証明 (Theorems and Proofs)}
+\begin{theorem}[例: 関数の極限]
+    $f(x)$ が $x_0$ で連続ならば、$\lim_{x \to x_0} f(x) = f(x_0)$。
+\end{theorem}
+
+\begin{proof}
+    証明の詳細。
+\end{proof}
+
+\section{例 (Examples)}
+\subsection{例1: 数列の収束}
+数列 $a_n = \frac{1}{n}$ は $0$ に収束する。
+
+\subsection{例2: 関数の極限}
+関数 $f(x) = x^2$ は $x_0 = 2$ で連続であり、$\lim_{x \to 2} f(x) = 4$。
+
+\section{補題 (Lemmas)}
+\begin{lemma}
+    任意の実数列 $a_n$ が上に有界ならば、部分列の中で収束するものが存在する。
+\end{lemma}
+
+\begin{proof}
+    補題の証明。
+\end{proof}
+
+\section{問題 (Problems)}
+\begin{problem}
+    数列 $a_n = \frac{2n+1}{n^2 + 1}$ の極限を求めよ。
+\end{problem}
+
+\begin{solution}
+    解答の詳細。
+\end{solution}
+
+\section{文献 (References)}
+\begin{thebibliography}{99}
+    \bibitem{example1} 書籍名, 著者, 出版年.
+    \bibitem{example2} 論文名, 著者, 雑誌名, 年.
+\end{thebibliography}
+
+\appendix
+\section{付録 (Appendix)}
+ここには計算の詳細や補足説明を追加します。
+\end{document} 
