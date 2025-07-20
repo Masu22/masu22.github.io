@@ -1,8 +1,23 @@
-﻿% 1年中学数学目次下書き
+﻿% lualatexでコンパイル
+% 1年中学数学目次下書き
 
-\documentclass{jsarticle}
+\documentclass[11pt]{article}
+
+\usepackage[most]{tcolorbox}
+\usepackage{luatexja}
 
 \setlength{\parindent}{0pt}
+\linespread{1.2} %行間を調整
+
+%tcolorboxのスタイルを設定
+\tcbset{
+  mybox/.style={
+    %colback=yellow!5,
+    %colframe=orange!80!black,
+    fonttitle=\bfseries,
+    title=#1
+  }
+}
 
 \begin{document}
 \section{文字式の導入}
@@ -27,35 +42,59 @@ $a$個ガムを買ったとすると、合計金額は、$120 \times 1 + 80 \tim
 $120 \times 1 + 80 \times a = 120 \times 1 + 80 \times 5 =120 + 400 = 520$円となる。\\
 こんな感じで、式を作っておくと、$a$を変えるだけで、すぐに合計金額が計算できる！\\
 
+\begin{tcolorbox}[mybox={文字のメリット}]
+\begin{itemize}
+\item 分からないものを文字にして、式がつくれる
+\item 文字に数字を入れるだけで、計算できる
+\end{itemize}
+\end{tcolorbox}
 
 文字を使った式には、書き方や計算のルールがあるので、それを今後勉強していこう！\\
 
-
-\newpage
-
-\section{文字式の書き方のルール}
+\begin{tcolorbox}[mybox={文字式の書き方のルール}]
 \begin{itemize}
-\item 文字の前に数字を
-\item 文字はアルファベット順
-\item 文字の前の1は省略
-\item $\pi$の位置
+\item $\times$は省く
+\item 数字はアルファベットの前に書く
+\item 文字はアルファベット順にならべる
+\item 文字の前の1は省く
+\item $\pi$などのギリシャ文字は、数字とアルファベットの間にかく
 \end{itemize}
+\end{tcolorbox}
 
-\section{文字式の積}
+\fbox{例}
+
+\begin{tabular}{llr}
+(1) & $2 \times a = 2a$ & \\
+(2) & $b \times a = ab$ &\\
+(3) & $1 \times x = 1x =x$ & \hspace{2cm} $y \times (-1) = -1y =-y$ \\
+(4) & $3 \times r \times \pi = 3\pi r$ &\\
+\end{tabular}
+
+
+\begin{tcolorbox}[mybox={文字式の積}]
+文字式同士のかけ算のやり方をまとめる。
 \begin{itemize}
-\item 文字の前の数字をかける
+\item 文字式の前の数字をかける
 \item 文字はアルファベット順にならべる
 \item 同じ文字は指数を使って表す
 \end{itemize}
+\end{tcolorbox}
 
-\section{文字式の商}
+\fbox{例}
+
+\begin{tabular}{ll}
+(1) & $2b \times 3a = (2 \times 3) (b \times a) = 6 ab$\\
+(2) & $b \times 3b = (1 \times 3) (b \times b) = 3b^2$\\
+\end{tabular}
+
+\begin{tcolorbox}[mybox={文字式の商}]
 \begin{itemize}
 \item 数字をわる(分数なら逆数かけ)、後ろの文字は分母に
 \item 分数にして、数字の部分を約分する
 \item 分母と分子に同じ文字があったら、なくす
 \item 分数を整理して、完成 (マイナス符号、分母の1に注意)
 \end{itemize}
-
+\end{tcolorbox}
 
 \section{文字式と単位、数量の表し方}
 \begin{itemize}
