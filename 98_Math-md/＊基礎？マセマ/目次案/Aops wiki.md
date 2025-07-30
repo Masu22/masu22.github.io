@@ -1,0 +1,397 @@
+# Aops wikiの記事まとめ
+
+# Algebra
+
+- **Abstract algebra**
+- **Aczel's Inequality**
+- **Algebra**
+- **Algebra/Intermediate**
+- **Algebra/Introduction**
+- **Algebra/Olympiad**
+- **Algebraic geometry**
+- **Algebraic manipulation**
+- **AM-GM Inequality**
+- **Arithmetic sequence**
+- **Binomial Theorem**
+- **Carleman's Inequality**
+- **Cauchy-Schwarz Inequality**
+- **Chebyshev's Inequality**
+- **Cohn's criterion**
+- **Common factorizations**
+- **Completing the square**
+- **Complex Conjugate Root Theorem**
+- **Cramer's Rule**
+- **Cubic Equation**
+- **Cubic formula**
+- **Cubic polynomial**
+- **Cyclic sum**
+- **Difference of squares**
+- **Discriminant**
+- **Elementary symmetric sum**
+- **Equality condition**
+- **Equate**
+- **Factor Theorem**
+- **Factoring**
+- **Factoring Quadratics**
+- **FOIL**
+- **Function**
+- **Functional equation**
+- **Fundamental Theorem of Algebra**
+- **Geometric sequence**
+- **Harmonic sequence**
+- **Homogeneous**
+- **Homogenization**
+- **Hölder's Inequality**
+- **Identity**
+- **Imaginary part**
+- **Inequality**
+- **Jensen's Inequality**
+- **Karamata's Inequality**
+- **Linear**
+- **Linear algebra**
+- **Linear equation**
+- **Maclaurin's Inequality**
+- **Minkowski Inequality**
+- **Muirhead's Inequality**
+- **Nesbitt's Inequality**
+- **Newton's Inequality**
+- **Newton's Sums**
+- **Optimization**
+- **PaperMath’s sum**
+- **Polynomial**
+- **Polynomial Remainder Theorem**
+- **Power Mean Inequality**
+- **Proofs of AM-GM**
+- **Proportion**
+- **Quadratic equation**
+- **Quadratic formula**
+- **Rational root theorem**
+- **Real part**
+- **Rearrangement Inequality**
+- **Root (operation)**
+- **Root (polynomial)**
+- **Root-Mean Square-Arithmetic Mean-Geometric Mean-Harmonic mean Inequality**
+- **Schur's Inequality**
+- **Sophie Germain Identity**
+- **Substitution**
+- **Sum and difference of powers**
+- **Symmetric sum**
+- **System of equations**
+- **Telescoping series**
+- **Trivial Inequality**
+- **Variable**
+- **Vector**
+- **Vertical line test**
+- **Vieta's formulas**
+- **Vornicu-Schur Inequality**
+
+---
+
+# Geometry
+
+- **Abscissa**
+- **Acute angle**
+- **Acute triangle**
+- **Algebraic geometry**
+- **Altitude**
+- **Angle**
+- **Angle bisector**
+- **Angle Bisector Theorem**
+- **Annular Steiner chains**
+- **Apothem**
+- **Arc**
+- **Area**
+- **Base Angle Theorem**
+- **Bisect**
+- **Brahmagupta's Formula**
+- **Bretschneider's formula**
+- **British Flag Theorem**
+- **Brocard point**
+- **Butterfly Theorem**
+- **Carnot's Theorem**
+- **Center (geometry)**
+- **Central angle**
+- **Centroid**
+- **Ceva's theorem**
+- **Cevian**
+- **Chord**
+- **Circle**
+- **Circumcenter**
+- **Circumradius**
+- **Complementary angles**
+- **Concave polygon**
+- **Concave polyhedron**
+- **Concurrence**
+- **Cone**
+- **Congruent (geometry)**
+- **Conic section**
+- **Constructible number**
+- **Constructible polygon**
+- **Construction**
+- **Convex polygon**
+- **Convex polyhedron**
+- **Convex set**
+- **Coordinate geometry**
+- **Coterminal angles**
+- **Cube (geometry)**
+- **Cyclic**
+- **Cyclic quadrilateral**
+- **De Longchamps point**
+- **Decagon**
+- **Degree (geometry)**
+- **Descartes' Circle Formula**
+- **Diagonal**
+- **Diameter**
+- **Digon**
+- **Dihedral angle**
+- **Dimension**
+- **Dodecagon**
+- **Dodecahedron**
+- **Edge**
+- **Ellipse**
+- **Elliptical geometry**
+- **Equidistant**
+- **Equilateral triangle**
+- **Euclid's Elements**
+- **Euclidean geometry**
+- **Euclidean space**
+- **Euler's Polyhedral Formula**
+- **Excircle**
+- **Face**
+- **Fermat point**
+- **Geometric inequality**
+- **Geometric probability**
+- **Geometry**
+- **Geometry/Intermediate**
+- **Geometry/Introduction**
+- **Geometry/Olympiad**
+- **Gradian**
+- **Height**
+- **Hendecagon**
+- **Heptadecagon**
+- **Heptagon**
+- **Heron's Formula**
+- **Hexadecagon**
+- **Hexagon**
+- **Homothety**
+- **Hyperbola**
+- **Hyperbolic geometry**
+- **Hypercube**
+- **Hypotenuse**
+- **Icosagon**
+- **Icosahedron**
+- **Icosahedron**
+- **Incenter**
+- **Incenter/excenter lemma**
+- **Incircle**
+- **Inscribed angle**
+- **Internally tangent**
+- **Isogonal conjugate**
+- **Isoperimetric Inequalities**
+- **Isosceles trapezoid**
+- **Isosceles triangle**
+- **User:J-y2009/sandbox**
+- **Kite**
+- **Lattice point**
+- **Length**
+- **Line segment**
+- **Locus**
+- **Mass points**
+- **Menelaus' theorem**
+- **Midpoint**
+- **Monge's theorem**
+- **Monogon**
+- **Nonadecagon**
+- **Nonagon**
+- **Obtuse angle**
+- **Obtuse triangle**
+- **Octadecagon**
+- **Octagon**
+- **Octahedron**
+- **Ordinate**
+- **Origin**
+- **Orthic triangle**
+- **Orthocenter**
+- **Parallel**
+- **Parallel Postulate**
+- **Parallelogram**
+- **Pentacontakaidigon**
+- **Pentadecagon**
+- **Pentagon**
+- **Perimeter**
+- **Perpendicular**
+- **Pick's Theorem**
+- **Planar figure**
+- **Plane**
+- **Platonic solid**
+- **Point**
+- **Polygon**
+- **Polyhedron**
+- **Power of a Point Theorem**
+- **Prism**
+- **Ptolemy's Inequality**
+- **Ptolemy's theorem**
+- **Pythagorean inequality**
+- **Pythagorean Theorem**
+- **Pythagorean triple**
+- **Quadrilateral**
+- **Radian**
+- **Radical axis**
+- **Radius**
+- **Ray**
+- **Reflex angle**
+- **Rhombus**
+- **Right angle**
+- **Right triangle**
+- **Routh's Theorem**
+- **SAS Similarity**
+- **Sector**
+- **Segment Addition Postulate**
+- **Semicircle**
+- **Shoelace Theorem**
+- **Similarity (geometry)**
+- **Slant height**
+- **Sphere**
+- **Square (geometry)**
+- **Steiner's Theorem**
+- **Stereographic projection**
+- **Stewart's theorem**
+- **Straight angle**
+- **Tangent (geometry)**
+- **Tetradecagon**
+- **Tetrahedron**
+- **Three Greek problems of antiquity**
+- **Trapezoid**
+- **Triangle**
+- **Triangle Inequality**
+- **Tridecagon**
+- **Two Tangent Theorem**
+- **Unit circle**
+- **Vector space**
+- **Volume**
+
+---
+
+# Combinatorics
+
+- **Alternating permutation**
+- **Ball-and-urn**
+- **Binomial Theorem**
+- **Burnside's Lemma**
+- **Casework**
+- **Catalan sequence**
+- **Combination**
+- **Combinatorial identity**
+- **Combinatorics/Intermediate**
+- **Combinatorics/Introduction**
+- **Combinatorics/Olympiad**
+- **Committee forming**
+- **Complementary counting**
+- **Conditional probability**
+- **Constructive counting**
+- **Correspondence**
+- **Derangement**
+- **Descent**
+- **Discrete mathematics**
+- **Discrete quantity**
+- **Distinguishability**
+- **Expected value**
+- **Factorial**
+- **Fibonacci sequence**
+- **Generating function**
+- **Geometric probability**
+- **Linear recurrence**
+- **Maximal element**
+- **Multinomial Theorem**
+- **Overcounting**
+- **Partition (combinatorics)**
+- **Pascal's Identity**
+- **Pascal's triangle**
+- **Permutation**
+- **Pigeonhole Principle**
+- **Principle of Inclusion-Exclusion**
+- **Probability**
+- **Recursion**
+- **Statistical mechanics**
+- **The Nested Sum Theorem**
+- **Venn diagram**
+
+---
+
+# Number Theory
+
+- **2013 AMC 10A Problems/Problem 23**
+- **2013 AMC 12A Problems/Problem 19**
+- **Analytic number theory**
+- **Arithmetic functions**
+- **Birch and Swinnerton-Dyer Conjecture**
+- **Brocard's problem**
+- **Bézout's Identity**
+- **Carmichael function**
+- **Carmichael number**
+- **Chebyshev theta function**
+- **Chicken McNugget Theorem**
+- **Chinese Remainder Theorem**
+- **Collatz Problem**
+- **Composite number**
+- **Diophantine equation**
+- **Dirichlet character**
+- **Divisibility**
+- **Euclid's Lemma**
+- **Euclid's proof of the infinitude of primes**
+- **Euclidean algorithm**
+- **Euler's totient function**
+- **Euler's Totient Theorem**
+- **Fermat's Last Theorem**
+- **Fermat's Little Theorem**
+- **Fermat's Two Squares Theorem**
+- **Fundamental Theorem of Arithmetic**
+- **Gauss's Lemma (polynomial)**
+- **Goldbach's Conjecture**
+- **Greatest common divisor**
+- **Integer**
+- **Irrational number**
+- **Least common multiple**
+- **Legendre's Formula**
+- **Linear congruence**
+- **Lucas' Theorem**
+- **Multiple**
+- **Multiplicative function**
+- **Natural number**
+- **Number field**
+- **Number theory**
+- **Number theory/Advanced**
+- **Number theory/Intermediate**
+- **Number theory/Introduction**
+- **Number theory/Olympiad**
+- **Order (group theory)**
+- **P-adic number**
+- **Pell equation**
+- **Prime counting function**
+- **Prime factorization**
+- **Prime number**
+- **Prime Number Theorem**
+- **Prime triplet**
+- **Quadratic reciprocity**
+- **Quadratic Reciprocity Theorem**
+- **Quadratic residues**
+- **Rational approximation of famous numbers**
+- **Rational number**
+- **Reducible fraction**
+- **Relatively prime**
+- **Riemann Hypothesis**
+- **Riemann zeta function**
+- **Semiprime**
+- **Simon's Favorite Factoring Trick**
+- **Transcendental number**
+- **Twin prime**
+- **Twin Prime Conjecture**
+- **Wilson's Theorem**
+
+---
+
+This Markdown structure should help in organizing and exploring each topic in your content systematically. If you need it in an actual `.md` file, let me know, and I can generate it for you!
+
+---
+---
+
