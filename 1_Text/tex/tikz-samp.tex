@@ -1,0 +1,83 @@
+\documentclass[tikz,border=10pt]{article}
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+
+\begin{document}
+
+\tdplotsetmaincoords{75}{128} 
+
+\begin{tikzpicture}[tdplot_main_coords]
+
+% xy平面を青で塗る
+\draw[black,fill=gray!50, opacity=0.5] (0,0,0) -- (6,0,0) -- (6,6,0) -- (0,6,0) -- cycle;
+
+% yz平面を赤で塗る
+\draw[black,fill=gray!50, opacity=0.5] (0,0,0) -- (0,6,0) -- (0,6,6) -- (0,0,6) --cycle;
+
+% 3D軸
+%\draw[thick,->] (0,0,0) -- (7,0,0) node[below] {$x$}; % x軸
+%\draw[thick,->] (0,0,0) -- (0,7,0) node[right] {$y$}; % y軸
+%\draw[thick,->] (0,0,0) -- (0,0,7) node[above] {$z$}; % z軸
+
+%四角錐の平面図
+\draw[red,fill=red!20] (2,2,0) -- (2,4,0) -- (4,4,0) -- (4,2,0) -- cycle;
+
+%立面図
+\draw[blue,fill=blue!20] (0,2,2) -- (0,4,2) -- (0,3,5) -- cycle;
+
+%実体の四角錐
+\draw[thick,fill=black!40] (3,3,5)--(2,4,2)--(4,4,2)--cycle;
+\draw[thick,fill=black!40] (3,3,5)--(4,2,2)--(4,4,2)--cycle;
+\draw[thick,dashed] (4,2,2)--(2,2,2)--(2,4,2);
+\draw[thick] (4,2,2)--(4,4,2)--(2,4,2);
+\draw[thick,dashed] (3,3,5)--(2,2,2);
+
+%平面図への投影
+\draw[dashed,red] (2,2,2)--(2,2,0);
+\draw[dashed,red] (2,4,2)--(2,4,0);
+\draw[dashed,red] (4,2,2)--(4,2,0);
+\draw[dashed,red] (4,4,2)--(4,4,0);
+
+%立面図への投影
+\draw[dashed,blue] (3,3,5)--(0,3,5);
+\draw[dashed,blue] (2,2,2)--(0,2,2);
+\draw[dashed,blue] (2,4,2)--(0,4,2);
+\end{tikzpicture}
+
+
+\bigskip
+
+
+\begin{tikzpicture}
+%原点からスタートした円弧を書く！
+\filldraw (0,0) circle(2pt) node[below right] {$O$};
+%(0,0)をスタートとした円弧
+\draw[gray, dashed] (0,0) arc[start angle=0, end angle=180, radius=2];
+
+
+%移動後の原点P、回転角度は30度
+\coordinate (P) at (30:2);
+%10度だけ下からスタートするために修正
+\coordinate (Q) at (20:2);
+
+
+%線分 y=(tan30)x
+\draw (210:5)--(30:5);
+\draw[dashed] (-5,0)--(5,0);
+
+
+%平行移動＋回転してy=(tan30)xに合わせた円弧
+\begin{scope}[shift={(P)}]  %平行移動
+　\begin{scope}[rotate around={30:(0,0)}] %30度回転
+　　\draw[blue] (0,0) arc[start angle=0, end angle=180, radius=2];
+  \end{scope}
+\end{scope}
+
+\begin{scope}[shift={(Q)}]  %平行移動
+　\begin{scope}[rotate around={30:(0,0)}] %30度回転
+　　\draw[red] (0,0) arc[start angle=0, end angle=180, radius=2];
+  \end{scope}
+\end{scope}
+
+\end{tikzpicture}
+\end{document}
