@@ -1,0 +1,134 @@
+\documentclass[tikz,border=10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{math}
+\usepackage{tikz-3dplot}
+\usepackage{luatexja}
+\usepackage{pgfplots}
+
+\pgfplotsset{compat=1.18} % ← 警告対策！
+\usetikzlibrary{intersections} %交点計算用
+
+\begin{document}
+
+\tdplotsetmaincoords{75}{128} 
+
+\begin{tikzpicture}[tdplot_main_coords]
+
+% xy平面を青で塗る
+\draw[black,fill=gray!50, opacity=0.5] (0,0,0) -- (6,0,0) -- (6,6,0) -- (0,6,0) -- cycle;
+
+% yz平面を赤で塗る
+\draw[black,fill=gray!50, opacity=0.5] (0,0,0) -- (0,6,0) -- (0,6,6) -- (0,0,6) --cycle;
+
+% 3D軸
+%\draw[thick,->] (0,0,0) -- (7,0,0) node[below] {$x$}; % x軸
+%\draw[thick,->] (0,0,0) -- (0,7,0) node[right] {$y$}; % y軸
+%\draw[thick,->] (0,0,0) -- (0,0,7) node[above] {$z$}; % z軸
+
+%四角錐の平面図
+\draw[red,fill=red!20] (2,2,0) -- (2,4,0) -- (4,4,0) -- (4,2,0) -- cycle;
+
+%立面図
+\draw[blue,fill=blue!20] (0,2,2) -- (0,4,2) -- (0,3,5) -- cycle;
+
+%実体の四角錐
+\draw[thick,fill=black!40] (3,3,5)--(2,4,2)--(4,4,2)--cycle;
+\draw[thick,fill=black!40] (3,3,5)--(4,2,2)--(4,4,2)--cycle;
+\draw[thick,dashed] (4,2,2)--(2,2,2)--(2,4,2);
+\draw[thick] (4,2,2)--(4,4,2)--(2,4,2);
+\draw[thick,dashed] (3,3,5)--(2,2,2);
+
+%平面図への投影
+\draw[dashed,red] (2,2,2)--(2,2,0);
+\draw[dashed,red] (2,4,2)--(2,4,0);
+\draw[dashed,red] (4,2,2)--(4,2,0);
+\draw[dashed,red] (4,4,2)--(4,4,0);
+
+%立面図への投影
+\draw[dashed,blue] (3,3,5)--(0,3,5);
+\draw[dashed,blue] (2,2,2)--(0,2,2);
+\draw[dashed,blue] (2,4,2)--(0,4,2);
+\end{tikzpicture}
+
+
+\bigskip
+
+%円弧と移動
+\begin{tikzpicture}
+%原点からスタートした円弧を書く！
+\filldraw (0,0) circle(2pt) node[below right] {$O$};
+%(0,0)をスタートとした円弧
+\draw[gray, dashed] (0,0) arc[start angle=0, end angle=180, radius=2];
+
+
+%移動後の原点P
+\coordinate (P) at (30:2);
+
+%線分 y=(tan30)x
+\draw (210:5)--(30:5);
+\draw[dashed] (-5,0)--(5,0);
+
+%20度ずらして、30度の平行移動
+
+%平行移動＋回転してy=(tan30)xに合わせた円弧
+\begin{scope}[shift={(P)}]  %平行移動
+　\begin{scope}[rotate around={30:(0,0)}] %30度回転
+　　\draw[blue] (0,0) arc[start angle=0, end angle=180, radius=2];
+  \end{scope}
+\end{scope}
+\end{tikzpicture}
+
+\bigskip
+
+
+%垂線の作図
+\begin{tikzpicture}[scale=1.2]
+% 軸
+%\draw[->] (-1,0) -- (4,0) node[right] {$x$};
+%\draw[->] (0,-1) -- (0,5) node[above] {$y$};
+
+%元の直線
+\draw[domain=-3:3,smooth,variable=\x,thick, name path=A] plot ({\x},{(-0.5)*\x}) node[right] {元の直線};
+
+%点P
+\coordinate (P) at (2,3);
+\filldraw[red] (P) circle (2pt) node[right] {$P$};
+
+%P中心の円
+\draw[red, domain=210:280, samples=100, smooth, variable=\t, name path=B] plot ({2 + 4*cos(\t)}, {3 + 4*sin(\t)});
+
+%交点の取得
+\path [name intersections={of=A and B, name=I}];
+\fill[red] (I-1) circle (2pt);
+\fill[red] (I-2) circle (2pt);
+
+%交点のx,y座標を数値として取得
+%参考：https://note.com/kou_no_note/n/n4cf031e481a1
+\tikzmath{
+coordinate \c,\d;
+coordinate \cbase; %ptを座標数値に変換するためのもの
+real \x,\y,\u,\v;
+%座標の定義
+\cbase=(1,1);
+\c=(I-1);
+\d=(I-2);
+%ptをなくすために計算
+\x = \cx/\cbasex;
+\y = \cy/\cbasey;
+\u = \dx/\cbasex;
+\v = \dy/\cbasey;
+}
+
+%交点中心の円たち(交点はpt座標なので、円の半径は長さ(cm)で指定した)
+\draw[red, domain=260:280, samples=100, smooth, variable=\t, name path=C] plot ({\x + 4*cos(\t)}, {\y + 4*sin(\t)});
+\draw[cyan, domain=210:225, samples=100, smooth, variable=\t, name path=D] plot ({\u + 4*cos(\t)}, {\v + 4*sin(\t)});
+
+%交点の取得
+\path [name intersections={of=C and D, name=J}];
+\fill[blue] (J-1) circle (2pt);
+
+%垂線
+\draw[thick,blue] ($(P)!1.2!(J-1)$)--($(P)!-0.2!(J-1)$) node[above] {垂線};
+\end{tikzpicture}
+
+\end{document}
