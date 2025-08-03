@@ -1,17 +1,36 @@
 # とあど整理
-- **かみきり**、脱毛月１回
+- **かみきり**
+- でい予定、(将来的に、mochino1207)
+- **脱毛月１回**
+- **大学受験、いんしの問題をtex化**, (cf. なかけんノート)  
+EGA、SGA、Igor、Eisenbud、Bourbaki
+
 - ココナラで出品＆ページを宣伝
 - Atsueigoの動画、LUSの動画、河野さん動画
-- いんしlatexの開拓
+
+---
+
+- **Blenderと3Dイラストのモデル化** (lex, sakimicha)  
+[Facebuilderよりも、マネキンから切り出しが良さげ]
 - SketchfabのDL (Yan) ＆ elina002やvltharのDL
-- **いんし$A$の分類**
+
+---
+
+- **いんし$A$の分類** : $F_p [X]$の部分環$A  \supset F_p$で、$d = \dim _ {F_p} F_p /A =1$となる $A$ を分類したい。  
+$f(X) =$ minimal degree polynomials in $A$ がカギ？  
+deg $f=1$ ならば、$A=F_p[X]$  
+def $f=2$ ならば、$(f) \subset A$で、$d=1$  
+def $f>2$ ならば、$d>1$ ？
+
 - Minazumi note
-- なかけんノート
 - **有限群論の話題一覧、Speciesの分野名を書いていく！**
 - **超越基底と正則拡大**(雪江pdf)
 
+
+---
+
 # 塾用HP
-- 中１の数学基礎tex (**分配法則**)
+- 中１の数学基礎tex
 - **HP文面修正**(0-HP.htmlを)⇒gptの過去zipやmdファイルを探す！塾用gptはmasu22ryo@g？
 - 下野模試は来年に問い合わせる
 - 中学受験情報の収集、**説明会への参加**！
