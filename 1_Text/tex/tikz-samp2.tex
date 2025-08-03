@@ -82,7 +82,7 @@
 
 
 %垂線の作図
-\begin{tikzpicture}[scale=1.2]
+\begin{tikzpicture}[scale=1]
 % 軸
 %\draw[->] (-1,0) -- (4,0) node[right] {$x$};
 %\draw[->] (0,-1) -- (0,5) node[above] {$y$};
@@ -130,5 +130,37 @@ real \x,\y,\u,\v;
 %垂線
 \draw[thick,blue] ($(P)!1.2!(J-1)$)--($(P)!-0.2!(J-1)$) node[above] {垂線};
 \end{tikzpicture}
+
+
+\bigskip
+
+
+%垂直二等分線
+\begin{tikzpicture}
+\coordinate (A) at (-3,0);
+\coordinate (B) at (3,0);
+
+\node[above] at (A) {$A$};
+\node[above] at (B) {$B$};
+
+\fill (A) circle (2pt);
+\fill (B) circle (2pt);
+
+%直線
+\draw[thick] (-5,0)--(5,0);
+
+%作図の円
+\draw[red,domain=-70:70,samples=100,smooth,variable=\t,name path=C1] plot ({-3+4*cos(\t)}, {4*sin(\t)});
+\draw[red,domain=110:250,samples=100,smooth,variable=\t,name path=C2] plot ({3+4*cos(\t)}, {4*sin(\t)});
+
+%交点
+\path [name intersections={of=C1 and C2, name=Inter}];
+\fill[red] (Inter-1) circle (2pt);
+\fill[red] (Inter-2) circle (2pt);
+
+%垂直二等分線
+\draw[blue,thick] ($(Inter-1)+(0,-2)$)--($(Inter-2)+(0,2)$);
+\end{tikzpicture}
+
 
 \end{document}
