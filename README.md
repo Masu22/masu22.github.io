@@ -6,7 +6,9 @@
 EGA、SGA、Igor、Eisenbud、Bourbaki
 
 - ココナラで出品＆ページを宣伝
-- Atsueigoの動画、LUSの動画、河野さん動画
+- **Atsueigoの動画、LUSの動画、河野さん動画**
+- Tinkerbell映画、ミラキュラスの英語版、字幕研究
+- NCIS、S-W-A-T、Five-Oの字幕研究
 
 ---
 
