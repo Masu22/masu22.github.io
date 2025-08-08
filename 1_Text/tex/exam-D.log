@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  1 AUG 2025 01:47
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  9 AUG 2025 01:03
  restricted system commands enabled.
 **exam-D.tex
 (./exam-D.tex
@@ -953,9 +953,9 @@ Package: lltjp-array 2019-07-18 Patch to array for LuaTeX-ja
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 9.6222pt on input line 27.
 
-No file exam-D.aux.
-
+(./exam-D.aux)
 \openout1 = exam-D.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
@@ -967,7 +967,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
 7.
-(c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 27.
@@ -1117,50 +1117,38 @@ LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10.95> not available
 (Font)              Font shape `JY3/gt/m/n' tried instead on input line 145.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
 (Font)              scaled to size 10.53629pt on input line 145.
-
-
-LaTeX Warning: Reference `2-eq' on page 3 undefined on input line 173.
-
-[3] (./exam-D.aux)
+ [3] [4] (./exam-D.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
- 23084 strings out of 476447
+ 23093 strings out of 476447
  125244,1977958 words of node,token memory allocated
  1913 words of node memory still in use:
    35 hlist, 2 vlist, 17 rule, 2 glue, 4 kern, 1 glyph, 307 attribute, 54 glue_s
 pec, 105 attribute_list, 2 write, 13 user_defined, 24 pdf_literal, 24 pdf_colors
 tack nodes
-   avail lists: 1:16,2:22472,3:387,4:431,5:288,6:20,7:2774,8:25,9:1197,10:9,12:1
-
- 44512 multiletter control sequences out of 65536+600000
+   avail lists: 1:16,2:22445,3:387,4:431,5:288,6:20,7:2772,8:28,9:1197,10:13,12:
+1
+ 44516 multiletter control sequences out of 65536+600000
  51 fonts using 40721471 bytes
  110i,10n,115p,1866b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
-ive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2
-024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/t
-exlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2
-024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/te
-xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/am
-sfonts/symbols/msbm10.pfb>
-Output written on exam-D.pdf (3 pages, 95021 bytes).
+<c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/t
+exlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.o
+tf><c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/t
+exlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.ot
+f><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texl
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msbm10.pfb>
+Output written on exam-D.pdf (4 pages, 102414 bytes).
 
-PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+PDF statistics: 104 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

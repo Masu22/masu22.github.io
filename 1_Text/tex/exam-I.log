@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  1 AUG 2025 01:58
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  9 AUG 2025 02:37
  restricted system commands enabled.
 **exam-I.tex
 (./exam-I.tex
@@ -1096,20 +1096,47 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}](load cache: extr
 a_lmroman10-bold.luc)
 LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <10.95> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 63.
+(Font)              scaled to size 10.53629pt on input line 67.
 LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <10.95> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 63.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 67.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 10.53629pt on input line 63.
+(Font)              scaled to size 10.53629pt on input line 67.
 (load cache: extra_lmroman8-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 7.69775pt on input line 65.
+(Font)              scaled to size 7.69775pt on input line 69.
 (load cache: extra_lmroman6-regular.luc)
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.77332pt on input line 65.
- [2] (./exam-I.aux)
+(Font)              scaled to size 5.77332pt on input line 69.
+ [2] [3]
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 146.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 146.
+LaTeX Font Info:    Font shape `JT3/mc/b/n' in size <12> not available
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 146.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 146.
+LaTeX Font Info:    Font shape `JY3/mc/b/n' in size <12> not available
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 146.
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 11.54663pt on input line 146.
+ [4] [5] [6]
+Overfull \hbox (8.6401pt too wide) in paragraph at lines 296--298
+[]\TU/lmr/m/n/10.95 ***Ga-lois The-ory and Ap-pli-ca-tions: Solved Ex-er-cises 
+and Prob-lems*** by Mo-hamed 󰀀Ayad 
+ []
+
+[7
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+Missing character: There is no   (U+202F) in font [lmroman10-regular]:+tlig;!
+] (./exam-I.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1117,31 +1144,37 @@ L3 programming layer <2024-02-20>
 )
 
 Here is how much of LuaTeX's memory you used:
- 23087 strings out of 476447
+ 23115 strings out of 476447
  125244,1977958 words of node,token memory allocated
- 1774 words of node memory still in use:
-   34 hlist, 2 vlist, 17 rule, 2 glue, 4 kern, 1 glyph, 250 attribute, 54 glue_s
-pec, 99 attribute_list, 2 write, 12 user_defined, 24 pdf_literal, 24 pdf_colorst
-ack nodes
-   avail lists: 1:22,2:5686,3:149,4:126,5:84,6:10,7:594,8:13,9:344,10:10,12:1
- 44510 multiletter control sequences out of 65536+600000
- 53 fonts using 40984847 bytes
- 110i,7n,115p,1866b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 2403 words of node memory still in use:
+   34 hlist, 2 vlist, 17 rule, 2 glue, 4 kern, 1 glyph, 536 attribute, 55 glue_s
+pec, 125 attribute_list, 2 write, 12 user_defined, 24 pdf_literal, 24 pdf_colors
+tack nodes
+   avail lists: 1:22,2:27642,3:504,4:334,5:238,6:43,7:3131,8:37,9:1054,10:13,11:
+44,12:1
+ 44538 multiletter control sequences out of 65536+600000
+ 63 fonts using 49187367 bytes
+ 110i,13n,115p,1866b,495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/texl
 ive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/texlive/2
 024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.otf><c:/t
 exlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/texlive/2
 024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.otf><c:/te
-xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/sym
-bols/msbm10.pfb>
-Output written on exam-I.pdf (2 pages, 72436 bytes).
+xlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/
+2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb>
+Output written on exam-I.pdf (7 pages, 219589 bytes).
 
-PDF statistics: 109 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+PDF statistics: 148 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

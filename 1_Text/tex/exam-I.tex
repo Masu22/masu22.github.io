@@ -57,10 +57,14 @@
 \vspace{1mm}
 {\footnotesize ここは、脚注の文}
 
+%-------------------------------------------------
+
 \newpage
+\begin{center}
+{\LARGE \textbf{未分類、どこかで発見した問題}}
+\end{center}
 
-
-\begin{tcolorbox}[mybox={問?}]
+\begin{tcolorbox}[mybox={東大専門 問？}]
 有限体$\mathbb{F}_p$上の多項式環を$\mathbb{F}_p [X]$として、その部分環を$A$とする。\\
 $\mathbb{F}_p$ベクトル空間の次元が$\text{dim}_{\mathbb{F}_p} (\mathbb{F}_p / A) =1$となる$A$をすべて求められるか？？
 \end{tcolorbox}
@@ -69,6 +73,238 @@ $\mathbb{F}_p$ベクトル空間の次元が$\text{dim}_{\mathbb{F}_p} (\mathbb{
 $\bullet$ \\
 
 \underline{\textbf{解き方}}\\
+
+
+\begin{tcolorbox}[mybox={東大専門　問4？}]
+$m \ge 2$ を整数とする。$L = \mathbb{C}(X,Y)$ とし、
+\[
+K = \mathbb{C}(X^m + Y^m,\, X^m Y^m)
+\]
+をその部分体とする。以下の問に答えよ。
+\begin{enumerate}
+\item
+$L$ は $K$ の有限次 Galois 拡大であることを示し、その拡大次数を求めよ。
+\item
+$L$ の $K$ 上の Galois 群を $\mathrm{Gal}(L/K)$ で表す。$a \in \mathbb{C}$ を用いて
+\[
+K(X + aY)
+\]
+と書ける $K \subset L$ の中間体の個数を求め、それぞれに対応する $\mathrm{Gal}(L/K)$ の部分群を決定せよ。
+\item
+$f(X,Y) \in \mathbb{C}[X,Y]$ を $m$ 次斉次対称式とし、
+\[
+K' = K\bigl(f(X,Y)\bigr)
+\]
+とおく。$K'$ が $K$ の Galois 拡大になるような $f(X,Y)$ を全て求めよ。
+\end{enumerate}
+\end{tcolorbox}
+
+\underline{\textbf{解き方}}\\
+$L \supset \mathbb{C}(X^m , Y^m) \supset K$と考えると、$[L:K]=2m^2$かな？\\
+$\sigma : X \mapsto \zeta_m X , Y \mapsto Y$、$\rho : X \mapsto X , Y \mapsto \zeta_m Y$、$\tau : X \longleftrightarrow Y$とすると、これらでガロア群が生成できる？\\
+
+
+\begin{tcolorbox}[mybox={東大専門　問？}]
+複素平面と数直線の直積空間
+\[
+X = \mathbb{C} \times \mathbb{R}
+\]
+における変換 $t_1, t_2, \alpha$ を次のように定義する。
+\[
+\begin{aligned}
+t_1: (z,x) &\mapsto (z+1,\,x),\\
+t_2: (z,x) &\mapsto \bigl(z+\xi,\,x\bigr),\\
+\alpha: (z,x) &\mapsto \bigl(\omega z,\,x+1\bigr),
+\end{aligned}
+\]
+ここで、$z, x$ はそれぞれ $\mathbb{C}, \mathbb{R}$ の座標であり、
+\[
+\xi = \frac{1 + \sqrt{3}i}{2}, \quad \omega = \frac{-1 + \sqrt{3}i}{2}.
+\]
+ただし、$i$ は虚数単位 $\sqrt{-1}$ である。変換 $t_1, t_2, \alpha$ で生成される群を $\Gamma$ とおく。
+
+\begin{enumerate}
+\item
+商空間
+\[
+M = X / \Gamma
+\]
+はコンパクト3次元 $C^\infty$ 級多様体の構造をもつことを示せ。
+\item
+整数係数ホモロジー群 $H_*(M;\mathbb{Z})$ を求めよ。
+\end{enumerate}
+\end{tcolorbox}
+
+\underline{\textbf{解き方}}\\
+
+
+
+\newpage
+GPTの下書き
+
+\section*{B 第4問：有限次Galois拡大}
+\subsection*{(1) $L$ が$K$の有限次Galois拡大であることの証明と拡大次数}
+
+$L = \mathbb{C}(X,Y)$、$K = \mathbb{C}(X^m + Y^m, X^m Y^m)$ を考える。
+
+まず、$X^m + Y^m$, $X^m Y^m$ は $X,Y$ に関する対称式であり、$m$次の斉次式の組から生成される。  
+これにより、$K$ は $X,Y$ の $m$ 乗に関する対称体であるといえる。
+
+\medskip
+
+次に、以下の自己同型変換を定義する：
+
+- \( \sigma_{a,b} : X \mapsto \zeta^a X,\ Y \mapsto \zeta^b Y \)（ただし \(\zeta\) は $m$ 乗根）
+- \( \tau : X \leftrightarrow Y \)
+
+これらの変換は $K$ を固定する。なぜなら、
+
+\[
+X^m + Y^m \mapsto \zeta^{am} X^m + \zeta^{bm} Y^m = X^m + Y^m,\quad
+X^m Y^m \mapsto \zeta^{(a+b)m} X^m Y^m = X^m Y^m,
+\]
+および
+\[
+\tau(X^m + Y^m) = Y^m + X^m = X^m + Y^m,\quad
+\tau(X^m Y^m) = Y^m X^m = X^m Y^m.
+\]
+
+\medskip
+
+このとき、Galois群 \( \mathrm{Gal}(L/K) \) は、$m$ 乗根による変換（$\mu_m \times \mu_m$）と $X \leftrightarrow Y$ の入れ替え（順2）の変換 $\tau$ により生成される群であり、次のような**半直積構造**を持つ：
+
+\[
+\mathrm{Gal}(L/K) \cong (\mu_m \times \mu_m) \rtimes \mathbb{Z}/2\mathbb{Z}.
+\]
+
+よって、拡大次数は
+\[
+[L : K] = |\mathrm{Gal}(L/K)| = 2m^2.
+\]
+
+\subsection*{(2) Galois群と中間体の個数と対応する部分群}
+
+$X + aY$ の形の元を固定するような部分群を考える。
+
+変換 $\sigma_{a,b}$ による作用：
+\[
+X + aY \mapsto \zeta^a X + a\zeta^b Y.
+\]
+この変換がスカラー倍になる条件は、存在する $\lambda \in \mathbb{C}^\times$ に対して：
+\[
+\zeta^a X + a \zeta^b Y = \lambda(X + aY),
+\]
+この条件を満たすような $(a,b)$ の組が生成する部分群は、高々 \( m \) 個の共役類に対応する。
+
+また、$\tau(X + aY) = Y + aX = a(X + \frac{1}{a}Y)$ となるため、$\tau$ の作用も $K(X + aY)$ を他の体に写す。
+
+\medskip
+
+したがって、$K(X + aY)$ の形で書ける中間体は、$\mathrm{Gal}(L/K)$ の部分群（最大 \( m \) 個）に対応する。
+
+\subsection*{(3) 対称斉次式$f(X,Y)$に対するGalois拡大条件}
+
+$f(X,Y)$ を $m$ 次の対称斉次式とする。つまり：
+\[
+f(X,Y) = \sum_{i=0}^{m} c_i X^i Y^{m-i},\quad c_i = c_{m-i}.
+\]
+
+このとき、$f$ は $K$ に含まれている可能性がある。たとえば、$X^m + Y^m$ や $(XY)^k(X^m + Y^m)^\ell$ など。
+
+\medskip
+
+今、$f$ が $G = \mathrm{Gal}(L/K)$ のある部分群 $H$ の不変式体に属し、
+\[
+K(f) = L^H
+\]
+となるとき、$K \subset K(f) \subset L$ が Galois拡大になる。
+
+したがって、$K(f)$ が $K$ 上の Galois 拡大になるための必要十分条件は：
+
+\begin{itemize}
+    \item $f$ が $L$ のある自己同型群 $H \leq \mathrm{Gal}(L/K)$ に対して不変式である
+    \item そのとき、$K(f) = L^H$ が中間体であり、Galois拡大になる
+\end{itemize}
+
+\medskip
+
+まとめると、$K(f)$ が $K$ 上 Galois になるような $f$ は、$L$ の Galois 群のある部分群の不変式から生成される関数である。
+
+
+\bigskip
+
+
+\section*{3次元多様体の問題}
+
+\subsection*{(1) 商空間$M=X/\Gamma$がコンパクト3次元$C^\infty$多様体であること}
+
+$X=\mathbb{C}\times \mathbb{R}$上の変換
+\[
+\begin{aligned}
+t_1:(z,x)&\mapsto(z+1,x),\\
+t_2:(z,x)&\mapsto(z+\xi,x),\\
+\alpha:(z,x)&\mapsto(\omega z,x+1),
+\end{aligned}
+\]
+$\Gamma$はこれらで生成される離散群。
+
+$t_1,t_2$は$\mathbb{C}$平面の格子並進を与える:
+\[
+\Lambda=\mathbb{Z}\oplus\mathbb{Z}\xi.
+\]
+$\mathbb{C}/\Lambda$はコンパクト2次元トーラス。
+$\alpha$はその上の有限順の自己同型を与え、$x$方向に$+1$の並進。
+
+この構造により$M$は$\mathbb{C}/\Lambda \times \mathbb{R}/\mathbb{Z}$上の滑らかな作用により得られ、
+コンパクトな3次元$C^\infty$多様体となる。
+
+\subsection*{(2) 整数係数ホモロジー群}
+
+$M$は構造的に
+\[
+T^2\rtimes_\varphi S^1
+\]
+型の多様体（Seifert型あるいはSol型）であり、$H_*$は次のようになる:
+
+\[
+H_0(M;\mathbb{Z})=\mathbb{Z},
+\quad
+H_3(M;\mathbb{Z})=\mathbb{Z},
+\]
+\[
+H_1(M;\mathbb{Z})=\mathbb{Z}\oplus \mathbb{Z},
+\quad
+H_2(M;\mathbb{Z})=\mathbb{Z}\oplus \mathbb{Z}.
+\]
+
+これは、$T^2$部分のホモロジーが保存され、$S^1$の積構造によりトーラス束となるためである。
+
+\newpage
+
+\subsection*{おまけ(どこかに移動する予定)}
+(1) $\mathbb{Q}(\sqrt[3]{2}) / \mathbb{Q}$のガロア群$G$\\
+$\sqrt[3]{2}$は$X^3 -2=0$を満たしていて、その最小分解体は$\mathbb{Q}(\sqrt[3]{2},\omega)$\\
+$\sigma : \sqrt[3]{2} \mapsto \sqrt[3]{2} \ \omega$、$\tau : \omega \mapsto \omega^2$とすると、$\sigma^3 = \tau^2 = id$ , $\tau^{-1} \sigma \tau = \sigma^{-1}$\\
+$\sigma$ と $\tau$ はGを生成していて、$G=\left\{ id, \sigma, \sigma^2 , \tau , \tau \sigma , \tau \sigma^2 \right\}$となり$G \cong S_3$となる。\\
+この同型では $\sigma=(1\ 2\ 3)\ ,\ \tau=(1\ 2)$ とみなしている。\\
+$S_3$は位数3の部分群を１つもち、それは指数2なので正規部分群。位数2の部分群は3つある。\\
+
+\subsection*{Galois 理論向けのおすすめ文献}
+\begin{itemize}
+\item ***Galois Theory Through Exercises*** by Juliusz Brzeziński\\
+  具体例と豊富な演習問題（解答あり）を通じて学ぶ形式。序盤の基礎から高度な話題まで揃っており、特に自習に最適です
+\item ***Galois Theory and Applications: Solved Exercises and Problems*** by Mohamed Ayad\\
+  約450ページにわたる演習問題集＋解答を収録。有限体や代数的数論への応用問題も含まれており、深めたい人にピッタリです
+\item ***Fields and Galois Theory*** by John M. Howie\\
+  上位学部〜初級大学院向け。多くの演習問題とその解答があり、基礎を固めながら進められる優れた選書です 
+\item ***Galois Theory*** by Joseph Rotman\\
+  コンパクトかつわかりやすい説明と演習問題を備えた大学院レベルの入門書。構造的理解に強い方におすすめです
+\item ***Galois Theory*** by David A. Cox\\
+  学部導入向けながら歴史的背景や例も豊富。演習もしっかりしていて、学習者からの評判が高いです
+\end{itemize}
+
+
+
 
 
 \end{document}
