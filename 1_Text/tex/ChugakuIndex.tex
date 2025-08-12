@@ -1,0 +1,40 @@
+\documentclass[11pt]{article}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{luatexja}
+\usepackage{bbding} %チェックマークのため追加
+\usepackage{amssymb}
+
+%字下げをなくす
+\setlength{\parindent}{0pt}
+
+%緑色のチェック、raiseboxで位置を微調整
+\newcommand{\gcheck}{{\color{ForestGreen}\raisebox{-0.3ex}{\CheckmarkBold}\hspace{2mm}}}
+
+%青色のボックス
+\newcommand{\blbox}{{\color{blue} $\square$}}
+
+\begin{document}
+{\Large 中学１年の単元}\\
+
+\blbox \ \ 文字式
+
+\vspace{2mm}
+
+\blbox \ \ 平面図形、空間図形
+
+\vspace{2mm}
+
+\blbox \ \ データ
+
+\rule{\linewidth}{1.5pt}  %横線
+
+\vspace{2mm}
+
+\gcheck 正負の数
+
+\vspace{2mm}
+
+\gcheck 比例、反比例
+
+\vspace{2mm}
+\end{document}
