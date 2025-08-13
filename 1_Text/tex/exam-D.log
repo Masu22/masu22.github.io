@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  9 AUG 2025 01:03
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  14 AUG 2025 06:36
  restricted system commands enabled.
 **exam-D.tex
 (./exam-D.tex
@@ -1125,15 +1125,15 @@ L3 programming layer <2024-02-20>
 )
 
 Here is how much of LuaTeX's memory you used:
- 23093 strings out of 476447
+ 23098 strings out of 476447
  125244,1977958 words of node,token memory allocated
  1913 words of node memory still in use:
    35 hlist, 2 vlist, 17 rule, 2 glue, 4 kern, 1 glyph, 307 attribute, 54 glue_s
 pec, 105 attribute_list, 2 write, 13 user_defined, 24 pdf_literal, 24 pdf_colors
 tack nodes
-   avail lists: 1:16,2:22445,3:387,4:431,5:288,6:20,7:2772,8:28,9:1197,10:13,12:
+   avail lists: 1:16,2:27811,3:563,4:431,5:288,6:30,7:2980,8:28,9:1210,10:13,12:
 1
- 44516 multiletter control sequences out of 65536+600000
+ 44521 multiletter control sequences out of 65536+600000
  51 fonts using 40721471 bytes
  110i,10n,115p,1866b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/t
@@ -1141,14 +1141,15 @@ exlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regular.o
 tf><c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><c:/t
 exlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-Medium.ot
 f><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msbm10.pfb>
-Output written on exam-D.pdf (4 pages, 102414 bytes).
+ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfo
+nts/symbols/msbm10.pfb>
+Output written on exam-D.pdf (4 pages, 121742 bytes).
 
-PDF statistics: 104 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 
