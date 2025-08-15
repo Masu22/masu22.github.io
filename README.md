@@ -1,11 +1,17 @@
 # とあど整理
+- **中学数学要点まとめ** (文字式&データ)
 - **かみきり**
+- **白色申告の練習 (やよい)**
 - でい予定、(将来的に、mochino1207)
 - **脱毛月１回**
 - **大学受験、いんしの問題をtex化**, (cf. なかけんノート)  
-EGA、SGA、Igor、Eisenbud、Bourbaki
+**Sybermath**の問題をtex化
 
-- ココナラで出品＆ページを宣伝
+- **Takatani note, Minazumi note のgpt&texまとめ**  
+EGA、SGA、Igor、Eisenbud、Bourbaki  
+Hodge Theory(Deligne) の英訳
+
+- **ココナラ**で出品＆ページを宣伝
 - **Atsueigoの動画、LUSの動画、河野さん動画**
 - Tinkerbell映画、ミラキュラスの英語版、字幕研究
 - NCIS、S-W-A-T、Five-Oの字幕研究
@@ -32,7 +38,6 @@ def $f>2$ ならば、$d>1$ ？
 ---
 
 # 塾用HP
-- 中１の数学基礎tex
 - **HP文面修正**(0-HP.htmlを)⇒gptの過去zipやmdファイルを探す！塾用gptはmasu22ryo@g？
 - 下野模試は来年に問い合わせる
 - 中学受験情報の収集、**説明会への参加**！
