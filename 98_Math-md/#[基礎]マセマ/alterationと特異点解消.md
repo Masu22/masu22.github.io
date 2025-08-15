@@ -333,7 +333,13 @@ E_1^2 = -2,\quad E_2^2 = -1
 そうすると、log pair の解消とMMPの関係も一目で分かります。
 User
 ぜひ！
-ChatGPT
+
+<!-- pythonで図を書くときに、次を付加して出力する！
+import matplotlib.pyplot as plt
+import numpy as np
+-->
+
+<!-- 
 # We'll create four separate figures (each its own plot) to illustrate:
 # 1) Blow-up of A^2 at the origin (schematic before/after in two separate images).
 # 2) Log resolution for a pair (non-transverse crossing -> SNC), two separate images.
@@ -473,15 +479,23 @@ plt.show()
 
 paths = [path1, path2, path3, path4, path5, path6, path7]
 paths
+
+-->
+
 ChatGPT
 図、つくりました！一連の流れを “解消→SNC→例外曲線→縮約” まで可視化してあります👇
 
-- [Blow-up（前）](sandbox:/mnt/data/blowup_before.png)  
-- [Blow-up（後：例外因子 \(E \simeq \mathbb{P}^1\))](sandbox:/mnt/data/blowup_after.png)  
-- [Log解消（交差が悪いときの様子）](sandbox:/mnt/data/log_before.png)  
-- [Log解消（SNCになった後の様子）](sandbox:/mnt/data/log_after.png)  
-- [A₂特異点の解消：デュアルグラフ（\(-2\)―\(-2\)）](sandbox:/mnt/data/dual_graph_A2.png)  
-- [縮約の例：\((-2)\)-\((-1)\)-\((-2)\) を \((-1)\)-\((-1)\) に](sandbox:/mnt/data/contraction_before.png) → [After](sandbox:/mnt/data/contraction_after.png)
+![Blow-up（前）](./pic/reso/blowup_before.png)  
+
+![Blow-up（後：例外因子 \(E \simeq \mathbb{P}^1\))](./pic/reso/blowup_after.png)  
+
+![Log解消（交差が悪いときの様子）](./pic/reso/log_before.png)  
+
+![Log解消（SNCになった後の様子）](./pic/reso/log_after.png)  
+
+![A₂特異点の解消：デュアルグラフ（\(-2\)―\(-2\)）](./pic/reso/dual_graph_A2.png)  
+
+![縮約の例：\((-2)\)-\((-1)\)-\((-2)\) を \((-1)\)-\((-1)\) に](./pic/reso/contraction_before.png) → ![After](./pic/reso/contraction_after.png)
 
 # 使い方の要点まとめ
 
@@ -501,24 +515,158 @@ ChatGPT
   チェーン \((-2)\)-\((-1)\)-\((-2)\) で真ん中を潰すと、両端の自己交点がそれぞれ +1 上がって \((-1)\)-\((-1)\) に（図のとおり）。
 
 必要なら、具体的な局所方程式（例：\(y^2=x^3\) の尖点を blow-up 一発で直す、A–D–E 特異点の解消手順、log pair の係数追跡など）を、同じノリで図＋式で追加します。どれからいく？
+
+---
+---
+
 User
 全体的にお願い！
+
 ChatGPT
+<!--
+# Let's add an extended set of diagrams for specific local examples of resolution and log resolution
+# including:
+# 1) cusp singularity y^2 = x^3 resolution steps (blow-up sequence schematic)
+# 2) ADE singularity diagrams (A1, A2, D4) as dual graphs
+# 3) log pair (curve with high multiplicity crossing) to SNC
+# We'll produce them schematically, focusing on combinatorics rather than precise analytic embeddings.
+
+# 1) cusp singularity y^2 = x^3
+# We'll illustrate with a series of simplified diagrams showing blow-up steps.
+fig_cusp1 = plt.figure(figsize=(5,4))
+ax = plt.gca()
+x = np.linspace(-1,1,400)
+y = np.sign(x)*np.abs(x)**1.5
+ax.plot(x, y, color='black')
+ax.set_aspect('equal', adjustable='box')
+ax.set_title("Cusp singularity $y^2 = x^3$ (before resolution)")
+ax.axis('off')
+path_cusp1 = "/mnt/data/cusp_before.png"
+plt.savefig(path_cusp1, bbox_inches='tight', dpi=150)
+plt.show()
+
+# After first blow-up: roughly looks like a node in exceptional divisor coordinates
+fig_cusp2 = plt.figure(figsize=(5,4))
+ax = plt.gca()
+ax.plot([-0.5, 0.5], [0, 0], linewidth=2)  # exceptional divisor E
+ax.plot([0,0], [-0.5,0.5], linestyle='--') # transform of curve meets transversely
+ax.set_aspect('equal', adjustable='box')
+ax.set_title("After blow-up: cusp becomes node on E")
+ax.axis('off')
+path_cusp2 = "/mnt/data/cusp_after1.png"
+plt.savefig(path_cusp2, bbox_inches='tight', dpi=150)
+plt.show()
+
+# After second blow-up: smooth curve, SNC with E'
+fig_cusp3 = plt.figure(figsize=(5,4))
+ax = plt.gca()
+ax.plot([-0.5, 0.5], [0, 0], linewidth=2)  # new exceptional divisor
+ax.plot([0.2, 0.2], [-0.5,0.5], linestyle='--')
+ax.set_aspect('equal', adjustable='box')
+ax.set_title("After second blow-up: smooth, SNC")
+ax.axis('off')
+path_cusp3 = "/mnt/data/cusp_after2.png"
+plt.savefig(path_cusp3, bbox_inches='tight', dpi=150)
+plt.show()
+
+
+# 2) ADE singularity dual graphs
+
+# A1: (-2)
+fig_A1 = plt.figure(figsize=(3,3))
+ax = plt.gca()
+ax.plot([0],[0], marker='o')
+ax.text(0, 0.1, "(-2)", ha='center')
+ax.set_title("A₁ dual graph")
+ax.axis('off')
+path_A1 = "/mnt/data/A1_dual.png"
+plt.savefig(path_A1, bbox_inches='tight', dpi=150)
+plt.show()
+
+# A2: (-2)-(-2)
+fig_A2 = plt.figure(figsize=(4,3))
+ax = plt.gca()
+ax.plot([-0.5, 0.5], [0, 0], marker='o', linestyle='-')
+ax.text(-0.5, 0.1, "(-2)", ha='center')
+ax.text(0.5, 0.1, "(-2)", ha='center')
+ax.set_title("A₂ dual graph")
+ax.axis('off')
+path_A2 = "/mnt/data/A2_dual.png"
+plt.savefig(path_A2, bbox_inches='tight', dpi=150)
+plt.show()
+
+# D4: four (-2) with central node
+fig_D4 = plt.figure(figsize=(4,4))
+ax = plt.gca()
+# central node at (0,0)
+ax.plot([0],[0], marker='o')
+# attach three arms
+ax.plot([0, 0],[0, 0.6], marker='o')
+ax.plot([0, 0.6],[0, 0], marker='o')
+ax.plot([0, -0.6],[0, 0], marker='o')
+# labels
+ax.text(0, -0.1, "(-2)", ha='center')
+ax.text(0, 0.6+0.1, "(-2)", ha='center')
+ax.text(0.6+0.1, 0, "(-2)", ha='center')
+ax.text(-0.6-0.1, 0, "(-2)", ha='center')
+ax.set_title("D₄ dual graph")
+ax.axis('off')
+path_D4 = "/mnt/data/D4_dual.png"
+plt.savefig(path_D4, bbox_inches='tight', dpi=150)
+plt.show()
+
+
+# 3) Log pair resolution: triple crossing to SNC
+fig_log_bad = plt.figure(figsize=(4,4))
+ax = plt.gca()
+# three lines through origin
+angles = [0, 60, -60]
+for ang in angles:
+    theta = np.deg2rad(ang)
+    ax.plot([-1*np.cos(theta), 1*np.cos(theta)],
+            [-1*np.sin(theta), 1*np.sin(theta)])
+ax.set_title("Log pair: triple crossing (bad)")
+ax.set_aspect('equal', adjustable='box')
+ax.axis('off')
+path_log_bad = "/mnt/data/log_triple_before.png"
+plt.savefig(path_log_bad, bbox_inches='tight', dpi=150)
+plt.show()
+
+fig_log_good = plt.figure(figsize=(4,4))
+ax = plt.gca()
+# after resolution: each crossing separated, all SNC
+# We'll just draw three pairwise transverse crossings in different regions
+ax.plot([-1, -0.2], [0, 0])
+ax.plot([-0.6, -0.6], [-0.5, 0.5])
+ax.plot([0.2, 1], [0, 0])
+ax.plot([0.6, 0.6], [-0.5, 0.5])
+ax.set_title("Log pair after resolution: all SNC")
+ax.set_aspect('equal', adjustable='box')
+ax.axis('off')
+path_log_good = "/mnt/data/log_triple_after.png"
+plt.savefig(path_log_good, bbox_inches='tight', dpi=150)
+plt.show()
+
+
+paths2 = [path_cusp1, path_cusp2, path_cusp3, path_A1, path_A2, path_D4, path_log_bad, path_log_good]
+paths2
+-->
+
 追加図も作成しました。具体例やタイプ別の可視化です👇
 
 - **尖点の解消（\(y^2 = x^3\)）**  
-  1. [解消前：カスプ](sandbox:/mnt/data/cusp_before.png)  
-  2. [1回目ブローアップ後：例外因子上で節点に](sandbox:/mnt/data/cusp_after1.png)  
-  3. [2回目ブローアップ後：滑らか＋SNC](sandbox:/mnt/data/cusp_after2.png)  
+  1. ![解消前：カスプ](./pic/reso/cusp_before.png)  
+  2. ![1回目ブローアップ後：例外因子上で節点に](./pic/reso/cusp_after1.png)  
+  3. ![2回目ブローアップ後：滑らか＋SNC](./pic/reso/cusp_after2.png)  
 
 - **ADE特異点のデュアルグラフ**  
-  - [A₁](sandbox:/mnt/data/A1_dual.png)（\((-2)\) 1本）  
-  - [A₂](sandbox:/mnt/data/A2_dual.png)（\((-2)\)-\((-2)\)）  
-  - [D₄](sandbox:/mnt/data/D4_dual.png)（中心から3本の\((-2)\)が出る星型）  
+  - ![A₁](./pic/reso/A1_dual.png)（\((-2)\) 1本）  
+  - ![A₂](./pic/reso/A2_dual.png)（\((-2)\)-\((-2)\)）  
+  - ![D₄](./pic/reso/D4_dual.png)（中心から3本の\((-2)\)が出る星型）  
 
 - **Logペアの解消**  
-  - [悪い例：三重交差](sandbox:/mnt/data/log_triple_before.png)  
-  - [解消後：全てSNC](sandbox:/mnt/data/log_triple_after.png)  
+  - ![悪い例：三重交差](./pic/reso/log_triple_before.png)  
+  - ![解消後：全てSNC](./pic/reso/log_triple_after.png)  
 
 この流れを繋げると、  
 1. 局所方程式や曲線を理解  
@@ -530,10 +678,90 @@ ChatGPT
 次は、これらを**一枚の「特異点解消フローチャート」**にまとめることもできます。そうすると、Hironaka～De Jong～log解消までの全体像が見える地図になります。
 User
 ぜひ！
+
 ChatGPT
+
+<!--
+# Let's make a single flowchart-like diagram summarizing the resolution process:
+# Steps:
+# 1) Start with variety/pair with singularities/bad crossings
+# 2) Choose center for blow-up
+# 3) Blow-up, replace center with exceptional divisor
+# 4) Repeat until smooth / SNC
+# 5) Dual graph analysis
+# 6) Contract (-1)-curves if needed (minimal model)
+
+fig_flow = plt.figure(figsize=(8,6))
+ax = plt.gca()
+ax.axis('off')
+
+# We'll use text boxes with arrows connecting them
+from matplotlib.patches import FancyArrowPatch, Rectangle
+
+# Helper to add box
+def add_box(ax, xy, text):
+    box = Rectangle((xy[0]-1.2, xy[1]-0.3), 2.4, 0.6,
+                    facecolor='white', edgecolor='black')
+    ax.add_patch(box)
+    ax.text(xy[0], xy[1], text, ha='center', va='center', fontsize=10)
+
+# Helper to add arrow
+def add_arrow(ax, start, end):
+    arrow = FancyArrowPatch(start, end, arrowstyle='->', mutation_scale=10)
+    ax.add_patch(arrow)
+
+# Coordinates (x,y) for boxes
+coords = {
+    "start": (0, 4),
+    "choose_center": (0, 3),
+    "blowup": (0, 2),
+    "check": (0, 1),
+    "dual_graph": (-2.5, 0),
+    "contract": (2.5, 0),
+    "done": (0, -1)
+}
+
+# Texts
+texts = {
+    "start": "Start: Variety / Pair (X,D)\nwith singularities or bad crossings",
+    "choose_center": "Choose center for blow-up\n(point, curve, divisor)",
+    "blowup": "Blow-up: Replace center with exceptional divisor (E)",
+    "check": "Check: Smooth? SNC? If not, repeat",
+    "dual_graph": "Dual graph of exceptional curves:\nSelf-intersection, incidence",
+    "contract": "Contract (-1)-curves (Castelnuovo)\n→ Minimal model",
+    "done": "End: Smooth variety / SNC pair"
+}
+
+# Add boxes
+for key in coords:
+    add_box(ax, coords[key], texts[key])
+
+# Add arrows for main vertical path
+add_arrow(ax, (0, 3.7), (0, 3.3))
+add_arrow(ax, (0, 2.7), (0, 2.3))
+add_arrow(ax, (0, 1.7), (0, 1.3))
+
+# From check to dual_graph and contract
+add_arrow(ax, (0, 0.7), (-2.0, 0.3))
+add_arrow(ax, (0, 0.7), (2.0, 0.3))
+
+# From both branches to done
+add_arrow(ax, (-2.5, -0.3), (-0.5, -0.7))
+add_arrow(ax, (2.5, -0.3), (0.5, -0.7))
+
+# Limits
+ax.set_xlim(-4, 4)
+ax.set_ylim(-2, 5)
+
+path_flow = "/mnt/data/resolution_flowchart.png"
+plt.savefig(path_flow, bbox_inches='tight', dpi=150)
+plt.show()
+path_flow
+-->
+
 こちらが特異点解消の**全体フローチャート**です👇  
 
-[📄 解消プロセス図](sandbox:/mnt/data/resolution_flowchart.png)  
+![解消プロセス図](./pic/reso/resolution_flowchart.png)  
 
 - **左ルート**：例外曲線の交点関係をデュアルグラフで管理（ADE型などの解析に）  
 - **右ルート**：(-1)-曲線を縮約して最小モデル化  
