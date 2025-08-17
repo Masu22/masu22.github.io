@@ -2,6 +2,7 @@
 
 アレクサンドル・グロタンディークによる **"Éléments de géométrie algébrique" (EGA)** の各巻のタイトルは以下の通りです。  
 
+
 1. **EGA I** : *Le langage des schémas* （スキームの言語）  
 2. **EGA II** : *Étude globale élémentaire de quelques classes de morphismes* （いくつかのクラスの射の基本的な大域的研究）  
 3. **EGA III** : *Étude cohomologique des faisceaux cohérents* （コヒーレント層のコホモロジー的研究）  
