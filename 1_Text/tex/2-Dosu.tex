@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+
+\usepackage[most]{tcolorbox}
+\usepackage{luatexja}
+\usepackage{array}
+
+%セルの長さを指定して縦にそろえる
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\setlength{\parindent}{0pt}
+\linespread{1.2} %行間を調整
+
+%tcolorboxのスタイルを設定
+\tcbset{
+  mybox/.style={
+    %colback=yellow!5,
+    %colframe=orange!80!black,
+    fonttitle=\bfseries,
+    title=#1
+  }
+}
+
+\begin{document}
+
+\begin{tcolorbox}[mybox={データの分析}]
+いくつかのデータを、基準をもとに区間ごとに分ける。それを表に整理したものを\textbf{度数分布表}といい、棒グラフに整理したものを\textbf{ヒストグラム}という。\\
+このとき、データを分析するための用語がいくつかある！\\
+
+区間のことを\textbf{階級}、区間の真ん中の値を\textbf{階級値}、区間のデータの個数を\textbf{度数}という。\\
+
+$\textbf{相対度数} = \dfrac{\text{各階級の度数}}{\text{全ての度数の合計}}$\\
+
+はじめの階級からその階級までの度数の合計を\textbf{累積度数}という。\\
+
+データの特徴を表す数値を\textbf{代表値}という。\\
+平均値、中央値、最頻値、範囲などがある。\\
+
+\textbf{平均値} $\cdots$ (データの数値の合計) $\div$ (データの個数)\\
+\textbf{中央値} $\cdots$ データを大小順に並べたときに、真ん中のデータの値\\
+\textbf{最頻値} $\cdots$ データの中で、一番多い数値\\
+
+$\textbf{範囲} = \text{(データの最大値)} - \text{(データの最小値)}$  
+\end{tcolorbox}
+
+例えば、20人の身長を、10cmごとの区間に分けてみる。\\
+
+%この表だけ高さ変更
+\begingroup
+\renewcommand{\arraystretch}{1.5}  %この表だけ行の高さを1.5倍
+\begin{tabular}{|M{2.5cm}|M{1.5cm}|M{1cm}|M{3.5cm}|M{2cm}|}
+\hline
+階級&階級値&度数&相対度数&累積度数\\
+\hline
+140\ ～\ 150&145&5& $5 \div 20 = 0.25$ &5\\
+\hline
+150\ ～\ 160&155&10& $10 \div 20 = 0.50$ &15\\
+\hline
+160\ ～\ 170&165&5& $5 \div 20 =0.25$ &20\\
+\hline
+\end{tabular}
+\endgroup
+
+\bigskip
+
+平均値 : $(145 \times 5 + 155 \times 10 + 165 \times 5) \div 20 = 155$\\
+中央値 : 真ん中は10人目なので、155\\
+最頻値 : 度数10が一番大きいので、155\\
+
+ちなみに、階級値は、階級の両端の値をたして、2でわると求まる。\\
+
+例えば、140～150という階級ならば、階級値は$\dfrac{140+150}{2} = 145$となる。
+
+\end{document}
