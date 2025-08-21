@@ -18,73 +18,61 @@
 |To Do|備考|その他|
 |---|---|---|
 |平面図形tex|終わったら、空間図形texへ|1学年が終わったら、製品化|
-|HP文面、入塾ガイド、契約書類|これも年内にやりたい||
-|県立過去問研究、特色の整理|||
+|HP文面、入塾ガイド、契約書類|これも年内にやりたい|**HP文面修正**(0-HP.htmlを)⇒gptの過去zipやmdファイルを探す！塾用gptはmasu22ryo@g？|
+|県立過去問研究、特色の整理||https://sakusemi.jp/entrance-exam-questions/|
 |白色申告やよい|これもぼちぼちにやる|来年でもよい？|
 |AI英会話|試運転をやってみる|英作文強化|
-|Atsueigo発音|2講座を目安||
+|**Atsueigo発音**|2講座を目安||
 |LUS英文解釈動画|1動画を目安||
+|**LUSの数物動画**|これも少しづつ|赤チャートも参考に|
 |LUSフローチャート要約|英語や現代文古典も||
 |映画をちょっこと|SpartacusかWideshut||
-|Passlab 整数、確率|まとめシリーズを終わらす||
-|なかけん|K,Tの最新一年分を解きたい||
+|**Passlab 整数、確率**|まとめシリーズを終わらす|https://www.youtube.com/@passlabo|
+|**なかけん 大学過去問**|K,Tの最新一年分を解きたい|**河野さんの動画**参考になるかも？|
 |いんし＆Putnam|最新一年をひまなときに|後回しでもよい？|
+|Sybermath の問題をtex化|問題だけをtexに!|後回しでもよい|
+|**ココナラ**で出品|ページの宣伝も徐々に||
 
 ---
 ---
 
-# とあど整理
-- **中学数学要点まとめ** (文字式&データ)
-- **かみきり**
-- **白色申告の練習 (やよい)**
-- でい予定、(将来的に、mochino1207)
-- **脱毛月１回**
-- **大学受験、いんしの問題をtex化**, (cf. なかけんノート)  
-**Sybermath**の問題をtex化
+# やれるとよいこと
 
-- **Takatani note, Minazumi note のgpt&texまとめ**  
-EGA、SGA、Igor、Eisenbud、Bourbaki  
-Hodge Theory(Deligne) の英訳
-
-- **ココナラ**で出品＆ページを宣伝
-- **Atsueigoの動画、LUSの動画、河野さん動画**
-- Tinkerbell映画、ミラキュラスの英語版、字幕研究
-- NCIS、S-W-A-T、Five-Oの字幕研究
+|やれるとよいこと|備考|その他|
+|---|---|---|
+|**Takatani noteまとめ**|ひまなときにちょっとずつ||
+|Minazumi noteまとめ|読んでまとめる感覚？|gpt目次化はしたので、後回しでもよい|
+|EGA, SGA, Deligne(Hodge)|英訳してまとめられるとよし|部分的にはオンライン上にある|
+|IgorのAG book, Eisenbudのbook,Bourbaki|gptで要約？||
+|**英語の実戦訓練**|Tinkerbell映画、ミラキュラスの英語版、NCIS、S-W-A-T、Five-O|Lup先生のYoutubeもありかな？|
+|Blender練習|halさんのワニ動画|将来的にはUnreal Engineもありかな？とくにエフェクト|
+|Blenderで3Dイラスト化|lex,sakimichanのイラストをモデル化したい！|ちなみに、写真はFacebuilderが便利|
+|モデル集め、DL|**Sketchfab(Yan),elina002,vlthar**|deviantartはjdownloaderが便利|
 
 ---
-
-- **Blenderと3Dイラストのモデル化** (lex, sakimicha)  
-[Facebuilderよりも、マネキンから切り出しが良さげ]
-- SketchfabのDL (Yan) ＆ elina002やvltharのDL
-
 ---
 
-- **いんし$A$の分類** : $F_p [X]$の部分環$A  \supset F_p$で、$d = \dim _ {F_p} F_p /A =1$となる $A$ を分類したい。  
-$f(X) =$ minimal degree polynomials in $A$ がカギ？  
+# 数学ネタ
+
+|数学ネタ|備考|その他|
+|---|---|---|
+|**有限群論のまとめ**|宇宙系数学htmlにまとめる||
+|**超越基底と正則拡大**(雪江pdf)|||
+|Forster book(Riemann surface)||https://staff.math.su.se/shapiro/UIUC/Foster.pdf|
+
+>**いんし $A$の分類** :  
+>$F_p [X]$の部分環$A  \supset F_p$で、$d = \dim _ {F_p} F_p /A =1$となる $A$ を分類したい。  
+>
+>$f(X) =$ minimal degree polynomials in $A$ がカギ？  
 deg $f=1$ ならば、$A=F_p[X]$  
 def $f=2$ ならば、$(f) \subset A$で、$d=1$  
 def $f>2$ ならば、$d>1$ ？
 
-- Minazumi note
-- **有限群論の話題一覧、Speciesの分野名を書いていく！**
-- **超越基底と正則拡大**(雪江pdf)
-
-
+---
 ---
 
-# 塾用HP
-- **HP文面修正**(0-HP.htmlを)⇒gptの過去zipやmdファイルを探す！塾用gptはmasu22ryo@g？
-- jdownloaderでモデルDL
-- Lus、Atsueigo、英語lup先生
-- passlaboのテキスト＆動画   https://www.youtube.com/@passlabo
-- 県立入試過去問研究　https://sakusemi.jp/entrance-exam-questions/
 
-## 設備
-- 3Dモデル製作(blender＆Unreal Engine)
-- 家のこだわりポイント整理
-
-## Githubの環境設定について
-⇒Github.mdを参照！！  
+## Githubの環境設定について ⇒ Github.mdを参照！！  
 
 <!-- バッジの作り方：https://shields.io/badges -->
 <!-- https://qiita.com/shun198/items/c983c713452c041ef787 -->
@@ -124,11 +112,6 @@ def $f>2$ ならば、$d>1$ ？
 - **「木」や「道」**のように成長や進歩を象徴するものを組み合わせたアイコン
 - **手書き風や温かみのある**デザインでアットホームさを表現
 - **シンプルで現代的なライン**で、すっきりとしたデザイン
-
----
-
-# Forster
-https://staff.math.su.se/shapiro/UIUC/Foster.pdf
 
 ---
 ---
