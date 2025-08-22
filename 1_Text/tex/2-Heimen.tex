@@ -130,7 +130,21 @@
 \end{tcolorbox}
 
 \begin{tcolorbox}[mybox={距離}]
-a
+\begin{tikzpicture}
+\draw[thick] (0,2)--(4,2);
+\draw[thick] (0,0)--(4,0);
+\draw[red,thick] (2,2)--(2,0);
+\draw[red] (2,0.3)--(2.3,0.3)--(2.3,0);
+\draw[red] (2,1.7)--(2.3,1.7)--(2.3,2);
+
+\coordinate (P) at (8,2);
+\fill[black] (P) circle (2pt);
+\draw[thick] (6,0)--(10,0);
+\draw[red,thick] (P)--(8,0);
+\draw[red] (8,0.3)--(8.3,0.3)--(8.3,0);
+\draw[dashed] (P)--(9,0);
+\draw[dashed] (P)--(6.5,0);
+\end{tikzpicture}
 \end{tcolorbox}
 
 \end{document}
