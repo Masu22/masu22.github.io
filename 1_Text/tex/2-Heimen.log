@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  23 AUG 2025 04:18
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.2)  26 AUG 2025 18:35
  restricted system commands enabled.
 **2-Heimen.tex
 (./2-Heimen.tex
@@ -1050,25 +1050,25 @@ L3 programming layer <2024-02-20>
 )
 
 Here is how much of LuaTeX's memory you used:
- 22414 strings out of 476447
+ 22420 strings out of 476447
  125244,1977958 words of node,token memory allocated
  1769 words of node memory still in use:
    34 hlist, 2 vlist, 17 rule, 2 glue, 4 kern, 1 glyph, 250 attribute, 53 glue_s
 pec, 99 attribute_list, 2 write, 12 user_defined, 24 pdf_literal, 24 pdf_colorst
 ack nodes
-   avail lists: 1:21,2:32448,3:1277,4:632,5:46,6:36,7:2301,8:2,9:1196,10:6
- 43867 multiletter control sequences out of 65536+600000
+   avail lists: 1:21,2:36813,3:1371,4:694,5:46,6:36,7:2727,8:2,9:1398,10:6
+ 43873 multiletter control sequences out of 65536+600000
  35 fonts using 20775215 bytes
  110i,8n,115p,1849b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiMincho-Regu
 lar.otf><c:/texlive/2024/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
 tf><c:/texlive/2024/texmf-dist/fonts/opentype/public/haranoaji/HaranoAjiGothic-M
 edium.otf><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on 2-Heimen.pdf (2 pages, 52142 bytes).
 
-Output written on 2-Heimen.pdf (2 pages, 43754 bytes).
-
-PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  256 words of extra memory for PDF output out of 10000 (max. 100000000)
 

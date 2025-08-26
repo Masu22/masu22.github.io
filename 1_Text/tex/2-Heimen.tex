@@ -107,10 +107,19 @@
 %角をアルファベットで表す
 %角度が同じ記号
 \begin{tcolorbox}[mybox={角と三角形}]
-三角形の記号は反時計回りにつける。\\
+三角形の各頂点に記号をつけて、三角形の名前を決める。\\
+例えば、各頂点にA,B,Cという名前をつけたとき、三角形ABCと呼ぶ。\\
+記号では、$\triangle$ABCとかく。
+三角形の頂点の記号は反時計回りにつけることが多い。\\
 
 \begin{tikzpicture}
-\draw[green,fill=green!20!white] (0,0)--(4,0)--(3,2)--cycle;
+\coordinate (B) at (0,0);
+\coordinate (C) at (4,0);
+\coordinate (A) at (3,2);
+\node[below left] at (B) {B};
+\node[below right] at (C) {C};
+\node[above] at (A) {A};
+\draw[green,fill=green!20!white] (A)--(B)--(C)--cycle;
 \end{tikzpicture}
 \end{tcolorbox}
 
