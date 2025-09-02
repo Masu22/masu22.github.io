@@ -9,7 +9,7 @@
 \usepackage{luatexja}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage[margin=3cm]{geometry}
-
+\usepackage{url}
 
 \setlength{\parindent}{0pt}
 \linespread{1.2} %行間を調整
@@ -272,4 +272,22 @@ $(n,k) = (1,1) , (2,1) , (4,2)$が答えになる。\\
 (3)\ $\displaystyle \sum_{k=1}^{\infty} \dfrac{k^2}{(k+1)!}$\\
 (4)\ $\displaystyle \sum_{k=1}^{\infty} \dfrac{k^2}{k!}$
 \end{tcolorbox}
+
+\newpage
+
+\begin{tcolorbox}[mybox={数の大小関係の評価}]
+(1)\ $\displaystyle 2^{100!} \ \ VS\ \  2^{100} !$ \hspace{1cm} [えびまラボ @evimalab]\\
+(2)\ $99^{100} \ \ VS\ \  100^{99}$ \hspace{1cm} [\url{@yukkuri_suugaku/shorts}]
+%https://www.youtube.com/watch?v=SO9E6UFHKjg
+\end{tcolorbox}
+
+(2)\ logを取って、対称性から関数に落とし込む。\\
+\begin{equation*}
+(A) = \dfrac{\log 99^{100}}{\log 100^{99}} = \dfrac{100 \log 99}{99 \log 100} =\dfrac{99^{-1} \log 99}{100^{-1} \log 100}
+\end{equation*}
+そこで、$\displaystyle f(x)=\frac{\log x}{x}$を考えると、これは$x \geq 1$で単調減少なので、$99^{-1} \log 99 > 100^{-1} \log 100$となり、$(A) >1$となる。\\
+つまり、$\log 99^{100} > \log 100^{99}$がわかる。これより、$99^{100} > 100^{99}$\\
+指数が大きい方が、でかくなるか！という直感と一致する。\\
+また、$\log x$と$x^n$の関係を整理しておくと、後で使えそう。\\
+例えば、$\log x$の$x=1$での接線は$y=x-1$とか、$\log x -x <0 \ \text{if}\  x \geq 1$などなど。
 \end{document}
