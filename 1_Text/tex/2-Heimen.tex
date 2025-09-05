@@ -23,7 +23,7 @@
 }
 
 %---------------------------------------
-%nodeを二つ渡して、中点に同じ長さの記号(垂直二重線)を書く
+%座標を二つ渡して、中点に同じ長さの記号(垂直二重線)を書く
 %一番目の引数が色で、デフォルトでは赤
 \newcommand{\eqlend}[3][red]{
   % 赤く太い、垂直な二重線
@@ -38,7 +38,44 @@
     ($ (\p3) + (\p4)$) -- ($ (\p3) - (\p4)$) %Nを通る短い垂線
   };
 }
+
+
+%座標を二つ渡して、中点に一本線を書く
+%一番目の引数が色で、デフォルトでは赤
+\newcommand{\eqline}[3][red]{
+  % 赤く太い、垂直な二重線
+    \draw[#1,thick] let
+    \p1 = ($ (#3) - (#2) $),
+    \n1 = {veclen(\x1,\y1)}, %ベクトルの長さ
+    \p2 = ($ (#2) + 0.5*(\p1) $), %中点Mの座標
+    \p3 = ($ (\p2) + 3.5*(\x1/\n1, \y1/\n1)$), %Mを少しずらした点N
+    \p4 = (5*\y1/\n1 , -5*\x1/\n1) %法線方向のベクトル、長さ調整済み
+  in {
+    ($ (\p2) + (\p4) $) -- ($ (\p2) - (\p4) $) %Mを通る短い垂線
+    ($ (\p3) + (\p4)$) -- ($ (\p3) - (\p4)$) %Nを通る短い垂線
+  };
+}
+
+
+%座標を二つ渡して、中点に平行の記号を書く
+%一番目の引数が色で、デフォルトでは赤
+\newcommand{\paral}[3][red]{
+  % 赤く太い、垂直な二重線
+    \draw[#1,thick] let
+    \p1 = ($ (#3) - (#2) $),
+    \n1 = {veclen(\x1,\y1)}, %ベクトルの長さ
+    \p2 = ($ (#2) + 0.5*(\p1) $), %中点Mの座標
+    \p3 = ($ (\p2) - 5*(\x1/\n1, \y1/\n1)$), %Mを少しずらした点N
+    \p4 = (5*\y1/\n1 , -5*\x1/\n1) %法線方向のベクトル、長さ調整済み
+  in {
+    ($ (\p3) + (\p4)$) -- ($(\p2)$) -- ($ (\p3) - (\p4)$) %Nを通る短い垂線
+  };
+}
 %---------------------------------------
+
+%曲線で結ぶには、ベジェ曲線の構文
+%\draw (A) .. controls (control1) and (control2) .. (B);
+%(A) → 始点, (B) → 終点, control1 → 始点側の制御点, control2 → 終点側の制御点
 
 \begin{document}
 
@@ -278,7 +315,9 @@
 \draw[dashed,orange] (C1)--(O)--(C2);
 \end{tikzpicture}
 
-\bigskip
+
+\newpage
+
 
 \begin{tikzpicture}
 \coordinate (P1) at (1,1);
@@ -301,5 +340,31 @@
 \path pic[draw, angle radius=0.5cm,red,thick] {angle = P2--P1--P3};
 %さらに外側に角度
 \path pic[draw, angle radius=0.6cm,red,thick] {angle = P2--P1--P3};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\coordinate (A) at (1,1);
+\coordinate (B) at (5,3);
+\coordinate (C) at ($(A)!0.93!(B)$); %記号を横にずらすために設定
+
+\draw[thick] (A)--(B);
+%平行の記号を書く
+\paral{A}{B}
+\paral[cyan]{A}{C} %Cを使って、記号をずらす
+\end{tikzpicture}
+
+
+\bigskip
+
+
+\begin{tikzpicture}
+%曲線で結ぶ
+%out：始点から出る角度、in：終点へ入る角度
+\draw[thick, blue] (0,0) to[out=70, in=190] node[above, sloped] {ラベル} (3,2);
+
+%ベジェ曲線で結ぶ
+\coordinate (P) at (7,1); %始点
+\coordinate (Q) at (10,4); %終点
+\draw[thick, magenta] (P) .. controls (8,0) and (9,4) .. (Q);
 \end{tikzpicture}
 \end{document}
