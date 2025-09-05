@@ -4,6 +4,7 @@
 \usepackage{luatexja}
 \usepackage{array}
 \usepackage[margin=25mm]{geometry}
+\usetikzlibrary{calc, angles, quotes}
 
 %セルの長さを指定して縦にそろえる
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
@@ -20,6 +21,24 @@
     title=#1
   }
 }
+
+%---------------------------------------
+%nodeを二つ渡して、中点に同じ長さの記号(垂直二重線)を書く
+%一番目の引数が色で、デフォルトでは赤
+\newcommand{\eqlend}[3][red]{
+  % 赤く太い、垂直な二重線
+    \draw[#1,thick] let
+    \p1 = ($ (#3) - (#2) $),
+    \n1 = {veclen(\x1,\y1)}, %ベクトルの長さ
+    \p2 = ($ (#2) + 0.5*(\p1) $), %中点Mの座標
+    \p3 = ($ (\p2) + 3.5*(\x1/\n1, \y1/\n1)$), %Mを少しずらした点N
+    \p4 = (5*\y1/\n1 , -5*\x1/\n1) %法線方向のベクトル、長さ調整済み
+  in {
+    ($ (\p2) + (\p4) $) -- ($ (\p2) - (\p4) $) %Mを通る短い垂線
+    ($ (\p3) + (\p4)$) -- ($ (\p3) - (\p4)$) %Nを通る短い垂線
+  };
+}
+%---------------------------------------
 
 \begin{document}
 
@@ -257,5 +276,30 @@
 \draw[dashed,blue] (A1)--(O)--(A2);
 \draw[dashed,green] (B1)--(O)--(B2);
 \draw[dashed,orange] (C1)--(O)--(C2);
+\end{tikzpicture}
+
+\bigskip
+
+\begin{tikzpicture}
+\coordinate (P1) at (1,1);
+\coordinate (P2) at (6,2);
+\coordinate (P3) at (2,4);
+\coordinate (M) at (4,3); %P2--P3の中点
+\coordinate (N) at (4.5,4); %P2--P3の垂線の上端
+
+\draw[thick] (P1)--(P2)--(P3)--cycle;
+%同じ長さの二重線
+\eqlend[blue]{P1}{P2}
+\eqlend[blue]{P1}{P3}
+
+%P2--P3の垂線
+\draw[green!80!black] (N)--(3.5,2);
+%直角記号
+\path pic[draw, angle radius=0.25cm, angle eccentricity=1.1,green!80!black,thick] {right angle = N--M--P2};
+
+%角度の記号
+\path pic[draw, angle radius=0.5cm,red,thick] {angle = P2--P1--P3};
+%さらに外側に角度
+\path pic[draw, angle radius=0.6cm,red,thick] {angle = P2--P1--P3};
 \end{tikzpicture}
 \end{document}
