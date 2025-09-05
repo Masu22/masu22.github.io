@@ -160,6 +160,59 @@
 \end{tikzpicture}
 \end{tcolorbox}
 
+\begin{tcolorbox}[mybox={角度}]
+\textbf{角}とは、1つの点から２つの線が出ているときにできる、とがった部分のことをいう。
+線の間の開き具合を\textbf{角度}といい、数字と°(度)をつかって表す。\\
+0度からはじまり、１回転すると360度になる。\\
+
+\begin{tikzpicture}
+\coordinate (O) at (0,0);
+\coordinate (A) at (3,0);
+\coordinate (B) at (50:3);
+\coordinate (C) at (90:3);
+\coordinate (D) at (180:3);
+\fill (O) circle (2pt);
+%30度
+\path pic[draw,angle radius=0.6cm,red] {angle = A--O--B};
+%90度
+\path pic[draw,angle radius=0.3cm,blue,thick] {right angle = A--O--C};
+%180度
+\path pic[draw,angle radius=0.8cm,green] {angle = A--O--D};
+
+\coordinate (P) at (7,0);
+\coordinate (Q) at (10,0);
+\coordinate (E) at ($(220:2)+(7,0)$);
+\fill (7,0) circle (2pt);
+
+%220度
+\path pic[draw, angle radius=0.5cm,blue] {angle = Q--P--E};
+%360度
+\draw[red] (7,0) circle (0.35cm);
+
+%線
+\draw (A)--(O)--(B);
+\draw (C)--(O);
+\draw (D)--(O);
+
+\draw (P)--(Q);
+\draw (E)--(P);
+\end{tikzpicture}
+
+角度は、アルファベット3つを使って表す。前から記号をたどると、一つの角度ができる。\\
+真ん中の記号が、{\color{red} とがった点(頂点)}になっている。\\
+
+
+\begin{tikzpicture}
+\coordinate (O) at (0,0);
+\coordinate (A) at (60:3);
+\coordinate (B) at (3,0);
+
+%角度
+\path pic[draw, angle radius=0.5cm,red,thick,fill=red!30!white] {angle = B--O--A};
+\draw (A) node[above] {A} --(O) node[below,left,red] {O} --(B) node[right] {B};
+\end{tikzpicture}
+\end{tcolorbox}
+
 %角をアルファベットで表す
 %角度が同じ記号
 \begin{tcolorbox}[mybox={角と三角形}]
