@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{intersections}
+
+
+%円弧の書き方 (aとrはすべて一致させる)
+%\draw[thick, blue] (基準点) ++(開始角a:半径)
+%arc[start angle=開始角a, end angle=終角b, radius=半径r];
+
+\begin{document}
+\begin{tikzpicture}
+% 中心点の表示（オプション）
+\filldraw[black] (2,2) circle (0.05);
+\filldraw[black] (6,6) circle (0.05);
+
+\draw (2,2)--(6,6);
+
+% 円弧の描画
+\draw[thick,red] (2,2) ++(-45:3.5) % 開始点（角度-45°、半径3.5）
+arc[start angle=-45, end angle=135, radius=3.5];
+
+\draw[thick, blue] (6,6) ++(135:3.5)
+arc[start angle=135, end angle=315, radius=3.5];
+\end{tikzpicture}
+
+
+\bigskip
+
+\begin{tikzpicture}
+\coordinate (A) at (-3,-3);
+\coordinate (B) at (3,3);
+\coordinate (P) at (-3,3);
+
+\draw (A)--(B);
+\fill[blue] (P) circle (2pt);
+
+%円弧の一部を定義
+\draw[blue] (P) ++(0:5)
+arc[start angle=0, end angle=-90,radius=5];
+
+%パスの名前を定義
+\path[name path=line] (A)--(B);
+\path[name path=arc] (P) ++(0:5)
+arc[start angle=0, end angle=-90,radius=5]; 
+
+%交点計算
+\path[name intersections={of=arc and line, name=int}];
+
+% 交点の描画
+\fill[orange] (int-1) circle (2pt) node[below] {$I1$};
+\fill[green] (int-2) circle (2pt) node[below] {$I2$};
+
+
+%作図用の線
+\draw[red] (int-1) ++(0:5)
+arc[start angle=0, end angle=-25,radius=5];
+\draw[red] (int-2) ++(-90:5)
+arc[start angle=-90, end angle=-65,radius=5];
+
+%垂線、座標は計算したものを使用した
+\draw[blue,thick] (P)--(4,-4);
+\end{tikzpicture}
+\end{document}
