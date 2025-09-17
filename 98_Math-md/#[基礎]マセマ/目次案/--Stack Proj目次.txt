@@ -1,0 +1,3640 @@
+ファイル名: 001-introduction.tex
+- タイトル: Introduction
+- セクション: Overview
+- セクション: Attribution
+
+ファイル名: 002-conventions.tex
+- タイトル: Conventions
+- セクション: Comments
+- セクション: Set theory
+- セクション: Categories
+- セクション: Algebra
+- セクション: Notation
+
+ファイル名: 003-sets.tex
+- タイトル: Set Theory
+- セクション: Introduction
+- セクション: Everything is a set
+- セクション: Classes
+- セクション: Ordinals
+- セクション: The hierarchy of sets
+- セクション: Cardinality
+- セクション: Cofinality
+- セクション: Reflection principle
+- セクション: Constructing categories of schemes
+- セクション: Sets with group action
+- セクション: Coverings of a site
+- セクション: Abelian categories and injectives
+
+ファイル名: 004-categories.tex
+- タイトル: Categories
+- セクション: Introduction
+- セクション: Definitions
+- セクション: Opposite Categories and the Yoneda Lemma
+- セクション: Products of pairs
+- セクション: Coproducts of pairs
+- セクション: Fibre products
+- セクション: Examples of fibre products
+- セクション: Fibre products and representability
+- セクション: Pushouts
+- セクション: Equalizers
+- セクション: Coequalizers
+- セクション: Initial and final objects
+- セクション: Monomorphisms and Epimorphisms
+- セクション: Limits and colimits
+- セクション: Limits and colimits in the category of sets
+- セクション: Connected limits
+- セクション: Cofinal and initial categories
+- セクション: Finite limits and colimits
+- セクション: Filtered colimits
+- セクション: Cofiltered limits
+- セクション: Limits and colimits over preordered sets
+- セクション: Essentially constant systems
+- セクション: Exact functors
+- セクション: Adjoint functors
+- セクション: A criterion for representability
+- セクション: Categorically compact objects
+- セクション: Localization in categories
+- セクション: Formal properties
+- セクション: 2-categories
+- セクション: (2, 1)-categories
+- セクション: 2-fibre products
+- セクション: Categories over categories
+- セクション: Fibred categories
+- セクション: Inertia
+- セクション: Categories fibred in groupoids
+- セクション: Presheaves of categories
+- セクション: Presheaves of groupoids
+- セクション: Categories fibred in sets
+- セクション: Categories fibred in setoids
+- セクション: Representable categories fibred in groupoids
+- セクション: The 2-Yoneda lemma
+- セクション: Representable 1-morphisms
+- セクション: Monoidal categories
+- セクション: Categories of dotted arrows
+
+ファイル名: 005-topology.tex
+- タイトル: Topology
+- セクション: Introduction
+- セクション: Basic notions
+- セクション: Hausdorff spaces
+- セクション: Separated maps
+- セクション: Bases
+- セクション: Submersive maps
+- セクション: Connected components
+- セクション: Irreducible components
+- セクション: Noetherian topological spaces
+- セクション: Krull dimension
+- セクション: Codimension and catenary spaces
+- セクション: Quasi-compact spaces and maps
+- セクション: Locally quasi-compact spaces
+- セクション: Limits of spaces
+- セクション: Constructible sets
+- セクション: Constructible sets and Noetherian spaces
+- セクション: Characterizing proper maps
+- セクション: Jacobson spaces
+- セクション: Specialization
+- セクション: Dimension functions
+- セクション: Nowhere dense sets
+- セクション: Profinite spaces
+- セクション: Spectral spaces
+- セクション: Limits of spectral spaces
+- セクション: Stone-{\v C
+- セクション: Extremally disconnected spaces
+- セクション: Miscellany
+- セクション: Partitions and stratifications
+- セクション: Colimits of spaces
+- セクション: Topological groups, rings, modules
+
+ファイル名: 006-sheaves.tex
+- タイトル: Sheaves on Spaces
+- セクション: Introduction
+- セクション: Basic notions
+- セクション: Presheaves
+- セクション: Abelian presheaves
+- セクション: Presheaves of algebraic structures
+- セクション: Presheaves of modules
+- セクション: Sheaves
+- セクション: Abelian sheaves
+- セクション: Sheaves of algebraic structures
+- セクション: Sheaves of modules
+- セクション: Stalks
+- セクション: Stalks of abelian presheaves
+- セクション: Stalks of presheaves of algebraic structures
+- セクション: Stalks of presheaves of modules
+- セクション: Algebraic structures
+- セクション: Exactness and points
+- セクション: Sheafification
+- セクション: Sheafification of abelian presheaves
+- セクション: Sheafification of presheaves of algebraic structures
+- セクション: Sheafification of presheaves of modules
+- セクション: Continuous maps and sheaves
+- セクション: Continuous maps and abelian sheaves
+- セクション: Continuous maps and sheaves of algebraic structures
+- セクション: Continuous maps and sheaves of modules
+- セクション: Ringed spaces
+- セクション: Morphisms of ringed spaces and modules
+- セクション: Skyscraper sheaves and stalks
+- セクション: Limits and colimits of presheaves
+- セクション: Limits and colimits of sheaves
+- セクション: Bases and sheaves
+- セクション: Open immersions and (pre)sheaves
+- セクション: Closed immersions and (pre)sheaves
+- セクション: Glueing sheaves
+
+ファイル名: 007-sites.tex
+- タイトル: Sites and Sheaves
+- セクション: Introduction
+- セクション: Presheaves
+- セクション: Injective and surjective maps of presheaves
+- セクション: Limits and colimits of presheaves
+- セクション: Functoriality of categories of presheaves
+- セクション: Sites
+- セクション: Sheaves
+- セクション: Families of morphisms with fixed target
+- セクション: The example of G-sets
+- セクション: Sheafification
+- セクション: Injective and surjective maps of sheaves
+- セクション: Representable sheaves
+- セクション: Continuous functors
+- セクション: Morphisms of sites
+- セクション: Topoi
+- セクション: G-sets and morphisms
+- セクション: Quasi-compact objects and colimits
+- セクション: Colimits of sites
+- セクション: More functoriality of presheaves
+- セクション: Cocontinuous functors
+- セクション: Cocontinuous functors and morphisms of topoi
+- セクション: Cocontinuous functors which have a right adjoint
+- セクション: Cocontinuous functors which have a left adjoint
+- セクション: Existence of lower shriek
+- セクション: Localization
+- セクション: Glueing sheaves
+- セクション: More localization
+- セクション: Localization and morphisms
+- セクション: Morphisms of topoi
+- セクション: Localization of topoi
+- セクション: Localization and morphisms of topoi
+- セクション: Points
+- セクション: Constructing points
+- セクション: Points and morphisms of topoi
+- セクション: Localization and points
+- セクション: 2-morphisms of topoi
+- セクション: Morphisms between points
+- セクション: Sites with enough points
+- セクション: Criterion for existence of points
+- セクション: Weakly contractible objects
+- セクション: Exactness properties of pushforward
+- セクション: Almost cocontinuous functors
+- セクション: Subtopoi
+- セクション: Sheaves of algebraic structures
+- セクション: Pullback maps
+- セクション: Comparison with SGA4
+- セクション: Topologies
+- セクション: The topology defined by a site
+- セクション: Sheafification in a topology
+- セクション: Topologies and sheaves
+- セクション: Topologies and continuous functors
+- セクション: Points and topologies
+
+ファイル名: 008-stacks.tex
+- タイトル: Stacks
+- セクション: Introduction
+- セクション: Presheaves of morphisms associated to fibred categories
+- セクション: Descent data in fibred categories
+- セクション: Stacks
+- セクション: Stacks in groupoids
+- セクション: Stacks in setoids
+- セクション: The inertia stack
+- セクション: Stackification of fibred categories
+- セクション: Stackification of categories fibred in groupoids
+- セクション: Inherited topologies
+- セクション: Gerbes
+- セクション: Functoriality for stacks
+- セクション: Stacks and localization
+
+ファイル名: 009-fields.tex
+- タイトル: Fields
+- セクション: Introduction
+- セクション: Basic definitions
+- セクション: Examples of fields
+- セクション: Vector spaces
+- セクション: The characteristic of a field
+- セクション: Field extensions
+- セクション: Finite extensions
+- セクション: Algebraic extensions
+- セクション: Minimal polynomials
+- セクション: Algebraic closure
+- セクション: Relatively prime polynomials
+- セクション: Separable algebraic extensions
+- セクション: Linear independence of characters
+- セクション: Purely inseparable extensions
+- セクション: Normal extensions
+- セクション: Splitting fields
+- セクション: Roots of unity
+- セクション: Finite fields
+- セクション: Primitive elements
+- セクション: Trace and norm
+- セクション: Galois theory
+- セクション: Infinite Galois theory
+- セクション: The complex numbers
+- セクション: Kummer extensions
+- セクション: Artin-Schreier extensions
+- セクション: Transcendence
+- セクション: Linearly disjoint extensions
+- セクション: Review
+
+ファイル名: 010-algebra.tex
+- タイトル: Commutative Algebra
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Basic notions
+- セクション: Snake lemma
+- セクション: Finite modules and finitely presented modules
+- セクション: Ring maps of finite type and of finite presentation
+- セクション: Finite ring maps
+- セクション: Colimits
+- セクション: Localization
+- セクション: Internal Hom
+- セクション: Characterizing finite and finitely presented modules
+- セクション: Tensor products
+- セクション: Tensor algebra
+- セクション: Base change
+- セクション: Miscellany
+- セクション: Cayley-Hamilton
+- セクション: The spectrum of a ring
+- セクション: Local rings
+- セクション: The Jacobson radical of a ring
+- セクション: Nakayama's lemma
+- セクション: Open and closed subsets of spectra
+- セクション: Connected components of spectra
+- セクション: Glueing properties
+- セクション: Glueing functions
+- セクション: Zerodivisors and total rings of fractions
+- セクション: Irreducible components of spectra
+- セクション: Examples of spectra of rings
+- セクション: A meta-observation about prime ideals
+- セクション: Images of ring maps of finite presentation
+- セクション: More on images
+- セクション: Noetherian rings
+- セクション: Locally nilpotent ideals
+- セクション: Curiosity
+- セクション: Hilbert Nullstellensatz
+- セクション: Jacobson rings
+- セクション: Finite and integral ring extensions
+- セクション: Normal rings
+- セクション: Going down for integral over normal
+- セクション: Flat modules and flat ring maps
+- セクション: Supports and annihilators
+- セクション: Going up and going down
+- セクション: Separable extensions
+- セクション: Geometrically reduced algebras
+- セクション: Separable extensions, continued
+- セクション: Perfect fields
+- セクション: Universal homeomorphisms
+- セクション: Geometrically irreducible algebras
+- セクション: Geometrically connected algebras
+- セクション: Geometrically integral algebras
+- セクション: Valuation rings
+- セクション: More Noetherian rings
+- セクション: Length
+- セクション: Artinian rings
+- セクション: Homomorphisms essentially of finite type
+- セクション: K-groups
+- セクション: Graded rings
+- セクション: Proj of a graded ring
+- セクション: Noetherian graded rings
+- セクション: Noetherian local rings
+- セクション: Dimension
+- セクション: Applications of dimension theory
+- セクション: Support and dimension of modules
+- セクション: Associated primes
+- セクション: Symbolic powers
+- セクション: Relative assassin
+- セクション: Weakly associated primes
+- セクション: Embedded primes
+- セクション: Regular sequences
+- セクション: Quasi-regular sequences
+- セクション: Blow up algebras
+- セクション: Ext groups
+- セクション: Depth
+- セクション: Functorialities for Ext
+- セクション: An application of Ext groups
+- セクション: Tor groups and flatness
+- セクション: Functorialities for Tor
+- セクション: Projective modules
+- セクション: Finite projective modules
+- セクション: Open loci defined by module maps
+- セクション: Faithfully flat descent for projectivity of modules
+- セクション: Characterizing flatness
+- セクション: Universally injective module maps
+- セクション: Descent for finite projective modules
+- セクション: Transfinite d\'evissage of modules
+- セクション: Projective modules over a local ring
+- セクション: Mittag-Leffler systems
+- セクション: Inverse systems
+- セクション: Mittag-Leffler modules
+- セクション: Interchanging direct products with tensor
+- セクション: Coherent rings
+- セクション: Examples and non-examples of Mittag-Leffler modules
+- セクション: Countably generated Mittag-Leffler modules
+- セクション: Characterizing projective modules
+- セクション: Ascending properties of modules
+- セクション: Descending properties of modules
+- セクション: Completion
+- セクション: Completion for Noetherian rings
+- セクション: Taking limits of modules
+- セクション: Criteria for flatness
+- セクション: Base change and flatness
+- セクション: Flatness criteria over Artinian rings
+- セクション: What makes a complex exact?
+- セクション: Cohen-Macaulay modules
+- セクション: Cohen-Macaulay rings
+- セクション: Catenary rings
+- セクション: Regular local rings
+- セクション: Epimorphisms of rings
+- セクション: Pure ideals
+- セクション: Rings of finite global dimension
+- セクション: Regular rings and global dimension
+- セクション: Auslander-Buchsbaum
+- セクション: Homomorphisms and dimension
+- セクション: The dimension formula
+- セクション: Dimension of finite type algebras over fields
+- セクション: Noether normalization
+- セクション: Dimension of finite type algebras over fields, reprise
+- セクション: Dimension of graded algebras over a field
+- セクション: Generic flatness
+- セクション: Around Krull-Akizuki
+- セクション: Factorization
+- セクション: Orders of vanishing
+- セクション: Quasi-finite maps
+- セクション: Zariski's Main Theorem
+- セクション: Applications of Zariski's Main Theorem
+- セクション: Dimension of fibres
+- セクション: Algebras and modules of finite presentation
+- セクション: Colimits and maps of finite presentation
+- セクション: More flatness criteria
+- セクション: Openness of the flat locus
+- セクション: Openness of Cohen-Macaulay loci
+- セクション: Differentials
+- セクション: The de Rham complex
+- セクション: Finite order differential operators
+- セクション: The naive cotangent complex
+- セクション: Local complete intersections
+- セクション: Syntomic morphisms
+- セクション: Smooth ring maps
+- セクション: Formally smooth maps
+- セクション: Smoothness and differentials
+- セクション: Smooth algebras over fields
+- セクション: Smooth ring maps in the Noetherian case
+- セクション: Overview of results on smooth ring maps
+- セクション: \'Etale ring maps
+- セクション: Local structure of \'etale ring maps
+- セクション: \'Etale local structure of quasi-finite ring maps
+- セクション: Local homomorphisms
+- セクション: Integral closure and smooth base change
+- セクション: Formally unramified maps
+- セクション: Conormal modules and universal thickenings
+- セクション: Formally \'etale maps
+- セクション: Unramified ring maps
+- セクション: Local structure of unramified ring maps
+- セクション: Henselian local rings
+- セクション: Filtered colimits of \'etale ring maps
+- セクション: Henselization and strict henselization
+- セクション: Henselization and quasi-finite ring maps
+- セクション: Serre's criterion for normality
+- セクション: Formal smoothness of fields
+- セクション: Constructing flat ring maps
+- セクション: The Cohen structure theorem
+- セクション: Japanese rings
+- セクション: Nagata rings
+- セクション: Ascending properties
+- セクション: Descending properties
+- セクション: Geometrically normal algebras
+- セクション: Geometrically regular algebras
+- セクション: Geometrically Cohen-Macaulay algebras
+- セクション: Colimits and maps of finite presentation, II
+
+ファイル名: 011-brauer.tex
+- タイトル: Brauer groups
+- セクション: Introduction
+- セクション: Noncommutative algebras
+- セクション: Wedderburn's theorem
+- セクション: Lemmas on algebras
+- セクション: The Brauer group of a field
+- セクション: Skolem-Noether
+- セクション: The centralizer theorem
+- セクション: Splitting fields
+
+ファイル名: 012-homology.tex
+- タイトル: Homological Algebra
+- セクション: Introduction
+- セクション: Basic notions
+- セクション: Preadditive and additive categories
+- セクション: Karoubian categories
+- セクション: Abelian categories
+- セクション: Extensions
+- セクション: Additive functors
+- セクション: Localization
+- セクション: Jordan-H\"older
+- セクション: Serre subcategories
+- セクション: K-groups
+- セクション: Cohomological delta-functors
+- セクション: Complexes
+- セクション: Homotopy and the shift functor
+- セクション: Truncation of complexes
+- セクション: Graded objects
+- セクション: Additive monoidal categories
+- セクション: Double complexes and associated total complexes
+- セクション: Filtrations
+- セクション: Spectral sequences
+- セクション: Spectral sequences: exact couples
+- セクション: Spectral sequences: differential objects
+- セクション: Spectral sequences: filtered differential objects
+- セクション: Spectral sequences: filtered complexes
+- セクション: Spectral sequences: double complexes
+- セクション: Double complexes of abelian groups
+- セクション: Injectives
+- セクション: Projectives
+- セクション: Injectives and adjoint functors
+- セクション: Essentially constant systems
+- セクション: Inverse systems
+- セクション: Exactness of products
+
+ファイル名: 013-derived.tex
+- タイトル: Derived Categories
+- セクション: Introduction
+- セクション: Triangulated categories
+- セクション: The definition of a triangulated category
+- セクション: Elementary results on triangulated categories
+- セクション: Localization of triangulated categories
+- セクション: Quotients of triangulated categories
+- セクション: Adjoints for exact functors
+- セクション: The homotopy category
+- セクション: Cones and termwise split sequences
+- セクション: Distinguished triangles in the homotopy category
+- セクション: Derived categories
+- セクション: The canonical delta-functor
+- セクション: Filtered derived categories
+- セクション: Derived functors in general
+- セクション: Derived functors on derived categories
+- セクション: Higher derived functors
+- セクション: Triangulated subcategories of the derived category
+- セクション: Injective resolutions
+- セクション: Projective resolutions
+- セクション: Right derived functors and injective resolutions
+- セクション: Cartan-Eilenberg resolutions
+- セクション: Composition of right derived functors
+- セクション: Resolution functors
+- セクション: Functorial injective embeddings and resolution functors
+- セクション: Right derived functors via resolution functors
+- セクション: Filtered derived category and injective resolutions
+- セクション: Ext groups
+- セクション: K-groups
+- セクション: Unbounded complexes
+- セクション: Deriving adjoints
+- セクション: K-injective complexes
+- セクション: Bounded cohomological dimension
+- セクション: Derived colimits
+- セクション: Derived limits
+- セクション: Operations on full subcategories
+- セクション: Generators of triangulated categories
+- セクション: Compact objects
+- セクション: Brown representability
+- セクション: Brown representability, bis
+- セクション: Admissible subcategories
+- セクション: Postnikov systems
+- セクション: Essentially constant systems
+
+ファイル名: 014-simplicial.tex
+- タイトル: Simplicial Methods
+- セクション: Introduction
+- セクション: The category of finite ordered sets
+- セクション: Simplicial objects
+- セクション: Simplicial objects as presheaves
+- セクション: Cosimplicial objects
+- セクション: Products of simplicial objects
+- セクション: Fibre products of simplicial objects
+- セクション: Pushouts of simplicial objects
+- セクション: Products of cosimplicial objects
+- セクション: Fibre products of cosimplicial objects
+- セクション: Simplicial sets
+- セクション: Truncated simplicial objects and skeleton functors
+- セクション: Products with simplicial sets
+- セクション: Hom from simplicial sets into cosimplicial objects
+- セクション: Hom from cosimplicial sets into simplicial objects
+- セクション: Internal Hom
+- セクション: Hom from simplicial sets into simplicial objects
+- セクション: Splitting simplicial objects
+- セクション: Coskeleton functors
+- セクション: Augmentations
+- セクション: Left adjoints to the skeleton functors
+- セクション: Simplicial objects in abelian categories
+- セクション: Simplicial objects and chain complexes
+- セクション: Dold-Kan
+- セクション: Dold-Kan for cosimplicial objects
+- セクション: Homotopies
+- セクション: Homotopies in abelian categories
+- セクション: Homotopies and cosimplicial objects
+- セクション: More homotopies in abelian categories
+- セクション: Trivial Kan fibrations
+- セクション: Kan fibrations
+- セクション: A homotopy equivalence
+- セクション: Preparation for standard resolutions
+- セクション: Standard resolutions
+
+ファイル名: 015-more-algebra.tex
+- タイトル: More on Algebra
+- セクション: Introduction
+- セクション: Advice for the reader
+- セクション: Stably free modules
+- セクション: A comment on the Artin-Rees property
+- セクション: Fibre products of rings, I
+- セクション: Fibre products of rings, II
+- セクション: Fibre products of rings, III
+- セクション: Fitting ideals
+- セクション: Lifting
+- セクション: Zariski pairs
+- セクション: Henselian pairs
+- セクション: Henselization of pairs
+- セクション: Lifting and henselian pairs
+- セクション: Absolute integral closure
+- セクション: Auto-associated rings
+- セクション: Flattening stratification
+- セクション: Flattening over an Artinian ring
+- セクション: Flattening over a closed subset of the base
+- セクション: Flattening over a closed subsets of source and base
+- セクション: Flattening over a Noetherian complete local ring
+- セクション: Descent of flatness along integral maps
+- セクション: Torsion free modules
+- セクション: Reflexive modules
+- セクション: Content ideals
+- セクション: Flatness and finiteness conditions
+- セクション: Blowing up and flatness
+- セクション: Completion and flatness
+- セクション: The Koszul complex
+- セクション: The extended alternating {\v C
+- セクション: Koszul regular sequences
+- セクション: More on Koszul regular sequences
+- セクション: Regular ideals
+- セクション: Local complete intersection maps
+- セクション: Cartier's equality and geometric regularity
+- セクション: Geometric regularity
+- セクション: Topological rings and modules
+- セクション: Formally smooth maps of topological rings
+- セクション: Formally smooth maps of local rings
+- セクション: Some results on power series rings
+- セクション: Geometric regularity and formal smoothness
+- セクション: Regular ring maps
+- セクション: Ascending properties along regular ring maps
+- セクション: Permanence of properties under completion
+- セクション: Permanence of properties under \'etale maps
+- セクション: Permanence of properties under henselization
+- セクション: Field extensions, revisited
+- セクション: The singular locus
+- セクション: Regularity and derivations
+- セクション: Formal smoothness and regularity
+- セクション: G-rings
+- セクション: Properties of formal fibres
+- セクション: Excellent rings
+- セクション: Abelian categories of modules
+- セクション: Injective abelian groups
+- セクション: Injective modules
+- セクション: Derived categories of modules
+- セクション: Computing Tor
+- セクション: Tensor products of complexes
+- セクション: Derived tensor product
+- セクション: Derived change of rings
+- セクション: Tor independence
+- セクション: Spectral sequences for Tor
+- セクション: Products and Tor
+- セクション: K\"unneth spectral sequence
+- セクション: Pseudo-coherent modules, I
+- セクション: Pseudo-coherent modules, II
+- セクション: Tor dimension
+- セクション: Spectral sequences for Ext
+- セクション: Projective dimension
+- セクション: Injective dimension
+- セクション: Modules which are close to being projective
+- セクション: Hom complexes
+- セクション: Sign rules
+- セクション: Derived hom
+- セクション: Perfect complexes
+- セクション: Lifting complexes
+- セクション: Splitting complexes
+- セクション: Recognizing perfect complexes
+- セクション: Characterizing perfect complexes
+- セクション: Strong generators and regular rings
+- セクション: Relatively finitely presented modules
+- セクション: Relatively pseudo-coherent modules
+- セクション: Pseudo-coherent and perfect ring maps
+- セクション: Relatively perfect modules
+- セクション: Two term complexes
+- セクション: The naive cotangent complex
+- セクション: Rlim of abelian groups
+- セクション: Rlim of modules
+- セクション: Torsion modules
+- セクション: Formal glueing of module categories
+- セクション: The Beauville-Laszlo theorem
+- セクション: Derived Completion
+- セクション: The category of derived complete modules
+- セクション: Derived completion for a principal ideal
+- セクション: Derived completion for Noetherian rings
+- セクション: An operator introduced by Berthelot and Ogus
+- セクション: Perfect complexes and the eta operator
+- セクション: Taking limits of complexes
+- セクション: Some evaluation maps
+- セクション: Base change for derived hom
+- セクション: Systems of modules
+- セクション: Systems of modules, bis
+- セクション: Miscellany
+- セクション: Tricks with double complexes
+- セクション: Weakly \'etale ring maps
+- セクション: Weakly \'etale algebras over fields
+- セクション: Local irreducibility
+- セクション: Miscellaneous on branches
+- セクション: Branches of the completion
+- セクション: Formally catenary rings
+- セクション: Group actions and integral closure
+- セクション: Extensions of discrete valuation rings
+- セクション: Galois extensions and ramification
+- セクション: Krasner's lemma
+- セクション: Abhyankar's lemma and tame ramification
+- セクション: Eliminating ramification
+- セクション: Eliminating ramification, II
+- セクション: Picard groups of rings
+- セクション: Determinants
+- セクション: Perfect complexes and K-groups
+- セクション: Determinants of endomorphisms of finite length modules
+- セクション: A regular local ring is a UFD
+- セクション: Determinants of complexes
+- セクション: Extensions of valuation rings
+- セクション: Structure of modules over a PID
+- セクション: Principal radical ideals
+- セクション: Invertible objects in the derived category
+- セクション: Splitting off a free module
+- セクション: Big projective modules are free
+
+ファイル名: 016-smoothing.tex
+- タイトル: Smoothing Ring Maps
+- セクション: Introduction
+- セクション: Singular ideals
+- セクション: Presentations of algebras
+- セクション: Intermezzo: N\'eron desingularization
+- セクション: The lifting problem
+- セクション: The lifting lemma
+- セクション: The desingularization lemma
+- セクション: Warmup: reduction to a base field
+- セクション: Local tricks
+- セクション: Separable residue fields
+- セクション: Inseparable residue fields
+- セクション: The main theorem
+- セクション: The approximation property for G-rings
+- セクション: Approximation for henselian pairs
+
+ファイル名: 017-modules.tex
+- タイトル: Sheaves of Modules
+- セクション: Introduction
+- セクション: Pathology
+- セクション: The abelian category of sheaves of modules
+- セクション: Sections of sheaves of modules
+- セクション: Supports of modules and sections
+- セクション: Closed immersions and abelian sheaves
+- セクション: A canonical exact sequence
+- セクション: Modules locally generated by sections
+- セクション: Modules of finite type
+- セクション: Quasi-coherent modules
+- セクション: Modules of finite presentation
+- セクション: Coherent modules
+- セクション: Closed immersions of ringed spaces
+- セクション: Locally free sheaves
+- セクション: Bilinear maps
+- セクション: Tensor product
+- セクション: Flat modules
+- セクション: Duals
+- セクション: Constructible sheaves of sets
+- セクション: Flat morphisms of ringed spaces
+- セクション: Symmetric and exterior powers
+- セクション: Internal Hom
+- セクション: The annihilator of a sheaf of modules
+- セクション: Koszul complexes
+- セクション: Invertible modules
+- セクション: Rank and determinant
+- セクション: Localizing sheaves of rings
+- セクション: Modules of differentials
+- セクション: Finite order differential operators
+- セクション: The de Rham complex
+- セクション: The naive cotangent complex
+
+ファイル名: 018-sites-modules.tex
+- タイトル: Modules on Sites
+- セクション: Introduction
+- セクション: Abelian presheaves
+- セクション: Abelian sheaves
+- セクション: Free abelian presheaves
+- セクション: Free abelian sheaves
+- セクション: Ringed sites
+- セクション: Ringed topoi
+- セクション: 2-morphisms of ringed topoi
+- セクション: Presheaves of modules
+- セクション: Sheaves of modules
+- セクション: Sheafification of presheaves of modules
+- セクション: Morphisms of topoi and sheaves of modules
+- セクション: Morphisms of ringed topoi and modules
+- セクション: The abelian category of sheaves of modules
+- セクション: Exactness of pushforward
+- セクション: Exactness of lower shriek
+- セクション: Global types of modules
+- セクション: Intrinsic properties of modules
+- セクション: Localization of ringed sites
+- セクション: Localization of morphisms of ringed sites
+- セクション: Localization of ringed topoi
+- セクション: Localization of morphisms of ringed topoi
+- セクション: Local types of modules
+- セクション: Basic results on local types of modules
+- セクション: Closed immersions of ringed topoi
+- セクション: Tensor product
+- セクション: Internal Hom
+- セクション: Flat modules
+- セクション: Duals
+- セクション: Towards constructible modules
+- セクション: Flat morphisms
+- セクション: Invertible modules
+- セクション: Modules of differentials
+- セクション: Finite order differential operators
+- セクション: The naive cotangent complex
+- セクション: Stalks of modules
+- セクション: Skyscraper sheaves
+- セクション: Localization and points
+- セクション: Pullbacks of flat modules
+- セクション: Locally ringed topoi
+- セクション: Lower shriek for modules
+- セクション: Constant sheaves
+- セクション: Locally constant sheaves
+- セクション: Localizing sheaves of rings
+- セクション: Sheaves of pointed sets
+
+ファイル名: 019-injectives.tex
+- タイトル: Injectives
+- セクション: Introduction
+- セクション: Baer's argument for modules
+- セクション: G-modules
+- セクション: Abelian sheaves on a space
+- セクション: Sheaves of modules on a ringed space
+- セクション: Abelian presheaves on a category
+- セクション: Abelian Sheaves on a site
+- セクション: Modules on a ringed site
+- セクション: Embedding abelian categories
+- セクション: Grothendieck's AB conditions
+- セクション: Injectives in Grothendieck categories
+- セクション: K-injectives in Grothendieck categories
+- セクション: Additional remarks on Grothendieck abelian categories
+- セクション: The Gabriel-Popescu theorem
+- セクション: Brown representability and Grothendieck abelian categories
+
+ファイル名: 020-cohomology.tex
+- タイトル: Cohomology of Sheaves
+- セクション: Introduction
+- セクション: Cohomology of sheaves
+- セクション: Derived functors
+- セクション: First cohomology and torsors
+- セクション: First cohomology and extensions
+- セクション: First cohomology and invertible sheaves
+- セクション: Locality of cohomology
+- セクション: Mayer-Vietoris
+- セクション: The {\v C
+- セクション: {\v C
+- セクション: {\v C
+- セクション: Flasque sheaves
+- セクション: The Leray spectral sequence
+- セクション: Functoriality of cohomology
+- セクション: Refinements and {\v C
+- セクション: Cohomology on Hausdorff quasi-compact spaces
+- セクション: The base change map
+- セクション: Proper base change in topology
+- セクション: Cohomology and colimits
+- セクション: Vanishing on Noetherian topological spaces
+- セクション: Cohomology with support in a closed subset
+- セクション: Cohomology on spectral spaces
+- セクション: The alternating {\v C
+- セクション: Alternative view of the {\v C
+- セクション: {\v C
+- セクション: Flat resolutions
+- セクション: Derived pullback
+- セクション: Cohomology of unbounded complexes
+- セクション: Cohomology of filtered complexes
+- セクション: Godement resolution
+- セクション: Cup product
+- セクション: Some properties of K-injective complexes
+- セクション: Unbounded Mayer-Vietoris
+- セクション: Cohomology with support in a closed subset, II
+- セクション: Inverse systems and cohomology, I
+- セクション: Inverse systems and cohomology, II
+- セクション: Derived limits
+- セクション: Producing K-injective resolutions
+- セクション: Inverse systems and cohomology, III
+- セクション: {\v C
+- セクション: Hom complexes
+- セクション: Internal hom in the derived category
+- セクション: Ext sheaves
+- セクション: Global derived hom
+- セクション: Glueing complexes
+- セクション: Strictly perfect complexes
+- セクション: Pseudo-coherent modules
+- セクション: Tor dimension
+- セクション: Perfect complexes
+- セクション: Duals
+- セクション: Miscellany
+- セクション: Invertible objects in the derived category
+- セクション: Compact objects
+- セクション: Projection formula
+- セクション: An operator introduced by Berthelot and Ogus
+
+ファイル名: 021-sites-cohomology.tex
+- タイトル: Cohomology on Sites
+- セクション: Introduction
+- セクション: Cohomology of sheaves
+- セクション: Derived functors
+- セクション: First cohomology and torsors
+- セクション: First cohomology and extensions
+- セクション: First cohomology and invertible sheaves
+- セクション: Locality of cohomology
+- セクション: The {\v C
+- セクション: {\v C
+- セクション: {\v C
+- セクション: Second cohomology and gerbes
+- セクション: Cohomology of modules
+- セクション: Totally acyclic sheaves
+- セクション: The Leray spectral sequence
+- セクション: The base change map
+- セクション: Cohomology and colimits
+- セクション: Flat resolutions
+- セクション: Derived pullback
+- セクション: Cohomology of unbounded complexes
+- セクション: Some properties of K-injective complexes
+- セクション: Localization and cohomology
+- セクション: Inverse systems and cohomology
+- セクション: Derived and homotopy limits
+- セクション: Producing K-injective resolutions
+- セクション: Bounded cohomological dimension
+- セクション: Mayer-Vietoris
+- セクション: Comparing two topologies
+- セクション: Formalities on cohomological descent
+- セクション: Comparing two topologies, II
+- セクション: Comparing cohomology
+- セクション: Cohomology on Hausdorff and locally quasi-compact spaces
+- セクション: Spectral sequences for Ext
+- セクション: Cup product
+- セクション: Hom complexes
+- セクション: Internal hom in the derived category
+- セクション: Global derived hom
+- セクション: Derived lower shriek
+- セクション: Derived lower shriek for fibred categories
+- セクション: Homology on a category
+- セクション: Calculating derived lower shriek
+- セクション: Simplicial modules
+- セクション: Cohomology on a category
+- セクション: Modules on a category
+- セクション: Strictly perfect complexes
+- セクション: Pseudo-coherent modules
+- セクション: Tor dimension
+- セクション: Perfect complexes
+- セクション: Duals
+- セクション: Invertible objects in the derived category
+- セクション: Projection formula
+- セクション: Weakly contractible objects
+- セクション: Compact objects
+- セクション: Complexes with locally constant cohomology sheaves
+
+ファイル名: 022-dga.tex
+- タイトル: Differential Graded Algebra
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Differential graded algebras
+- セクション: Differential graded modules
+- セクション: The homotopy category
+- セクション: Cones
+- セクション: Admissible short exact sequences
+- セクション: Distinguished triangles
+- セクション: Cones and distinguished triangles
+- セクション: The homotopy category is triangulated
+- セクション: Left modules
+- セクション: Tensor product
+- セクション: Hom complexes and differential graded modules
+- セクション: Projective modules over algebras
+- セクション: Projective modules over graded algebras
+- セクション: Projective modules and differential graded algebras
+- セクション: Injective modules over algebras
+- セクション: Injective modules over graded algebras
+- セクション: Injective modules and differential graded algebras
+- セクション: P-resolutions
+- セクション: I-resolutions
+- セクション: The derived category
+- セクション: The canonical delta-functor
+- セクション: Linear categories
+- セクション: Graded categories
+- セクション: Differential graded categories
+- セクション: Obtaining triangulated categories
+- セクション: Bimodules
+- セクション: Bimodules and tensor product
+- セクション: Bimodules and internal hom
+- セクション: Derived Hom
+- セクション: Variant of derived Hom
+- セクション: Derived tensor product
+- セクション: Composition of derived tensor products
+- セクション: Variant of derived tensor product
+- セクション: Characterizing compact objects
+- セクション: Equivalences of derived categories
+- セクション: Resolutions of differential graded algebras
+
+ファイル名: 023-dpa.tex
+- タイトル: Divided Power Algebra
+- セクション: Introduction
+- セクション: Divided powers
+- セクション: Divided power rings
+- セクション: Extending divided powers
+- セクション: Divided power polynomial algebras
+- セクション: Tate resolutions
+- セクション: Application to complete intersections
+- セクション: Local complete intersection rings
+- セクション: Local complete intersection maps
+- セクション: Smooth ring maps and diagonals
+- セクション: Freeness of the conormal module
+- セクション: Koszul complexes and Tate resolutions
+
+ファイル名: 024-sdga.tex
+- タイトル: Differential Graded Sheaves
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Sheaves of graded algebras
+- セクション: Sheaves of graded modules
+- セクション: The graded category of sheaves of graded modules
+- セクション: Tensor product for sheaves of graded modules
+- セクション: Internal hom for sheaves of graded modules
+- セクション: Sheaves of graded bimodules and tensor-hom adjunction
+- セクション: Pull and push for sheaves of graded modules
+- セクション: Localization and sheaves of graded modules
+- セクション: Shift functors on sheaves of graded modules
+- セクション: Sheaves of differential graded algebras
+- セクション: Sheaves of differential graded modules
+- セクション: The differential graded category of modules
+- セクション: Tensor product for sheaves of differential graded modules
+- セクション: Internal hom for sheaves of differential graded modules
+- セクション: Sheaves of differential graded bimodules and tensor-hom adjunction
+- セクション: Pull and push for sheaves of differential graded modules
+- セクション: Localization and sheaves of differential graded modules
+- セクション: Shift functors on sheaves of differential graded modules
+- セクション: The homotopy category
+- セクション: Cones and triangles
+- セクション: Flat resolutions
+- セクション: The differential graded hull of a graded module
+- セクション: K-injective differential graded modules
+- セクション: The derived category
+- セクション: The canonical delta-functor
+- セクション: Derived pullback
+- セクション: Derived pushforward
+- セクション: Equivalences of derived categories
+- セクション: Resolutions of differential graded algebras
+- セクション: Miscellany
+- セクション: Differential graded modules on a category
+- セクション: Differential graded modules on a category, bis
+- セクション: Inverse systems of differential graded algebras
+
+ファイル名: 025-hypercovering.tex
+- タイトル: Hypercoverings
+- セクション: Introduction
+- セクション: Semi-representable objects
+- セクション: Hypercoverings
+- セクション: Acyclicity
+- セクション: {\v C
+- セクション: Hypercoverings a la Verdier
+- セクション: Covering hypercoverings
+- セクション: Adding simplices
+- セクション: Homotopies
+- セクション: Cohomology and hypercoverings
+- セクション: Hypercoverings of spaces
+- セクション: Constructing hypercoverings
+
+ファイル名: 026-schemes.tex
+- タイトル: Schemes
+- セクション: Introduction
+- セクション: Locally ringed spaces
+- セクション: Open immersions of locally ringed spaces
+- セクション: Closed immersions of locally ringed spaces
+- セクション: Affine schemes
+- セクション: The category of affine schemes
+- セクション: Quasi-coherent sheaves on affines
+- セクション: Closed subspaces of affine schemes
+- セクション: Schemes
+- セクション: Immersions of schemes
+- セクション: Zariski topology of schemes
+- セクション: Reduced schemes
+- セクション: Points of schemes
+- セクション: Glueing schemes
+- セクション: A representability criterion
+- セクション: Existence of fibre products of schemes
+- セクション: Fibre products of schemes
+- セクション: Base change in algebraic geometry
+- セクション: Quasi-compact morphisms
+- セクション: Valuative criterion for universal closedness
+- セクション: Separation axioms
+- セクション: Valuative criterion of separatedness
+- セクション: Monomorphisms
+- セクション: Functoriality for quasi-coherent modules
+
+ファイル名: 027-constructions.tex
+- タイトル: Constructions of Schemes
+- セクション: Introduction
+- セクション: Relative glueing
+- セクション: Relative spectrum via glueing
+- セクション: Relative spectrum as a functor
+- セクション: Affine n-space
+- セクション: Vector bundles
+- セクション: Cones
+- セクション: Proj of a graded ring
+- セクション: Quasi-coherent sheaves on Proj
+- セクション: Invertible sheaves on Proj
+- セクション: Functoriality of Proj
+- セクション: Morphisms into Proj
+- セクション: Projective space
+- セクション: Invertible sheaves and morphisms into Proj
+- セクション: Relative Proj via glueing
+- セクション: Relative Proj as a functor
+- セクション: Quasi-coherent sheaves on relative Proj
+- セクション: Functoriality of relative Proj
+- セクション: Invertible sheaves and morphisms into relative Proj
+- セクション: Twisting by invertible sheaves and relative Proj
+- セクション: Projective bundles
+- セクション: Grassmannians
+
+ファイル名: 028-properties.tex
+- タイトル: Properties of Schemes
+- セクション: Introduction
+- セクション: Constructible sets
+- セクション: Integral, irreducible, and reduced schemes
+- セクション: Types of schemes defined by properties of rings
+- セクション: Noetherian schemes
+- セクション: Jacobson schemes
+- セクション: Normal schemes
+- セクション: Cohen-Macaulay schemes
+- セクション: Regular schemes
+- セクション: Dimension
+- セクション: Catenary schemes
+- セクション: Serre's conditions
+- セクション: Japanese and Nagata schemes
+- セクション: The singular locus
+- セクション: Local irreducibility
+- セクション: Characterizing modules of finite type and finite presentation
+- セクション: Sections over principal opens
+- セクション: Quasi-affine schemes
+- セクション: Flat modules
+- セクション: Locally free modules
+- セクション: Locally projective modules
+- セクション: Extending quasi-coherent sheaves
+- セクション: Gabber's result
+- セクション: Sections with support in a closed subset
+- セクション: Sections of quasi-coherent sheaves
+- セクション: Ample invertible sheaves
+- セクション: Affine and quasi-affine schemes
+- セクション: Quasi-coherent sheaves and ample invertible sheaves
+- セクション: Finding suitable affine opens
+
+ファイル名: 029-morphisms.tex
+- タイトル: Morphisms of Schemes
+- セクション: Introduction
+- セクション: Closed immersions
+- セクション: Immersions
+- セクション: Closed immersions and quasi-coherent sheaves
+- セクション: Supports of modules
+- セクション: Scheme theoretic image
+- セクション: Scheme theoretic closure and density
+- セクション: Dominant morphisms
+- セクション: Surjective morphisms
+- セクション: Radicial and universally injective morphisms
+- セクション: Affine morphisms
+- セクション: Families of ample invertible modules
+- セクション: Quasi-affine morphisms
+- セクション: Types of morphisms defined by properties of ring maps
+- セクション: Morphisms of finite type
+- セクション: Points of finite type and Jacobson schemes
+- セクション: Universally catenary schemes
+- セクション: Nagata schemes, reprise
+- セクション: The singular locus, reprise
+- セクション: Quasi-finite morphisms
+- セクション: Morphisms of finite presentation
+- セクション: Constructible sets
+- セクション: Open morphisms
+- セクション: Submersive morphisms
+- セクション: Flat morphisms
+- セクション: Flat closed immersions
+- セクション: Generic flatness
+- セクション: Morphisms and dimensions of fibres
+- セクション: Morphisms of given relative dimension
+- セクション: Syntomic morphisms
+- セクション: Conormal sheaf of an immersion
+- セクション: Sheaf of differentials of a morphism
+- セクション: Finite order differential operators
+- セクション: Smooth morphisms
+- セクション: Unramified morphisms
+- セクション: \'Etale morphisms
+- セクション: Relatively ample sheaves
+- セクション: Very ample sheaves
+- セクション: Ample and very ample sheaves relative to finite type morphisms
+- セクション: Quasi-projective morphisms
+- セクション: Proper morphisms
+- セクション: Valuative criteria
+- セクション: Projective morphisms
+- セクション: Integral and finite morphisms
+- セクション: Universal homeomorphisms
+- セクション: Universal homeomorphisms of affine schemes
+- セクション: Absolute weak normalization and seminormalization
+- セクション: Finite locally free morphisms
+- セクション: Rational maps
+- セクション: Birational morphisms
+- セクション: Generically finite morphisms
+- セクション: The dimension formula
+- セクション: Relative normalization
+- セクション: Normalization
+- セクション: Weak normalization
+- セクション: Zariski's Main Theorem (algebraic version)
+- セクション: Universally bounded fibres
+- セクション: Miscellany
+
+ファイル名: 030-coherent.tex
+- タイトル: Cohomology of Schemes
+- セクション: Introduction
+- セクション: {\v C
+- セクション: Vanishing of cohomology
+- セクション: Quasi-coherence of higher direct images
+- セクション: Cohomology and base change, I
+- セクション: Colimits and higher direct images
+- セクション: Cohomology and base change, II
+- セクション: Cohomology of projective space
+- セクション: Coherent sheaves on locally Noetherian schemes
+- セクション: Coherent sheaves on Noetherian schemes
+- セクション: Depth
+- セクション: Devissage of coherent sheaves
+- セクション: Finite morphisms and affines
+- セクション: Coherent sheaves on Proj, I
+- セクション: Coherent sheaves on Proj, II
+- セクション: Higher direct images along projective morphisms
+- セクション: Ample invertible sheaves and cohomology
+- セクション: Chow's Lemma
+- セクション: Higher direct images of coherent sheaves
+- セクション: The theorem on formal functions
+- セクション: Applications of the theorem on formal functions
+- セクション: Cohomology and base change, III
+- セクション: Coherent formal modules
+- セクション: Grothendieck's existence theorem, I
+- セクション: Grothendieck's existence theorem, II
+- セクション: Being proper over a base
+- セクション: Grothendieck's existence theorem, III
+- セクション: Grothendieck's algebraization theorem
+
+ファイル名: 031-divisors.tex
+- タイトル: Divisors
+- セクション: Introduction
+- セクション: Associated points
+- セクション: Morphisms and associated points
+- セクション: Embedded points
+- セクション: Weakly associated points
+- セクション: Morphisms and weakly associated points
+- セクション: Relative assassin
+- セクション: Relative weak assassin
+- セクション: Fitting ideals
+- セクション: The singular locus of a morphism
+- セクション: Torsion free modules
+- セクション: Reflexive modules
+- セクション: Effective Cartier divisors
+- セクション: Effective Cartier divisors and invertible sheaves
+- セクション: Effective Cartier divisors on Noetherian schemes
+- セクション: Complements of affine opens
+- セクション: Norms
+- セクション: Relative effective Cartier divisors
+- セクション: The normal cone of an immersion
+- セクション: Regular ideal sheaves
+- セクション: Regular immersions
+- セクション: Relative regular immersions
+- セクション: Meromorphic functions and sections
+- セクション: Meromorphic functions and sections; Noetherian case
+- セクション: Meromorphic functions and sections; reduced case
+- セクション: Weil divisors
+- セクション: The Weil divisor class associated to an invertible module
+- セクション: More on invertible modules
+- セクション: Weil divisors on normal schemes
+- セクション: Relative Proj
+- セクション: Closed subschemes of relative proj
+- セクション: Blowing up
+- セクション: Strict transform
+- セクション: Admissible blowups
+- セクション: Blowing up and flatness
+- セクション: Modifications
+
+ファイル名: 032-limits.tex
+- タイトル: Limits of Schemes
+- セクション: Introduction
+- セクション: Directed limits of schemes with affine transition maps
+- セクション: Infinite products
+- セクション: Descending properties
+- セクション: Absolute Noetherian Approximation
+- セクション: Limits and morphisms of finite presentation
+- セクション: Relative approximation
+- セクション: Descending properties of morphisms
+- セクション: Finite type closed in finite presentation
+- セクション: Descending relative objects
+- セクション: Characterizing affine schemes
+- セクション: Variants of Chow's Lemma
+- セクション: Applications of Chow's lemma
+- セクション: Universally closed morphisms
+- セクション: Noetherian valuative criterion
+- セクション: Refined Noetherian valuative criteria
+- セクション: Valuative criteria over a Nagata base
+- セクション: Limits and dimensions of fibres
+- セクション: Base change in top degree
+- セクション: Glueing in closed fibres
+- セクション: Application to modifications
+- セクション: Descending finite type schemes
+
+ファイル名: 033-varieties.tex
+- タイトル: Varieties
+- セクション: Introduction
+- セクション: Notation
+- セクション: Varieties
+- セクション: Varieties and rational maps
+- セクション: Change of fields and local rings
+- セクション: Geometrically reduced schemes
+- セクション: Geometrically connected schemes
+- セクション: Geometrically irreducible schemes
+- セクション: Geometrically integral schemes
+- セクション: Geometrically normal schemes
+- セクション: Change of fields and locally Noetherian schemes
+- セクション: Geometrically regular schemes
+- セクション: Change of fields and the Cohen-Macaulay property
+- セクション: Change of fields and the Jacobson property
+- セクション: Change of fields and ample invertible sheaves
+- セクション: Tangent spaces
+- セクション: Generically finite morphisms
+- セクション: Variants of Noether normalization
+- セクション: Dimension of fibres
+- セクション: Algebraic schemes
+- セクション: Complete local rings
+- セクション: Global generation
+- セクション: Separating points and tangent vectors
+- セクション: Closures of products
+- セクション: Schemes smooth over fields
+- セクション: Types of varieties
+- セクション: Normalization
+- セクション: Groups of invertible functions
+- セクション: K\"unneth formula, I
+- セクション: Picard groups of varieties
+- セクション: Uniqueness of base field
+- セクション: Automorphisms
+- セクション: Euler characteristics
+- セクション: Projective space
+- セクション: Coherent sheaves on projective space
+- セクション: Frobenii
+- セクション: Glueing dimension one rings
+- セクション: One dimensional Noetherian schemes
+- セクション: The delta invariant
+- セクション: The number of branches
+- セクション: Normalization of one dimensional schemes
+- セクション: Finding affine opens
+- セクション: Curves
+- セクション: Degrees on curves
+- セクション: Numerical intersections
+- セクション: Embedding dimension
+- セクション: Bertini theorems
+- セクション: Enriques-Severi-Zariski
+
+ファイル名: 034-topologies.tex
+- タイトル: Topologies on Schemes
+- セクション: Introduction
+- セクション: The general procedure
+- セクション: The Zariski topology
+- セクション: The \'etale topology
+- セクション: The smooth topology
+- セクション: The syntomic topology
+- セクション: The fppf topology
+- セクション: The ph topology
+- セクション: The fpqc topology
+- セクション: The V topology
+- セクション: Change of topologies
+- セクション: Change of big sites
+- セクション: Extending functors
+
+ファイル名: 035-descent.tex
+- タイトル: Descent
+- セクション: Introduction
+- セクション: Descent data for quasi-coherent sheaves
+- セクション: Descent for modules
+- セクション: Descent for universally injective morphisms
+- セクション: Fpqc descent of quasi-coherent sheaves
+- セクション: Galois descent for quasi-coherent sheaves
+- セクション: Descent of finiteness properties of modules
+- セクション: Quasi-coherent sheaves and topologies, I
+- セクション: Cohomology of quasi-coherent modules and topologies
+- セクション: Quasi-coherent sheaves and topologies, II
+- セクション: Quasi-coherent modules and affines
+- セクション: Parasitic modules
+- セクション: Fpqc coverings are universal effective epimorphisms
+- セクション: Descent of finiteness and smoothness properties of morphisms
+- セクション: Local properties of schemes
+- セクション: Properties of schemes local in the fppf topology
+- セクション: Properties of schemes local in the syntomic topology
+- セクション: Properties of schemes local in the smooth topology
+- セクション: Variants on descending properties
+- セクション: Germs of schemes
+- セクション: Local properties of germs
+- セクション: Properties of morphisms local on the target
+- セクション: Properties of morphisms local in the fpqc topology on the target
+- セクション: Properties of morphisms local in the fppf topology on the target
+- セクション: Application of fpqc descent of properties of morphisms
+- セクション: Properties of morphisms local on the source
+- セクション: Properties of morphisms local in the fpqc topology on the source
+- セクション: Properties of morphisms local in the fppf topology on the source
+- セクション: Properties of morphisms local in the syntomic topology on the source
+- セクション: Properties of morphisms local in the smooth topology on the source
+- セクション: Properties of morphisms local in the \'etale topology on the source
+- セクション: Properties of morphisms \'etale local on source-and-target
+- セクション: Properties of morphisms of germs local on source-and-target
+- セクション: Descent data for schemes over schemes
+- セクション: Fully faithfulness of the pullback functors
+- セクション: Descending types of morphisms
+- セクション: Descending affine morphisms
+- セクション: Descending quasi-affine morphisms
+- セクション: Descent data in terms of sheaves
+
+ファイル名: 036-perfect.tex
+- タイトル: Derived Categories of Schemes
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Derived category of quasi-coherent modules
+- セクション: Total direct image
+- セクション: Affine morphisms
+- セクション: Cohomology with support in a closed subset
+- セクション: The coherator
+- セクション: The coherator for Noetherian schemes
+- セクション: Koszul complexes
+- セクション: Pseudo-coherent and perfect complexes
+- セクション: Derived category of coherent modules
+- セクション: Descent finiteness properties of complexes
+- セクション: Lifting complexes
+- セクション: Approximation by perfect complexes
+- セクション: Generating derived categories
+- セクション: An example generator
+- セクション: Compact and perfect objects
+- セクション: Derived categories as module categories
+- セクション: Characterizing pseudo-coherent complexes, I
+- セクション: An example equivalence
+- セクション: The coherator revisited
+- セクション: Cohomology and base change, IV
+- セクション: K\"unneth formula, II
+- セクション: K\"unneth formula, III
+- セクション: K\"unneth formula for Ext
+- セクション: Cohomology and base change, V
+- セクション: Producing perfect complexes
+- セクション: A projection formula for Ext
+- セクション: Limits and derived categories
+- セクション: Cohomology and base change, VI
+- セクション: Perfect complexes
+- セクション: Applications
+- セクション: Other applications
+- セクション: Characterizing pseudo-coherent complexes, II
+- セクション: Relatively perfect objects
+- セクション: The resolution property
+- セクション: The resolution property and perfect complexes
+- セクション: K-groups
+- セクション: Determinants of complexes
+- セクション: Detecting Boundedness
+- セクション: Quasi-coherent objects in the derived category
+
+ファイル名: 037-more-morphisms.tex
+- タイトル: More on Morphisms
+- セクション: Introduction
+- セクション: Thickenings
+- セクション: Morphisms of thickenings
+- セクション: Picard groups of thickenings
+- セクション: Infinitesimal neighbourhoods
+- セクション: Formally unramified morphisms
+- セクション: Universal first order thickenings
+- セクション: Formally \'etale morphisms
+- セクション: Infinitesimal deformations of maps
+- セクション: Infinitesimal deformations of schemes
+- セクション: Formally smooth morphisms
+- セクション: Smoothness over a Noetherian base
+- セクション: The naive cotangent complex
+- セクション: Pushouts in the category of schemes, I
+- セクション: Openness of the flat locus
+- セクション: Crit\`ere de platitude par fibres
+- セクション: Closed immersions between smooth schemes
+- セクション: Flat modules and relative assassins
+- セクション: Normalization revisited
+- セクション: Normal morphisms
+- セクション: Regular morphisms
+- セクション: Cohen-Macaulay morphisms
+- セクション: Slicing Cohen-Macaulay morphisms
+- セクション: Generic fibres
+- セクション: Relative assassins
+- セクション: Reduced fibres
+- セクション: Irreducible components of fibres
+- セクション: Connected components of fibres
+- セクション: Connected components meeting a section
+- セクション: Dimension of fibres
+- セクション: Weak relative Noether normalization
+- セクション: Bertini theorems
+- セクション: Theorem of the cube
+- セクション: Limit arguments
+- セクション: \'Etale neighbourhoods
+- セクション: \'Etale neighbourhoods and branches
+- セクション: Unramified and \'etale morphisms
+- セクション: Slicing smooth morphisms
+- セクション: \'Etale neighbourhoods and Artin approximation
+- セクション: Finite free locally dominates \'etale
+- セクション: \'Etale localization of quasi-finite morphisms
+- セクション: \'Etale localization of integral morphisms
+- セクション: Zariski's Main Theorem
+- セクション: Applications of Zariski's Main Theorem, I
+- セクション: Applications of Zariski's Main Theorem, II
+- セクション: Application to morphisms with connected fibres
+- セクション: Application to the structure of finite type morphisms
+- セクション: Application to the fppf topology
+- セクション: Quasi-projective schemes
+- セクション: Projective schemes
+- セクション: Proj and Spec
+- セクション: Closed points in fibres
+- セクション: Stein factorization
+- セクション: Generic flatness stratification
+- セクション: Stratifying a morphism
+- セクション: Improving morphisms of relative dimension one
+- セクション: Descending separated locally quasi-finite morphisms
+- セクション: Relative finite presentation
+- セクション: Relative pseudo-coherence
+- セクション: Pseudo-coherent morphisms
+- セクション: Perfect morphisms
+- セクション: Local complete intersection morphisms
+- セクション: Exact sequences of differentials and conormal sheaves
+- セクション: Weakly \'etale morphisms
+- セクション: Reduced fibre theorem
+- セクション: Ind-quasi-affine morphisms
+- セクション: Pushouts in the category of schemes, II
+- セクション: Relative morphisms
+- セクション: Characterizing pseudo-coherent complexes, III
+- セクション: Descent finiteness properties of complexes
+- セクション: Relatively perfect objects
+- セクション: Contracting rational curves
+- セクション: Affine stratifications
+- セクション: Universally open morphisms
+- セクション: Weightings
+- セクション: More on weightings
+- セクション: Weightings and affine stratification numbers
+- セクション: Completely decomposed morphisms
+- セクション: Families of ample invertible modules
+- セクション: Blowing up and ample families of invertible modules
+- セクション: The extensive criterion for closed immersions
+
+ファイル名: 038-flat.tex
+- タイトル: More on Flatness
+- セクション: Introduction
+- セクション: Lemmas on \'etale localization
+- セクション: The local structure of a finite type module
+- セクション: One step d\'evissage
+- セクション: Complete d\'evissage
+- セクション: Translation into algebra
+- セクション: Localization and universally injective maps
+- セクション: Completion and Mittag-Leffler modules
+- セクション: Projective modules
+- セクション: Flat finite type modules, Part I
+- セクション: Extending properties from an open
+- セクション: Flat finitely presented modules
+- セクション: Flat finite type modules, Part II
+- セクション: Examples of relatively pure modules
+- セクション: Impurities
+- セクション: Relatively pure modules
+- セクション: Examples of relatively pure sheaves
+- セクション: A criterion for purity
+- セクション: How purity is used
+- セクション: Flattening functors
+- セクション: Flattening stratifications
+- セクション: Flattening stratification over an Artinian ring
+- セクション: Flattening a map
+- セクション: Flattening in the local case
+- セクション: Variants of a lemma
+- セクション: Flat finite type modules, Part III
+- セクション: Universal flattening
+- セクション: Grothendieck's Existence Theorem, IV
+- セクション: Grothendieck's Existence Theorem, V
+- セクション: Blowing up and flatness
+- セクション: Applications
+- セクション: Compactifications
+- セクション: Nagata compactification
+- セクション: The h topology
+- セクション: More on the h topology
+- セクション: Blow up squares and the ph topology
+- セクション: Almost blow up squares and the h topology
+- セクション: Absolute weak normalization and h coverings
+- セクション: Descent vector bundles in positive characteristic
+- セクション: Blowing up complexes
+- セクション: Blowing up perfect modules
+- セクション: An operator introduced by Berthelot and Ogus
+- セクション: Blowing up complexes, II
+- セクション: Blowing up complexes, III
+
+ファイル名: 039-groupoids.tex
+- タイトル: Groupoid Schemes
+- セクション: Introduction
+- セクション: Notation
+- セクション: Equivalence relations
+- セクション: Group schemes
+- セクション: Examples of group schemes
+- セクション: Properties of group schemes
+- セクション: Properties of group schemes over a field
+- セクション: Properties of algebraic group schemes
+- セクション: Abelian varieties
+- セクション: Actions of group schemes
+- セクション: Principal homogeneous spaces
+- セクション: Equivariant quasi-coherent sheaves
+- セクション: Groupoids
+- セクション: Quasi-coherent sheaves on groupoids
+- セクション: Colimits of quasi-coherent modules
+- セクション: Groupoids and group schemes
+- セクション: The stabilizer group scheme
+- セクション: Restricting groupoids
+- セクション: Invariant subschemes
+- セクション: Quotient sheaves
+- セクション: Descent in terms of groupoids
+- セクション: Separation conditions
+- セクション: Finite flat groupoids, affine case
+- セクション: Finite flat groupoids
+- セクション: Descending quasi-projective schemes
+
+ファイル名: 040-more-groupoids.tex
+- タイトル: More on Groupoid Schemes
+- セクション: Introduction
+- セクション: Notation
+- セクション: Useful diagrams
+- セクション: Sheaf of differentials
+- セクション: Local structure
+- セクション: Properties of groupoids
+- セクション: Comparing fibres
+- セクション: Cohen-Macaulay presentations
+- セクション: Restricting groupoids
+- セクション: Properties of groupoids on fields
+- セクション: Morphisms of groupoids on fields
+- セクション: Slicing groupoids
+- セクション: \'Etale localization of groupoids
+- セクション: Finite groupoids
+- セクション: Descending ind-quasi-affine morphisms
+
+ファイル名: 041-etale.tex
+- タイトル: \'Etale Morphisms of Schemes
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Unramified morphisms
+- セクション: Three other characterizations of unramified morphisms
+- セクション: The functorial characterization of unramified morphisms
+- セクション: Topological properties of unramified morphisms
+- セクション: Universally injective, unramified morphisms
+- セクション: Examples of unramified morphisms
+- セクション: Flat morphisms
+- セクション: Topological properties of flat morphisms
+- セクション: \'Etale morphisms
+- セクション: The structure theorem
+- セクション: \'Etale and smooth morphisms
+- セクション: Topological properties of \'etale morphisms
+- セクション: Topological invariance of the \'etale topology
+- セクション: The functorial characterization
+- セクション: \'Etale local structure of unramified morphisms
+- セクション: \'Etale local structure of \'etale morphisms
+- セクション: Permanence properties
+- セクション: Descending \'etale morphisms
+- セクション: Normal crossings divisors
+
+ファイル名: 042-chow.tex
+- タイトル: Chow Homology and Chern Classes
+- セクション: Introduction
+- セクション: Periodic complexes and Herbrand quotients
+- セクション: Calculation of some multiplicities
+- セクション: Preparation for tame symbols
+- セクション: Tame symbols
+- セクション: A key lemma
+- セクション: Setup
+- セクション: Cycles
+- セクション: Cycle associated to a closed subscheme
+- セクション: Cycle associated to a coherent sheaf
+- セクション: Preparation for proper pushforward
+- セクション: Proper pushforward
+- セクション: Preparation for flat pullback
+- セクション: Flat pullback
+- セクション: Push and pull
+- セクション: Preparation for principal divisors
+- セクション: Principal divisors
+- セクション: Principal divisors and pushforward
+- セクション: Rational equivalence
+- セクション: Rational equivalence and push and pull
+- セクション: Rational equivalence and the projective line
+- セクション: Chow groups and envelopes
+- セクション: Chow groups and K-groups
+- セクション: The divisor associated to an invertible sheaf
+- セクション: Intersecting with an invertible sheaf
+- セクション: Intersecting with an invertible sheaf and push and pull
+- セクション: The key formula
+- セクション: Intersecting with an invertible sheaf and rational equivalence
+- セクション: Gysin homomorphisms
+- セクション: Gysin homomorphisms and rational equivalence
+- セクション: Relative effective Cartier divisors
+- セクション: Affine bundles
+- セクション: Bivariant intersection theory
+- セクション: Chow cohomology and the first Chern class
+- セクション: Lemmas on bivariant classes
+- セクション: Projective space bundle formula
+- セクション: The Chern classes of a vector bundle
+- セクション: Intersecting with Chern classes
+- セクション: Polynomial relations among Chern classes
+- セクション: Additivity of Chern classes
+- セクション: Degrees of zero cycles
+- セクション: Cycles of given codimension
+- セクション: The splitting principle
+- セクション: Chern classes and sections
+- セクション: The Chern character and tensor products
+- セクション: Chern classes and the derived category
+- セクション: A baby case of localized Chern classes
+- セクション: Gysin at infinity
+- セクション: Preparation for localized Chern classes
+- セクション: Localized Chern classes
+- セクション: Two technical lemmas
+- セクション: Properties of localized Chern classes
+- セクション: Blowing up at infinity
+- セクション: Higher codimension gysin homomorphisms
+- セクション: Calculating some classes
+- セクション: An Adams operator
+- セクション: Chow groups and K-groups revisited
+- セクション: Rational intersection products on regular schemes
+- セクション: Gysin maps for local complete intersection morphisms
+- セクション: Gysin maps for diagonals
+- セクション: Exterior product
+- セクション: Intersection products
+- セクション: Exterior product over Dedekind domains
+- セクション: Intersection products over Dedekind domains
+- セクション: Todd classes
+- セクション: Grothendieck-Riemann-Roch
+- セクション: Change of base scheme
+- セクション: Appendix A: Alternative approach to key lemma
+- セクション: Appendix B: Alternative approaches
+
+ファイル名: 043-intersection.tex
+- タイトル: Intersection Theory
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Cycles
+- セクション: Cycle associated to closed subscheme
+- セクション: Cycle associated to a coherent sheaf
+- セクション: Proper pushforward
+- セクション: Flat pullback
+- セクション: Rational Equivalence
+- セクション: Rational equivalence and rational functions
+- セクション: Proper pushforward and rational equivalence
+- セクション: Flat pullback and rational equivalence
+- セクション: The short exact sequence for an open
+- セクション: Proper intersections
+- セクション: Intersection multiplicities using Tor formula
+- セクション: Algebraic multiplicities
+- セクション: Computing intersection multiplicities
+- セクション: Intersection product using Tor formula
+- セクション: Exterior product
+- セクション: Reduction to the diagonal
+- セクション: Associativity of intersections
+- セクション: Flat pullback and intersection products
+- セクション: Projection formula for flat proper morphisms
+- セクション: Projections
+- セクション: Moving Lemma
+- セクション: Intersection products and rational equivalence
+- セクション: Chow rings
+- セクション: Pullback for a general morphism
+- セクション: Pullback of cycles
+
+ファイル名: 044-pic.tex
+- タイトル: Picard Schemes of Curves
+- セクション: Introduction
+- セクション: Hilbert scheme of points
+- セクション: Moduli of divisors on smooth curves
+- セクション: The Picard functor
+- セクション: A representability criterion
+- セクション: The Picard scheme of a curve
+- セクション: Some remarks on Picard groups
+
+ファイル名: 045-weil.tex
+- タイトル: Weil Cohomology Theories
+- セクション: Introduction
+- セクション: Conventions and notation
+- セクション: Correspondences
+- セクション: Chow motives
+- セクション: Chow groups of motives
+- セクション: Projective space bundle formula
+- セクション: Classical Weil cohomology theories
+- セクション: Cycles over non-closed fields
+- セクション: Weil cohomology theories, I
+- セクション: Further properties
+- セクション: Weil cohomology theories, II
+- セクション: Chern classes
+- セクション: Exterior powers and K-groups
+- セクション: Weil cohomology theories, III
+
+ファイル名: 046-adequate.tex
+- タイトル: Adequate Modules
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Adequate functors
+- セクション: Higher exts of adequate functors
+- セクション: Adequate modules
+- セクション: Parasitic adequate modules
+- セクション: Derived categories of adequate modules, I
+- セクション: Pure extensions
+- セクション: Higher exts of quasi-coherent sheaves on the big site
+- セクション: Derived categories of adequate modules, II
+
+ファイル名: 047-dualizing.tex
+- タイトル: Dualizing Complexes
+- セクション: Introduction
+- セクション: Essential surjections and injections
+- セクション: Injective modules
+- セクション: Projective covers
+- セクション: Injective hulls
+- セクション: Duality over Artinian local rings
+- セクション: Injective hull of the residue field
+- セクション: Deriving torsion
+- セクション: Local cohomology
+- セクション: Local cohomology for Noetherian rings
+- セクション: Depth
+- セクション: Torsion versus complete modules
+- セクション: Trivial duality for a ring map
+- セクション: Base change for trivial duality
+- セクション: Dualizing complexes
+- セクション: Dualizing complexes over local rings
+- セクション: Dualizing complexes and dimension functions
+- セクション: The local duality theorem
+- セクション: Dualizing modules
+- セクション: Cohen-Macaulay rings
+- セクション: Gorenstein rings
+- セクション: The ubiquity of dualizing complexes
+- セクション: Formal fibres
+- セクション: Upper shriek algebraically
+- セクション: Relative dualizing complexes in the Noetherian case
+- セクション: More on dualizing complexes
+- セクション: Relative dualizing complexes
+
+ファイル名: 048-duality.tex
+- タイトル: Duality for Schemes
+- セクション: Introduction
+- セクション: Dualizing complexes on schemes
+- セクション: Right adjoint of pushforward
+- セクション: Right adjoint of pushforward and restriction to opens
+- セクション: Right adjoint of pushforward and base change, I
+- セクション: Right adjoint of pushforward and base change, II
+- セクション: Right adjoint of pushforward and trace maps
+- セクション: Right adjoint of pushforward and pullback
+- セクション: Right adjoint of pushforward for closed immersions
+- セクション: Right adjoint of pushforward for closed immersions and base change
+- セクション: Right adjoint of pushforward for finite morphisms
+- セクション: Right adjoint of pushforward for proper flat morphisms
+- セクション: Right adjoint of pushforward for perfect proper morphisms
+- セクション: Right adjoint of pushforward for effective Cartier divisors
+- セクション: Right adjoint of pushforward in examples
+- セクション: Upper shriek functors
+- セクション: Properties of upper shriek functors
+- セクション: Base change for upper shriek
+- セクション: A duality theory
+- セクション: Glueing dualizing complexes
+- セクション: Dimension functions
+- セクション: Dualizing modules
+- セクション: Cohen-Macaulay schemes
+- セクション: Gorenstein schemes
+- セクション: Gorenstein morphisms
+- セクション: More on dualizing complexes
+- セクション: Duality for proper schemes over fields
+- セクション: Relative dualizing complexes
+- セクション: The fundamental class of an lci morphism
+- セクション: Extension by zero for coherent modules
+- セクション: Preliminaries to compactly supported cohomology
+- セクション: Compactly supported cohomology for coherent modules
+- セクション: Duality for compactly supported cohomology
+- セクション: Lichtenbaum's theorem
+
+ファイル名: 049-discriminant.tex
+- タイトル: Discriminants and Differents
+- セクション: Introduction
+- セクション: Dualizing modules for quasi-finite ring maps
+- セクション: Discriminant of a finite locally free morphism
+- セクション: Traces for flat quasi-finite ring maps
+- セクション: Finite morphisms
+- セクション: The Noether different
+- セクション: The K\"ahler different
+- セクション: The Dedekind different
+- セクション: The different
+- セクション: Quasi-finite syntomic morphisms
+- セクション: Finite syntomic morphisms
+- セクション: A formula for the different
+- セクション: The Tate map
+- セクション: A generalization of the different
+- セクション: Comparison with duality theory
+- セクション: Quasi-finite Gorenstein morphisms
+
+ファイル名: 050-derham.tex
+- タイトル: de Rham Cohomology
+- セクション: Introduction
+- セクション: The de Rham complex
+- セクション: de Rham cohomology
+- セクション: Cup product
+- セクション: Hodge cohomology
+- セクション: Two spectral sequences
+- セクション: The Hodge filtration
+- セクション: K\"unneth formula
+- セクション: First Chern class in de Rham cohomology
+- セクション: de Rham cohomology of a line bundle
+- セクション: de Rham cohomology of projective space
+- セクション: The spectral sequence for a smooth morphism
+- セクション: Leray-Hirsch type theorems
+- セクション: Projective space bundle formula
+- セクション: Log poles along a divisor
+- セクション: Calculations
+- セクション: Blowing up and de Rham cohomology
+- セクション: Comparing sheaves of differential forms
+- セクション: Trace maps on de Rham complexes
+- セクション: Poincar\'e duality
+- セクション: Chern classes
+- セクション: A Weil cohomology theory
+- セクション: Gysin maps for closed immersions
+- セクション: Relative Poincar\'e duality
+
+ファイル名: 051-local-cohomology.tex
+- タイトル: Local Cohomology
+- セクション: Introduction
+- セクション: Generalities
+- セクション: Hartshorne's connectedness lemma
+- セクション: Cohomological dimension
+- セクション: More general supports
+- セクション: Filtrations on local cohomology
+- セクション: Finiteness of local cohomology, I
+- セクション: Finiteness of pushforwards, I
+- セクション: Depth and dimension
+- セクション: Annihilators of local cohomology, I
+- セクション: Finiteness of local cohomology, II
+- セクション: Finiteness of pushforwards, II
+- セクション: Annihilators of local cohomology, II
+- セクション: Finiteness of local cohomology, III
+- セクション: Improving coherent modules
+- セクション: Hartshorne-Lichtenbaum vanishing
+- セクション: Frobenius action
+- セクション: Structure of certain modules
+- セクション: Additional structure on local cohomology
+- セクション: A bit of uniformity, I
+- セクション: A bit of uniformity, II
+- セクション: A bit of uniformity, III
+
+ファイル名: 052-algebraization.tex
+- タイトル: Algebraic and Formal Geometry
+- セクション: Introduction
+- セクション: Formal sections, I
+- セクション: Formal sections, II
+- セクション: Formal sections, III
+- セクション: Mittag-Leffler conditions
+- セクション: Derived completion on a ringed site
+- セクション: The theorem on formal functions
+- セクション: Algebraization of local cohomology, I
+- セクション: Algebraization of local cohomology, II
+- セクション: Algebraization of local cohomology, III
+- セクション: Algebraization of formal sections, I
+- セクション: Algebraization of formal sections, II
+- セクション: Algebraization of formal sections, III
+- セクション: Application to connectedness
+- セクション: The completion functor
+- セクション: Algebraization of coherent formal modules, I
+- セクション: Algebraization of coherent formal modules, II
+- セクション: A distance function
+- セクション: Algebraization of coherent formal modules, III
+- セクション: Algebraization of coherent formal modules, IV
+- セクション: Improving coherent formal modules
+- セクション: Algebraization of coherent formal modules, V
+- セクション: Algebraization of coherent formal modules, VI
+- セクション: Application to the completion functor
+- セクション: Coherent triples
+- セクション: Invertible modules on punctured spectra, I
+- セクション: Invertible modules on punctured spectra, II
+- セクション: Application to Lefschetz theorems
+
+ファイル名: 053-curves.tex
+- タイトル: Algebraic Curves
+- セクション: Introduction
+- セクション: Curves and function fields
+- セクション: Linear series
+- セクション: Duality
+- セクション: Riemann-Roch
+- セクション: Some vanishing results
+- セクション: Very ample invertible sheaves
+- セクション: The genus of a curve
+- セクション: Plane curves
+- セクション: Curves of genus zero
+- セクション: Geometric genus
+- セクション: Riemann-Hurwitz
+- セクション: Inseparable maps
+- セクション: Pushouts
+- セクション: Glueing and squishing
+- セクション: Multicross and nodal singularities
+- セクション: Torsion in the Picard group
+- セクション: Genus versus geometric genus
+- セクション: Nodal curves
+- セクション: Families of nodal curves
+- セクション: \'Etale local structure of nodal families
+- セクション: More vanishing results
+- セクション: Contracting rational tails
+- セクション: Contracting rational bridges
+- セクション: Contracting to a stable curve
+- セクション: Vector fields
+
+ファイル名: 054-resolve.tex
+- タイトル: Resolution of Surfaces
+- セクション: Introduction
+- セクション: A trace map in positive characteristic
+- セクション: Quadratic transformations
+- セクション: Dominating by quadratic transformations
+- セクション: Dominating by normalized blowups
+- セクション: Modifying over local rings
+- セクション: Vanishing
+- セクション: Boundedness
+- セクション: Rational singularities
+- セクション: Formal arcs
+- セクション: Base change to the completion
+- セクション: Rational double points
+- セクション: Implied properties
+- セクション: Resolution
+- セクション: Embedded resolution
+- セクション: Contracting exceptional curves
+- セクション: Factorization birational maps
+
+ファイル名: 055-models.tex
+- タイトル: Semistable Reduction
+- セクション: Introduction
+- セクション: Linear algebra
+- セクション: Numerical types
+- セクション: The Picard group of a numerical type
+- セクション: Classification of proper subgraphs
+- セクション: Classification of minimal type for genus zero and one
+- セクション: Bounding invariants of numerical types
+- セクション: Models
+- セクション: The geometry of a regular model
+- セクション: Uniqueness of the minimal model
+- セクション: A formula for the genus
+- セクション: Blowing down exceptional curves
+- セクション: Picard groups of models
+- セクション: Semistable reduction
+- セクション: Semistable reduction in genus zero
+- セクション: Semistable reduction in genus one
+- セクション: Semistable reduction in genus at least two
+- セクション: Semistable reduction for curves
+
+ファイル名: 056-functors.tex
+- タイトル: Functors and Morphisms
+- セクション: Introduction
+- セクション: Functors on module categories
+- セクション: Functors between categories of modules
+- セクション: Extending functors on categories of modules
+- セクション: Functors between categories of quasi-coherent modules
+- セクション: Gabriel-Rosenberg reconstruction
+- セクション: Functors between categories of coherent modules
+
+ファイル名: 057-equiv.tex
+- タイトル: Derived Categories of Varieties
+- セクション: Introduction
+- セクション: Conventions and notation
+- セクション: Serre functors
+- セクション: Examples of Serre functors
+- セクション: Characterizing coherent modules
+- セクション: A representability theorem
+- セクション: Existence of adjoints
+- セクション: Fourier-Mukai functors
+- セクション: Resolutions and bounds
+- セクション: Sibling functors
+- セクション: Deducing fully faithfulness
+- セクション: Special functors
+- セクション: Fully faithful functors
+- セクション: A category of Fourier-Mukai kernels
+- セクション: Relative equivalences
+- セクション: No deformations
+- セクション: Countability
+- セクション: Countability of derived equivalent varieties
+
+ファイル名: 058-pione.tex
+- タイトル: Fundamental Groups of Schemes
+- セクション: Introduction
+- セクション: Schemes \'etale over a point
+- セクション: Galois categories
+- セクション: Functors and homomorphisms
+- セクション: Finite \'etale morphisms
+- セクション: Fundamental groups
+- セクション: Galois covers of connected schemes
+- セクション: Topological invariance of the fundamental group
+- セクション: Finite \'etale covers of proper schemes
+- セクション: Local connectedness
+- セクション: Fundamental groups of normal schemes
+- セクション: Group actions and integral closure
+- セクション: Ramification theory
+- セクション: Geometric and arithmetic fundamental groups
+- セクション: Homotopy exact sequence
+- セクション: Specialization maps
+- セクション: Restriction to a closed subscheme
+- セクション: Pushouts and fundamental groups
+- セクション: Finite \'etale covers of punctured spectra, I
+- セクション: Purity in local case, I
+- セクション: Purity of branch locus
+- セクション: Finite \'etale covers of punctured spectra, II
+- セクション: Finite \'etale covers of punctured spectra, III
+- セクション: Finite \'etale covers of punctured spectra, IV
+- セクション: Purity in local case, II
+- セクション: Purity in local case, III
+- セクション: Lefschetz for the fundamental group
+- セクション: Purity of ramification locus
+- セクション: Affineness of complement of ramification locus
+- セクション: Specialization maps in the smooth proper case
+- セクション: Tame ramification
+- セクション: Tricks in positive characteristic
+
+ファイル名: 059-etale-cohomology.tex
+- タイトル: \'Etale Cohomology
+- セクション: Introduction
+- セクション: Which sections to skip on a first reading?
+- セクション: Prologue
+- セクション: The \'etale topology
+- セクション: Feats of the \'etale topology
+- セクション: A computation
+- セクション: Nontorsion coefficients
+- セクション: Sheaf theory
+- セクション: Presheaves
+- セクション: Sites
+- セクション: Sheaves
+- セクション: The example of G-sets
+- セクション: Sheafification
+- セクション: Cohomology
+- セクション: The fpqc topology
+- セクション: Faithfully flat descent
+- セクション: Quasi-coherent sheaves
+- セクション: {\v C
+- セクション: The {\v C
+- セクション: Big and small sites of schemes
+- セクション: The \'etale topos
+- セクション: Cohomology of quasi-coherent sheaves
+- セクション: Examples of sheaves
+- セクション: Picard groups
+- セクション: The \'etale site
+- セクション: \'Etale morphisms
+- セクション: \'Etale coverings
+- セクション: Kummer theory
+- セクション: Neighborhoods, stalks and points
+- セクション: Points in other topologies
+- セクション: Supports of abelian sheaves
+- セクション: Henselian rings
+- セクション: Stalks of the structure sheaf
+- セクション: Functoriality of small \'etale topos
+- セクション: Direct images
+- セクション: Inverse image
+- セクション: Functoriality of big topoi
+- セクション: Functoriality and sheaves of modules
+- セクション: Comparing topologies
+- セクション: Recovering morphisms
+- セクション: Push and pull
+- セクション: Property (A)
+- セクション: Property (B)
+- セクション: Property (C)
+- セクション: Topological invariance of the small \'etale site
+- セクション: Closed immersions and pushforward
+- セクション: Integral universally injective morphisms
+- セクション: Big sites and pushforward
+- セクション: Exactness of big lower shriek
+- セクション: \'Etale cohomology
+- セクション: Colimits
+- セクション: Colimits and complexes
+- セクション: Stalks of higher direct images
+- セクション: The Leray spectral sequence
+- セクション: Vanishing of finite higher direct images
+- セクション: Galois action on stalks
+- セクション: Group cohomology
+- セクション: Tate's continuous cohomology
+- セクション: Cohomology of a point
+- セクション: Cohomology of curves
+- セクション: Brauer groups
+- セクション: The Brauer group of a scheme
+- セクション: The Artin-Schreier sequence
+- セクション: Locally constant sheaves
+- セクション: Locally constant sheaves and the fundamental group
+- セクション: M\'ethode de la trace
+- セクション: Galois cohomology
+- セクション: Higher vanishing for the multiplicative group
+- セクション: Picard groups of curves
+- セクション: Extension by zero
+- セクション: Constructible sheaves
+- セクション: Auxiliary lemmas on morphisms
+- セクション: More on constructible sheaves
+- セクション: Constructible sheaves on Noetherian schemes
+- セクション: Specializations and \'etale sheaves
+- セクション: Complexes with constructible cohomology
+- セクション: Tor finite with constructible cohomology
+- セクション: Torsion sheaves
+- セクション: Cohomology with support in a closed subscheme
+- セクション: Schemes with strictly henselian local rings
+- セクション: Absolutely integrally closed vanishing
+- セクション: Affine analog of proper base change
+- セクション: Cohomology of torsion sheaves on curves
+- セクション: Cohomology of torsion modules on curves
+- セクション: First cohomology of proper schemes
+- セクション: Preliminaries on base change
+- セクション: Base change for pushforward
+- セクション: Base change for higher direct images
+- セクション: Smooth base change
+- セクション: Applications of smooth base change
+- セクション: The proper base change theorem
+- セクション: Applications of proper base change
+- セクション: Local acyclicity
+- セクション: The cospecialization map
+- セクション: Cohomological dimension
+- セクション: Finite cohomological dimension
+- セクション: K\"unneth in \'etale cohomology
+- セクション: Comparing chaotic and Zariski topologies
+- セクション: Comparing big and small topoi
+- セクション: Comparing fppf and \'etale topologies
+- セクション: Comparing fppf and \'etale topologies: modules
+- セクション: Comparing ph and \'etale topologies
+- セクション: Comparing h and \'etale topologies
+- セクション: Descending \'etale sheaves
+- セクション: Blow up squares and \'etale cohomology
+- セクション: Almost blow up squares and the h topology
+- セクション: Cohomology of the structure sheaf in the h topology
+
+ファイル名: 060-crystalline.tex
+- タイトル: Crystalline Cohomology
+- セクション: Introduction
+- セクション: Divided power envelope
+- セクション: Some explicit divided power thickenings
+- セクション: Compatibility
+- セクション: Affine crystalline site
+- セクション: Module of differentials
+- セクション: Divided power schemes
+- セクション: The big crystalline site
+- セクション: The crystalline site
+- セクション: Sheaves on the crystalline site
+- セクション: Crystals in modules
+- セクション: Sheaf of differentials
+- セクション: Two universal thickenings
+- セクション: The de Rham complex
+- セクション: Connections
+- セクション: Cosimplicial algebra
+- セクション: Crystals in quasi-coherent modules
+- セクション: General remarks on cohomology
+- セクション: Cosimplicial preparations
+- セクション: Divided power Poincar\'e lemma
+- セクション: Cohomology in the affine case
+- セクション: Two counter examples
+- セクション: Applications
+- セクション: Some further results
+- セクション: Pulling back along purely inseparable maps
+- セクション: Frobenius action on crystalline cohomology
+
+ファイル名: 061-proetale.tex
+- タイトル: Pro-\'etale Cohomology
+- セクション: Introduction
+- セクション: Some topology
+- セクション: Local isomorphisms
+- セクション: Ind-Zariski algebra
+- セクション: Constructing w-local affine schemes
+- セクション: Identifying local rings versus ind-Zariski
+- セクション: Ind-\'etale algebra
+- セクション: Constructing ind-\'etale algebras
+- セクション: Weakly \'etale versus pro-\'etale
+- セクション: The V topology and the pro-h topology
+- セクション: Constructing w-contractible covers
+- セクション: The pro-\'etale site
+- セクション: Weakly contractible objects
+- セクション: Weakly contractible hypercoverings
+- セクション: Compact generation
+- セクション: Comparing topologies
+- セクション: Comparing big and small topoi
+- セクション: Points of the pro-\'etale site
+- セクション: Comparison with the \'etale site
+- セクション: Derived completion in the constant Noetherian case
+- セクション: Derived completion and weakly contractible objects
+- セクション: Cohomology of a point
+- セクション: Functoriality of the pro-\'etale site
+- セクション: Finite morphisms and pro-\'etale sites
+- セクション: Closed immersions and pro-\'etale sites
+- セクション: Extension by zero
+- セクション: Constructible sheaves on the pro-\'etale site
+- セクション: Constructible adic sheaves
+- セクション: A suitable derived category
+- セクション: Proper base change
+- セクション: Change of partial universe
+
+ファイル名: 062-relative-cycles.tex
+- タイトル: Relative Cycles
+- セクション: Introduction
+- セクション: Conventions and notation
+- セクション: Cycles relative to fields
+- セクション: Specialization of cycles
+- セクション: Families of cycles on fibres
+- セクション: Relative cycles
+- セクション: Equidimensional relative cycles
+- セクション: Effective relative cycles
+- セクション: Proper relative cycles
+- セクション: Proper and equidimensional relative cycles
+- セクション: Action on cycles
+- セクション: Action on chow groups
+- セクション: Composition of families of cycles on fibres
+- セクション: Composition of relative cycles
+- セクション: Comparison with Suslin and Voevodsky
+- セクション: Relative cycles in the non-Noetherian case
+
+ファイル名: 063-more-etale.tex
+- タイトル: More \'Etale Cohomology
+- セクション: Introduction
+- セクション: Growing sections
+- セクション: Sections with compact support
+- セクション: Sections with finite support
+- セクション: Weightings and trace maps for locally quasi-finite morphisms
+- セクション: Upper shriek for locally quasi-finite morphisms
+- セクション: Derived upper shriek for locally quasi-finite morphisms
+- セクション: Preliminaries to derived lower shriek via compactifications
+- セクション: Derived lower shriek via compactifications
+- セクション: Properties of derived lower shriek
+- セクション: Derived upper shriek
+- セクション: Compactly supported cohomology
+- セクション: A constructibility result
+- セクション: Complexes with constructible cohomology
+- セクション: Applications
+- セクション: More on derived upper shriek
+
+ファイル名: 064-trace.tex
+- タイトル: The Trace Formula
+- セクション: Introduction
+- セクション: The trace formula
+- セクション: Frobenii
+- セクション: Traces
+- セクション: Why derived categories?
+- セクション: Derived categories
+- セクション: Filtered derived category
+- セクション: Filtered derived functors
+- セクション: Application of filtered complexes
+- セクション: Perfectness
+- セクション: Filtrations and perfect complexes
+- セクション: Characterizing perfect objects
+- セクション: Cohomology of nice complexes
+- セクション: Lefschetz numbers
+- セクション: Preliminaries and sorites
+- セクション: Proof of the trace formula
+- セクション: Applications
+- セクション: On l-adic sheaves
+- セクション: L-functions
+- セクション: Cohomological interpretation
+- セクション: List of things which we should add above
+- セクション: Examples of L-functions
+- セクション: Constant sheaves
+- セクション: The Legendre family
+- セクション: Exponential sums
+- セクション: Trace formula in terms of fundamental groups
+- セクション: Fundamental groups
+- セクション: Profinite groups, cohomology and homology
+- セクション: Cohomology of curves, revisited
+- セクション: Abstract trace formula
+- セクション: Automorphic forms and sheaves
+- セクション: Counting points
+- セクション: Precise form of Chebotarev
+- セクション: How many primes decompose completely?
+- セクション: How many points are there really?
+
+ファイル名: 065-spaces.tex
+- タイトル: Algebraic Spaces
+- セクション: Introduction
+- セクション: General remarks
+- セクション: Representable morphisms of presheaves
+- セクション: Lists of useful properties of morphisms of schemes
+- セクション: Properties of representable morphisms of presheaves
+- セクション: Algebraic spaces
+- セクション: Fibre products of algebraic spaces
+- セクション: Glueing algebraic spaces
+- セクション: Presentations of algebraic spaces
+- セクション: Algebraic spaces and equivalence relations
+- セクション: Algebraic spaces, retrofitted
+- セクション: Immersions and Zariski coverings of algebraic spaces
+- セクション: Separation conditions on algebraic spaces
+- セクション: Examples of algebraic spaces
+- セクション: Change of big site
+- セクション: Change of base scheme
+
+ファイル名: 066-spaces-properties.tex
+- タイトル: Properties of Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Separation axioms
+- セクション: Points of algebraic spaces
+- セクション: Quasi-compact spaces
+- セクション: Special coverings
+- セクション: Properties of Spaces defined by properties of schemes
+- セクション: Constructible sets
+- セクション: Dimension at a point
+- セクション: Dimension of local rings
+- セクション: Generic points
+- セクション: Reduced spaces
+- セクション: The schematic locus
+- セクション: Obtaining a scheme
+- セクション: Points on quasi-separated spaces
+- セクション: \'Etale morphisms of algebraic spaces
+- セクション: Spaces and fpqc coverings
+- セクション: The \'etale site of an algebraic space
+- セクション: Points of the small \'etale site
+- セクション: Supports of abelian sheaves
+- セクション: The structure sheaf of an algebraic space
+- セクション: Stalks of the structure sheaf
+- セクション: Local irreducibility
+- セクション: Noetherian spaces
+- セクション: Regular algebraic spaces
+- セクション: Sheaves of modules on algebraic spaces
+- セクション: \'Etale localization
+- セクション: Recovering morphisms
+- セクション: Quasi-coherent sheaves on algebraic spaces
+- セクション: Properties of modules
+- セクション: Locally projective modules
+- セクション: Quasi-coherent sheaves and presentations
+- セクション: Morphisms towards schemes
+- セクション: Quotients by free actions
+
+ファイル名: 067-spaces-morphisms.tex
+- タイトル: Morphisms of Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Properties of representable morphisms
+- セクション: Separation axioms
+- セクション: Surjective morphisms
+- セクション: Open morphisms
+- セクション: Submersive morphisms
+- セクション: Quasi-compact morphisms
+- セクション: Universally closed morphisms
+- セクション: Monomorphisms
+- セクション: Pushforward of quasi-coherent sheaves
+- セクション: Immersions
+- セクション: Closed immersions
+- セクション: Closed immersions and quasi-coherent sheaves
+- セクション: Supports of modules
+- セクション: Scheme theoretic image
+- セクション: Scheme theoretic closure and density
+- セクション: Dominant morphisms
+- セクション: Universally injective morphisms
+- セクション: Affine morphisms
+- セクション: Quasi-affine morphisms
+- セクション: Types of morphisms \'etale local on source-and-target
+- セクション: Morphisms of finite type
+- セクション: Points and geometric points
+- セクション: Points of finite type
+- セクション: Nagata spaces
+- セクション: Quasi-finite morphisms
+- セクション: Morphisms of finite presentation
+- セクション: Constructible sets
+- セクション: Flat morphisms
+- セクション: Flat modules
+- セクション: Generic flatness
+- セクション: Relative dimension
+- セクション: Morphisms and dimensions of fibres
+- セクション: The dimension formula
+- セクション: Syntomic morphisms
+- セクション: Smooth morphisms
+- セクション: Unramified morphisms
+- セクション: \'Etale morphisms
+- セクション: Proper morphisms
+- セクション: Valuative criteria
+- セクション: Valuative criterion for universal closedness
+- セクション: Valuative criterion of separatedness
+- セクション: Valuative criterion of properness
+- セクション: Integral and finite morphisms
+- セクション: Finite locally free morphisms
+- セクション: Rational maps
+- セクション: Relative normalization of algebraic spaces
+- セクション: Normalization
+- セクション: Separated, locally quasi-finite morphisms
+- セクション: Applications
+- セクション: Zariski's Main Theorem (representable case)
+- セクション: Universal homeomorphisms
+
+ファイル名: 068-decent-spaces.tex
+- タイトル: Decent Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Universally bounded fibres
+- セクション: Finiteness conditions and points
+- セクション: Conditions on algebraic spaces
+- セクション: Reasonable and decent algebraic spaces
+- セクション: Points and specializations
+- セクション: Stratifying algebraic spaces by schemes
+- セクション: Integral cover by a scheme
+- セクション: Schematic locus
+- セクション: Residue fields and henselian local rings
+- セクション: Points on decent spaces
+- セクション: Reduced singleton spaces
+- セクション: Decent spaces
+- セクション: Locally separated spaces
+- セクション: Valuative criterion
+- セクション: Relative conditions
+- セクション: Points of fibres
+- セクション: Monomorphisms
+- セクション: Generic points
+- セクション: Generically finite morphisms
+- セクション: Birational morphisms
+- セクション: Jacobson spaces
+- セクション: Local irreducibility
+- セクション: Catenary algebraic spaces
+
+ファイル名: 069-spaces-cohomology.tex
+- タイトル: Cohomology of Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Higher direct images
+- セクション: Finite morphisms
+- セクション: Colimits and cohomology
+- セクション: The alternating {\v C
+- セクション: Higher vanishing for quasi-coherent sheaves
+- セクション: Vanishing for higher direct images
+- セクション: Cohomology with support in a closed subspace
+- セクション: Vanishing above the dimension
+- セクション: Cohomology and base change, I
+- セクション: Coherent modules on locally Noetherian algebraic spaces
+- セクション: Coherent sheaves on Noetherian spaces
+- セクション: Devissage of coherent sheaves
+- セクション: Limits of coherent modules
+- セクション: Vanishing of cohomology
+- セクション: Finite morphisms and affines
+- セクション: A weak version of Chow's lemma
+- セクション: Noetherian valuative criterion
+- セクション: Higher direct images of coherent sheaves
+- セクション: Ample invertible sheaves and cohomology
+- セクション: The theorem on formal functions
+- セクション: Applications of the theorem on formal functions
+
+ファイル名: 070-spaces-limits.tex
+- タイトル: Limits of Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Morphisms of finite presentation
+- セクション: Limits of algebraic spaces
+- セクション: Descending properties
+- セクション: Descending properties of morphisms
+- セクション: Descending relative objects
+- セクション: Absolute Noetherian approximation
+- セクション: Applications
+- セクション: Relative approximation
+- セクション: Finite type closed in finite presentation
+- セクション: Approximating proper morphisms
+- セクション: Embedding into affine space
+- セクション: Sections with support in a closed subset
+- セクション: Characterizing affine spaces
+- セクション: Finite cover by a scheme
+- セクション: Obtaining schemes
+- セクション: Glueing in closed fibres
+- セクション: Application to modifications
+- セクション: Universally closed morphisms
+- セクション: Noetherian valuative criterion
+- セクション: Refined Noetherian valuative criteria
+- セクション: Descending finite type spaces
+
+ファイル名: 071-spaces-divisors.tex
+- タイトル: Divisors on Algebraic Spaces
+- セクション: Introduction
+- セクション: Associated and weakly associated points
+- セクション: Morphisms and weakly associated points
+- セクション: Relative weak assassin
+- セクション: Fitting ideals
+- セクション: Effective Cartier divisors
+- セクション: Effective Cartier divisors and invertible sheaves
+- セクション: Effective Cartier divisors on Noetherian spaces
+- セクション: Relative effective Cartier divisors
+- セクション: Meromorphic functions and sections
+- セクション: Relative Proj
+- セクション: Functoriality of relative proj
+- セクション: Invertible sheaves and morphisms into relative Proj
+- セクション: Relatively ample sheaves
+- セクション: Relative ampleness and cohomology
+- セクション: Closed subspaces of relative proj
+- セクション: Blowing up
+- セクション: Strict transform
+- セクション: Admissible blowups
+
+ファイル名: 072-spaces-over-fields.tex
+- タイトル: Algebraic Spaces over Fields
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Generically finite morphisms
+- セクション: Integral algebraic spaces
+- セクション: Morphisms between integral algebraic spaces
+- セクション: Weil divisors
+- セクション: The Weil divisor class associated to an invertible module
+- セクション: Modifications and alterations
+- セクション: Schematic locus
+- セクション: Schematic locus and field extension
+- セクション: Geometrically reduced algebraic spaces
+- セクション: Geometrically connected algebraic spaces
+- セクション: Geometrically irreducible algebraic spaces
+- セクション: Geometrically integral algebraic spaces
+- セクション: Dimension
+- セクション: Spaces smooth over fields
+- セクション: Euler characteristics
+- セクション: Numerical intersections
+
+ファイル名: 073-spaces-topologies.tex
+- タイトル: Topologies on Algebraic Spaces
+- セクション: Introduction
+- セクション: The general procedure
+- セクション: Zariski topology
+- セクション: \'Etale topology
+- セクション: Smooth topology
+- セクション: Syntomic topology
+- セクション: Fppf topology
+- セクション: The ph topology
+- セクション: Fpqc topology
+
+ファイル名: 074-spaces-descent.tex
+- タイトル: Descent and Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Descent data for quasi-coherent sheaves
+- セクション: Fpqc descent of quasi-coherent sheaves
+- セクション: Quasi-coherent modules and affines
+- セクション: Descent of finiteness properties of modules
+- セクション: Fpqc coverings
+- セクション: Descent of finiteness and smoothness properties of morphisms
+- セクション: Descending properties of spaces
+- セクション: Descending properties of morphisms
+- セクション: Descending properties of morphisms in the fpqc topology
+- セクション: Descending properties of morphisms in the fppf topology
+- セクション: Application of descent of properties of morphisms
+- セクション: Properties of morphisms local on the source
+- セクション: Properties of morphisms local in the fpqc topology on the source
+- セクション: Properties of morphisms local in the fppf topology on the source
+- セクション: Properties of morphisms local in the syntomic topology on the source
+- セクション: Properties of morphisms local in the smooth topology on the source
+- セクション: Properties of morphisms local in the \'etale topology on the source
+- セクション: Properties of morphisms smooth local on source-and-target
+- セクション: Properties of morphisms \'etale-smooth local on source-and-target
+- セクション: Descent data for spaces over spaces
+- セクション: Descent data in terms of sheaves
+
+ファイル名: 075-spaces-perfect.tex
+- タイトル: Derived Categories of Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Generalities
+- セクション: Derived category of quasi-coherent modules on the small \'etale site
+- セクション: Derived category of quasi-coherent modules
+- セクション: Total direct image
+- セクション: Being proper over a base
+- セクション: Derived category of coherent modules
+- セクション: Induction principle
+- セクション: Mayer-Vietoris
+- セクション: The coherator
+- セクション: The coherator for Noetherian spaces
+- セクション: Pseudo-coherent and perfect complexes
+- セクション: Approximation by perfect complexes
+- セクション: Generating derived categories
+- セクション: Compact and perfect objects
+- セクション: Derived categories as module categories
+- セクション: Characterizing pseudo-coherent complexes, I
+- セクション: The coherator revisited
+- セクション: Cohomology and base change, IV
+- セクション: Cohomology and base change, V
+- セクション: Producing perfect complexes
+- セクション: A projection formula for Ext
+- セクション: Limits and derived categories
+- セクション: Cohomology and base change, VI
+- セクション: Perfect complexes
+- セクション: Other applications
+- セクション: The resolution property
+- セクション: Detecting Boundedness
+- セクション: Quasi-coherent objects in the derived category
+
+ファイル名: 076-spaces-more-morphisms.tex
+- タイトル: More on Morphisms of Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Radicial morphisms
+- セクション: Monomorphisms
+- セクション: Conormal sheaf of an immersion
+- セクション: The normal cone of an immersion
+- セクション: Sheaf of differentials of a morphism
+- セクション: Topological invariance of the \'etale site
+- セクション: Thickenings
+- セクション: Morphisms of thickenings
+- セクション: Picard groups of thickenings
+- セクション: Infinitesimal neighbourhoods
+- セクション: Formally smooth, \'etale, unramified transformations
+- セクション: Formally unramified morphisms
+- セクション: Universal first order thickenings
+- セクション: Formally \'etale morphisms
+- セクション: Infinitesimal deformations of maps
+- セクション: Infinitesimal deformations of algebraic spaces
+- セクション: Formally smooth morphisms
+- セクション: Smoothness over a Noetherian base
+- セクション: The naive cotangent complex
+- セクション: Openness of the flat locus
+- セクション: Crit\`ere de platitude par fibres
+- セクション: Flatness over a Noetherian base
+- セクション: Normalization revisited
+- セクション: Cohen-Macaulay morphisms
+- セクション: Gorenstein morphisms
+- セクション: Slicing Cohen-Macaulay morphisms
+- セクション: Reduced fibres
+- セクション: Connected components of fibres
+- セクション: Dimension of fibres
+- セクション: Catenary algebraic spaces
+- セクション: \'Etale localization of morphisms
+- セクション: Zariski's Main Theorem
+- セクション: Applications of Zariski's Main Theorem, I
+- セクション: Stein factorization
+- セクション: Extending properties from an open
+- セクション: Blowing up and flatness
+- セクション: Applications
+- セクション: Chow's lemma
+- セクション: Variants of Chow's Lemma
+- セクション: Grothendieck's existence theorem
+- セクション: Grothendieck's algebraization theorem
+- セクション: Regular immersions
+- セクション: Relative pseudo-coherence
+- セクション: Pseudo-coherent morphisms
+- セクション: Perfect morphisms
+- セクション: Local complete intersection morphisms
+- セクション: When is a morphism an isomorphism?
+- セクション: Exact sequences of differentials and conormal sheaves
+- セクション: Characterizing pseudo-coherent complexes, II
+- セクション: Relatively perfect objects
+- セクション: Theorem of the cube
+- セクション: Descent of finiteness properties of complexes
+- セクション: Families of nodal curves
+- セクション: The resolution property
+- セクション: Blowing up and the resolution property
+
+ファイル名: 077-spaces-flat.tex
+- タイトル: Flatness on Algebraic Spaces
+- セクション: Introduction
+- セクション: Impurities
+- セクション: Relatively pure modules
+- セクション: Flat finite type modules
+- セクション: Flat finitely presented modules
+- セクション: A criterion for purity
+- セクション: Flattening functors
+- セクション: Making a map zero
+- セクション: Flattening a map
+- セクション: Flattening in the local case
+- セクション: Universal flattening
+- セクション: Grothendieck's Existence Theorem
+- セクション: Grothendieck's Existence Theorem, bis
+
+ファイル名: 078-spaces-groupoids.tex
+- タイトル: Groupoids in Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Notation
+- セクション: Equivalence relations
+- セクション: Group algebraic spaces
+- セクション: Properties of group algebraic spaces
+- セクション: Examples of group algebraic spaces
+- セクション: Actions of group algebraic spaces
+- セクション: Principal homogeneous spaces
+- セクション: Equivariant quasi-coherent sheaves
+- セクション: Groupoids in algebraic spaces
+- セクション: Quasi-coherent sheaves on groupoids
+- セクション: Colimits of quasi-coherent modules
+- セクション: Crystals in quasi-coherent sheaves
+- セクション: Groupoids and group spaces
+- セクション: The stabilizer group algebraic space
+- セクション: Restricting groupoids
+- セクション: Invariant subspaces
+- セクション: Quotient sheaves
+- セクション: Quotient stacks
+- セクション: Functoriality of quotient stacks
+- セクション: The 2-cartesian square of a quotient stack
+- セクション: The 2-coequalizer property of a quotient stack
+- セクション: Explicit description of quotient stacks
+- セクション: Restriction and quotient stacks
+- セクション: Inertia and quotient stacks
+- セクション: Gerbes and quotient stacks
+- セクション: Quotient stacks and change of big site
+- セクション: Separation conditions
+
+ファイル名: 079-spaces-more-groupoids.tex
+- タイトル: More on Groupoids in Spaces
+- セクション: Introduction
+- セクション: Notation
+- セクション: Useful diagrams
+- セクション: Local structure
+- セクション: Groupoid of sections
+- セクション: Properties of groupoids
+- セクション: Comparing fibres
+- セクション: Restricting groupoids
+- セクション: Properties of groups over fields and groupoids on fields
+- セクション: Group algebraic spaces over fields
+- セクション: No rational curves on groups
+- セクション: The finite part of a morphism
+- セクション: Finite collections of arrows
+- セクション: The finite part of a groupoid
+- セクション: \'Etale localization of groupoid schemes
+
+ファイル名: 080-bootstrap.tex
+- タイトル: Bootstrap
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Morphisms representable by algebraic spaces
+- セクション: Properties of maps of presheaves representable by algebraic spaces
+- セクション: Bootstrapping the diagonal
+- セクション: Bootstrap
+- セクション: Finding opens
+- セクション: Slicing equivalence relations
+- セクション: Quotient by a subgroupoid
+- セクション: Final bootstrap
+- セクション: Applications
+- セクション: Algebraic spaces in the \'etale topology
+
+ファイル名: 081-spaces-pushouts.tex
+- タイトル: Pushouts of Algebraic Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Colimits of algebraic spaces
+- セクション: Descending \'etale sheaves
+- セクション: Descending \'etale morphisms of algebraic spaces
+- セクション: Pushouts along thickenings and affine morphisms
+- セクション: Pushouts along closed immersions and integral morphisms
+- セクション: Pushouts and derived categories
+- セクション: Constructing elementary distinguished squares
+- セクション: Formal glueing of quasi-coherent modules
+- セクション: Formal glueing of algebraic spaces
+- セクション: Glueing and the Beauville-Laszlo theorem
+- セクション: Coequalizers and glueing
+- セクション: Compactifications
+
+ファイル名: 082-spaces-chow.tex
+- タイトル: Chow Groups of Spaces
+- セクション: Introduction
+- セクション: Setup
+- セクション: Cycles
+- セクション: Multiplicities
+- セクション: Cycle associated to a closed subspace
+- セクション: Cycle associated to a coherent sheaf
+- セクション: Preparation for proper pushforward
+- セクション: Proper pushforward
+- セクション: Preparation for flat pullback
+- セクション: Flat pullback
+- セクション: Push and pull
+- セクション: Preparation for principal divisors
+- セクション: Principal divisors
+- セクション: Principal divisors and pushforward
+- セクション: Rational equivalence
+- セクション: Rational equivalence and push and pull
+- セクション: The divisor associated to an invertible sheaf
+- セクション: Intersecting with an invertible sheaf
+- セクション: Intersecting with an invertible sheaf and push and pull
+- セクション: The key formula
+- セクション: Intersecting with an invertible sheaf and rational equivalence
+- セクション: Intersecting with effective Cartier divisors
+- セクション: Gysin homomorphisms
+- セクション: Relative effective Cartier divisors
+- セクション: Affine bundles
+- セクション: Bivariant intersection theory
+- セクション: Projective space bundle formula
+- セクション: The Chern classes of a vector bundle
+- セクション: Polynomial relations among Chern classes
+- セクション: Additivity of Chern classes
+- セクション: The splitting principle
+- セクション: Degrees of zero cycles
+
+ファイル名: 083-groupoids-quotients.tex
+- タイトル: Quotients of Groupoids
+- セクション: Introduction
+- セクション: Conventions and notation
+- セクション: Invariant morphisms
+- セクション: Categorical quotients
+- セクション: Quotients as orbit spaces
+- セクション: Coarse quotients
+- セクション: Topological properties
+- セクション: Invariant functions
+- セクション: Good quotients
+- セクション: Geometric quotients
+
+ファイル名: 084-spaces-more-cohomology.tex
+- タイトル: More on Cohomology of Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Transporting results from schemes
+- セクション: Proper base change
+- セクション: Comparing big and small topoi
+- セクション: Comparing fppf and \'etale topologies
+- セクション: Comparing fppf and \'etale topologies: modules
+- セクション: Comparing ph and \'etale topologies
+
+ファイル名: 085-spaces-simplicial.tex
+- タイトル: Simplicial Spaces
+- セクション: Introduction
+- セクション: Simplicial topological spaces
+- セクション: Simplicial sites and topoi
+- セクション: Augmentations of simplicial sites
+- セクション: Morphisms of simplicial sites
+- セクション: Ringed simplicial sites
+- セクション: Morphisms of ringed simplicial sites
+- セクション: Cohomology on simplicial sites
+- セクション: Cohomology and augmentations of simplicial sites
+- セクション: Cohomology on ringed simplicial sites
+- セクション: Cohomology and augmentations of ringed simplicial sites
+- セクション: Cartesian sheaves and modules
+- セクション: Simplicial systems of the derived category
+- セクション: Simplicial systems of the derived category: modules
+- セクション: The site associated to a semi-representable object
+- セクション: The site associate to a simplicial semi-representable object
+- セクション: Cohomological descent for hypercoverings
+- セクション: Cohomological descent for hypercoverings: modules
+- セクション: Cohomological descent for hypercoverings of an object
+- セクション: Cohomological descent for hypercoverings of an object: modules
+- セクション: Hypercovering by a simplicial object of the site
+- セクション: Hypercovering by a simplicial object of the site: modules
+- セクション: Unbounded cohomological descent for hypercoverings
+- セクション: Glueing complexes
+- セクション: Proper hypercoverings in topology
+- セクション: Simplicial schemes
+- セクション: Descent in terms of simplicial schemes
+- セクション: Quasi-coherent modules on simplicial schemes
+- セクション: Groupoids and simplicial schemes
+- セクション: Descent data give equivalence relations
+- セクション: An example case
+- セクション: Simplicial algebraic spaces
+- セクション: Fppf hypercoverings of algebraic spaces
+- セクション: Fppf hypercoverings of algebraic spaces: modules
+- セクション: Fppf descent of complexes
+- セクション: Proper hypercoverings of algebraic spaces
+
+ファイル名: 086-spaces-duality.tex
+- タイトル: Duality for Spaces
+- セクション: Introduction
+- セクション: Dualizing complexes on algebraic spaces
+- セクション: Right adjoint of pushforward
+- セクション: Right adjoint of pushforward and base change, I
+- セクション: Right adjoint of pushforward and base change, II
+- セクション: Right adjoint of pushforward and trace maps
+- セクション: Right adjoint of pushforward and pullback
+- セクション: Right adjoint of pushforward for proper flat morphisms
+- セクション: Relative dualizing complexes for proper flat morphisms
+- セクション: Comparison with the case of schemes
+
+ファイル名: 087-formal-spaces.tex
+- タイトル: Formal Algebraic Spaces
+- セクション: Introduction
+- セクション: Formal schemes \`a la EGA
+- セクション: Conventions and notation
+- セクション: Topological rings and modules
+- セクション: Taut ring maps
+- セクション: Adic ring maps
+- セクション: Weakly adic rings
+- セクション: Descending properties
+- セクション: Affine formal algebraic spaces
+- セクション: Countably indexed affine formal algebraic spaces
+- セクション: Formal algebraic spaces
+- セクション: The reduction
+- セクション: Colimits of algebraic spaces along thickenings
+- セクション: Completion along a closed subset
+- セクション: Fibre products
+- セクション: Separation axioms for formal algebraic spaces
+- セクション: Quasi-compact formal algebraic spaces
+- セクション: Quasi-compact and quasi-separated formal algebraic spaces
+- セクション: Morphisms representable by algebraic spaces
+- セクション: Types of formal algebraic spaces
+- セクション: Morphisms and continuous ring maps
+- セクション: Taut ring maps and representability by algebraic spaces
+- セクション: Adic morphisms
+- セクション: Morphisms of finite type
+- セクション: Surjective morphisms
+- セクション: Monomorphisms
+- セクション: Closed immersions
+- セクション: Restricted power series
+- セクション: Algebras topologically of finite type
+- セクション: Separation axioms for morphisms
+- セクション: Proper morphisms
+- セクション: Formal algebraic spaces and fpqc coverings
+- セクション: Maps out of affine formal schemes
+- セクション: The small \'etale site of a formal algebraic space
+- セクション: The structure sheaf
+- セクション: Colimits of formal algebraic spaces
+- セクション: Recompletion
+- セクション: Completion along a closed subspace
+
+ファイル名: 088-restricted.tex
+- タイトル: Algebraization of Formal Spaces
+- セクション: Introduction
+- セクション: Two categories
+- セクション: A naive cotangent complex
+- セクション: Rig-smooth algebras
+- セクション: Deformations of ring homomorphisms
+- セクション: Algebraization of rig-smooth algebras over G-rings
+- セクション: Algebraization of rig-smooth algebras
+- セクション: Rig-\'etale algebras
+- セクション: A pushout argument
+- セクション: Algebraization of rig-\'etale algebras
+- セクション: Finite type morphisms
+- セクション: Finite type on reductions
+- セクション: Flat morphisms
+- セクション: Rig-closed points
+- セクション: Rig-flat homomorphisms
+- セクション: Rig-flat morphisms
+- セクション: Rig-smooth homomorphisms
+- セクション: Rig-smooth morphisms
+- セクション: Rig-\'etale homomorphisms
+- セクション: Rig-\'etale morphisms
+- セクション: Rig-surjective morphisms
+- セクション: Formal algebraic spaces over cdvrs
+- セクション: The completion functor
+- セクション: Formal modifications
+- セクション: Completions and morphisms, I
+- セクション: Rig glueing of morphisms
+- セクション: Algebraization of rig-\'etale morphisms
+- セクション: Completions and morphisms, II
+- セクション: Artin's theorem on dilatations
+- セクション: Application to modifications
+
+ファイル名: 089-spaces-resolve.tex
+- タイトル: Resolution of Surfaces Revisited
+- セクション: Introduction
+- セクション: Modifications
+- セクション: Strategy
+- セクション: Dominating by quadratic transformations
+- セクション: Dominating by normalized blowups
+- セクション: Base change to the completion
+- セクション: Implied properties
+- セクション: Resolution
+- セクション: Examples
+
+ファイル名: 090-formal-defos.tex
+- タイトル: Formal Deformation Theory
+- セクション: Introduction
+- セクション: Notation and Conventions
+- セクション: The base category
+- セクション: The completed base category
+- セクション: Categories cofibered in groupoids
+- セクション: Prorepresentable functors and predeformation categories
+- セクション: Formal objects and completion categories
+- セクション: Smooth morphisms
+- セクション: Smooth or unobstructed categories
+- セクション: Schlessinger's conditions
+- セクション: Tangent spaces of functors
+- セクション: Tangent spaces of predeformation categories
+- セクション: Versal formal objects
+- セクション: Minimal versal formal objects
+- セクション: Miniversal formal objects and tangent spaces
+- セクション: Rim-Schlessinger conditions and deformation categories
+- セクション: Lifts of objects
+- セクション: Schlessinger's theorem on prorepresentable functors
+- セクション: Infinitesimal automorphisms
+- セクション: Applications
+- セクション: Groupoids in functors on an arbitrary category
+- セクション: Groupoids in functors on the base category
+- セクション: Smooth groupoids in functors on the base category
+- セクション: Deformation categories as quotients of groupoids in functors
+- セクション: Presentations of categories cofibered in groupoids
+- セクション: Presentations of deformation categories
+- セクション: Remarks regarding minimality
+- セクション: Uniqueness of versal rings
+- セクション: Change of residue field
+
+ファイル名: 091-defos.tex
+- タイトル: Deformation Theory
+- セクション: Introduction
+- セクション: Deformations of rings and the naive cotangent complex
+- セクション: Thickenings of ringed spaces
+- セクション: Modules on first order thickenings of ringed spaces
+- セクション: Infinitesimal deformations of modules on ringed spaces
+- セクション: Application to flat modules on flat thickenings of ringed spaces
+- セクション: Deformations of ringed spaces and the naive cotangent complex
+- セクション: Deformations of schemes
+- セクション: Thickenings of ringed topoi
+- セクション: Modules on first order thickenings of ringed topoi
+- セクション: Infinitesimal deformations of modules on ringed topoi
+- セクション: Application to flat modules on flat thickenings of ringed topoi
+- セクション: Deformations of ringed topoi and the naive cotangent complex
+- セクション: Deformations of algebraic spaces
+- セクション: Deformations of complexes
+- セクション: Deformations of complexes on ringed topoi
+
+ファイル名: 092-cotangent.tex
+- タイトル: The Cotangent Complex
+- セクション: Introduction
+- セクション: Advice for the reader
+- セクション: The cotangent complex of a ring map
+- セクション: Simplicial resolutions and derived lower shriek
+- セクション: Constructing a resolution
+- セクション: Functoriality
+- セクション: The fundamental triangle
+- セクション: Localization and \'etale ring maps
+- セクション: Smooth ring maps
+- セクション: Positive characteristic
+- セクション: Comparison with the naive cotangent complex
+- セクション: A spectral sequence of Quillen
+- セクション: Comparison with Lichtenbaum-Schlessinger
+- セクション: The cotangent complex of a local complete intersection
+- セクション: Tensor products and the cotangent complex
+- セクション: Deformations of ring maps and the cotangent complex
+- セクション: The Atiyah class of a module
+- セクション: The cotangent complex
+- セクション: The Atiyah class of a sheaf of modules
+- セクション: The cotangent complex of a morphism of ringed spaces
+- セクション: Deformations of ringed spaces and the cotangent complex
+- セクション: The cotangent complex of a morphism of ringed topoi
+- セクション: Deformations of ringed topoi and the cotangent complex
+- セクション: The cotangent complex of a morphism of schemes
+- セクション: The cotangent complex of a scheme over a ring
+- セクション: The cotangent complex of a morphism of algebraic spaces
+- セクション: The cotangent complex of an algebraic space over a ring
+- セクション: Fibre products of algebraic spaces and the cotangent complex
+
+ファイル名: 093-examples-defos.tex
+- タイトル: Deformation Problems
+- セクション: Introduction
+- セクション: Examples of deformation problems
+- セクション: General outline
+- セクション: Finite projective modules
+- セクション: Representations of a group
+- セクション: Continuous representations
+- セクション: Graded algebras
+- セクション: Rings
+- セクション: Schemes
+- セクション: Morphisms of Schemes
+- セクション: Algebraic spaces
+- セクション: Deformations of completions
+- セクション: Deformations of localizations
+- セクション: Deformations of henselizations
+- セクション: Application to isolated singularities
+- セクション: Unobstructed deformation problems
+- セクション: Smoothings
+
+ファイル名: 094-algebraic.tex
+- タイトル: Algebraic Stacks
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Notation
+- セクション: Representable categories fibred in groupoids
+- セクション: The 2-Yoneda lemma
+- セクション: Representable morphisms of categories fibred in groupoids
+- セクション: Split categories fibred in groupoids
+- セクション: Categories fibred in groupoids representable by algebraic spaces
+- セクション: Morphisms representable by algebraic spaces
+- セクション: Properties of morphisms representable by algebraic spaces
+- セクション: Stacks in groupoids
+- セクション: Algebraic stacks
+- セクション: Algebraic stacks and algebraic spaces
+- セクション: 2-Fibre products of algebraic stacks
+- セクション: Algebraic stacks, overhauled
+- セクション: From an algebraic stack to a presentation
+- セクション: The algebraic stack associated to a smooth groupoid
+- セクション: Change of big site
+- セクション: Change of base scheme
+
+ファイル名: 095-examples-stacks.tex
+- タイトル: Examples of Stacks
+- セクション: Introduction
+- セクション: Notation
+- セクション: Examples of stacks
+- セクション: Quasi-coherent sheaves
+- セクション: The stack of finitely generated quasi-coherent sheaves
+- セクション: Finite \'etale covers
+- セクション: Algebraic spaces
+- セクション: The stack of finite type algebraic spaces
+- セクション: Examples of stacks in groupoids
+- セクション: The stack associated to a sheaf
+- セクション: The stack in groupoids of finitely generated quasi-coherent sheaves
+- セクション: The stack in groupoids of finite type algebraic spaces
+- セクション: Quotient stacks
+- セクション: Classifying torsors
+- セクション: Quotients by group actions
+- セクション: The Picard stack
+- セクション: Examples of inertia stacks
+- セクション: Finite Hilbert stacks
+
+ファイル名: 096-stacks-sheaves.tex
+- タイトル: Sheaves on Algebraic Stacks
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Presheaves
+- セクション: Sheaves
+- セクション: Computing pushforward
+- セクション: The structure sheaf
+- セクション: Sheaves of modules
+- セクション: Representable categories
+- セクション: Restriction
+- セクション: Restriction to algebraic spaces
+- セクション: Quasi-coherent modules
+- セクション: Locally quasi-coherent modules
+- セクション: Stackification and sheaves
+- セクション: Quasi-coherent sheaves and presentations
+- セクション: Quasi-coherent sheaves on algebraic stacks
+- セクション: Cohomology
+- セクション: Injective sheaves
+- セクション: The {\v C
+- セクション: The relative {\v C
+- セクション: Cohomology on algebraic stacks
+- セクション: Higher direct images and algebraic stacks
+- セクション: Comparison
+- セクション: Change of topology
+- セクション: Restricting to affines
+- セクション: Quasi-coherent modules and affines
+- セクション: Quasi-coherent objects in the derived category
+
+ファイル名: 097-criteria.tex
+- タイトル: Criteria for Representability
+- セクション: Introduction
+- セクション: Conventions
+- セクション: What we already know
+- セクション: Morphisms of stacks in groupoids
+- セクション: Limit preserving on objects
+- セクション: Formally smooth on objects
+- セクション: Surjective on objects
+- セクション: Algebraic morphisms
+- セクション: Spaces of sections
+- セクション: Relative morphisms
+- セクション: Restriction of scalars
+- セクション: Finite Hilbert stacks
+- セクション: The finite Hilbert stack of a point
+- セクション: Finite Hilbert stacks of spaces
+- セクション: LCI locus in the Hilbert stack
+- セクション: Bootstrapping algebraic stacks
+- セクション: Applications
+- セクション: When is a quotient stack algebraic?
+- セクション: Algebraic stacks in the \'etale topology
+
+ファイル名: 098-artin.tex
+- タイトル: Artin's Axioms
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Predeformation categories
+- セクション: Pushouts and stacks
+- セクション: The Rim-Schlessinger condition
+- セクション: Deformation categories
+- セクション: Change of field
+- セクション: Tangent spaces
+- セクション: Formal objects
+- セクション: Approximation
+- セクション: Limit preserving
+- セクション: Versality
+- セクション: Openness of versality
+- セクション: Axioms
+- セクション: Axioms for functors
+- セクション: Algebraic spaces
+- セクション: Algebraic stacks
+- セクション: Strong Rim-Schlessinger
+- セクション: Versality and generalizations
+- セクション: Strong formal effectiveness
+- セクション: Infinitesimal deformations
+- セクション: Obstruction theories
+- セクション: Naive obstruction theories
+- セクション: A dual notion
+- セクション: Limit preserving functors on Noetherian schemes
+- セクション: Algebraic spaces in the Noetherian setting
+- セクション: Artin's theorem on contractions
+
+ファイル名: 099-quot.tex
+- タイトル: Quot and Hilbert Spaces
+- セクション: Introduction
+- セクション: Conventions
+- セクション: The Hom functor
+- セクション: The Isom functor
+- セクション: The stack of coherent sheaves
+- セクション: The stack of coherent sheaves in the non-flat case
+- セクション: The functor of quotients
+- セクション: The Quot functor
+- セクション: The Hilbert functor
+- セクション: The Picard stack
+- セクション: The Picard functor
+- セクション: Relative morphisms
+- セクション: The stack of algebraic spaces
+- セクション: The stack of polarized proper schemes
+- セクション: The stack of curves
+- セクション: Moduli of complexes on a proper morphism
+
+ファイル名: 100-stacks-properties.tex
+- タイトル: Properties of Algebraic Stacks
+- セクション: Introduction
+- セクション: Conventions and abuse of language
+- セクション: Properties of morphisms representable by algebraic spaces
+- セクション: Points of algebraic stacks
+- セクション: Surjective morphisms
+- セクション: Quasi-compact algebraic stacks
+- セクション: Properties of algebraic stacks defined by properties of schemes
+- セクション: Monomorphisms of algebraic stacks
+- セクション: Immersions of algebraic stacks
+- セクション: Reduced algebraic stacks
+- セクション: Residual gerbes
+- セクション: Dimension of a stack
+- セクション: Local irreducibility
+- セクション: Finiteness conditions and points
+
+ファイル名: 101-stacks-morphisms.tex
+- タイトル: Morphisms of Algebraic Stacks
+- セクション: Introduction
+- セクション: Conventions and abuse of language
+- セクション: Properties of diagonals
+- セクション: Separation axioms
+- セクション: Inertia stacks
+- セクション: Higher diagonals
+- セクション: Quasi-compact morphisms
+- セクション: Noetherian algebraic stacks
+- セクション: Affine morphisms
+- セクション: Integral and finite morphisms
+- セクション: Open morphisms
+- セクション: Submersive morphisms
+- セクション: Universally closed morphisms
+- セクション: Universally injective morphisms
+- セクション: Universal homeomorphisms
+- セクション: Types of morphisms smooth local on source-and-target
+- セクション: Morphisms of finite type
+- セクション: Points of finite type
+- セクション: Automorphism groups
+- セクション: Presentations and properties of algebraic stacks
+- セクション: Special presentations of algebraic stacks
+- セクション: The Deligne-Mumford locus
+- セクション: Locally quasi-finite morphisms
+- セクション: Quasi-finite morphisms
+- セクション: Flat morphisms
+- セクション: Flat at a point
+- セクション: Morphisms of finite presentation
+- セクション: Gerbes
+- セクション: Stratification by gerbes
+- セクション: The topological space of an algebraic stack
+- セクション: Existence of residual gerbes
+- セクション: \'Etale local structure
+- セクション: Smooth morphisms
+- セクション: Types of morphisms \'etale-smooth local on source-and-target
+- セクション: \'Etale morphisms
+- セクション: Unramified morphisms
+- セクション: Proper morphisms
+- セクション: Scheme theoretic image
+- セクション: Valuative criteria
+- セクション: Valuative criterion for second diagonal
+- セクション: Valuative criterion for the diagonal
+- セクション: Valuative criterion for universal closedness
+- セクション: Valuative criterion for properness
+- セクション: Local complete intersection morphisms
+- セクション: Stabilizer preserving morphisms
+- セクション: Normalization
+- セクション: Points and specializations
+- セクション: Decent algebraic stacks
+- セクション: Points on decent stacks
+- セクション: Integral algebraic stacks
+- セクション: Residual gerbes
+
+ファイル名: 102-stacks-limits.tex
+- タイトル: Limits of Algebraic Stacks
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Morphisms of finite presentation
+- セクション: Descending properties
+- セクション: Descending relative objects
+- セクション: Finite type closed in finite presentation
+- セクション: Universally closed morphisms
+
+ファイル名: 103-stacks-cohomology.tex
+- タイトル: Cohomology of Algebraic Stacks
+- セクション: Introduction
+- セクション: Conventions and abuse of language
+- セクション: Notation
+- セクション: Pullback of quasi-coherent modules
+- セクション: Higher direct images of types of modules
+- セクション: Locally quasi-coherent modules
+- セクション: Flat comparison maps
+- セクション: Locally quasi-coherent modules with the flat base change property
+- セクション: Parasitic modules
+- セクション: Quasi-coherent modules
+- セクション: Pushforward of quasi-coherent modules
+- セクション: Further remarks on quasi-coherent modules
+- セクション: Colimits and cohomology
+- セクション: The lisse-\'etale and the flat-fppf sites
+- セクション: Functoriality of the lisse-\'etale and flat-fppf sites
+- セクション: Quasi-coherent modules and the lisse-\'etale and flat-fppf sites
+- セクション: Coherent sheaves on locally Noetherian stacks
+- セクション: Coherent sheaves on Noetherian stacks
+
+ファイル名: 104-stacks-perfect.tex
+- タイトル: Derived Categories of Stacks
+- セクション: Introduction
+- セクション: Conventions, notation, and abuse of language
+- セクション: The lisse-\'etale and the flat-fppf sites
+- セクション: Cohomology and the lisse-\'etale and flat-fppf sites
+- セクション: Derived categories of quasi-coherent modules
+- セクション: Derived pushforward of quasi-coherent modules
+- セクション: Derived pullback of quasi-coherent modules
+- セクション: Quasi-coherent objects in the derived category
+
+ファイル名: 105-stacks-introduction.tex
+- タイトル: Introducing Algebraic Stacks
+- セクション: Why read this?
+- セクション: Preliminary
+- セクション: The moduli stack of elliptic curves
+- セクション: Fibre products
+- セクション: The definition
+- セクション: A smooth cover
+- セクション: Properties of algebraic stacks
+
+ファイル名: 106-stacks-more-morphisms.tex
+- タイトル: More on Morphisms of Stacks
+- セクション: Introduction
+- セクション: Conventions and abuse of language
+- セクション: Thickenings
+- セクション: Morphisms of thickenings
+- セクション: Infinitesimal deformations of algebraic stacks
+- セクション: Lifting affines
+- セクション: Infinitesimal deformations
+- セクション: Formally smooth morphisms
+- セクション: Blowing up and flatness
+- セクション: Chow's lemma for algebraic stacks
+- セクション: Noetherian valuative criterion
+- セクション: Moduli spaces
+- セクション: The Keel-Mori theorem
+- セクション: Properties of moduli spaces
+- セクション: Stacks and fpqc coverings
+- セクション: Tensor functors
+
+ファイル名: 107-stacks-geometry.tex
+- タイトル: The Geometry of Algebraic Stacks
+- セクション: Introduction
+- セクション: Versal rings
+- セクション: Multiplicities of components of algebraic stacks
+- セクション: Formal branches and multiplicities
+- セクション: Dimension theory of algebraic stacks
+- セクション: The dimension of the local ring
+
+ファイル名: 108-moduli.tex
+- タイトル: Moduli Stacks
+- セクション: Introduction
+- セクション: Conventions and abuse of language
+- セクション: Properties of Hom and Isom
+- セクション: Properties of the stack of coherent sheaves
+- セクション: Properties of Quot
+- セクション: Boundedness for Quot
+- セクション: Properties of the Hilbert functor
+- セクション: Properties of the Picard stack
+- セクション: Properties of the Picard functor
+- セクション: Properties of relative morphisms
+- セクション: Properties of the stack of polarized proper schemes
+- セクション: Properties of moduli of complexes on a proper morphism
+
+ファイル名: 109-moduli-curves.tex
+- タイトル: Moduli of Curves
+- セクション: Introduction
+- セクション: Conventions and abuse of language
+- セクション: The stack of curves
+- セクション: The stack of polarized curves
+- セクション: Properties of the stack of curves
+- セクション: Open substacks of the stack of curves
+- セクション: Curves with finite reduced automorphism groups
+- セクション: Cohen-Macaulay curves
+- セクション: Curves of a given genus
+- セクション: Geometrically reduced curves
+- セクション: Geometrically reduced and connected curves
+- セクション: Gorenstein curves
+- セクション: Local complete intersection curves
+- セクション: Curves with isolated singularities
+- セクション: The smooth locus of the stack of curves
+- セクション: Smooth curves
+- セクション: Density of smooth curves
+- セクション: Nodal curves
+- セクション: The relative dualizing sheaf
+- セクション: Prestable curves
+- セクション: Semistable curves
+- セクション: Stable curves
+- セクション: Contraction morphisms
+- セクション: Stable reduction theorem
+- セクション: Properties of the stack of stable curves
+
+ファイル名: 110-examples.tex
+- タイトル: Examples
+- セクション: Introduction
+- セクション: An empty limit
+- セクション: A zero limit
+- セクション: Non-quasi-compact inverse limit of quasi-compact spaces
+- セクション: The structure sheaf on the fibre product
+- セクション: A nonintegral connected scheme whose local rings are domains
+- セクション: Noncomplete completion
+- セクション: Noncomplete quotient
+- セクション: Completion is not exact
+- セクション: The category of complete modules is not abelian
+- セクション: The category of derived complete modules
+- セクション: Nonflat completions
+- セクション: Nonabelian category of quasi-coherent modules
+- セクション: Nonsplit locally split sequence
+- セクション: Regular sequences and base change
+- セクション: A Noetherian ring of infinite dimension
+- セクション: Local rings with nonreduced completion
+- セクション: Another local ring with nonreduced completion
+- セクション: A non catenary Noetherian local ring
+- セクション: Existence of bad local Noetherian rings
+- セクション: Dimension in Noetherian Jacobson rings
+- セクション: Underlying space Noetherian not Noetherian
+- セクション: Non-quasi-affine variety with quasi-affine normalization
+- セクション: Taking scheme theoretic images
+- セクション: Images of locally closed subsets
+- セクション: A locally closed subscheme which is not open in closed
+- セクション: Nonexistence of suitable opens
+- セクション: Nonexistence of quasi-compact dense open subscheme
+- セクション: Affines over algebraic spaces
+- セクション: Pushforward of quasi-coherent modules
+- セクション: A nonfinite module with finite free rank 1 stalks
+- セクション: A noninvertible ideal invertible in stalks
+- セクション: A finite flat module which is not projective
+- セクション: A projective module which is not locally free
+- セクション: Zero dimensional local ring with nonzero flat ideal
+- セクション: An epimorphism of zero-dimensional rings which is not surjective
+- セクション: Finite type, not finitely presented, flat at prime
+- セクション: Finite type, flat and not of finite presentation
+- セクション: Topology of a finite type ring map
+- セクション: Pure not universally pure
+- セクション: A formally smooth non-flat ring map
+- セクション: A formally \'etale non-flat ring map
+- セクション: A formally \'etale ring map with nontrivial cotangent complex
+- セクション: Flat and formally unramified is not formally \'etale
+- セクション: Ideals generated by sets of idempotents and localization
+- セクション: A ring map which identifies local rings which is not ind-\'etale
+- セクション: Non flasque quasi-coherent sheaf associated to injective module
+- セクション: A non-separated flat group scheme
+- セクション: A non-flat group scheme with flat identity component
+- セクション: A non-separated group algebraic space over a field
+- セクション: Specializations between points in fibre \'etale morphism
+- セクション: A torsor which is not an fppf torsor
+- セクション: Stack with quasi-compact flat covering which is not algebraic
+- セクション: Limit preserving on objects, not limit preserving
+- セクション: A non-algebraic classifying stack
+- セクション: Sheaf with quasi-compact flat covering which is not algebraic
+- セクション: Sheaves and specializations
+- セクション: Sheaves and constructible functions
+- セクション: The lisse-\'etale site is not functorial
+- セクション: Sheaves on the category of Noetherian schemes
+- セクション: Derived pushforward of quasi-coherent modules
+- セクション: A big abelian category
+- セクション: Weakly associated points and scheme theoretic density
+- セクション: Example of non-additivity of traces
+- セクション: Being projective is not local on the base
+- セクション: Non-effective descent data for projective schemes
+- セクション: A family of curves whose total space is not a scheme
+- セクション: Derived base change
+- セクション: An interesting compact object
+- セクション: Two differential graded categories
+- セクション: The stack of proper algebraic spaces is not algebraic
+- セクション: An example of a non-algebraic Hom-stack
+- セクション: An algebraic stack not satisfying strong formal effectiveness
+- セクション: A counter example to Grothendieck's existence theorem
+- セクション: Affine formal algebraic spaces
+- セクション: Flat maps are not directed limits of finitely presented flat maps
+- セクション: The category of modules modulo torsion modules
+- セクション: Different colimit topologies
+- セクション: Universally submersive but not V covering
+- セクション: The spectrum of the integers is not quasi-compact
+
+ファイル名: 111-exercises.tex
+- タイトル: Exercises
+- セクション: Algebra
+- セクション: Colimits
+- セクション: Additive and abelian categories
+- セクション: Tensor product
+- セクション: Flat ring maps
+- セクション: The Spectrum of a ring
+- セクション: Localization
+- セクション: Nakayama's Lemma
+- セクション: Length
+- セクション: Associated primes
+- セクション: Ext groups
+- セクション: Depth
+- セクション: Cohen-Macaulay modules and rings
+- セクション: Singularities
+- セクション: Constructible sets
+- セクション: Hilbert Nullstellensatz
+- セクション: Dimension
+- セクション: Catenary rings
+- セクション: Fraction fields
+- セクション: Transcendence degree
+- セクション: Dimension of fibres
+- セクション: Finite locally free modules
+- セクション: Glueing
+- セクション: Going up and going down
+- セクション: Fitting ideals
+- セクション: Hilbert functions
+- セクション: Proj of a ring
+- セクション: Cohen-Macaulay rings of dimension 1
+- セクション: Infinitely many primes
+- セクション: Filtered derived category
+- セクション: Regular functions
+- セクション: Sheaves
+- セクション: Schemes
+- セクション: Morphisms
+- セクション: Tangent Spaces
+- セクション: Quasi-coherent Sheaves
+- セクション: Proj and projective schemes
+- セクション: Morphisms from the projective line
+- セクション: Morphisms from surfaces to curves
+- セクション: Invertible sheaves
+- セクション: {\v C
+- セクション: Cohomology
+- セクション: More cohomology
+- セクション: Cohomology revisited
+- セクション: Cohomology and Hilbert polynomials
+- セクション: Curves
+- セクション: Moduli
+- セクション: Global Exts
+- セクション: Divisors
+- セクション: Differentials
+- セクション: Schemes, Final Exam, Fall 2007
+- セクション: Schemes, Final Exam, Spring 2009
+- セクション: Schemes, Final Exam, Fall 2010
+- セクション: Schemes, Final Exam, Spring 2011
+- セクション: Schemes, Final Exam, Fall 2011
+- セクション: Schemes, Final Exam, Fall 2013
+- セクション: Schemes, Final Exam, Spring 2014
+- セクション: Commutative Algebra, Final Exam, Fall 2016
+- セクション: Schemes, Final Exam, Spring 2017
+- セクション: Commutative Algebra, Final Exam, Fall 2017
+- セクション: Schemes, Final Exam, Spring 2018
+- セクション: Commutative Algebra, Final Exam, Fall 2019
+- セクション: Algebraic Geometry, Final Exam, Spring 2020
+- セクション: Commutative Algebra, Final Exam, Fall 2021
+- セクション: Algebraic Geometry, Final Exam, Spring 2022
+- セクション: Algebraic Geometry, Final Exam, Spring 2025
+
+ファイル名: 112-guide.tex
+- タイトル: A Guide to the Literature
+- セクション: Short introductory articles
+- セクション: Classic references
+- セクション: Books and online notes
+- セクション: Related references on foundations of stacks
+- セクション: Papers in the literature
+- セクション: Stacks in other fields
+- セクション: Higher stacks
+
+ファイル名: 113-desirables.tex
+- タイトル: Desirables
+- セクション: Introduction
+- セクション: Conventions
+- セクション: Sites and Topoi
+- セクション: Stacks
+- セクション: Simplicial methods
+- セクション: Cohomology of schemes
+- セクション: Deformation theory \`a la Schlessinger
+- セクション: Definition of algebraic stacks
+- セクション: Examples of schemes, algebraic spaces, algebraic stacks
+- セクション: Properties of algebraic stacks
+- セクション: Lisse \'etale site of an algebraic stack
+- セクション: Things you always wanted to know but were afraid to ask
+- セクション: Quasi-coherent sheaves on stacks
+- セクション: Flat and smooth
+- セクション: Artin's representability theorem
+- セクション: DM stacks are finitely covered by schemes
+- セクション: Martin Olsson's paper on properness
+- セクション: Proper pushforward of coherent sheaves
+- セクション: Keel and Mori
+- セクション: Add more here
+
+ファイル名: 114-coding.tex
+- タイトル: Coding Style
+- セクション: List of style comments
+
+ファイル名: 115-obsolete.tex
+- タイトル: Obsolete
+- セクション: Introduction
+- セクション: Preliminaries
+- セクション: Homological algebra
+- セクション: Obsolete algebra lemmas
+- セクション: Lemmas related to ZMT
+- セクション: Formally smooth ring maps
+- セクション: Sites and sheaves
+- セクション: Cohomology
+- セクション: Differential graded algebra
+- セクション: Simplicial methods
+- セクション: Results on schemes
+- セクション: Derived categories of varieties
+- セクション: Representability in the regular proper case
+- セクション: Functor of quotients
+- セクション: Spaces and fpqc coverings
+- セクション: Very reasonable algebraic spaces
+- セクション: Obsolete lemmas on algebraic spaces
+- セクション: Obsolete lemmas on algebraic stacks
+- セクション: Variants of cotangent complexes for schemes
+- セクション: Deformations and obstructions of flat modules
+- セクション: The stack of coherent sheaves in the non-flat case
+- セクション: Modifications
+- セクション: Intersection theory
+- セクション: Commutativity of intersecting divisors
+- セクション: Dualizing modules on regular proper models
+- セクション: Duplicate and split out references
+
+ファイル名: 116-fdl.tex
+- タイトル: GNU Free Documentation License
+- セクション: APPLICABILITY AND DEFINITIONS
+- セクション: VERBATIM COPYING
+- セクション: COPYING IN QUANTITY
+- セクション: MODIFICATIONS
+- セクション: COMBINING DOCUMENTS
+- セクション: COLLECTIONS OF DOCUMENTS
+- セクション: AGGREGATION WITH INDEPENDENT WORKS
+- セクション: TRANSLATION
+- セクション: TERMINATION
+- セクション: FUTURE REVISIONS OF THIS LICENSE
+- セクション: ADDENDUM: How to use this License for your documents
+
