@@ -66,7 +66,7 @@
 |Minazumi noteまとめ|読んでまとめる感覚？|gpt目次化はしたので、後回しでもよい|
 |EGA, SGA, Deligne(Hodge)|英訳してまとめられるとよし|部分的にはオンライン上にある|
 |IgorのAG book, Eisenbudのbook,Bourbaki|gptで要約？||
-|**英語の実戦訓練**|Tinkerbell映画、ミラキュラスの英語版、NCIS、S-W-A-T、Five-O|Lup先生のYoutubeもありかな？|
+|**英語の実戦訓練**|Tinkerbell映画、ミラキュラスの英語版、NCIS、S-W-A-T、All rise, Dr.House,Five-O|Lup先生のYoutubeもありかな？|
 |Blender練習|halさんのワニ動画|将来的にはUnreal Engineもありかな？とくにエフェクト|
 |Blenderで3Dイラスト化|lex,sakimichanのイラストをモデル化したい！|ちなみに、写真はFacebuilderが便利|
 |モデル集め、DL|**Sketchfab(Yan),elina002,vlthar**|deviantartはjdownloaderが便利|
