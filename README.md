@@ -53,6 +53,7 @@
 |**なかけん 大学過去問**|K,Tの最新一年分を解きたい|**河野さんの動画**参考になるかも？|
 |いんし＆Putnam|最新一年をひまなときに|後回しでもよい？|
 |Sybermath の問題をtex化|問題だけをtexに!|後回しでもよい|
+|**タマキさん**||https://www.youtube.com/watch?v=mH_CQ5qFzss , https://www.youtube.com/playlist?list=PLyTl7CEMFVtUYYvHKeClsuGO04tUitf_r|
 |**ココナラ**で出品|ページの宣伝も徐々に||
 
 ---
