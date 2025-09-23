@@ -1,3 +1,7 @@
+# EGAについて
+
+---
+
 # EGA Volumes
 
 アレクサンドル・グロタンディークによる **"Éléments de géométrie algébrique" (EGA)** の各巻のタイトルは以下の通りです。  
