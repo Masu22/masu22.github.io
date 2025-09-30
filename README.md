@@ -38,9 +38,15 @@
 
 ## 教材情報
 
-- 育伸社、学書 ⇒ web情報あり？演習色が強いイメージ？
-- JES出版社 ⇒ 実践問題集　中学理科ポイント別問題集
-- 増進堂・受験研究社 ⇒ 自由自在や用語集、標準問題集、ステップアップ英文法、トレーニングノート、ハイクラステストなどなど
+- 育伸社 (https://www.ikushin.co.jp/) ⇒ web情報あり？演習色が強いイメージ？
+
+- 学書 (https://www.gakusho.com/official/materials/) ⇒ 一問一答問題集
+
+- JES出版社 ⇒ 実践問題集　中学理科ポイント別問題集 (https://www.jes-jissen.com/) , 授業のヒント (https://www.jes-jissen.com/hint.htm)
+
+- 増進堂・受験研究社 (https://www.zoshindo.co.jp/) ⇒ 自由自在や用語集、標準問題集、ステップアップ英文法、トレーニングノート、ハイクラステストなどなど  
+カタログ (https://teachers.zoshindo.co.jp/materials/materials_catalog_2025.pdf)
+
 - つむぎ出版 ⇒ わかわかなどなど
 
 
