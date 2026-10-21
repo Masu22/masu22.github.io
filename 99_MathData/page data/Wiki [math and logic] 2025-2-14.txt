@@ -1,0 +1,384 @@
+Visit the main page [z]
+Guides to browsing Wikipedia
+Articles related to current events
+Visit a randomly selected article [x]
+Learn about Wikipedia and how it works
+How to contact Wikipedia
+Guidance on how to use and edit Wikipedia
+Learn how to edit Wikipedia
+The hub for editors
+A list of recent changes to Wikipedia [r]
+Add images or other media for use on Wikipedia
+Search Wikipedia [f]
+You are encouraged to create an account and log in; however, it is not mandatory
+You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]
+You are encouraged to create an account and log in; however, it is not mandatory
+You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]
+A list of edits made from this IP address [y]
+Discussion about edits from this IP address [n]
+Wikipedia:Isi/Matematika dan logika – Indonesian
+Портал:Вміст/Математика і логіка – Ukrainian
+Edit interlanguage links
+View the project page [c]
+Discuss improvements to the content page [t]
+This page is protected.&#10;You can view its source [e]
+Past revisions of this page [h]
+List of all English Wikipedia pages containing links to this page [j]
+Recent changes in pages linked from this page [k]
+Upload files [u]
+A list of all special pages [q]
+Permanent link to this revision of this page
+More information about this page
+Download this page as a PDF file
+Printable version of this page [p]
+Structured data on this page hosted by Wikidata [g]
+This page is semi-protected.
+Wikipedia:Contents
+Wikipedia:Contents/Overviews
+Wikipedia:Contents/Outlines
+Wikipedia:Contents/Lists
+Wikipedia:Contents/Portals
+Wikipedia:Contents/Glossaries
+Wikipedia:Contents/Categories
+Wikipedia:Vital articles
+Wikipedia:Featured content
+Wikipedia:Good articles
+Wikipedia:Contents/Indices
+Wikipedia:Contents/A–Z index
+Wikipedia:Contents/Reference
+Wikipedia:Contents/Culture and the arts
+Wikipedia:Contents/Geography and places
+Wikipedia:Contents/Health and fitness
+Wikipedia:Contents/History and events
+Wikipedia:Contents/Human activities
+Wikipedia:Contents/Natural and physical sciences
+Wikipedia:Contents/People and self
+Wikipedia:Contents/Philosophy and thinking
+Wikipedia:Contents/Religion and belief systems
+Wikipedia:Contents/Society and social sciences
+Wikipedia:Contents/Technology and applied sciences
+A Chinese abacus.
+Mathematics
+Quantity
+Mathematical structure
+Space
+Calculus
+Abstraction (mathematics)
+Logic
+Reasoning
+Counting
+Calculation
+Measurement
+Shape
+Motion (physics)
+Mathematician
+Conjecture
+Rigour
+Axiom
+Definition
+Logic
+Ancient Greek
+Logos
+Inference
+Demonstration (proof)
+Formal science
+Formal system
+Inference
+Fallacies
+Paradox
+Probability
+Causality
+Argumentation theory
+Mathematical logic
+Foundations of mathematics
+Portal:Mathematics
+Mathematics
+Logic
+Wikipedia:Contents/Overviews
+Formal science
+Information theory
+Logic
+Statistics
+Theoretical computer science
+Mathematics
+Algebra
+Applied mathematics
+Arithmetic
+Calculus
+Equation
+Geometry
+Mathematical analysis
+Mathematics education
+Mathematical practice
+Measurement
+Number
+Philosophy of mathematics
+Probability
+Mathematical proof
+Theorem
+Topology
+Trigonometry
+Wikipedia:Contents/Outlines
+Outline of formal science
+Outline of mathematics
+Lists of mathematics topics
+Outline of arithmetic
+Outline of algebra
+Outline of linear algebra
+List of abstract algebra topics
+List of commutative algebra topics
+List of algebraic coding theory topics
+List of Boolean algebra topics
+Outline of calculus
+Outline of category theory
+Outline of discrete mathematics
+Outline of combinatorics
+Outline of geometry
+List of algebraic geometry topics
+List of convexity topics
+List of circle topics
+List of combinatorial computational geometry topics
+List of computer graphics and descriptive geometry topics
+List of differential geometry topics
+List of topology topics
+List of algebraic topology topics
+List of general topology topics
+List of geometric topology topics
+List of mathematical logic topics
+List of set theory topics
+Outline of algebraic structures
+Outline of trigonometry
+List of triangle topics
+Outline of logic
+Outline of statistics
+Outline of regression analysis
+Outline of probability
+Theoretical computer science
+Wikipedia:Contents/Lists
+List of mathematics lists
+List of probability topics
+List of trigonometric identities
+List of algebraic structures
+List of reciprocity laws
+List of cohomology theories
+Lists of integrals
+List of mathematical series
+List of vector spaces in mathematics
+List of geometric shapes
+List of algebraic surfaces
+List of points
+List of first-order theories
+List of large cardinal properties
+List of paradoxes
+List of prime numbers
+List of nonlinear partial differential equations
+List of games in game theory
+List of knapsack problems
+List of graphical methods
+List of mathematics-based methods
+List of rules of inference
+List of algorithms
+List of axioms
+List of conjectures
+List of conjectures by Paul Erdős
+Combinatorial principles
+List of equations
+List of formulae involving pi
+List of mathematical identities
+List of inequalities
+List of lemmas
+List of mathematical proofs
+List of NP-complete problems
+List of statements undecidable in ZFC
+List of mathematical symbols
+List of undecidable problems
+List of theorems
+List of fundamental theorems
+List of unsolved problems in mathematics
+List of dualities
+List of transforms
+List of lists
+List of mathematical examples
+List of curves
+List of complex reflection groups
+List of complexity classes
+List of examples in general topology
+List of finite simple groups
+List of Fourier-related transforms
+List of mathematical functions
+List of mathematical knots and links
+List of manifolds
+List of mathematical shapes
+List of matrices
+List of numbers
+List of polygons, polyhedra and polytopes
+List of regular polytopes
+List of simple Lie groups
+List of small groups
+List of special functions and eponyms
+List of algebraic surfaces
+List of surfaces
+Table of Lie groups
+Wikipedia:Contents/Portals
+Portal:Mathematics
+Portal:Arithmetic
+Wikipedia:Contents/Glossaries
+Glossary of algebraic geometry
+Glossary of algebraic topology
+Glossary of areas of mathematics
+Glossary of arithmetic and diophantine geometry
+Glossary of calculus
+Glossary of category theory
+Glossary of classical algebraic geometry
+Glossary of commutative algebra
+Glossary of cryptographic keys
+Glossary of differential geometry and topology
+Glossary of experimental design
+Glossary of field theory
+Glossary of game theory
+Glossary of graph theory
+Glossary of group theory
+Glossary of invariant theory
+Glossary of Lie groups and Lie algebras
+Glossary of linear algebra
+Glossary of mathematical jargon
+Glossary of mathematical symbols
+Glossary of module theory
+Glossary of number theory
+Glossary of order theory
+Glossary of Principia Mathematica
+Glossary of probability and statistics
+Glossary of real and complex analysis
+Glossary of representation theory
+Glossary of Riemannian and metric geometry
+Glossary of ring theory
+Glossary of set theory
+Glossary of shapes with metaphorical names
+Glossary of symplectic geometry
+Glossary of systems theory
+Glossary of tensor theory
+Glossary of topology
+Wikipedia:Contents/Categories
+Category:Formal sciences
+Category:Mathematics
+Category:Mathematics education
+Category:Equations
+Category:Heuristics
+Category:Measurement
+Category:Numbers
+Category:Mathematical proofs
+Category:Theorems
+Category:Fields of mathematics
+Category:Arithmetic
+Category:Algebra
+Category:Geometry
+Category:Trigonometry
+Category:Mathematical analysis
+Category:Calculus
+Category:Logic
+Category:Deductive reasoning
+Category:Inductive reasoning
+Category:History of logic
+Category:Fallacies
+Category:Metalogic
+Category:Philosophy of logic
+Category:Applied mathematics
+Category:Computational science
+Category:Operations research
+Category:Theoretical physics
+Category:Statistics
+Category:Analysis of variance
+Category:Bayesian statistics
+Category:Categorical data
+Category:Covariance and correlation
+Category:Data analysis
+Category:Decision theory
+Category:Design of experiments
+Category:Logic and statistics
+Category:Multivariate statistics
+Category:Nonparametric statistics
+Category:Parametric statistics
+Category:Regression analysis
+Category:Sampling (statistics)
+Category:Statistical theory
+Category:Stochastic processes
+Category:Summary statistics
+Category:Survival analysis
+Category:Time series
+Wikipedia:Contents/Indices
+List of mathematics articles
+Index of mathematics articles (0-9)
+Index of mathematics articles (A)
+Index of mathematics articles (B)
+Index of mathematics articles (C)
+Index of mathematics articles (D)
+Index of mathematics articles (E)
+Index of mathematics articles (F)
+Index of mathematics articles (G)
+Index of mathematics articles (H)
+Index of mathematics articles (I)
+Index of mathematics articles (J)
+Index of mathematics articles (K)
+Index of mathematics articles (L)
+Index of mathematics articles (M)
+Index of mathematics articles (N)
+Index of mathematics articles (O)
+Index of mathematics articles (P)
+Index of mathematics articles (Q)
+Index of mathematics articles (R)
+Index of mathematics articles (S)
+Index of mathematics articles (T)
+Index of mathematics articles (U)
+Index of mathematics articles (V)
+Index of mathematics articles (W)
+Index of mathematics articles (X)
+Index of mathematics articles (Y)
+Index of mathematics articles (Z)
+Index of statistics articles
+Index of logic articles
+List of mathematical logic topics
+Index of wave articles
+Index of information theory articles
+Index of fractal-related articles
+Wikipedia:Contents
+Portal:Current events
+Wikipedia:Contents/Reference
+Wikipedia:Contents/Culture and the arts
+Wikipedia:Contents/Geography and places
+Wikipedia:Contents/Health and fitness
+Wikipedia:Contents/History and events
+Wikipedia:Contents/Natural and physical sciences
+Wikipedia:Contents/People and self
+Wikipedia:Contents/Philosophy and thinking
+Wikipedia:Contents/Religion and belief systems
+Wikipedia:Contents/Society and social sciences
+Wikipedia:Contents/Technology and applied sciences
+Wikipedia:Vital articles
+Wikipedia:Featured content
+Wikipedia:Good articles
+Wikipedia:Spoken articles
+Wikipedia:Contents/Overviews
+Wikipedia:Contents/Outlines
+Wikipedia:Contents/Lists
+Wikipedia:Contents/Portals
+Wikipedia:Contents/Glossaries
+Wikipedia:Contents/Categories
+Wikipedia:Contents/Indices
+Outline of academic disciplines
+List of days of the year
+February 11
+Lists of sovereign states and dependent territories
+List of timelines
+List of decades, centuries, and millennia
+Wikipedia:Contents/A–Z index
+Wikipedia:Contents/Categories
+List of Dewey Decimal classes
+Library of Congress Classification
+Help:Category
+Category:Mathematics
+Category:Logic
+Category:Wikipedia contents
+Category:Wikipedia semi-protected project pages
+Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License
+foundation:Special:MyLanguage/Policy:Terms of Use
+foundation:Special:MyLanguage/Policy:Privacy policy

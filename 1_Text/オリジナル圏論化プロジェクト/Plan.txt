@@ -1,0 +1,4 @@
+圏論のweighted limitによる微分統一
+weighted colimitによる積分統一
+
+圏論によるエタール射や分岐、ベクトル束

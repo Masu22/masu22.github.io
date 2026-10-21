@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-    color: #ccc;
+    color: #fff;
     font-size: 1.2em;
 }
 
@@ -100,7 +100,7 @@ p {
     display: block;
     margin-top: 8px;
     font-size: 1em;
-    color: #ccf;
+    color: #fff;
 }
 
 /* === HRライン === */
