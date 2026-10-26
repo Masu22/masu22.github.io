@@ -10,17 +10,24 @@
 
         body {
             font-family: "Arial", sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            margin: 30;
+            padding-left:70px; /*左側内側の余白*/
+            padding-right:70px; /*左側内側の余白*/
+            background-color: whitesmoke;
             color: #333;
         }
 
         header {
-            background-color: #003366;
-            color: white;
             padding: 20px 0;
             text-align: center;
+        }
+
+        /*横線のclassを変更*/
+        hr.hr-blue {
+        border: none;
+        height: 2px;
+        width: 50%;
+        background-color: #66CDAA;
         }
 
         header h1 {
@@ -34,21 +41,19 @@
         }
 
         h1.h1-top {
+            display: inline-block;  /* 文字の幅に合わせる */
             color: #003366;
-            border-left: 12px #3CB371 solid;
-            /* border-top: 2px #3CB371 solid; */
-            border-bottom: 3px #3CB371 solid;
-            padding: 10px;
             font-size: 150%;
+            border: 3px solid #66CDAA; /* 水色の枠線 */
+            padding: 4px 7px;       /* 文字と枠の間隔 */
         }
 
         h2.h2-1 {
+            display: inline-block;  /* 文字の幅に合わせる */
             color: #003366;
-            border-left: solid 7px #66CDAA;
-            border-bottom: solid 3px #66CDAA;
-            padding-left: 5px;
-            padding-bottom: 2px;
-            font-size: 130%;
+            font-size: 150%;
+            border: 3px solid #66CDAA; /* 水色の枠線 */
+            padding: 4px 7px;       /* 文字と枠の間隔 */
         }
 
         p {
@@ -56,123 +61,77 @@
             margin: 0;
         }
 
-        .content {
-            margin:0 20px; /*要素の外側の余白を設定。２つの数値は、上下に０、左右に20pxの余白をとる*/
-            /*container内の要素を水平に並べるには、次の２行を追加する*/
-            /*display: flex;*/
-            /*justify-content: space-between;*/
-            padding: 20px 0; /*境界面と要素の間の間隔を設定。2つの数値は、上下20px、左右0の余白をとる*/
-        }
-
-        .content ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        .content ul li {
-            font-size: 1.1em;
-            margin-bottom: 10px;
-        }
-
-        .content a {
-            color: #003366;
-            text-decoration: none;
-        }
-
+        /*spacerは縦にスペースを空ける*/
         .spacer {
-            height: 15px; /*高さを指定して、空白を作成*/
+            height: 20px; /*高さを指定して、空白を作成*/
         }
 
         footer {
             text-align: center;
-            background-color: #003366;
-            color: white;
+            color: black;
             padding: 10px 0;
             bottom: 0;
             width: 100%;
         }
 
-        /*初期に、プロフィール画像を挿入したときのスタイル
-        .profile {
-            width: 30%;
-            text-align: center;
+        /*文章のブロック単位でのスペース*/
+        .section{
+            margin-bottom: 30px;
         }
 
-        .profile img {
-            width: 200px;               画像の幅
-            height: 200px;              画像の高さ
-            border-radius: 50%;         画像を丸くする（円形にする）
-            margin-bottom: 20px;        画像の下に20ピクセルの余白を追加
-            border: 4px solid #003366;  画像の周りに4ピクセルの青色の枠線を追加
+        .subsection{
+            margin-bottom: 25px;
         }
-        */
-
-        .link-box {
-            background-color: #003366;
-            color: white;
-            padding: 10px;
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .link-box a {
-            color: white;
-            text-decoration: none;
-        }
-
     </style>
 </head>
 <body>
 
 <header>
-    <h1>ます塾</h1>
-    <p>ねこの自己紹介</p>
+    <h1>でぶねこのページ</h1>
+    <hr width="50%" align="center" class="hr-blue">
 </header>
 
 <!--画像の挿入は、<img src="profile.jpg" alt="プロフィール画像">-->
-<!--spacerは縦にスペースを空ける-->
 
-<div class="content">
+<div class="section">
         <h1 class="h1-top">自己紹介</h1>
-        <ul>
-            <li><strong>名前:</strong> でぶねこ</li>
-            <li><strong>所属:</strong> ます塾代表、創設者</li>
-            <li><strong>指導科目:</strong> 数理を中心に指導</li>
-        </ul>
-        
-        <div class="spacer"></div>
+        <p>名前: もぐちゅん</p>
+        <p>所属: もぐ塾の経営</p>
+</div>        
 
-        <h2 class="h2-1">思い、大まかな略歴</h2>
-        <p>塾の思い、こんなことを個人的に目指している。</p>
-
-        <div class="spacer"></div>
-
-        <h2 class="h2-1">数学への取り組み、数学の教育面について</h2>
-        <p>数学感(院、目的&lt;IUTの基礎論チェック、データ化、すべてを集める&gt;)</p>
-        <p>Youtube,DBのことを</p>
+<div class="section">
+        <h2 class="h2-1">活動について</h2>
+        <p>塾の思い、こんなことを個人的に目指している。メインとサブ</p>
+        <p>数学Investigatorプロジェクト(院、目的&lt;IUTの基礎論チェック、データ化、すべてを集める&gt;)</p>
         <p>私は数論幾何学における幾何的アプローチを中心に研究を行っています。特に、楕円曲線やモジュライ空間に関する問題に興味を持っています。</p>
+</div>        
+
+
+<div class="section">
+        <h2 class="h2-1">履歴</h2>
+        <div class="subsection">
+            <p><strong>(1) 学習について</strong></p>
+            <p>過去の学び</p>
+        </div>
+
+        <div class="subsection">
+            <p><strong>(2) 実務</strong></p>
+            <p>年数、ポジション、内容、実績</p>
+        </div>
         
-        <div class="spacer"></div>
-
-        <h2 class="h2-1">私のちょっとした履歴</h2>
-        <p>これまで、その後協力を得てこんな期間を、そして実績を積み</p>
-
-        <div class="spacer"></div>
-
-        <h2 class="h2-1">連絡先</h2>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:@gmail.com">@gmail.com</a></li>
-            <li><strong>Web:</strong> <a href="">HP</a></li>
-            <li><strong>Youtube:</strong> <a href="">ぬこ</a></li>
-        </ul>
+        <div class="subsection">
+            <p><strong>(3) 活動について</strong></p>
+            <p>製作中(地図、現代的な入門・専門解説)=Investigator Proj</p>
+        </div>
 </div>
 
-<div class="link-box">
-    <p><strong>リンク集</strong></p>
-    <a href="">ここ便利なページ！</a>
+<div class="section">
+        <h2 class="h2-1">連絡先</h2>
+        <p>Email：ryomasu274@gmail.com</p>
 </div>
 
 <footer>
+    <hr color="black">
     <p>&copy; 2025 でぶねこ</p>
 </footer>
 
